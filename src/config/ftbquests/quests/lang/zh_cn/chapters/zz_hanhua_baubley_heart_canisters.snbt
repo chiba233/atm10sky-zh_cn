@@ -1,14 +1,20 @@
 {
+	quest.102D82A38637FA84.quest_desc: ["&c&l心之容器&r是一个围绕强力装备和生命上限展开的模组。核心资源是&c心&r，杀怪就能掉。不同的怪掉不同的心，低档的心可以升级成更好的。"]
 	quest.102D82A38637FA84.quest_subtitle: "把它们的心偷来"
 	quest.102D82A38637FA84.title: "&c&l心之容器"
+	quest.11AA616D7622370C.quest_desc: ["升级版本，能带来更多增益。"]
 	quest.15AEC638E00516AB.quest_subtitle: "一颗「冷」的心"
 	quest.29555A5CFB098858.quest_subtitle: "这下有点门道了"
+	quest.297289FD3DA90DB4.quest_desc: ["几乎每一种敌对生物都会掉落&c微型红心&r。它用来在游戏前期提升生命上限。"]
 	quest.297289FD3DA90DB4.quest_subtitle: "别吃！"
 	quest.2B0E41A8E9A34238.quest_subtitle: "讲究的创可贴"
+	quest.30880CC59EEF97A8.quest_desc: ["把红心融掉，再配上任意一种心之铸模，就能做出黄心。"]
 	quest.30880CC59EEF97A8.quest_subtitle: "这么多就换一个？"
 	quest.30880CC59EEF97A8.title: "熔化的红心"
 	quest.31DE7556AC49EE48.quest_subtitle: "龙做的（也可能不是）"
+	quest.49F4B5361AA39709.quest_desc: ["升级版本，能带来更高的生命上限。"]
 	quest.49F4B5361AA39709.quest_subtitle: "末影龙"
 	quest.5902FDE5D2D74534.quest_subtitle: "增益的底子"
+	quest.75ADA254B6B548D1.quest_desc: ["它一次就能把整条血条补满。相当不错！"]
 	quest.75ADA254B6B548D1.quest_subtitle: "20×50 = 1000 点生命"
 }

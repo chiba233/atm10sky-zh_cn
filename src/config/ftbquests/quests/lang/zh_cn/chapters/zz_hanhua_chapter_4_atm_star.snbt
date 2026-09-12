@@ -1,10 +1,15 @@
 {
 	quest.0E614F2FEE037AEE.quest_subtitle: "集齐所有力量"
+	quest.15CB91BB82C7AEC0.quest_desc: ["配上&a终极合成催化剂&r和一些&cForge 能量&r，量子压缩机能把 25000 个某种材料压成 1 个奇点。"]
+	quest.1C4CB69B7CDC8D0E.quest_desc: ["普通工作台塞不下做 ATM 之星要用的全部材料，你得换&l更大&r的。"]
 	quest.1C4CB69B7CDC8D0E.title: "终极工作台"
 	quest.3C12F07F989B108C.quest_subtitle: "反正就是很聪明的东西"
 	quest.3C8053A161AC5AA1.quest_subtitle: "大概齐"
 	quest.3F21BA221276B4A4.quest_subtitle: "这不是曲奇"
+	quest.4359FAB8CCD07E50.quest_desc: ["做湮灭碎片时，破碎奇点和量子缠绕态奇点都能用，两者混着用也行。"]
+	quest.504DEB70D9DAA547.quest_desc: ["行吧，你还真做出来了。本来想说我是不太信的，但你确实做到了。"]
 	quest.504DEB70D9DAA547.quest_subtitle: "恭喜！"
 	quest.504DEB70D9DAA547.title: "&#FFDA59ATM之星"
+	quest.6395C8F4CA464623.quest_desc: ["这些电池必须充满电。"]
 	quest.7295404F55DFFF27.quest_subtitle: "得有好网"
 }

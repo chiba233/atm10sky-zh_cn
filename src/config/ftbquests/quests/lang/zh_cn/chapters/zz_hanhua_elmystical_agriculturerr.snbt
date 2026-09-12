@@ -9,6 +9,7 @@
 	quest.0B37355262121DD5.quest_desc: ["&a注魔祭坛&r是你制作所有种子的方式。首先放置祭坛，它会显示之后放置基座的位置。\\n\\n为了开始灌注，祭坛需要&4红石信号&r。"]
 	quest.0B37355262121DD5.quest_subtitle: "制作种子"
 	quest.0B37355262121DD5.title: "&4注魔祭坛"
+	quest.0EFEDB0DD90DFC81.quest_desc: ["收获机能自动收割作物并补种，收到的东西会放进它自己的物品栏。"]
 	quest.13124A7E22999850.quest_subtitle: "等级：&e1"
 	quest.15D764CAF047EA7A.title: "&c中级精华盔甲&r"
 	quest.1609BF52108238B0.quest_subtitle: "等级：&e1"
@@ -38,6 +39,7 @@
 	quest.202B1F54D3F06DAB.quest_desc: ["这是6级精华，通过将4个终极精华与注魔水晶结合制成。"]
 	quest.202B1F54D3F06DAB.quest_subtitle: "等级：&56"
 	quest.202B1F54D3F06DAB.title: "&5究极精华"
+	quest.20851E0CF315F722.quest_desc: ["这一档的种子要想生长，耕地下方必须放一块同类型的基质。"]
 	quest.20851E0CF315F722.title: "&5狂气耕地"
 	quest.212EF8601746C500.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)\\n - 速度 II (3:00)\\n - 抗性提升 II (3:00)\\n - 生命恢复 II (3:00)"]
 	quest.212EF8601746C500.title: "&9高级精华苹果"
@@ -61,6 +63,7 @@
 	quest.2C9C9CB71941DC01.quest_desc: ["这是3级精华，通过将4个初级精华与注魔水晶结合制成。"]
 	quest.2C9C9CB71941DC01.quest_subtitle: "等级：&63"
 	quest.2C9C9CB71941DC01.title: "&c中级精华"
+	quest.2DDA04088C8220D2.quest_desc: ["活化水晶碎片是这个模组的核心合成材料。用铁筛网或更好的筛网筛灵魂沙就能拿到。"]
 	quest.2DDA04088C8220D2.quest_subtitle: "我们终于能拥有活化水晶了吗？"
 	quest.2DDA04088C8220D2.title: "&b活化水晶碎片"
 	quest.30E9255DEC69C061.title: "&4终极工具"
@@ -91,6 +94,11 @@
 	quest.4526E151BAE88310.quest_subtitle: "等级：&e1"
 	quest.4530C14828C3D153.quest_subtitle: "等级：&b4"
 	quest.45549E52B3CE2D23.quest_desc: ["镰刀是可以一次性收获大片区域作物的工具。它们也可以用作相当不错的武器。"]
+	quest.4821419D44F8083F.quest_desc: [
+		"&9生长加速器&r直接放在耕地正下方时，能略微加快种子的生长速度。每一档都有各自的「向上」作用范围，下级的最短，为 12 格。"
+		""
+		"注意：各档生长加速器提供的生长刻速率是一样的。高档的区别在于作用范围更大，因此同一株植物下面能叠更多。只要生长加速器处在它的最大范围内，用哪一档都无所谓。"
+	]
 	quest.4821419D44F8083F.quest_subtitle: "范围：&e9&r格"
 	quest.4821419D44F8083F.title: "&a下级生长加速器"
 	quest.48BF71269DEA1AB1.title: "&4终极耕地"
@@ -100,6 +108,11 @@
 	quest.4F137DB561F45306.title: "&2初级盔甲&r"
 	quest.52BB58D470560219.quest_subtitle: "范围：&c54&r格"
 	quest.52BB58D470560219.title: "&6觉醒终极生长加速器"
+	quest.54735C5FCD2077B3.quest_desc: [
+		"&a神秘农业&r是一个资源生产模组，让你靠&a种子&r种出大量原版与模组资源。"
+		""
+		"不过请注意：本整合包删掉了相当多的种子，是的我知道！我们怎么能这样？好在矿晶那边有几条替代路线，多少能把这个缺口补上 ;)_"
+	]
 	quest.54735C5FCD2077B3.title: "&a神秘农业！"
 	quest.54D72C234EA76054.quest_subtitle: "等级：&e1"
 	quest.56201F98819478AB.quest_subtitle: "等阶：&a2"
@@ -148,6 +161,7 @@
 	quest.7A103577EAE7B3F1.quest_subtitle: "等级：&c5 - 觉醒"
 	quest.7A103577EAE7B3F1.title: "&6觉醒终极精华"
 	quest.7ADE214373DE135F.quest_subtitle: "等级：&63"
+	quest.7BBD85F94D98CA46.quest_desc: ["大多数资源种子被&c移除&r了，取而代之的是&b通量筛&r（ExDeorum）和&a矿晶&r模组，外加&6多级催生器&r。"]
 	quest.7BBD85F94D98CA46.title: "警告"
 	quest.7CFA92CC48D1E7E3.quest_subtitle: "等级：&c5"
 	quest.7D43016926E77150.title: "&9高级精华盔甲&r"
