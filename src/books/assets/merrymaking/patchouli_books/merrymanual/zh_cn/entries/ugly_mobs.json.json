@@ -1,0 +1,40 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/ugly_mobs.json",
+ "sha1": "6d56ba35d86da143332b8bedc3502ffc2a858226",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mobs in Ugly Christmas Armor",
+   "丑圣诞盔甲生物"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Zombies and Skeletons of all kinds, Creepers, and even the Zombie Piglins are all showing their Holiday Spirit by wearing Ugly Sweaters and Santa Hats! $(br2)Mobs wearing the armor have a random chance to drop the armor pieces.",
+   "各类僵尸与骷髅、苦力怕，甚至僵尸猪灵，都正通过身着丑毛衣与圣诞老人帽子展现节日精神！$(br2)穿戴该盔甲的怪物有一定几率掉落盔甲部件。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "A Zombie in an Ugly Sweater. He's ready to party!",
+   "一位身着丑毛衣的僵尸。他已准备好狂欢啦！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Note: This feature is customizable and can be disabled in the config file. $(br2)Ugly Armor drops from mobs can also be disabled in the config file.",
+   "注意：此功能支持自定义，可在配置文件中禁用。$(br2)丑毛衣盔甲的怪物掉落也可在配置文件中禁用。"
+  ]
+ ]
+}

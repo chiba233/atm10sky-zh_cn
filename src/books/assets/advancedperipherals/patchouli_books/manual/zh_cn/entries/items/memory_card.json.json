@@ -1,0 +1,22 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/items/memory_card.json",
+ "sha1": "8d5718a58651ea796981950ba13fd83dbffc408e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Memory Card",
+   "记忆卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(9)$(l:items/ar_goggles)AR Goggles$(/l)$() can be used in combination with the $(9)$(l:peripherals/inventory_manager)Inventory Manager$(/l)$() to communicate with the player's inventory.$(p)Right click with the Memory Card in hand to assign it to yourself.$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/items/ar_goggles/)official wiki page$(/l)$()!",
+   "使用$(9)$(l:items/ar_goggles)AR眼镜$(/l)$()，配合$(9)$(l:peripherals/inventory_manager)库存管理器$(/l)$()，即可与玩家的物品栏进行通信。$(p)手持记忆卡对准自己右键点击，即可将其绑定至自身。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/items/ar_goggles/)官方维基页面$(/l)$()！"
+  ]
+ ]
+}

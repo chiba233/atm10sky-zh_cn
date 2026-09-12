@@ -1,0 +1,67 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/tools/remote_controller.json",
+ "sha1": "d42c091af810732444497c8536917b038de1bdb5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Remote Controller",
+   "远程控制器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(5)Remote Controller$() is an extraordinary device that is at the forefront of remote configuration technology. Instead of plainly allowing an MFFS machine to be turned on or off, it provides material access to the machine's actual GUI.",
+   "$(5)远程控制器$()是一款处于远程配置技术前沿的非凡设备。它不仅支持简单地开启或关闭MFFS机器，更能提供对机器实际GUI界面的实体访问权限。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Remote Controller$().",
+   "合成$(5)远程控制器$()。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "When activated, the Remote establishes a bidirectional matter stream with the machine it has been set to control. In doing so, a player is not only granted access to all the machine's configurable options, but can add and remove its items as well - like they were standing right beside it. A $(5)Remote Controller$() does not need to be charged; it draws energy directly from a nearby MFFS machine using the same frequency. As such, a Remote cannot function if there is insufficient $(l:mffs:getting_started/fortron)Fortron$() available.",
+   "激活后，红石遥控器会与设定为控制目标的机器建立双向物质流。这样一来，玩家不仅能访问该机器的所有可配置选项，还能添加和移除其中的物品——就如同亲身站在机器旁操作一般。$(5)远程控制器$()无需充能，它会直接从附近的模块化力场系统（MFFS）机器中获取能量，前提是两者频率一致。因此，若可用的$(l:mffs:getting_started/fortron)力场子$()不足，红石遥控器将无法运行。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Operation",
+   "操作"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(li)Open the GUI of the MFFS machine to be controlled and place the Controller into its frequency slot to set the controller's frequency. $(li)Link the remote to the target machine by shift-right-clicking on it. The controller will display the name and coordinates of the machine it has linked with. $(li)Walk away from the machine and right-click with the remote to access the machine's GUI.",
+   "$(li)打开待控制MFFS机器的GUI界面，并将控制器置入其频率插槽，以设定控制器的频率。$(li)按住Shift键右击目标机器，将遥控器与其绑定。控制器将显示所绑定机器的名称与坐标。$(li)远离机器后，手持遥控器右击即可访问该机器的GUI界面。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Usage",
+   "使用"
+  ]
+ ]
+}

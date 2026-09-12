@@ -1,0 +1,22 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/items/computer_tool.json",
+ "sha1": "aa9ea532044824d88ee4074a61d1bf17aa8a16bb",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Computer Tool",
+   "计算机扳手"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Computer Tool is a tool to open GUI's from our blocks. Currently, the Computer Tool is useless, it's just a wonderful item.$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/items/computer_tool/)official wiki page$(/l)$()!",
+   "计算机扳手是一种用于打开本模组方块GUI界面的工具。目前，计算机扳手尚无实际用途，但它确实是一件非常棒的物品。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/items/computer_tool/)官方维基页面$(/l)$()！"
+  ]
+ ]
+}

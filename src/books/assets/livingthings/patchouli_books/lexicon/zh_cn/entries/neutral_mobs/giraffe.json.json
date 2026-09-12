@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/neutral_mobs/giraffe.json",
+ "sha1": "533d3541e2de62641e81cd5231bb68f9edb07ac2",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Giraffe",
+   "长颈鹿"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Huge animals that will be angry when you attack them!$(br2)$(bold)Health: $()15 Hearts$(br)$(bold)Attack-Damage: $()2 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat",
+   "体型庞大的动物，一旦受到攻击便会暴怒！$(br2)$(bold)生命值：$()15颗心$(br)$(bold)攻击伤害：$()2颗心$(br2)$(bold)繁殖物品：$()$(li)小麦"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in all $(bold)Savanna$() biomes.",
+   "可在所有$(bold)热带草原$()生物群系中找到。"
+  ]
+ ]
+}

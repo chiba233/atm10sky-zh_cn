@@ -1,0 +1,22 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/world/seaweed.json",
+ "sha1": "31b4327ea0142a39c2617ac53094ecf7db7e90aa",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Seaweed",
+   "海苔"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "You can find Seaweed in Oceans.",
+   "你可在海洋中找到海苔。"
+  ]
+ ]
+}

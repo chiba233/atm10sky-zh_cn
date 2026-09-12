@@ -1,0 +1,49 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/hostile_mobs/ancient_blaze.json",
+ "sha1": "0d463be18ec1d0824b3f7da9a24f82c96ca9b446",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ancient Blaze",
+   "远古烈焰人"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Another boss from the Nether!$(br2)$(bold)Health: $()125 Hearts$(br)$(bold)Attack-Damage: $()3 Hearts$(br2)$(bold)Attacks: $()$(li)6 Large Fireballs$(li)∞ Small Fireballs",
+   "来自下界的另一位首领！$(br2)$(bold)生命值：$()125颗心$(br)$(bold)攻击伤害：$()3颗心$(br2)$(bold)攻击方式：$()$(li)6枚大型火球$(li)无限枚小型火球"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "can be created with a ritual (next page)",
+   "可通过仪式（下一页）生成。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(bold)Summoning$()$(br2)To summon the ancient blaze you need to place a$(br)Jack o'Lantern on top of two glowstone blocks.$(br2)Once the ancient blaze is summoned it will be invulnerable until it charged up it's 6 large fireballs.$(br2)The amount of large fireballs can be seen by the amount of sticks flying around.",
+   "$(bold)召唤方式$()$(br2)召唤远古烈焰人需将一个$(br)南瓜灯放置于两块荧石块上方。$(br2)远古烈焰人被召唤后，在充能完成6枚大型火球前处于无敌状态。$(br2)其周围飞舞的木棍数量即代表已充能的大型火球数量。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "$(bold)Death$()$(br2)When dying, it will drop it's helmet.$(br2)The ancient blaze will spawn 4 normal blazes to revenge it's death.",
+   "$(bold)死神$()$(br2)死亡时会掉落其头盔。$(br2)远古烈焰人将召唤4个普通烈焰人，为其复仇。"
+  ]
+ ]
+}

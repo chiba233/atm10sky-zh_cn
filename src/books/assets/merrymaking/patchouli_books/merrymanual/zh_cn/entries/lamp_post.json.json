@@ -1,0 +1,67 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/lamp_post.json",
+ "sha1": "ff35f41f4441195115dcc49bc17fcaa826c0e32c",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Lamp Post",
+   "灯柱"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Lamp Post with Bow Decoration!",
+   "带弓形装饰的灯柱！"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Lamp Post block extends upward when placed on top of itself and a has directional facing for decorating purposes. $(br)The top of a Lamp Post will light up if you use a Torch on it. $(br2)Remove the torch and \"turn off\" the Lamp Post by clicking on it with an empty hand.",
+   "灯柱方块叠放时可向上延伸，且具备方向朝向以便装饰。$(br)若在其顶部放置火把，灯柱顶端将发光。$(br2)移除火把并空手点击灯柱，即可“关闭”灯柱。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Lamp Post",
+   "灯柱"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "When a Lamp Post Block is 3 blocks tall, the thin pole section can be decorated by using either a bow or any type of wreath on it. $(br2)Remove the decoration by clicking on the pole with an empty hand.",
+   "当灯柱方块堆叠至3格高时，细长灯杆部分可通过在其上放置弓或任一类型花环进行装饰。$(br2)空手点击灯杆即可移除装饰。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Decorating the Post",
+   "装饰灯柱"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Lamp Post",
+   "灯柱"
+  ]
+ ]
+}

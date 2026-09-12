@@ -1,0 +1,5 @@
+{
+  "commands.terrablender.biomeparams.success": "位置 %s %s %s 的参数：%s",
+  "commands.terrablender.biomeparams.failed": "无法确定参数",
+  "biome.terrablender.deferred_placeholder": "延迟占位符"
+}

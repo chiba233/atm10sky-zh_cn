@@ -1,0 +1,76 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/getting_started/effects.json",
+ "sha1": "da4f5dcb7116c45710369232af4238e19c86c6ab",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Eating Effects",
+   "食物效果"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Using different types of ingredients to make a type of sushi will get you different effects to make your food better",
+   "使用不同种类的食材制作寿司，可获得不同的增益效果，从而提升你的食物品质"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Eating when having this potion effect will give you a small chance of not consuming the item.",
+   "在拥有该药水效果时进食，将有较小几率不消耗所食用的物品。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Small Bites",
+   "小口品尝"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Eating when having this potion effect will give extra food.",
+   "在拥有该药水效果时进食，将额外恢复饱食度。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Acquired Taste",
+   "嗜好"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Using a cutting board when having this potion effect will give extra weights in your ingredients.",
+   "在拥有该药水效果时使用刀砧板，可使你的食材获得额外重量。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Steady Hands",
+   "坚定的手"
+  ]
+ ]
+}

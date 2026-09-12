@@ -1,0 +1,20 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/categories/item_category.json",
+ "sha1": "f9f53d9560eeccdf861a3cc52ec95dda56824961",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "All the items",
+   "所有物品"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Items",
+   "物品"
+  ]
+ ]
+}

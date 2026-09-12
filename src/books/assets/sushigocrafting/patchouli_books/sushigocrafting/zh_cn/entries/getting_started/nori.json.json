@@ -1,0 +1,31 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/getting_started/nori.json",
+ "sha1": "bd2e209d8831f8453d03ab2c8a0c96e62ff1f7b2",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Nori",
+   "海苔片"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "To get Nori Sheets you will need to find some Kelp in the oceans and make a Dried Kelp Block with it. $(br2)Squishing a Dried Kelp Block (dropped as an item) between an Iron Block with a piston will get you some Nori Sheets.",
+   "要获得海苔片，你需要先在海洋中寻找海带，并用其制作干海带块。$(br2)将干海带块（以物品形式掉落）置于铁块与活塞之间进行挤压，即可获得海苔片。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Nori Piston Crafting",
+   "使用活塞制作海苔片"
+  ]
+ ]
+}

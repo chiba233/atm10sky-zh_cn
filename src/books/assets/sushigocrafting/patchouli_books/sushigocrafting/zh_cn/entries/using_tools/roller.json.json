@@ -1,0 +1,31 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/using_tools/roller.json",
+ "sha1": "27ec6e9344ab58698dd6ca8f581bb9b19b7975c3",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Roller",
+   "竹帘"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A Roller is the most important tool when making sushi. To use a Roller properly and get the best food you will need to experiment with it first. $(br2)Making a roll will indicate you in the tooltip how far the perfect weight is and making a perfect roll will provide you with better food values and effects.",
+   "竹帘是制作寿司时最重要的工具。要正确使用竹帘并制作出最佳品质的食物，你需先亲自尝试摸索。$(br2)制作卷寿司时，工具提示会显示当前距离理想重量的差距；而成功制作出完美重量的寿司，则能为你带来更优的食物数值与增益效果。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "To use a Roller select what type of Sushi you want, then place in ingredients in the correct slot, select how much of those ingredients you want to use and then left click the Roller a bunch of times to get your Sushi. $(br2)You don't have to remember the perfect weight the Roller will show you already discovered perfect weights.",
+   "使用竹帘时，请先选择想要制作的寿司类型，再将食材放入对应插槽，设定所需用量，然后多次左击竹帘即可完成寿司制作。$(br2)你无需记忆理想重量——竹帘会直接向你展示已发现的理想重量。"
+  ]
+ ]
+}

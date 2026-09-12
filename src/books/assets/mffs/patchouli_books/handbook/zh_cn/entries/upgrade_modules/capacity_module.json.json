@@ -1,0 +1,31 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/upgrade_modules/capacity_module.json",
+ "sha1": "7d070f8a2aa9f615a922163525b6db7e252e57d0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Capacity Module",
+   "容量模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(5)Capacity Module$() can be placed in the upgrade slots of various MFFS machines to upgrade their $(l:mffs:getting_started/fortron)Fortron$() storage capabilities. Its effects vary depending on the machine, but most commonly include increasing the $(l:mffs:getting_started/fortron)Fortron$() capacity of a device.",
+   "$(5)容量模块$()可被置入各类MFFS机器的升级插槽中，以提升其$(l:mffs:getting_started/fortron)力场子$()存储能力。其具体效果因机器而异，但最常见的是提升设备的$(l:mffs:getting_started/fortron)力场子$()容量。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Capacity Module$().",
+   "合成$(5)容量模块$()。"
+  ]
+ ]
+}

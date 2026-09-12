@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/items/lion.json",
+ "sha1": "54680289879a491b91d9a8fec1caafb991351a43",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Raw Lion Meat",
+   "生狮子肉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br)$(bold)Obtaining:$()$(br)can be dropped by Lions",
+   "$(br)$(bold)获取方式：$()$(br)可由雄狮掉落"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(br)$(bold)Usage:$()$(li)can be eaten$(li)can be smelted to Cooked Lion Meat",
+   "$(br)$(bold)用途：$()$(li)可食用$(li)可冶炼为烤狮子肉"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/passive_mobs/flamingo.json",
+ "sha1": "3df16a9ed8a132ec409ea8ecbfbb85e0d3881c39",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Flamingo",
+   "火烈鸟"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Pink bird that stands most of the time on one leg.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Raw Salmon$(li)Raw Cod",
+   "粉红色泽鹗徽标，大部分时间单腿站立。$(br2)$(bold)生命值：$()5颗心$(br2)$(bold)繁殖物品：$()$(li)生鲑鱼$(li)生鳕鱼"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in $(bold)Swamps$() and at $(bold)Rivers$().",
+   "可在$(bold)沼泽$()与$(bold)河流$()附近找到。"
+  ]
+ ]
+}

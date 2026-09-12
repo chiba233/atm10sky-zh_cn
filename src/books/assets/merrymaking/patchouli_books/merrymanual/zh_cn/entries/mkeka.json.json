@@ -1,0 +1,49 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/mkeka.json",
+ "sha1": "aaa54cfaf3984886492be9ffa4303e8eac3264c0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mkeka",
+   "基座垫"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Mkeka has a directional facing and can interact with the Kinara, Chalice, and Corn.$(br2)An Mkeka has the capacity to hold a single Kinara, or: $(li)A Chalice by itself $(li)Up to 3 Corn $(li)A combination of a Chalice and up to 3 Corn.",
+   "Mkeka具有方向性，可与基纳拉、圣餐杯和玉米互动。$(br2)一个Mkeka最多可放置一件基纳拉，或：$(li)单独放置一个圣餐杯；$(li)最多放置3个玉米；$(li)同时放置一个圣餐杯及最多3个玉米。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Mkeka",
+   "基座垫"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "To remove objects from the Mkeka, just click on it with an empty hand.",
+   "要从麦凯卡上移除物品，只需空手点击它即可。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Mkeka",
+   "基座垫"
+  ]
+ ]
+}

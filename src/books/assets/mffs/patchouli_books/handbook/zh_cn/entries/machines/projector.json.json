@@ -1,0 +1,85 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/machines/projector.json",
+ "sha1": "21c44798f5f8d175beb7fda7fdd1fb01b649ebb8",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Force Field Projector",
+   "力场投影仪"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(9)Force Field Projector$() is a fundamental part of the MFFS family of machines. It uses Fortron energy to project force fields of various shapes and sizes into the world.",
+   "$(9)力场投影仪$()是MFFS系列机器的核心组成部分。它利用Fortron能量，在世界中投射出各种形状与尺寸的力场。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(9)Force Field Projector$().",
+   "合成$(9)力场投影仪$()。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "To make a force field, give the $(9)Force Field Projector$() a supply of $(l:mffs:getting_started/fortron)Fortron$() by linking it to a nearby $(l:mffs:machines/fortron_capacitor)Fortron Capacitor$(). This can be achieved either by:$(li)Right-clicking the $(9)Force Field Projector$() and entering the matching frequency number into its GUI screen$(li)Shift-right-clicking the Projector while holding a $(l:mffs:tools/frequency_card)Frequency Card$().",
+   "要生成力场，请通过连接附近的$(l:mffs:machines/fortron_capacitor)Fortron 能量储存器$()，为$(9)力场投影仪$()提供$(l:mffs:getting_started/fortron)Fortron$()能源。这可通过以下任一方式实现：$(li)右键点击$(9)力场投影仪$()，并在其GUI界面中输入匹配的频率编号$(li)手持$(l:mffs:tools/frequency_card)频率卡$()对投射器按住Shift键右击。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Usage",
+   "使用"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Decide which force field shape to create by crafting one of the $(l:mffs:projector_modes)projector mode items$(). Right-click the Projector and place the projector mode item into the central (red) slot surrounded by outwardly facing arrows. Craft a number of $(l:mffs:upgrade_modules/scale_module)$(5)Scale Module$() items and place them into the left-hand slot matrix of the $(9)Force Field Projector$()'s GUI. Each $(l:mffs:upgrade_modules/scale_module)$(5)Scale Module$() used in the Projector's matrix slots will increase the force field radius by one block.",
+   "通过合成其中一种$(l:mffs:projector_modes)投影仪模式物品$()，决定要创建的力场形状。右键点击投射器，并将投影仪模式物品放入中央（红色）插槽中（该插槽四周环绕着向外指向的箭头）。合成若干$(l:mffs:upgrade_modules/scale_module)$(5)扩展模块$()物品，并将其放入$(9)力场投影仪$()GUI界面左侧的插槽矩阵中。每个放入投射器矩阵插槽中的$(l:mffs:upgrade_modules/scale_module)$(5)扩展模块$()，均可使力场半径扩大1格。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "The number at the bottom of the GUI indicates how much Fortron is required to sustain a force field of the specified size and shape. Activate the Projector by supplying it with a Redstone signal. Once activated, the $(9)Force Field Projector$() will change from red to blue and begin projecting a force field (assuming it has enough available $(l:mffs:getting_started/fortron)Fortron$()).$(p)To be able to walk through a force field, a $(l:mffs:machines/biometric_identifier)Biometric Identifier$() is needed.",
+   "GUI界面底部的数字表示维持指定尺寸与形状力场所需的Fortron量。通过提供红石信号来激活投射器。一旦激活，$(9)力场投影仪$()将由红色变为蓝色，并开始投射力场（前提是拥有足够的$(l:mffs:getting_started/fortron)Fortron$()）。$(p)若想步行穿过力场，则需要$(l:mffs:machines/biometric_identifier)生物识别器$()。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "A $(9)Force Field Projector$() may be augmented with various modules. These general modules have the following effects:$(li)$(l:mffs:upgrade_modules/scale_module)$(5)Scale Module$(): Adjusts the shape of a projected force field.$(li)$(l:mffs:upgrade_modules/speed_module)$(5)Speed Module$(): Allows the Projector to generate a force field more quickly.$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)Capacity Module$(): Increases the amount of $(l:mffs:getting_started/fortron)Fortron$() the Projector is able to store.$()",
+   "$(9)力场投影仪$()可安装多种模块以增强性能。这些通用模块具有如下效果：$(li)$(l:mffs:upgrade_modules/scale_module)$(5)扩展模块$()：调整已投射力场的形状。$(li)$(l:mffs:upgrade_modules/speed_module)$(5)速度模块$()：加快投射器生成力场的速度。$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)容量模块$()：提升投射器可储存的$(l:mffs:getting_started/fortron)Fortron$()总量。$()"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Upgradability",
+   "可升级性"
+  ]
+ ]
+}

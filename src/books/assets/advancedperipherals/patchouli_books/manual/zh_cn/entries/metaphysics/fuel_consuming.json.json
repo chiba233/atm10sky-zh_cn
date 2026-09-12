@@ -1,0 +1,40 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/metaphysics/fuel_consuming.json",
+ "sha1": "9a91b09b0ae0933cd05fd30b682f033ffe941910",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Cooldowns and fuel",
+   "冷却时间与燃料"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "All world changing operations will consume turtle fuel (of course, if you not disable fuel usage in CC:Tweaked configuration).$(p)Also, most of this operations have cooldowns, so you should consider this in your code. Hopefully, every active cooldown can be recived via peripheral methods.",
+   "所有改变世界状态的操作均会消耗海龟燃料（当然，若你在CC:Tweaked配置中禁用了燃料消耗，则不计燃料）。$(p)此外，大多数此类操作均有冷却时间，因此编写代码时需加以考虑。幸运的是，每个正在生效的冷却时间均可通过外设方法获取。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "You think, that cooldowns are too big? This is when fuel consuming rate come to help!$(p)Bigger fuel consuming rate will reduce cooldown, but obviously increate fuel consumption. For example, if click operation required 1 fuel point for perform and will have 5 seconds cooldown, with fuel consumption 2 you can perform click operation one in 2.5 seconds, but in cost of 2 fuel point.",
+   "你觉得冷却时间过长？此时燃料消耗速率便派上用场了！$(p)提高燃料消耗速率可缩短冷却时间，但显然会增加燃料消耗量。例如：点击操作原本需消耗1点燃料、冷却时间为5秒；当燃料消耗速率为2时，你可每2.5秒执行一次点击操作，但每次需消耗2点燃料。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "However, fuel consumption rate is not so simple! Every automata core has max fuel consumption limitation, that can be retrieved via $(l)getConfiguration$() method.$(p)Also, fuel point will grow faster, than cooldown drops. Fuel consumption 3 will required 4 fuel points, fuel consumption 4 will required fuel points, etc.",
+   "然而，燃料消耗速率并非如此简单！每种自动机核心均有其最大燃料消耗限制，可通过$(l)getConfiguration$()方法获取。$(p)此外，燃料点数的增长速度高于冷却时间的下降速度。燃料消耗速率为3时需消耗4点燃料，速率为4时则需消耗更多燃料，以此类推。"
+  ]
+ ]
+}

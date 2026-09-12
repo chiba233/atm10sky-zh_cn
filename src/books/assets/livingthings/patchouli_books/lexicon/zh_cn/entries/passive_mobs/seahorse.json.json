@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/passive_mobs/seahorse.json",
+ "sha1": "91974b582898d177986d1d493609e810a705754b",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Seahorse",
+   "海马"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Colorful animal that wanders through the ocean in groups.$(br2)$(bold)Health: $()2 Hearts",
+   "一种色彩斑斓的动物，常成群结队地在海洋中游荡。$(br2)$(bold)生命值：$()2颗心"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in $(bold)Warm$() and $(bold)Luke Warm Oceans$().",
+   "可在$(bold)暖水海洋$()与$(bold)温水海洋$()中找到。"
+  ]
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/machines/coercion_deriver.json",
+ "sha1": "77007580bbe3343dfb49d4bf93183bc47ca3b381",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Coercion Deriver",
+   "Fortron 衍生器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(9)Coercion Deriver$() is a member of the MFFS family of machines. It is primarily used to generate $(l:mffs:getting_started/fortron)Fortron$() from FE energy, which other MFFS machines require to function. A $(9)Coercion Deriver$() is designed to work in conjunction with a $(l:mffs:machines/fortron_capacitor)Fortron Capacitor$() to charge it with $(l:mffs:getting_started/fortron)Fortron$(). $(l:mffs:getting_started/fortron)Fortron$() is then distributed to the other machines by the Capacitor.",
+   "$(9)Fortron 衍生器$()属于MFFS系列机器之一。它主要用于将FE能量转化为$(l:mffs:getting_started/fortron)Fortron$()，而其他MFFS机器需依靠Fortron才能运行。$(9)Fortron 衍生器$()专为与$(l:mffs:machines/fortron_capacitor)Fortron 能量储存器$()协同工作而设计，可为其充入$(l:mffs:getting_started/fortron)Fortron$()。$(l:mffs:getting_started/fortron)Fortron$()随后将由电容器分发至其他机器。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(9)Coercion Deriver$().",
+   "合成$(9)Fortron 衍生器$()。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "To generate $(l:mffs:getting_started/fortron)Fortron$(), connect the $(9)Coercion Deriver$() to a FE source and activate it using a Redstone signal. Once powered and activated, the $(9)Coercion Deriver$() will change from red to blue and begin generating $(l:mffs:getting_started/fortron)Fortron$(). A $(9)Coercion Deriver$() may be linked to other MFFS machines, such as a $(l:mffs:machines/fortron_capacitor)Fortron Capacitor$(), by setting its frequency number to match that of the other machines.",
+   "要生成$(l:mffs:getting_started/fortron)Fortron$()，请将$(9)Fortron 衍生器$()连接至FE能源源，并通过红石信号启动。一旦通电并激活，$(9)Fortron 衍生器$()将由红色变为蓝色，并开始生成$(l:mffs:getting_started/fortron)Fortron$()。$(9)Fortron 衍生器$()可通过设置其频率编号与其它机器（如$(l:mffs:machines/fortron_capacitor)Fortron 能量储存器$()）保持一致，从而实现联动。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Usage",
+   "使用"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "This can be achieved by either:$(li)Right-clicking the Deriver and entering the desired frequency number into its GUI screen$(li)Shift-right-clicking the Coercion Deriver while holding a Frequency Card$(p)The $(9)Coercion Deriver$()'s ability to generate $(l:mffs:getting_started/fortron)Fortron$() can be amplified using $(2)Lapis Lazuli$() or $(2)Nether Quartz$(). For this, place either into the slot next to the arrow. This should increase $(l:mffs:getting_started/fortron)Fortron$() output by about 20x.",
+   "此操作可通过以下任一方式实现：$(li)右键点击Fortron 衍生器，并在GUI界面中输入目标频率编号$(li)手持频率卡对Fortron 衍生器按住Shift键右击$(p)$(9)Fortron 衍生器$()生成$(l:mffs:getting_started/fortron)Fortron$()的能力，可通过$(2)青金石$()或$(2)下界石英$()进一步增强。为此，请将其中任一材料放入箭头旁的插槽中。此举应可将$(l:mffs:getting_started/fortron)Fortron$()输出提升约20倍。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "The $(9)Coercion Deriver$() has two modes of operation: Derive and Integrate. By default, the it is set to Derive - meaning it steadily converts supplied FE into $(l:mffs:getting_started/fortron)Fortron$(). Clicking the $(2)Derive$() toggle button in the middle of the GUI screen switches its operating mode to $(2)Integrate$() and vice versa. In Integrate mode, the Deriver operates in reverse by converting available $(l:mffs:getting_started/fortron)Fortron$() back into FE.",
+   "$(9)Fortron 衍生器$()具有两种运行模式：转换模式与整合模式。默认情况下，其处于转换模式——即稳定地将输入的FE能量转化为$(l:mffs:getting_started/fortron)Fortron$()。点击GUI界面中央的$(2)转换$()切换按钮，可将其运行模式切换为$(2)整合$()，反之亦然。在整合模式下，Fortron 衍生器将反向运行，将可用的$(l:mffs:getting_started/fortron)Fortron$()重新转化为FE。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Operation Modes",
+   "工作模式"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "A Coercion Deriver may be augmented with various modules to improve its performance.$(li)$(l:mffs:upgrade_modules/speed_module)$(5)Speed Module$(): Increases the boosting effect gained when inserting $(2)Lapis Lazuli$() or $(2)Nether Quartz$() into the Deriver.$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)Capacity Module$(): Increases the amount of $(l:mffs:getting_started/fortron)Fortron$() the Deriver is able to store.$()",
+   "Fortron 衍生器可通过安装多种模块来提升性能。$(li)$(l:mffs:upgrade_modules/speed_module)$(5)速度模块$()：增强在Fortron 衍生器中插入$(2)青金石$()或$(2)下界石英$()时所获得的增益效果。$(li)$(l:mffs:upgrade_modules/capacity_module)$(5)容量模块$()：提升Fortron 衍生器可储存的$(l:mffs:getting_started/fortron)Fortron$()总量。$()"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Upgradability",
+   "可升级性"
+  ]
+ ]
+}

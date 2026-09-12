@@ -1,0 +1,31 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/getting_started/crafting_components.json",
+ "sha1": "67f9f7a658c7199381ce5e8a104038d8de572eb5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Crafting Components",
+   "合成组件"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A sturdy steel plate used for crafting $(l:mffs:projector_modes)Projector Modes$(), $(l:mffs:projector_modules)Projector Modules$() and $(l:mffs:machines)Machines$(). Always good to have a couple at hand.",
+   "一块坚固的钢板，用于合成$(l:mffs:projector_modes)投影仪模式$()、$(l:mffs:projector_modules)投影仪模块$()以及$(l:mffs:machines)机器$()。随身携带几块总是很有用的。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the Focus Matrix.",
+   "合成聚焦矩阵。"
+  ]
+ ]
+}

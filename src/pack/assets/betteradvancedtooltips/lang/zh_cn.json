@@ -1,0 +1,7 @@
+{
+ "betteradvancedtooltips.configuration.remove_creative_tab_tooltip": "移除创造标签页提示框",
+ "betteradvancedtooltips.configuration.remove_component_count_tooltip": "移除组件数量提示框",
+ "betteradvancedtooltips.configuration.fuel_tooltip": "燃料提示信息",
+ "betteradvancedtooltips.configuration.tag_tooltip": "标签提示文本",
+ "betteradvancedtooltips.configuration.component_tooltip": "组件提示框"
+}

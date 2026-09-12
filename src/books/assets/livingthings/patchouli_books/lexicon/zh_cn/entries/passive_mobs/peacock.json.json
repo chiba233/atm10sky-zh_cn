@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/passive_mobs/peacock.json",
+ "sha1": "75e8b41601aeb32636b0d3d6fa123dafdae21bfd",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Peacock",
+   "孔雀"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Peacocks are a type of large pheasant known for their beautiful colored feathers.$(br2)$(bold)Health: $()4 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat",
+   "孔雀是一种大型雉类，以其绚丽多彩的羽毛而闻名。$(br2)$(bold)生命值：$()4颗心$(br2)$(bold)繁殖物品：$()$(li)小麦"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in $(bold)Savannas$() and in $(bold)Jungles$().",
+   "可在$(bold)热带草原$()与$(bold)丛林$()中找到。"
+  ]
+ ]
+}

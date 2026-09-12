@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/items/crab.json",
+ "sha1": "8168a34b96b30c23789f5d3cce8a5d35a9bd1230",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Raw Crab Meat",
+   "生螃蟹肉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br)$(bold)Obtaining:$()$(br)can be dropped by Crabs",
+   "$(br)$(bold)获取方式：$()$(br)可由螃蟹掉落"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(br)$(bold)Usage:$()$(li)can be eaten$(li)can be smelted to Cooked Crab Meat",
+   "$(br)$(bold)用途：$()$(li)可食用$(li)可冶炼为烤螃蟹肉"
+  ]
+ ]
+}

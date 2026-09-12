@@ -1,0 +1,112 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/trees.json",
+ "sha1": "9a7a296175c308e2a6f974589eb0b116dabaac2d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Christmas Trees",
+   "圣诞树"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "To decorate a Christmas Tree, you will first need to locate and cut down a Small Spruce Tree. These can be found growing in cold biomes, and sometimes their saplings will drop from Spruce Leaves.",
+   "要装饰圣诞树，你首先需寻找并砍伐一棵小型云杉树。它们生长于寒冷生物群系中，有时云杉树叶也会掉落云杉树苗。"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Small Spruce Trees",
+   "小型云杉树"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Small Spruce Trees",
+   "小型云杉树"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Once you have your tree, you can leave it as is, or dye it with White Dye for a Snowy Christmas Tree. $(br2) Next, you'll need to craft a stand to place the Tree in:",
+   "获取树体后，你既可保持原样，也可用白色染料染色，制成雪景圣诞树。$(br2)接下来，你需要合成一个树架来安放圣诞树："
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Trees in Tree Stands",
+   "树架上的树木"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "Now you're ready to decorate your tree. $(br2)Tree Decorations are: $(li)Lights $(li)Ornaments $(li)Sweet Berry Garland $(li)Tree Topper$(br2)There are two color choices for Tree Lights and Ornaments: White and Bright Colored, and you have your choice of either a Star or a Bow for a Tree Topper.",
+   "现在你已准备好装饰圣诞树了。$(br2)树饰包括：$(li)灯具 $(li)饰品 $(li)甜浆果花环 $(li)树顶装饰$(br2)树灯与饰品均提供白色与鲜艳彩色两种配色；树顶装饰则可任选星星或弓形。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   " The Trees have 3 sections, and each section can take one set of Tree Lights, one set of Ornaments, and one set of Sweet Berry Garland. Clicking on the Top section with a Topper will place the Topper Block above the tree. To remove/change the topper, interact with the topper itself.$(br2)To decorate, you place the item onto the desired Tree section. To remove an item you have placed on the tree, click on it with an empty hand.",
+   "圣诞树分为三段，每段均可安装一组树灯、一组饰品与一组甜浆果花环。在顶部区域点击树顶装饰，即可将其方块置于树顶上方。如需更换或移除树顶装饰，请直接与树顶装饰本身交互。$(br2)装饰时，将物品放置于目标树段即可；如需移除已放置的物品，请空手点击该物品。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "title"
+   ],
+   "Ornaments",
+   "饰品"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "title"
+   ],
+   "Sweet Berry Garland",
+   "甜浆果花环"
+  ],
+  [
+   [
+    "pages",
+    9,
+    "title"
+   ],
+   "Sweet Berry Garland",
+   "甜浆果花环"
+  ],
+  [
+   [
+    "pages",
+    10,
+    "text"
+   ],
+   "Decorated Christmas Tree",
+   "已装饰的圣诞树"
+  ]
+ ]
+}

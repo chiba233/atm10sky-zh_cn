@@ -1,0 +1,49 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/projector_modules/glow_module.json",
+ "sha1": "c8ae512c1bd2ca59b2f3f5029578e13dca8c7632",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Glow Module",
+   "发光模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(5)Glow Module$() can be used in a $(l:mffs:machines/projector)Force Field Projector$() to illuminate the area around the field. Installing $(5)Glow Modules$() into a Projector makes the force field emit light. As more $(5)Glow Modules$() are added (up to a maximum of 64), the field's brightness increases - until it becomes equal to that of Glowstone.",
+   "$(5)发光模块$()可用于$(l:mffs:machines/projector)力场投影仪$()，以照亮力场周边区域。在投射器中安装$(5)发光模块$()，可使力场自身发出光源。随着添加的$(5)发光模块$()数量增多（最多可达64个），力场亮度将逐步提升——直至达到荧光石的亮度水平。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Glow Module$().",
+   "合成$(5)发光模块$()。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "A Force Field Projector projecting a field with $(5)Glow Module$()s installed.",
+   "一个力场投影仪正在投射力场，且已安装$(5)发光模块$()。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Projection",
+   "投射"
+  ]
+ ]
+}

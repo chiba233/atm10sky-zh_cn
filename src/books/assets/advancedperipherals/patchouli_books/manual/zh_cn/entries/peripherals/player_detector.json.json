@@ -1,0 +1,31 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/player_detector.json",
+ "sha1": "ee41a54816ae2fa204526fdc07ba5c29cad2aefe",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Player Detector",
+   "玩家侦测器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Player Detector is able to recognize players within a certain range. In addition, it recognizes the player who clicks on him.$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/peripherals/player_detector/)official wiki page$(/l)$()!",
+   "玩家侦测器可在一定范围内识别玩家；此外，它还能识别出点击自身的玩家。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/player_detector/)官方维基页面$(/l)$()！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Connect your Player Detector to a computer to make use of it!",
+   "将你的玩家侦测器连接至计算机即可使用！"
+  ]
+ ]
+}

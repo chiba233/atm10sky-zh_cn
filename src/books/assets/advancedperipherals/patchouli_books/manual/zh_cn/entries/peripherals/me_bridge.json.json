@@ -1,0 +1,31 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/me_bridge.json",
+ "sha1": "d12568a3137112681974d7d4bee53fc2a31be794",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "ME Bridge",
+   "ME 网关"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The ME Bridge is able to interact with Applied Energistics 2. You can retrieve items, craft items, get all items as a list and more. The Me Bridge uses one channel.$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/peripherals/me_bridge/)official wiki page$(/l)$()!",
+   "ME网关可与应用能源2模组交互。你可通过它提取物品、自动合成物品、获取全部物品列表等。ME网关占用一个通道。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/me_bridge/)官方维基页面$(/l)$()！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Connect your ME Bridge to a computer to make use of it!",
+   "将你的ME网关连接至计算机即可使用！"
+  ]
+ ]
+}

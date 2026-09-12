@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/items/cooked_lion.json",
+ "sha1": "28ade2114ffa27e575ced8c7eb8e4b2cc8040644",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Cooked Lion Meat",
+   "烤狮子肉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br)$(bold)Obtaining:$()$(br)can be obtained by smelting Raw Lion Meat",
+   "$(br)$(bold)获取方式：$()$(br)可通过冶炼烤狮子肉获得"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(br)$(bold)Usage:$()$(li)can be eaten",
+   "$(br)$(bold)用途：$()$(li)可食用"
+  ]
+ ]
+}

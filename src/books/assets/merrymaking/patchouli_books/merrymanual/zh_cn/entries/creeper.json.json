@@ -1,0 +1,40 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/creeper.json",
+ "sha1": "a300f620f03874f232f52f3ea7100d867fa43b06",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Christmas Creeper",
+   "圣诞苦力怕"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "In the spirit of the Holidays, this little fellow has a special surprise for players--if they will let him get close enough, that is.",
+   "秉承节日精神，这位小家伙为玩家准备了一份特别惊喜——当然，前提是你们允许他靠得足够近。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "name"
+   ],
+   "Christmas Creeper",
+   "圣诞苦力怕"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Just...don't make him angry. You won't like him when he's angry.",
+   "请……千万别惹他生气。他生气时，你可不会喜欢他。"
+  ]
+ ]
+}

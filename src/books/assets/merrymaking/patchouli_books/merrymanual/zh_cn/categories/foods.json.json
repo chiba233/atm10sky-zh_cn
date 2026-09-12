@@ -1,0 +1,20 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/categories/foods.json",
+ "sha1": "8fa436392dae7f0a7b09fedccbf25f5697562009",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Delicous Foods and Drinks for your Holiday Celebrations.",
+   "为你的节日欢庆准备美味的料理与饮品。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Holiday Foods",
+   "节日食物"
+  ]
+ ]
+}

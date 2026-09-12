@@ -1,0 +1,22 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/items/seahorse_bucket.json",
+ "sha1": "dd0803c29bc132fc5eb890a89005547acffc9d6d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Bucket of Seahorse",
+   "一桶海马"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br)$(bold)Obtaining:$()$(br)right-click a seahorse with a water bucket to capture it in a bucket",
+   "$(br)$(bold)获取方式：$()$(br)用空水桶对海马右键点击，即可将其捕获至水桶中"
+  ]
+ ]
+}

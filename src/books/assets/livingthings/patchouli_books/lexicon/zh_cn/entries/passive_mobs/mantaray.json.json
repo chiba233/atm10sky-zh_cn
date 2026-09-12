@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/passive_mobs/mantaray.json",
+ "sha1": "2524d2551e923256e1f18d899dcc83f872b920d0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Mantaray",
+   "蝠鲼"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Aquatic animal that looks like it's flying through the sea.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Drops:$()$(li)1-2 Raw Cod",
+   "一种形似在海中飞翔的水生动物。$(br2)$(bold)生命值：$()5颗心$(br2)$(bold)掉落物：$()$(li)1–2个生鳕鱼"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in all $(bold)Ocean$() biomes.",
+   "可在所有$(bold)海洋$()生物群系中找到。"
+  ]
+ ]
+}

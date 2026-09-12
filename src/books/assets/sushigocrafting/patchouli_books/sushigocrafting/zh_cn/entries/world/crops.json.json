@@ -1,0 +1,22 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/world/crops.json",
+ "sha1": "dc1e8968b8d0b3ba8567acc716797ee2c7fa3684",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Crops",
+   "作物"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "You can get seeds by breaking grass. $(br2)Most of the crops are grown like normal crops except Rice that needs to be grown underwater on dirt.",
+   "你可以通过破坏草方块获取种子。$(br2)大部分作物的种植方式与普通作物相同，唯独稻米需在水下的泥土上种植。"
+  ]
+ ]
+}

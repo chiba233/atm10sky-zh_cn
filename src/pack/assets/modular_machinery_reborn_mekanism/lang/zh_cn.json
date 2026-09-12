@@ -1,0 +1,19 @@
+{
+ "itemGroup.modular_machinery_reborn_mekanism": "模块化机械重生·通用机械",
+ "item.modular_machinery_reborn_mekanism.chemicalinputhatch_big": "大型化学输入仓",
+ "item.modular_machinery_reborn_mekanism.chemicalinputhatch_huge": "巨型化学输入仓",
+ "item.modular_machinery_reborn_mekanism.chemicalinputhatch_ludicrous": "超级化学输入仓",
+ "item.modular_machinery_reborn_mekanism.chemicalinputhatch_normal": "普通化学输入仓",
+ "item.modular_machinery_reborn_mekanism.chemicalinputhatch_reinforced": "强化化学输入仓",
+ "item.modular_machinery_reborn_mekanism.chemicalinputhatch_small": "小型化学输入仓",
+ "item.modular_machinery_reborn_mekanism.chemicalinputhatch_tiny": "微型化学输入仓",
+ "item.modular_machinery_reborn_mekanism.chemicalinputhatch_vacuum": "真空化学输入仓",
+ "item.modular_machinery_reborn_mekanism.chemicaloutputhatch_big": "大型化学输出仓",
+ "item.modular_machinery_reborn_mekanism.chemicaloutputhatch_huge": "巨型化学输出仓",
+ "item.modular_machinery_reborn_mekanism.chemicaloutputhatch_ludicrous": "超级化学输出仓",
+ "item.modular_machinery_reborn_mekanism.chemicaloutputhatch_normal": "普通化学输出仓",
+ "item.modular_machinery_reborn_mekanism.chemicaloutputhatch_reinforced": "强化化学输出仓",
+ "item.modular_machinery_reborn_mekanism.chemicaloutputhatch_small": "小型化学输出仓",
+ "item.modular_machinery_reborn_mekanism.chemicaloutputhatch_tiny": "微型化学输出仓",
+ "item.modular_machinery_reborn_mekanism.chemicaloutputhatch_vacuum": "真空化学输出仓"
+}

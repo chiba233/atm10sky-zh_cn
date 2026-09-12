@@ -1,0 +1,22 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/using_tools/cooler_box.json",
+ "sha1": "e8aaadfd25e71e81ae6669838817849f7358d6aa",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Cooler Box",
+   "冷却盒"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A handy box used to combine automatically ingredients that have weight, just place them inside and they will be combined.",
+   "一种便捷的箱子，可自动合成具有重量的食材——只需将它们放入其中，即可完成合成。"
+  ]
+ ]
+}

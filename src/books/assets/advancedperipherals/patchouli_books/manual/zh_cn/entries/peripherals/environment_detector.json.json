@@ -1,0 +1,31 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/environment_detector.json",
+ "sha1": "d1225ca8b37e52004e0c0bdca18762dab2e43970",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Environment Detector",
+   "环境监测仪"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Environment Detector is able to receive information from the environment like the current time, the current moon phase, the light level of the block and many more.$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/peripherals/environment_detector/)official wiki page$(/l)$()!",
+   "环境监测仪能够获取来自周围环境的信息，例如当前时间、当前月相、方块所在位置的光照等级等众多数据。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/environment_detector/)官方维基页面$(/l)$()！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Connect your Environment Detector to a computer to make use of it!",
+   "将你的环境监测仪连接至计算机即可使用！"
+  ]
+ ]
+}

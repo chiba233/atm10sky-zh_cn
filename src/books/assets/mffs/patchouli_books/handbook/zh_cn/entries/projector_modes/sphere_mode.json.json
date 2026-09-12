@@ -1,0 +1,67 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/projector_modes/sphere_mode.json",
+ "sha1": "a6fe2b0f6f8e0eed7d65f60113e940a3420c5210",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sphere Mode",
+   "球体模式"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "By default, the $(2)Sphere Mode$() sets the Projector to generate a force field in the shape of a sphere that is exactly 1 block thick. Each $(l:mffs:upgrade_modules/scale_module)$(5)Scale Module$() increases the size of the force field by 1 block.",
+   "默认情况下，$(2)球体模式$()会将投射器设置为生成厚度恰好为1个方块的球形力场。每个$(l:mffs:upgrade_modules/scale_module)$(5)扩展模块$()均可使力场整体扩大1个方块。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(2)Sphere Mode$().",
+   "合成$(2)球体模式$()。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Adding $(l:mffs:upgrade_modules/scale_module)$(5)Scale Module$()s to item slots marked with a directional arrow further increases the radius of the force field by 1 block per module.",
+   "向带有方向箭头标记的物品槽中添加$(l:mffs:upgrade_modules/scale_module)$(5)扩展模块$()，可进一步将力场半径扩大1个方块/模块。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Field Adjustment",
+   "场调整"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "A scaled $(2)Sphere Mode$() field being projected.",
+   "一个已缩放的$(2)球体模式$()力场正在被投射。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Projection",
+   "投射"
+  ]
+ ]
+}

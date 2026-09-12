@@ -1,0 +1,49 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/getting_started/introduction.json",
+ "sha1": "2d0068be6619da26d2a2205578f0a482b18bd792",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Introduction",
+   "简介"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(l)Modular Force Field Systems$() (or MFFS) is a mod that adds $(3)force fields$(), $(5)high tech machinery$() and $(6)defensive measures$() to Minecraft. Ever tired of nuclear explosions blowing up your house or want to keep people out of your secret bases? Say no more, $(l)we've got you covered!$()",
+   "$(l)模块化力场系统$()（即MFFS）是一个为《我的世界》添加$(3)力场$()、$(5)高科技机械$()和$(6)防御措施$()的模组。是否厌倦了核爆摧毁你的房屋？是否想阻止他人闯入你的秘密基地？无需多言，$(l)我们已为你全面覆盖！$()"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "An overview of MFFS Force Field technology",
+   "MFFS力场技术概览"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Force fields can be used for a myriad of things, including: $(li)Keeping intruders out of your house$(li)Building structures$(li)Creating underwater bases or airlocks$(li)Exterminating approaching mobs$(li)Capturing enemies in traps$(li)Protecting against ballistic missiles$(li)Confiscating items from players$()",
+   "力场可用于多种用途，包括：$(li)防止入侵者进入你的房屋$(li)建造建筑$(li)打造水下基地或气闸$(li)消灭接近的生物$(li)将敌人困在陷阱中$(li)抵御弹道导弹$(li)没收玩家的物品$()"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "MFFS also features configuration options that can $(3)remove its dependency on electrical energy$(), making it usable within vanilla Minecraft or in combination with other mods. MFFS is most commonly used in $(2)multi-player$() worlds, but certainly provides many benefits for $(2)single-player$() as well.",
+   "MFFS还具备配置选项，可$(3)移除其对电能的依赖$()，使其可在原版《我的世界》中独立运行，或与其他模组协同使用。MFFS最常用于$(2)多人游戏$()世界，但同样也能为$(2)单人游戏$()带来诸多益处。"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/categories/machines.json",
+ "sha1": "156d5e72db9e09d597155db9068025e996c8e093",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Force Field Machines",
+   "力场机器"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Machines",
+   "机器"
+  ]
+ ]
+}

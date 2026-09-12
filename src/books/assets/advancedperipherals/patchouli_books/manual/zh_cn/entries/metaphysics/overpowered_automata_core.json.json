@@ -1,0 +1,49 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/metaphysics/overpowered_automata_core.json",
+ "sha1": "6305f024914d700bc9a429b59b947f6c9f6790f0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Overpowered automata core",
+   "过强自动机核心"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This is you first attempt to bypass rules of metaphysics. Well, not so successful as you hope it would be.$(p)Naive combination of any automata core and nether star lead to some result ...",
+   "这是你首次尝试突破形而上学的规则。嗯……结果远不如你所期望的那般成功。$(p)任何自动机核心与下界之星的天真组合，都会产生某种结果……"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "title"
+   ],
+   "Overpowered weak automata core",
+   "过强虚弱自动机核心"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "link_text"
+   ],
+   "API documentation",
+   "API 文档"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Overpowered versions of automata cores doesn't consumes item durability when use it.$(p)But everything come for price. If you try to perform any operation with this core without enough fuel - upgrade will broke immediately.",
+   "过强自动机核心在使用时不会消耗物品耐久度。$(p)但凡事皆有代价。若使用该核心执行操作时燃料不足，升级将立即损坏。"
+  ]
+ ]
+}

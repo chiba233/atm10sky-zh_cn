@@ -1,0 +1,10 @@
+{
+ "itemGroup.neoforge": "Neoforge",
+ "item.neoforge.add_features": "添加特性",
+ "item.neoforge.components": "成分",
+ "item.neoforge.condition": "条件",
+ "item.neoforge.conditions": "条件",
+ "item.neoforge.false": "关闭",
+ "item.neoforge.mod_loaded": "模组已加载",
+ "item.neoforge.none": "无"
+}

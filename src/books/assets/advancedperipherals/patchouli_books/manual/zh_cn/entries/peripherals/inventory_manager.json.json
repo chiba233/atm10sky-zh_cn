@@ -1,0 +1,31 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/inventory_manager.json",
+ "sha1": "246754f835c6cb48f73444f9c8e4eeedca8a7095",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Inventory Manager",
+   "库存管理器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Inventory Manager can communicate with the player's inventory. You need to right click a Memory Card and put the card into the manager to use it.$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/peripherals/inventory_manager/)official wiki page$(/l)$()!",
+   "库存管理器可与玩家的物品栏进行通信。你需要手持记忆卡对其右键点击，并将该记忆卡放入库存管理器中，方可启用此功能。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/inventory_manager/)官方维基页面$(/l)$()！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Connect your Inventory Manager to a computer to make use of it!",
+   "将你的库存管理器连接至计算机即可使用！"
+  ]
+ ]
+}

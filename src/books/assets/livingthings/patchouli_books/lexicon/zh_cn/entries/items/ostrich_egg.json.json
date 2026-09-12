@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/items/ostrich_egg.json",
+ "sha1": "6021d522d5419cdda8b485b96431de77c373d9d4",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ostrich Egg",
+   "鸵鸟蛋"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br)$(bold)Obtaining:$()$(br)If an ostrich nest contains an egg and a player right-clicks it, the egg can be dropped$(br2)Can be dropped by an ostrich that was about do build its nest",
+   "$(br)$(bold)获取方式：$()$(br)若鸵鸟孵化巢中已有蛋，玩家对其右键点击即可获得该蛋$(br2)即将筑巢的鸵鸟也可能掉落此蛋"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(br)$(bold)Usage:$()$(br)can be placed in an ostrich nest, to hatch a baby ostrich",
+   "$(br)$(bold)用途：$()$(br)可放置于鸵鸟孵化巢中，以孵化幼年鸵鸟"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/neutral_mobs/raccoon.json",
+ "sha1": "f022efe277763f886016af466461551b5d4ad384",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Raccoon",
+   "浣熊"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Medium-sized mammals that clean their food thoroughly before eating it.$(br2)$(bold)Health: $()5 Hearts$(br)$(bold)Attack-Damage: $()1 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat$(li)Apple$(li)Carrot$(li)Potato$(li)Beetroot",
+   "中等体型的哺乳动物，进食前会彻底清洁食物。$(br2)$(bold)生命值：$()5颗心$(br)$(bold)攻击伤害：$()1颗心$(br2)$(bold)繁殖物品：$()$(li)小麦$(li)苹果$(li)胡萝卜$(li)土豆$(li)甜菜"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in $(bold)Forest$() and $(bold)Plain$() biomes.",
+   "可在$(bold)森林$()和$(bold)平原$()生物群系中找到。"
+  ]
+ ]
+}

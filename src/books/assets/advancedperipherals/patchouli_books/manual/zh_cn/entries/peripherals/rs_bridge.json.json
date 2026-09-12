@@ -1,0 +1,31 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/rs_bridge.json",
+ "sha1": "a85e5d49caaf1e9fd9c38dda590770500e1e5481",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "RS Bridge",
+   "RS 网关"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The RS Bridge is able to interact with Refined Storage. You can retrieve items, craft items, get all items as a list and more.$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/peripherals/rs_bridge/)official wiki page$(/l)$()!",
+   "RS网关可与精致存储模组交互。你可通过它提取物品、自动合成物品、获取全部物品列表等。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/rs_bridge/)官方维基页面$(/l)$()！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Connect your RS Bridge to a computer to make use of it!",
+   "将你的RS网关连接至计算机即可使用！"
+  ]
+ ]
+}

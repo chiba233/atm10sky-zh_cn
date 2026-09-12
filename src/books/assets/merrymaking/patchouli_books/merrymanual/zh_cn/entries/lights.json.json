@@ -1,0 +1,283 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/lights.json",
+ "sha1": "962abdbdd83560dd91f982e033a0ca13875555d5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Festive Lights",
+   "节庆灯饰"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Light up your world with festive, bright lights. These lights come in 4 styles: $(li)Classic (Large bulbs) $(li)Mini (Small bulbs) $(li)Icicle $(li)Twinkling Icicle",
+   "用喜庆明亮的灯具点亮你的世界！这些灯具共分4种样式：$(li)经典款（大灯泡） $(li)迷你款（小灯泡） $(li)冰凌款 $(li)闪烁冰凌款"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "All light versions come in a set of white, or a set of multi-colors. For the Classic and Mini styles, there are 8 shapes: $(li)Horizontal $(li)Diagonal (Left) $(li)Diagonal (Right) $(li)Vertical (Left) $(li)Vertical (Right) $(li)Vertical Corner (Left) $(li)Vertical Corner (Right) $(li)Cap (Roof Peak)",
+   "所有灯具版本均提供纯白套装或多彩套装。经典款与迷你款共含8种造型：$(li)水平型 $(li)左对角线型 $(li)右对角线型 $(li)竖直左型 $(li)竖直右型 $(li)竖直转角左型 $(li)竖直转角右型 $(li)封顶型（屋顶峰顶）"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "For the Icicle and Twinkling Icicle lights, there are 4 shapes: $(li)Horizontal $(li)Diagonal (Left) $(li)Diagonal (Right) $(li)Cap (Roof Peak)",
+   "冰凌灯与闪烁冰凌灯共提供4种造型：$(li)水平型 $(li)左对角线型 $(li)右对角线型 $(li)封顶型（屋顶峰顶）"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Horizontal lights will connect in and around corners. They are placed similarly to vines.",
+   "水平灯具可在角落内外自然连接，其摆放方式与藤蔓类似。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Horizontal Lights",
+   "水平串灯"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "Diagonal Icicle/Twinkling Icicle Lights have a somewhat odd placement and will extend under the block they are placed on. This is done so that they connect better when placed.",
+   "对角线冰凌/闪烁冰凌灯具的摆放位置略显特殊，会向下延伸至其所在方块下方。此举旨在提升相邻摆放时的连接效果。"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Diagonal Lights",
+   "对角串灯"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "Vertical Lights will line up with the left or right side of a block.",
+   "竖直灯具将与方块的左侧或右侧对齐。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "title"
+   ],
+   "Vertical Lights",
+   "竖直串灯"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "Vertical Corner Lights will create two sections of lights at a 90 degree angle, lining up with the left side or right side of a block.",
+   "竖直转角灯具将在90度夹角处形成两段灯具，分别与方块的左侧或右侧对齐。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "title"
+   ],
+   "Vertical Corner Lights",
+   "竖直角灯火"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "Cap lights can be used to fill in a gap that is left when a roof peak has an odd number of blocks. $(br2) Read on for the recipes...",
+   "封顶型灯具可用于填补屋顶峰顶因方块数量为奇数而留下的空缺。$(br2)更多配方请继续阅读……"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "title"
+   ],
+   "Cap Lights",
+   "伞盖灯"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "text"
+   ],
+   "To craft the lights, you'll start with the wire. Green Wire is used for Classic Lights and Mini Lights, and White Wire is used for Icicle Lights and Twinkling Icicle Lights. $(br2) The recipes for the 2 kinds of wire are shown here:",
+   "制作灯具需先准备电线：经典灯具与迷你灯具使用绿色电线，冰凌灯具与闪烁冰凌灯具使用白色电线。$(br2)两种电线的合成配方如下："
+  ],
+  [
+   [
+    "pages",
+    9,
+    "title"
+   ],
+   "Wires",
+   "线缆"
+  ],
+  [
+   [
+    "pages",
+    10,
+    "text"
+   ],
+   "Next, you'll craft the bulbs for the lights, using the recipes here:",
+   "接下来，你将使用以下配方来制作灯具的灯泡："
+  ],
+  [
+   [
+    "pages",
+    11,
+    "title"
+   ],
+   "Bulbs",
+   "电球"
+  ],
+  [
+   [
+    "pages",
+    12,
+    "text"
+   ],
+   "Now you will craft the base type of lights. These are what you will use to create the placement shapes that were mentioned previously.$(br2)There is a different base type for every style of lights: Classic, Mini, Icicle, and Twinkling Icicle.$(br2)Special note: The Mini base types are also used for the Christmas Trees, and are named as such.",
+   "现在你将合成基础灯具。这些是此前提及的各类摆放造型所必需的基础组件。$(br2)每种灯具样式（经典款、迷你款、冰凌款、闪烁冰凌款）均有专属的基础类型。$(br2)特别说明：迷你基础类型亦用于圣诞树，故以此命名。"
+  ],
+  [
+   [
+    "pages",
+    13,
+    "title"
+   ],
+   "Classic Lights",
+   "经典串灯"
+  ],
+  [
+   [
+    "pages",
+    14,
+    "title"
+   ],
+   "Mini (Tree) Lights",
+   "迷你（树）灯"
+  ],
+  [
+   [
+    "pages",
+    15,
+    "title"
+   ],
+   "Icicle Lights",
+   "冰凌灯"
+  ],
+  [
+   [
+    "pages",
+    16,
+    "title"
+   ],
+   "Twinkling Icicle Lights",
+   "闪烁冰凌灯"
+  ],
+  [
+   [
+    "pages",
+    17,
+    "text"
+   ],
+   "You have your base lights, now you're ready to craft the light blocks.$(br2)Horizontal and Cap shapes have standard crafting recipes. Shapes defined as 'Left' or 'Right' will require a template to craft.$(br2)To craft a template light recipe, just place 3 of your base lights along with the correct template into the crafting table.",
+   "你已拥有基础灯具，现在可以开始合成灯具方块了。$(br2)水平型与封顶型采用标准合成配方；定义为“左”或“右”的造型则需借助模板合成。$(br2)合成模板灯具配方时，仅需将3个基础灯具与对应模板一同放入工作台即可。"
+  ],
+  [
+   [
+    "pages",
+    18,
+    "text"
+   ],
+   "Only one example of each type will be shown here, but the recipe shapes are the same for all of the lights.$(br2)The only exceptions are Icicles and Twinkling Icicles, which do not have any vertical or corner versions.",
+   "此处仅展示每种类型的单个示例，但所有灯具的配方造型均保持一致。$(br2)唯一例外是冰凌款与闪烁冰凌款，二者不提供竖直型或转角型。"
+  ],
+  [
+   [
+    "pages",
+    19,
+    "title"
+   ],
+   "Horizontal Lights",
+   "水平串灯"
+  ],
+  [
+   [
+    "pages",
+    20,
+    "title"
+   ],
+   "Diagonal Lights",
+   "对角串灯"
+  ],
+  [
+   [
+    "pages",
+    21,
+    "title"
+   ],
+   "Vertical Lights (Right)",
+   "右竖直灯火"
+  ],
+  [
+   [
+    "pages",
+    22,
+    "title"
+   ],
+   "Vertical Corner (Left)",
+   "左竖直角"
+  ],
+  [
+   [
+    "pages",
+    23,
+    "title"
+   ],
+   "Vertical Corner (Right)",
+   "右竖直角"
+  ],
+  [
+   [
+    "pages",
+    24,
+    "title"
+   ],
+   "Cap Lights",
+   "伞盖灯"
+  ]
+ ]
+}

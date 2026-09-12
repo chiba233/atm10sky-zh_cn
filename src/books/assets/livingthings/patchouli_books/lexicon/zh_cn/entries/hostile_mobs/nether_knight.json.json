@@ -1,0 +1,22 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/hostile_mobs/nether_knight.json",
+ "sha1": "cac56833eae48739697b876162e1fe849e93e075",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Nether Knight",
+   "下界骑士"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Deadly fighter that is guarding the nether fortress.",
+   "一名致命的战士，守卫着下界要塞。"
+  ]
+ ]
+}

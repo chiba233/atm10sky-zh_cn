@@ -1,0 +1,22 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/world/avocado.json",
+ "sha1": "c70192993a8acbc72aaaf5e9ddd177fbe4e83ad5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Avocado",
+   "牛油果"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "You can find Avocado trees in the world, mostly in plains. $(br2)You can harvest the avocado from the leaves by Right Click them when it's fully grown.",
+   "你可在世界中找到牛油果树，多分布于平原。$(br2)当牛油果树完全成熟后，右击树叶即可收获牛油果。"
+  ]
+ ]
+}

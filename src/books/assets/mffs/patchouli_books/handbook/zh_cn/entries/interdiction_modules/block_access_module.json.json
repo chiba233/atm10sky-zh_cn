@@ -1,0 +1,49 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/interdiction_modules/block_access_module.json",
+ "sha1": "b210d9d14ad4c72f8d18269ab2564a1d6a5d0653",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Block Access Module",
+   "防访问模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(5)Block Access Module$() is an optional module for the $(l:mffs:machines/interdiction_matrix)Interdiction Matrix$(). It enables a Matrix to inhibit a player's ability to right-click on a block and access its GUI screen.",
+   "$(5)防访问模块$()是$(l:mffs:machines/interdiction_matrix)干涉矩阵$()的可选模块。它使干涉矩阵能够限制玩家对某一方块右键点击并打开其GUI界面的能力。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Block Access Module().",
+   "合成$(5)防访问模块。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "If an unauthorized player tries to right-click a block or machine located within the action range of an Interdiction Matrix (equipped with the $(5)Block Access Module$()), they will not be permitted to open its GUI. As we would expect, blocks or machines outside the action area can be used normally.",
+   "若未授权玩家试图右键点击位于干涉矩阵（配备$(5)防访问模块$()）作用范围内的方块或机器，则无法打开其GUI界面。正如我们所预期的那样，作用区域外的方块或机器仍可正常使用。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Operation",
+   "操作"
+  ]
+ ]
+}

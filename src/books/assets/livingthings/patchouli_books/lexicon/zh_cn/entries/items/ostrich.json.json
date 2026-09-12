@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/items/ostrich.json",
+ "sha1": "7c60747f3d32375f3479ad127ed65f6785feb6cf",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Raw Ostrich Meat",
+   "生鸵鸟肉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br)$(bold)Obtaining:$()$(br)can be dropped by Ostrichs",
+   "$(br)$(bold)获取方式：$()$(br)可由鸵鸟掉落"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(br)$(bold)Usage:$()$(li)can be eaten$(li)can be smelted to Cooked Ostrich Meat",
+   "$(br)$(bold)用途：$()$(li)可食用$(li)可冶炼为烤鸵鸟肉"
+  ]
+ ]
+}

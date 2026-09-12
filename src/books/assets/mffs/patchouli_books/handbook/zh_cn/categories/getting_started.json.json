@@ -1,0 +1,20 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/categories/getting_started.json",
+ "sha1": "262c6577d3fa0cd1983a7dffc02e948ec3fe8fd1",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Here you'll get overwiew of the mod and learn to gather resources for your first machine.",
+   "此处将为您概览本模组，并指导您收集建造首台机器所需的资源。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Getting Started",
+   "开始"
+  ]
+ ]
+}

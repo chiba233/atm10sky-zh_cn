@@ -1,0 +1,20 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/categories/hostile_mobs_category.json",
+ "sha1": "6deca030315251c77727996fe15603b66c654edb",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Be aware of these mobs, because they might attack you!",
+   "请留意这些生物，因为它们可能会主动攻击你！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Hostile Mobs",
+   "敌对生物"
+  ]
+ ]
+}

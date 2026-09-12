@@ -1,0 +1,20 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/categories/projector_modes.json",
+ "sha1": "ad7f265bc6106a1ccde2d711be5cdee36fc357fd",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Various available field shapes for your Force Field Projector.",
+   "力场投影仪支持的多种力场形状。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Projector Modes",
+   "投影模式"
+  ]
+ ]
+}

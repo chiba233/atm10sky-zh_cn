@@ -1,0 +1,31 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/getting_started/ingredients.json",
+ "sha1": "fd605bbcda0081751fb5aaccc7f99d363c6d1b09",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ingredients",
+   "食材"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Ingredients are 'usually' processed food ready to used when making food, most of them will have a weight to them and their weights can be combined in the crafting table or in a $(l:using_tools/cooler_box)Cooler Box$() to do it in automated way. $(br2)If ingredients don't combine it might be because it goes over the max amount.",
+   "食材‘通常’是已加工完毕、可直接用于烹饪的食品；其中大多数自带重量，且这些重量可在合成台或$(l:using_tools/cooler_box)冷却盒$()中进行组合，实现自动化合成。$(br2)若食材无法合成，可能是因为总重量超出了上限。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Most ingredients have an affect attached to them or an effect modifier that will modify/amplify effects from other ingredients.",
+   "大多数食材均附带某种效果，或带有效果修饰器，可用于修改/增强其他食材的效果。"
+  ]
+ ]
+}

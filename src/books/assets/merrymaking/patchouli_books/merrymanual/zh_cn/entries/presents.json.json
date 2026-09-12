@@ -1,0 +1,22 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/presents.json",
+ "sha1": "57211ce036e4f4c8f45e7afdd1da41189335b866",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Present",
+   "礼物"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Presents are found in Chests throughout the Overworld. $(br2) When a Present is placed, the wrapping colors are chosen randomly. Presents can be picked up with Silk Touch. $(br2)Breaking a Present open will reveal the gift inside. Gifts rang from really good to \"Gee, you sholdn't have!\"",
+   "礼物堆散落在主世界各处的宝箱中。$(br2)放置礼物堆时，包装颜色将随机生成。使用精准采集可完整拾起礼物堆。$(br2)破坏礼物堆将揭示其中所藏礼物，奖品从极佳到“哎呀，您真不必如此破费！”不等。"
+  ]
+ ]
+}

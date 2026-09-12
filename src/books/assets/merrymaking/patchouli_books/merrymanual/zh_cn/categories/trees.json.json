@@ -1,0 +1,20 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/categories/trees.json",
+ "sha1": "6ed916b6be4cc0d2375e6981befaffbd8e69b597",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Chop down a tree and decorate it for the Holidays!",
+   "砍下一棵树，为它精心装扮，迎接节日的到来！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Christmas Trees",
+   "圣诞树"
+  ]
+ ]
+}

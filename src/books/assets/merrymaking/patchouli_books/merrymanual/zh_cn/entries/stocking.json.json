@@ -1,0 +1,22 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/stocking.json",
+ "sha1": "69e07295ecdf237a61c74d0f343eaa1931faa328",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Stocking",
+   "圣诞袜"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The stockings were hung on the Merry Mantel with care...",
+   "长筒袜被小心地挂在节日壁炉台上……"
+  ]
+ ]
+}

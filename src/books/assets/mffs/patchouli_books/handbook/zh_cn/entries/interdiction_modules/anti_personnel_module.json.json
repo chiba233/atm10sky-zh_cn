@@ -1,0 +1,31 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/interdiction_modules/anti_personnel_module.json",
+ "sha1": "2f6f9edd5a1de91dbfc3764918ff6f11124ad8ec",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Anti-Personnel Module",
+   "反人员模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(5)Anti-Personnel Module$() is an optional module for the $(l:mffs:machines/interdiction_matrix)Interdiction Matrix$(). With this module installed, the Matrix will automatically detect unauthorised players that enter its action range and kill them - almost instantly. Friendly and hostile mobs are not harmed.",
+   "$(5)反人员模块$()是$(l:mffs:machines/interdiction_matrix)干涉矩阵$()的可选模块。安装此模块后，干涉矩阵将自动检测进入其作用范围的未授权玩家，并几乎瞬间将其击杀。友方及敌对生物则不受影响。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Anti-Personnel Module$().",
+   "合成$(5)反人员模块$()。"
+  ]
+ ]
+}

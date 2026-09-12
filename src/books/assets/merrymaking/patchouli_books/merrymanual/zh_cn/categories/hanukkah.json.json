@@ -1,0 +1,20 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/categories/hanukkah.json",
+ "sha1": "9dc2f4be1c0b5798ed8beddd508bcfa66e208496",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Celebrate Hanukkah in Minecraft with special blocks and items.",
+   "使用特制方块与物品，在《我的世界》中庆祝光明节！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Hanukkah",
+   "光明节"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/neutral_mobs/monkey.json",
+ "sha1": "be4ceeb98d99219a29936e64aeec81200cddadf6",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Monkey",
+   "猴子"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br2)$(bold)Health: $()3 Hearts$(br)$(bold)Attack-Damage: $()1.5 Heart$(br2)$(bold)Breeding Items: $()$(li)Apples$(li)Bananas$(br2)$(bold)Drops:$()$(li)1-2 Leather$(li)0-1 Banana",
+   "$(br2)$(bold)生命值：$()3颗心$(br)$(bold)攻击伤害：$()1.5颗心$(br2)$(bold)繁殖物品：$()$(li)苹果$(li)香蕉$(br2)$(bold)掉落物：$()$(li)1–2个皮革$(li)0–1个香蕉"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in all $(bold)Jungle$() biomes.",
+   "可在所有$(bold)丛林$()生物群系中找到。"
+  ]
+ ]
+}

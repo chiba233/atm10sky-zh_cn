@@ -1,0 +1,67 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/projector_modules/camouflage_module.json",
+ "sha1": "ef7aaf4557369281976e82d15c7eb4bf0fa46e23",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Camouflage Module",
+   "伪装模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(5)Camouflage Module$() can be used in a $(l:mffs:machines/projector)Force Field Projector$() to alter the appearance of the force field itself. With a $(5)Camouflage Module$() installed, force fields may be disguised as regular blocks. For example, a force field might be masked as a wall of Stone. The $(5)Camouflage Module$() can be used in combination with all Projector Modes.",
+   "$(5)伪装模块$()可用于$(l:mffs:machines/projector)力场投影仪$()，以改变力场自身的外观。安装$(5)伪装模块$()后，力场可被伪装成普通方块。例如，力场可被遮掩为一堵石墙。$(5)伪装模块$()可与所有投射器模式配合使用。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Camouflage Module$().",
+   "合成$(5)伪装模块$()。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "This feature of the Projector can help players to hide things from other people or camouflage the entrance to a secret base. Select a block you wish to use as camouflage and place it in another empty slot of the Projector's left-hand item matrix (the same matrix as the $(5)Camouflage Module$()). Activate the Projector in the usual way.",
+   "投射器的这一功能可帮助玩家向他人隐藏物品，或为秘密基地入口实施伪装。请选取希望用作伪装的方块，并将其放置于投射器左侧物品矩阵的另一空槽中（与$(5)伪装模块$()位于同一矩阵）。随后以常规方式激活投射器。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Usage",
+   "使用"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "A Pyramid force field camouflaged as Stripped Oak Wood.",
+   "一个伪装成去皮橡木原木的锥体力场。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Projection",
+   "投射"
+  ]
+ ]
+}

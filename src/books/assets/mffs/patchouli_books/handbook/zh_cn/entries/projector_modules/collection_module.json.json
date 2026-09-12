@@ -1,0 +1,31 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/projector_modules/collection_module.json",
+ "sha1": "5ef991179dff47d796686dfd4a2ecc91a081ae38",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Collection Module",
+   "收集模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "When placed in a $(l:mffs:machines/projector)Force Field Projector$()'s matrix slots, in combination with a $(l:mffs:projector_modules/disintegration_module)$(5)Disintegration Module$(), the $(5)Collection Module$() collects items dropped from destroyed blocks into inventories surrounding the Projector.",
+   "当$(l:mffs:machines/projector)收集模块$()与$(l:mffs:projector_modules/disintegration_module)$(5)分解模块$()共同置于$(5)力场投影仪$()的矩阵插槽中时，该模块可将被摧毁方块掉落的物品收集至投射器周围的容器内。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Collection Module$().",
+   "合成$(5)收集模块$()。"
+  ]
+ ]
+}

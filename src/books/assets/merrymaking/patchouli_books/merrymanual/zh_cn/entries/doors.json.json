@@ -1,0 +1,49 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/doors.json",
+ "sha1": "ec10d4f3a5557b40c4f4ceb86d28b80cfc75501d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Decorated Doors",
+   "装饰门"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Decorated Spruce Door!",
+   "已装饰的云杉木门！"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "To add a wreath to any kind of Vanilla door, combine the door and a wreath in a crafting table. $(br2)Doors with Lit Wreaths on them will also give off light.",
+   "要为任意原版木门添加花环，只需在工作台中将该门与花环组合即可。$(br2)装有亮灯花环的门自身也会发出光照。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Doors with Wreaths",
+   "带花环的门"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Door with Wreaths",
+   "带花环的门"
+  ]
+ ]
+}

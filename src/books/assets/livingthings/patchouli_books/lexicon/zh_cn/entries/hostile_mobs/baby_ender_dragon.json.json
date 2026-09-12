@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/hostile_mobs/baby_ender_dragon.json",
+ "sha1": "5d639c1c36837c4916b85084b09b5c4efaa1a1c5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Baby Enderdragon",
+   "幼年末影龙"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A semi dangerous animal that has a weakness for chorus fruits!$(br)Tamed baby enderdragons will follow you around.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Taming Items: $()$(li)Chorus Fruit",
+   "一种半危险的生物，尤其畏惧紫颂果！$(br)驯服后的幼年末影龙会跟随你四处走动。$(br2)$(bold)生命值：$()5颗心$(br2)$(bold)驯服物品：$()$(li)紫颂果"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be hatched by placing a dragon egg on top of a purpur pillar. ",
+   "将龙蛋放置于紫珀块柱顶部即可孵化。"
+  ]
+ ]
+}

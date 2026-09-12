@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/items/ostrich_nest.json",
+ "sha1": "68c214970acd69876559db9e352f1666827a4b25",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ostrich Nest",
+   "鸵鸟巢"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br)$(bold)Obtaining:$()$(br)If mined without a silk-touch tool the nest will fall apart and you get a few sticks.",
+   "$(br)$(bold)获取方式：$()$(br)若未使用精准采集工具挖掘，孵化巢将散架，并掉落数根木棍。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(br)$(bold)Usage:$()$(br)can be placed$(br)an ostrichs might lay an egg into it",
+   "$(br)$(bold)用途：$()$(br)可放置$(br)鸵鸟可能在其内产卵"
+  ]
+ ]
+}

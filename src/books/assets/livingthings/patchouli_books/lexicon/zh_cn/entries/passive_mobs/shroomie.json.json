@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/passive_mobs/shroomie.json",
+ "sha1": "1e880373c6d23d01f34fb1d35f4c8f9a50c34fb9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Shroomie",
+   "蘑菇人"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Helpful animal that will plant at least one mushroom when you give them one.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat$(br2)$(bold)Drops:$()$(li)1-2 Red Mushroom$(br)    --- or ---$(li)1-2 Brown Mushroom",
+   "一种乐于助人的动物，当你给予它一个蘑菇时，它至少会为你种下一个蘑菇。$(br2)$(bold)生命值：$()5颗心$(br2)$(bold)繁殖物品：$()$(li)小麦$(br2)$(bold)掉落物：$()$(li)1–2个红蘑菇$(br)    —— 或 ——$(li)1–2个棕蘑菇"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in all $(bold)Mushroom Fields$().",
+   "可在所有$(bold)蘑菇岛$()中找到。"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/categories/tools.json",
+ "sha1": "b12d477dd81089244d5f52648d5bfe47f8351863",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Tools and Utility items.",
+   "工具与实用物品。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Tools & Utilities",
+   "工具与实用工具"
+  ]
+ ]
+}

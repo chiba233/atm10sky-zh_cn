@@ -1,0 +1,31 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/tools/frequency_card.json",
+ "sha1": "bb25a89eaafe40bef302df352aafba5eb292c324",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Frequency Card",
+   "频率卡"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(5)Frequency Card$() can hold, memorize and generate frequencies for interacting with machines. Its frequency can be set by placing it into a machine's frequency slot. Using it on any machine will set the frequency of that machine to whatever is set on the card. You can generate a random frequency by shift-right-clicking while holding the card.",
+   "$(5)频率卡$()可用于存储、记忆及生成频率，以实现与机器的交互。其频率可通过将其置入机器的频率插槽中进行设定。对任意机器使用该卡片，即可将该机器的频率设定为卡片当前所存频率。按住Shift键并右击手持的卡片，可生成一个随机频率。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Frequency Card$().",
+   "合成$(5)频率卡$()。"
+  ]
+ ]
+}

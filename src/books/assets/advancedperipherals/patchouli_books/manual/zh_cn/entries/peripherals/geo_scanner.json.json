@@ -1,0 +1,31 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/geo_scanner.json",
+ "sha1": "2c03d782708c854616952abd2a404c4c6f4d2d91",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Geo Scanner",
+   "地理扫描仪"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Geo Scanner provides information about blocks around and chunk where scanner located. Geo scanner has delay between scans, so you should be ready for this.$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/peripherals/geo_scanner/)official wiki page$(/l)$()!",
+   "地理扫描仪可提供扫描器所在位置周边方块及所在区块的相关信息。地理扫描仪两次扫描之间存在一定延迟，请做好相应准备。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/geo_scanner/)官方维基页面$(/l)$()！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Connect your Geo Scanner to a computer to make use of it!",
+   "将你的地理扫描仪连接至计算机即可使用！"
+  ]
+ ]
+}

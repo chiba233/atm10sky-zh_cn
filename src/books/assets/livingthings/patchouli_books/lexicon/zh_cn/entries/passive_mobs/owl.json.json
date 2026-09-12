@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/passive_mobs/owl.json",
+ "sha1": "99c64044ba0e3ac97ad55669b52ebc18c9f33da5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Owl",
+   "猫头鹰"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Nocturnal bird that can spawn in different color variations.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Melon Seeds$(li)Pumpkin Seeds$(li)Beetroot Seeds$(br2)$(bold)Taming Item: $()$(li)Wheat Seeds",
+   "一种夜行性鸟类，可生成多种颜色变种。$(br2)$(bold)生命值：$()5颗心$(br2)$(bold)繁殖物品：$()$(li)西瓜种子$(li)南瓜种子$(li)甜菜种子$(br2)$(bold)驯服物品：$()$(li)小麦种子"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in $(bold)Forest$() biomes.",
+   "可在$(bold)森林$()生物群系中找到。"
+  ]
+ ]
+}

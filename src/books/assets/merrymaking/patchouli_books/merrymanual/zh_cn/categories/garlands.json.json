@@ -1,0 +1,20 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/categories/garlands.json",
+ "sha1": "2c3999169c06f8b6b17aac96ebc7a4cb7b7be97e",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Garlands add greenery and a lovely aesthetic to your build.",
+   "花环为你的建筑增添绿意，营造出迷人的视觉效果。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Garlands",
+   "花环"
+  ]
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/nbt_storage.json",
+ "sha1": "8d0ada3444a85759f8bccd31d9bea3438ccf4f28",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "NBT Storage",
+   "NBT 存储器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "NBT Storage is custom block that allow input/output custom data to block. Mostly provided for ID support.$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/peripherals/nbt_storage/)official wiki page$(/l)$()!",
+   "NBT存储器是一种自定义方块，支持向方块输入/输出自定义NBT数据，主要为ID兼容性而提供。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/nbt_storage/)官方维基页面$(/l)$()！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Connect your NBT Storage to a computer to make use of it!",
+   "将你的NBT存储器连接至计算机即可使用！"
+  ]
+ ]
+}

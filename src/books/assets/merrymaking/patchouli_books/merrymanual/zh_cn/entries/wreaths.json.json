@@ -1,0 +1,58 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/wreaths.json",
+ "sha1": "d279fcb002b823c823d6c6d39b1f570cb05bd6de",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Wreaths",
+   "花环"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Wreaths are very versatile. With a wreath, you can place it as-is, use it on a Lamp Post, or combine it other blocks such as Doors and Picket Fence Gates to decorate them.$(br2)They come in three styles: $(li)Plain $(li)White Lights $(li)Multicolored Lights",
+   "花环用途极为广泛。你既可直接放置花环，也可将其用于灯柱，或与木门、尖桩篱栅门等方块组合以作装饰。$(br2)花环共分三种样式：$(li)素色款 $(li)白色灯款 $(li)多彩灯款"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "To craft a wreath, you'll need 8 Spruce Leaves and a Bow.",
+   "要合成花环，你需要8个云杉树叶和一张弓。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Once you have your wreath, you can give it an extra pop with some lights.$(br2)To make a lit wreath, combine a wreath with Tree Lights of your choice in a crafting table:",
+   "获得花环后，你可为其增添灯光效果，使其更加亮眼。$(br2)要制作亮灯花环，请在工作台中将花环与你选择的树形灯具组合："
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Wreath",
+   "花环"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Lit Wreath",
+   "点亮的花环"
+  ]
+ ]
+}

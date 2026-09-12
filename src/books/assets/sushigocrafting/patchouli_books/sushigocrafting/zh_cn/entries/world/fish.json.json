@@ -1,0 +1,22 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/world/fish.json",
+ "sha1": "39bb9ca550540f99624175bab861a1ef7cc70e5d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Tuna and Shrimp",
+   "金枪鱼和虾"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "You can find those adorable creatures in the Ocean. $(br2)Bring a saddle, who knows what you can do with it.",
+   "你可以在海洋中找到那些可爱的生物。$(br2)带上马鞍，谁知道你能用它做些什么呢。"
+  ]
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/walls.json",
+ "sha1": "7ca4e62db713c5640bab7f56a5f6d0c100a08213",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Walls",
+   "墙"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Any Vanilla Wall block can be decorated with Garland.$(br2)Just combine the wall with your choice of garland in a crafting table.",
+   "任意原版墙体方块均可使用花环进行装饰。$(br2)只需在工作台中将墙体与你选择的花环组合即可。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Walls with Garland",
+   "挂花饰的墙壁"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Walls with Garland",
+   "挂花饰的墙壁"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/categories/passive_mobs_category.json",
+ "sha1": "71a066c30fa58349d3977d5bfe17fd5896860e39",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "These mobs will never hurt anyone!",
+   "这些生物永远不会伤害任何人！"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Passive Mobs",
+   "被动型生物"
+  ]
+ ]
+}

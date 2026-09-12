@@ -1,0 +1,157 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/armor.json",
+ "sha1": "5d83619ec37fbf356e702ee33c7a66e9300faf69",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ugly Sweater Armor",
+   "丑毛衣盔甲"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A set of Ugly Christmas Armor",
+   "一套丑毛衣圣诞盔甲"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "This delightfully tacky Holiday-themed armor comes in 2 colors but can be mixed and matched. $(br2)Hats and Sweaters (Helmets and Chestplates) have a chance to drop from Mobs that are wearing it. ",
+   "这套风格浮夸、主题鲜明的节日盔甲提供两种配色，且可自由混搭。$(br2)帽子与毛衣（头盔与胸甲）有一定几率由穿戴该盔甲的怪物掉落。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Ugly Sweater Armor",
+   "丑毛衣盔甲"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "The armor has several tiers and can be upgraded using a Smithing Table.$(br2)$(li)Tier 1 (Leather): crafted or obtained by drop $(li)Tier 2 (Iron): upgraded in Smithing Table $(li)Tier 3 (Diamond): upgraded in Smithing Table $(li)Tier 4 (Netherite): upgraded in Smithing Table",
+   "该盔甲分为多个阶段，可通过锻造台进行升级。$(br2)$(li)阶段1（皮革）：通过合成或掉落获得 $(li)阶段2（铁）：于锻造台升级 $(li)阶段3（钻石）：于锻造台升级 $(li)阶段4（下界合金）：于锻造台升级"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "To upgrade your armor to Tier 2 or above, you will need a special Smithing Template. These are found in chests throughout the Overworld and can be replicated with the following recipes:",
+   "若要将盔甲升级至阶段2及以上，你需要一种特殊的锻造模板。这些模板散落在主世界各处的宝箱中，亦可通过以下配方复制："
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Smithing Templates",
+   "锻造模板"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Template Duplication",
+   "复制模板"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "The \"Red\" set of Ugly Christmas Armor is crafted with Leather and Red Wool. $(br2)The \"Green\" set is crafted with Leather and Green Wool. $(br2)The recipes for crafting the Tier 1 pieces are:",
+   "“红色”款丑毛衣圣诞盔甲由皮革与红色羊毛合成。$(br2)“绿色”款则由皮革与绿色羊毛合成。$(br2)阶段1部件的合成配方如下："
+  ],
+  [
+   [
+    "pages",
+    6,
+    "title"
+   ],
+   "Helmets",
+   "头盔"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "title"
+   ],
+   "Chestplates",
+   "胸甲"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "title"
+   ],
+   "Leggings",
+   "护腿"
+  ],
+  [
+   [
+    "pages",
+    9,
+    "title"
+   ],
+   "Boots",
+   "靴子"
+  ],
+  [
+   [
+    "pages",
+    10,
+    "text"
+   ],
+   "Smithing recipes for Tier 2 use the Iron Upgrade Smithing Template.",
+   "阶段2的锻造配方需使用铁质升级锻造模板。"
+  ],
+  [
+   [
+    "pages",
+    10,
+    "title"
+   ],
+   "Tier 2 Upgrade Examples",
+   "2级升级示例"
+  ],
+  [
+   [
+    "pages",
+    11,
+    "text"
+   ],
+   "Smithing recipes for Tier 3 use the Diamond Upgrade Smithing Template.",
+   "阶段3的锻造配方需使用钻石升级锻造模板。"
+  ],
+  [
+   [
+    "pages",
+    11,
+    "title"
+   ],
+   "Tier 3 Upgrade Examples",
+   "3级升级示例"
+  ]
+ ]
+}

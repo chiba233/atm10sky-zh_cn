@@ -1,0 +1,112 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/mantels.json",
+ "sha1": "f720178fd4e77a507f87b63b6490b055c97ff519",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Merry Mantels",
+   "节日壁炉台"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Cozy up on a cold night, next to a beautiful fireplace. These Merry Mantels can be decorated and are perfect for sipping cocoa by the fire. $(br2) The mantels are 3 blocks wide, 3 blocks high, and 1 block deep, and are centered around where you place the block. $(br2) Read on for how to decorate them...",
+   "寒冷夜晚，围坐在温暖壁炉旁，惬意十足。这些节日壁炉台支持装饰，是伴着炉火啜饮热可可的绝佳之选。$(br2)壁炉台宽3格、高3格、深1格，以你放置的位置为中心。$(br2)如何装饰？请继续阅读……"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "name"
+   ],
+   "Merry Mantels",
+   "节日壁炉台"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Merry Mantels can be decorated by clicking on each section with Horizontal Garlands of any type, and/or stockings. $(br2) To form a corner on the ends, just place a second piece of the same garland.$(br2) To remove the decorations, click on the mantel with an empty hand. $(br2) Read on for the Recipe...",
+   "节日壁炉台可通过点击各部位，使用任意类型的水平花环和/或长筒袜进行装饰。$(br2)如需在两端形成转角效果，只需再放置一段同款花环即可。$(br2)空手点击壁炉台，即可移除所有装饰。$(br2)相关配方请继续阅读……"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "name"
+   ],
+   "Decorating the Mantels",
+   "壁炉台装饰"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "The Merry Mantels come in every color of the Vanilla woods. They can be crafted with 4 planks and 3 slabs, as shown here.",
+   "节日壁炉台涵盖所有原版木材颜色。如图所示，可用4块木板与3块台阶合成。"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "Read on to learn about the Mantel Decorations...",
+   "请继续阅读，了解壁炉台装饰……"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "There are some specific decoration blocks that are made to fit perfectly atop a Merry Mantel. They are: $(br) $(li)Candle Holders Decoration $(li)Gingerbread House Decoration $(li)Lantern and Poinsetta Decoration $(li)Christmas Tree Decoration $(li)Lantern and Ornament Decoration $(li)Joy Decoration",
+   "存在若干专为节日壁炉台顶部精准适配的特定装饰方块，包括：$(br) $(li)烛台装饰 $(li)姜饼屋装饰 $(li)灯笼与一品红装饰 $(li)圣诞树装饰 $(li)灯笼与饰品装饰 $(li)欢乐装饰"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "Because clicking on a decorated Mantel removes one of its decorations, you'll need to shift-click when placing down Mantel Deco Blocks or any others on the Mantels.",
+   "由于空手点击已装饰的壁炉台会移除其中一项装饰，因此在壁炉台上放置壁炉台装饰方块或其他装饰时，请务必按住Shift键点击。"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "title"
+   ],
+   "Mantel Decorations",
+   "壁炉台装饰"
+  ],
+  [
+   [
+    "pages",
+    9,
+    "title"
+   ],
+   "Mantel Decorations",
+   "壁炉台装饰"
+  ],
+  [
+   [
+    "pages",
+    10,
+    "title"
+   ],
+   "Mantel Decorations",
+   "壁炉台装饰"
+  ]
+ ]
+}

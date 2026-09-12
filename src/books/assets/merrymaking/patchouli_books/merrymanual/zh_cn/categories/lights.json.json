@@ -1,0 +1,20 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/categories/lights.json",
+ "sha1": "105551805dd4ade56643bb42ba1babaac473b860",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "There are several types of colored lights to illuminate your world with.",
+   "多种彩灯可供选择，点亮你的整个世界。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Lights",
+   "灯火"
+  ]
+ ]
+}

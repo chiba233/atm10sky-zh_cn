@@ -1,0 +1,58 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/fences.json",
+ "sha1": "d7f39c75eac876016395b45b9962e7d1036154ca",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Picket Fences and Gates",
+   "栅栏与栅栏门"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Decorated Oak Picket Fence!",
+   "已装饰的橡木尖桩篱栅！"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "The Picket Fence is a special decorative type of Fence block. It has a matching gate and comes in all Vanilla wood colors.$(br2)These pretty fences can be decorated with greenery and lights to spruce them up for the holidays.",
+   "尖桩篱栅是一种特殊的装饰性篱栅方块，配有匹配的栅门，并涵盖全部原版木材颜色。$(br2)这些美观的篱栅可通过绿植与灯具装饰，为节日增添氛围。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "To decorate a Picket Fence, combine it with any type of Horizontal Garland in a crafting table. $(br2)The Picket Fence Gate can be combined with a wreath of your choice for decoration.",
+   "要装饰尖桩篱栅，请在工作台中将其与任意水平花环组合。$(br2)尖桩篱栅门则可与任选花环组合以作装饰。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Picket Fences",
+   "尖桩栅栏"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "title"
+   ],
+   "Decorated Picket Fences",
+   "装饰尖桩栅栏"
+  ]
+ ]
+}

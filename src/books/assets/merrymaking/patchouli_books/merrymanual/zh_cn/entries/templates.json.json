@@ -1,0 +1,49 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/entries/templates.json",
+ "sha1": "d9a3f5f8fca597db8f075f17e144cd458d7cdf70",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Templates",
+   "模版"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Templates are used to define a left or right shape of a light/garland block when crafting. Templates are reusable and will remain after crafting. Template recipes require green dye and paper, and can be used for both lights and garlands. The template recipes are:",
+   "模板用于在合成灯具/花环方块时定义“左”或“右”的造型。模板可重复使用，合成后仍保留。模板配方需绿色染料与纸，灯具与花环通用。模板配方如下："
+  ],
+  [
+   [
+    "pages",
+    1,
+    "title"
+   ],
+   "Diagonal Templates",
+   "对角模板"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Vertical Templates",
+   "竖直模板"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Vertical Corner Templates",
+   "竖直角模板"
+  ]
+ ]
+}

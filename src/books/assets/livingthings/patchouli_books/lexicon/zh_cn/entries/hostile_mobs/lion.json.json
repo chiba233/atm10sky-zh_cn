@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/hostile_mobs/lion.json",
+ "sha1": "d3530933fca3a4d67a218a953623345d4a800124",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Lion",
+   "狮子"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A dangerous animal!$(br2)$(bold)Health: $()10 Hearts$(br)$(bold)Attack-Damage: $()2.5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Raw Beef$(li)Raw Chicken$(li)Raw Rabbit",
+   "一种危险的生物！$(br2)$(bold)生命值：$()10颗心$(br)$(bold)攻击伤害：$()2.5颗心$(br2)$(bold)繁殖物品：$()$(li)生牛肉$(li)生鸡肉$(li)生兔肉"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in all $(bold)Savanna$() biomes.",
+   "可在所有$(bold)热带草原$()生物群系中找到。"
+  ]
+ ]
+}

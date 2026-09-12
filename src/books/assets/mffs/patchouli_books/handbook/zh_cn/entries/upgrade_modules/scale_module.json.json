@@ -1,0 +1,31 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/upgrade_modules/scale_module.json",
+ "sha1": "9056ec841ddd06676cb6fe2be2c8e53b1001bfb0",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Scale Module",
+   "扩展模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(5)Scale Module$() can be placed in the upgrade slots of various MFFS machines to upgrade their distance capabilities. Its effects vary depending on the machine, but most commonly include: $(li)Incrasing force field size$(li)Increasing interdiction area$(li)Increasing the fuel boost in a $(l:mffs:machines/coercion_deriver)Coercion Deriver$()",
+   "$(5)扩展模块$()可被置入各类MFFS机器的升级插槽中，以提升其作用距离能力。其具体效果因机器而异，但最常见的是：$(li)增大力场尺寸$(li)扩大拦截区域$(li)提升$(l:mffs:machines/coercion_deriver)Fortron 衍生器$()的燃料增益"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Scale Module$().",
+   "合成$(5)扩展模块$()。"
+  ]
+ ]
+}

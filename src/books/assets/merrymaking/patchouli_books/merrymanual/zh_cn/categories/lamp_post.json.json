@@ -1,0 +1,20 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/categories/lamp_post.json",
+ "sha1": "8413b60eda0fc796375f0f0067a4ca25567c86ec",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "What better way to light your path than an old-fashioned lamp post?",
+   "还有什么比一盏复古灯柱更能照亮你的前路呢？"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Lamp Post",
+   "灯柱"
+  ]
+ ]
+}

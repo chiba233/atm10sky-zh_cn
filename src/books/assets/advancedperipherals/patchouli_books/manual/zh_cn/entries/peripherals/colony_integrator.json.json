@@ -1,0 +1,31 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/colony_integrator.json",
+ "sha1": "831b6647cee72f770d73fb7a88274c2cfdba3522",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Colony integrator",
+   "殖民地整合器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The colony integrator can interact with a colony from MineColonies..$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/peripherals/colony_integrator/)official wiki page$(/l)$()!",
+   "殖民地积分器可与模拟殖民地模组中的殖民地进行交互。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/colony_integrator/)官方维基页面$(/l)$()！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Connect your Colony integrator to a computer in area of village to make use of it!",
+   "将你的殖民地整合器连接至村庄区域内的计算机即可使用！"
+  ]
+ ]
+}

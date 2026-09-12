@@ -1,0 +1,20 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/categories/doors.json",
+ "sha1": "80044495fe7e5e0fabc74101c6d45952247c439d",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Greet your guests with a festive wreath on your door.",
+   "在门上挂上喜庆的花环，热情迎接来访的客人。"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Decorated Doors",
+   "装饰门"
+  ]
+ ]
+}

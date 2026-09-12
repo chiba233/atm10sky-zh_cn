@@ -1,0 +1,20 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/categories/misc.json",
+ "sha1": "56e402ea757408ba6e0bf3daf1e70c29a241bf6a",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Miscellaneous",
+   "杂项"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Misc",
+   "杂项"
+  ]
+ ]
+}

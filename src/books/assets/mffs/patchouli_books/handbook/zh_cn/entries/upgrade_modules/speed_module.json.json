@@ -1,0 +1,31 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/upgrade_modules/speed_module.json",
+ "sha1": "414aaf0ade6c2c7d0d7db0ca2688e50cd8832177",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Speed Module",
+   "速度模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(5)Speed Module$() can be placed in the upgrade slots of various MFFS machines to upgrade their performance. Its effects vary depending on the machine, but most commonly include: $(li)Speeding up force field projection$(li)Increasing the $(l:mffs:getting_started/fortron)Fortron$() transfer limit of a $(l:mffs:machines/fortron_capacitor)Fortron Capacitor$()$(li)Increasing the efficiency of a $(l:mffs:machines/coercion_deriver)Coercion Deriver$()",
+   "$(5)速度模块$()可放置在各种模块化力场系统机器的升级槽中，以提升其性能。其效果因机器而异，但通常包括：$(li)加快力场投射速度$(li)提高$(l:mffs:getting_started/fortron)力场子$()在$(l:mffs:machines/fortron_capacitor)Fortron 能量储存器$()中的传输上限$(li)提升$(l:mffs:machines/coercion_deriver)Fortron 衍生器$()的效率"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Speed Module$().",
+   "合成$(5)速度模块$()。"
+  ]
+ ]
+}

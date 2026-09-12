@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/items/giraffe.json",
+ "sha1": "ca66743bf3a52eef3dea3a8c7c508a773215852a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Raw Giraffe Meat",
+   "生长颈鹿肉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br)$(bold)Obtaining:$()$(br)can be dropped by Giraffes",
+   "$(br)$(bold)获取方式：$()$(br)可由长颈鹿掉落"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(br)$(bold)Usage:$()$(li)can be eaten$(li)can be smelted to Cooked Giraffe Meat",
+   "$(br)$(bold)用途：$()$(li)可食用$(li)可冶炼为烤长颈鹿肉"
+  ]
+ ]
+}

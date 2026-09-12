@@ -1,0 +1,31 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/projector_modules/sponge_module.json",
+ "sha1": "c0ec0652eefc81ab60a2c9814810971a1890471d",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Sponge Module",
+   "海绵模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Placing a $(5)Sponge Module$() in a $(l:mffs:machines/projector)Force Field Projector$() makes it continually detect and remove any fluids contained within the field. The rate at which fluids are removed can be increased by installing $(l:mffs:upgrade_modules/speed_module)$(5)Speed Module$()s. Higher rates may be needed for removing infinite fluids, such as Water.",
+   "在$(5)力场投影仪$()中放置$(l:mffs:machines/projector)海绵模块$()，可使其持续侦测并清除力场内部所有流体。通过安装$(l:mffs:upgrade_modules/speed_module)$(5)速度模块$()，可加快流体清除速率。对于水等无限流体，可能需要更高的清除速率。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Sponge Module$().",
+   "合成$(5)海绵模块$()。"
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "src": "assets/merrymaking/patchouli_books/merrymanual/en_us/categories/wreaths.json",
+ "sha1": "52ba4ca474d681bb97cb970ae5ce90ca7cdddb1a",
+ "t": [
+  [
+   [
+    "description"
+   ],
+   "Nothing says \"Home for the Holidays\" like a pretty wreath.",
+   "还有什么比一顶精致的花环，更能诠释‘节日归家’的温馨意境呢？"
+  ],
+  [
+   [
+    "name"
+   ],
+   "Wreaths",
+   "花环"
+  ]
+ ]
+}

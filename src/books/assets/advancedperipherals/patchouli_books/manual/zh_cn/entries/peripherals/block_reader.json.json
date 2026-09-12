@@ -1,0 +1,31 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/block_reader.json",
+ "sha1": "f50ca9b996d052cc08e5881df7f8efbf290f6064",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Block reader",
+   "方块读取器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "This block is able to read data of blocks and tile entities in front of it.$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/peripherals/block_reader/)official wiki page$(/l)$()!",
+   "该方块可读取其前方方块及多方块实体的数据。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/block_reader/)官方维基页面$(/l)$()！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Connect your Block reader to a computer and target block to make use of it!",
+   "将你的方块读取器连接至计算机，并指定目标方块即可使用！"
+  ]
+ ]
+}

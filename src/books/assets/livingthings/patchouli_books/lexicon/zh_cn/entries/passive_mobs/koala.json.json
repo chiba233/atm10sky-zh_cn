@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/passive_mobs/koala.json",
+ "sha1": "02669405c27d9fd625abf3fb81f7719e48ae3f3a",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Koala",
+   "考拉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Very slow animal, that will sleep most of the day.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat$(br2)$(bold)Drops:$()$(li)1-2 Leather",
+   "行动极为缓慢的动物，白天大部分时间都在睡觉。$(br2)$(bold)生命值：$()5颗心$(br2)$(bold)繁殖物品：$()$(li)小麦$(br2)$(bold)掉落物：$()$(li)1–2个皮革"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in all $(bold)Jungle$() biomes.",
+   "可在所有$(bold)丛林$()生物群系中找到。"
+  ]
+ ]
+}

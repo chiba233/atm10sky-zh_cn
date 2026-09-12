@@ -1,0 +1,11 @@
+{
+  "text.trender.tab.general_options": "选项",
+  "text.trender.style": "界面样式",
+  "text.trender.style.tooltip": "更改所有由 tr7zw 制作的模组的界面样式。",
+  "text.trender.style.MODERN": "现代",
+  "text.trender.style.MODERN_DARK": "现代（深色）",
+  "text.trender.style.VANILLA_OLD": "原版（旧版）",
+  "text.trender.style.VANILLA_MODERN": "原版（现代）",
+  "text.trender.sendstacktraces": "发送堆栈跟踪",
+  "text.trender.sendstacktraces.tooltip": "启用后，如果日志中的堆栈跟踪或游戏崩溃信息包含对 tr7zw 模组的引用，则会通过 Sentry（Sentry.io）将其发送给模组作者，以便更快地修复问题。不会收集或发送个人信息。（启用后请重启游戏）"
+}

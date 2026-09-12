@@ -1,0 +1,31 @@
+{
+ "src": "assets/advancedperipherals/patchouli_books/manual/en_us/entries/peripherals/energy_detector.json",
+ "sha1": "d5f047c7b18686bb48a6502293aa23a9e8db45d9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Energy Detector",
+   "能量侦测器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The Energy Detector can detect energy flow and acts as a resistor. You can define the max flow rate to use it as a resistor.$(p)For the full documentation please see the $(9)$(l:https://docs.advanced-peripherals.de/peripherals/energy_detector/)official wiki page$(/l)$()!",
+   "能量侦测器可用于检测能量流，并可充当电阻器。你可以设定最大流速，从而将其用作电阻器。$(p)完整说明请参阅$(9)$(l:https://docs.advanced-peripherals.de/peripherals/energy_detector/)官方维基页面$(/l)$()！"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Connect your Energy Detector to a computer to make use of it!",
+   "将你的能量侦测器连接至计算机即可使用！"
+  ]
+ ]
+}

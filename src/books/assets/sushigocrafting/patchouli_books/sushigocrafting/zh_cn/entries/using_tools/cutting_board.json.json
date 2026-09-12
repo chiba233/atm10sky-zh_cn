@@ -1,0 +1,22 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/using_tools/cutting_board.json",
+ "sha1": "ec66add5b4ef3d16695ad387c800844c1471986f",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Cutting Board",
+   "刀砧板"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Chopping your ingredients is an important step for cooking, you can place your ingredients by right clicking the Cutting Board and right clicking with a $(6)Cleaver Knife$() those ingredients will get chopped up. $(br)To remove ingredients Sneak + Right Click the cutting board. $(br2)$(l:getting_started/effects)Steady Hands$() will be your friends when using the cutting boards.",
+   "切配食材是烹饪过程中至关重要的一步：右击刀砧板放置食材，再手持$(6)砍刀$()右击这些食材，即可完成切配。$(br)如需移除食材，请潜行并右击刀砧板。$(br2)$(l:getting_started/effects)坚定的手$()将在你使用刀砧板时成为得力助手。"
+  ]
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/passive_mobs/ostrich.json",
+ "sha1": "66bc0a00b0f0c9b65469ef4e6ad6a9cf9f61bbbd",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Ostrich",
+   "鸵鸟"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Fast running bird that can be ridden without a saddle.$(br2)$(bold)Health: $()10 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat$(br2)$(bold)Breeding Behavior:$()$(br)    Next Page ...",
+   "奔跑迅捷的鸟类，无需马鞍即可骑乘。$(br2)$(bold)生命值：$()10颗心$(br2)$(bold)繁殖物品：$()$(li)小麦$(br2)$(bold)繁殖行为：$()$(br)    下一页 …"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in all $(bold)Savanna$() biomes.",
+   "可在所有$(bold)热带草原$()生物群系中找到。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "$(bold)Breeding Behavior:$()$(br2)After two ostrichs fell in love, one of them will search the nearest sand-block to build a nest on it.$(br)If there is already an empty nest nearby, the ostrich will choose this to lay the egg.$(br)The egg will need some time, before an ostrich baby will hatch.",
+   "$(bold)繁殖行为：$()$(br2)当两只鸵鸟相恋后，其中一只将寻找最近的沙方块并在其上筑巢。$(br)若附近已有空置的孵化巢，鸵鸟将直接选择该巢产卵。$(br)蛋需要一段时间才能孵化出幼年鸵鸟。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "An ostrich laying an egg into its nest.",
+   "一只正在孵化巢中产卵的鸵鸟。"
+  ]
+ ]
+}

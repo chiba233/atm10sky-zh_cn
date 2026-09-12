@@ -1,0 +1,31 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/interdiction_modules/anti_hostile_module.json",
+ "sha1": "17723c615c78914a522c5551d148ea1c4ddf0459",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Anti-Hostile Module",
+   "反敌对生物模块"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(5)Anti-Hostile Module$() is an optional module for the $(l:mffs:machines/interdiction_matrix)Interdiction Matrix$(). With this module installed, the Matrix is able to automatically detect hostile mobs that enter its scanning range and kill them - almost instantly. Players and non-hostile entities such as villagers and animals are not harmed.",
+   "$(5)反敌对生物模块$()是$(l:mffs:machines/interdiction_matrix)干涉矩阵$()的可选模块。安装此模块后，干涉矩阵将自动检测进入其扫描范围的敌对生物，并几乎瞬间将其击杀。玩家及非敌对实体（如村民和动物）则不会受到伤害。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(5)Anti-Hostile Module$().",
+   "合成$(5)反敌对生物模块$()。"
+  ]
+ ]
+}

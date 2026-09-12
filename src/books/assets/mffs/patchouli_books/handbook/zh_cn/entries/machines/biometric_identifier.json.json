@@ -1,0 +1,121 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/machines/biometric_identifier.json",
+ "sha1": "32c9ad42a90ee9e2aefc7e04043c82186b7e9b82",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Biometric Identifier",
+   "生物识别器"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "The $(9)Biometric Identifier$() is a member of the MFFS family of machines. It uses bio-signatures given off by players to govern what permissions they have when interacting with force fields and MFFS machines. For example, it can allow a player to pass through an active force field, or exempt them from the effects of the $(l:mffs:machines/interdiction_matrix)Interdiction Matrix$().",
+   "$(9)生物识别器$()属于MFFS系列机器之一。它通过读取玩家释放的生物特征信号，来管理玩家在与力场及MFFS机器交互时的权限。例如，它可允许玩家穿过激活中的力场，或使其免受$(l:mffs:machines/interdiction_matrix)干涉矩阵$()的影响。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(9)Biometric Identifier$().",
+   "合成$(9)生物识别器$()。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "To configure the $(9)Biometric Identifier$() to recognise a player, open its GUI screen and place an $(l:mffs:tools/id_card)Identification Card$() into the top-left item slot labeled $(2)Rights$(). If the Identification Card is blank and hasn't already been assigned, you can either shift-right-click while holding it in your hand to assign it to yourself, or shift-right-click another player to assign it to them.",
+   "要配置$(9)生物识别器$()以识别某位玩家，请打开其GUI界面，并将一张$(l:mffs:tools/id_card)识别卡$()放入左上角标注为$(2)权限$()的物品栏中。若该识别卡为空白且尚未分配，你可手持该卡并按住Shift键右击以将其分配给自己，或对另一位玩家按住Shift键右击以将其分配给对方。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Usage",
+   "使用"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "Next, set which permissions you wish the player to have by toggling the buttons on the right side of the GUI. Each button assigns the following permission:$(li)$(bold)Warp$(): Permit the player to bypass force fields by sneaking through them.$(li)$(bold)Block Alter$(): Allow the player to place or break blocks while standing inside the area protected by the $(l:mffs:machines/interdiction_matrix)Interdiction Matrix$().$()",
+   "接下来，通过点击GUI界面右侧的按钮，设定你希望该玩家拥有的权限。每个按钮对应如下权限：$(li)$(bold)传送$()：允许玩家潜行穿过力场以绕过限制。$(li)$(bold)修改拦截$()：允许玩家在$(l:mffs:machines/interdiction_matrix)干涉矩阵$()保护区域内放置或破坏方块。$()"
+  ],
+  [
+   [
+    "pages",
+    4,
+    "text"
+   ],
+   "$(li)$(bold)Block Access$(): Let the player open the GUI screen of anything while standing inside the Matrix's operational range.$(li)$(bold)Configure$(): Grant the player access to configure the Biometric Identifier and change user permissions.$(li)$(bold)Bypass Defense$(): Allow the player to bypass restrictions enforced by the $(l:mffs:machines/interdiction_matrix)Interdiction Matrix$().$(li)$(bold)Bypass Confiscation$(): Exempt the player from the confiscation effect of the Interdiction Matrix.$()",
+   "$(li)$(bold)访问拦截$()：允许玩家在干涉矩阵运行范围内打开任意物品的GUI界面。$(li)$(bold)配置$()：授予玩家配置生物识别器及修改用户权限的权限。$(li)$(bold)无视防御$()：允许玩家绕过$(l:mffs:machines/interdiction_matrix)干涉矩阵$()所施加的限制。$(li)$(bold)无视收缴$()：使玩家免受干涉矩阵收缴效果的影响。$()"
+  ],
+  [
+   [
+    "pages",
+    5,
+    "text"
+   ],
+   "$(li)$(bold)Remote Control$(): Permit the player to use a remote control on machines linked to the Identifier.$(p)With the player's rights now assigned, move their card into any of the 9 slots along the bottom of the GUI screen to complete the process. To set yourself as the master of a $(9)Biometric Identifier$(), place an $(l:mffs:tools/id_card)Identification Card$() assigned to you into the item slot labeled $(2)Master$().",
+   "$(li)$(bold)远程控制$()：允许玩家使用远程控制器操作与该识别器关联的机器。$(p)在玩家权限设定完毕后，将其识别卡移入GUI界面底部任意一个9格插槽中，即可完成整个流程。若要将自己设为$(9)生物识别器$()的管理员，请将一张已分配给你的$(l:mffs:tools/id_card)识别卡$()放入标注为$(2)管理员$()的物品栏中。"
+  ],
+  [
+   [
+    "pages",
+    6,
+    "text"
+   ],
+   "The master user of a $(9)Biometric Identifier$() is $(4)automatically granted all permissions.$() Enable the $(9)Biometric Identifier$() by applying a Redstone signal or by clicking the Redstone Torch button in the top-left corner of its GUI. Once activated, the $(9)Biometric Identifier$() will light up and take effect.",
+   "$(9)生物识别器$()的管理员用户$(4)将自动获得全部权限。$()通过红石信号或点击GUI界面左上角的红石火把按钮，启用$(9)生物识别器$()。一旦激活，$(9)生物识别器$()将亮起并开始生效。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "text"
+   ],
+   "An active $(9)Biometric Identifier$().",
+   "一个正在运行的$(9)生物识别器$()。"
+  ],
+  [
+   [
+    "pages",
+    7,
+    "title"
+   ],
+   "Display",
+   "显示屏"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "text"
+   ],
+   "$(li)While warping through a force field, a player must keep sneaking until they have fully exited the field barrier, otherwise they'll be killed.$(li)$(l:mffs:tools/id_card)Identification Card$()s can't be removed from the Identifier while it's active.$(li)Passing through a force field can cause temporary Nausea IV.$(li)A player in creative mode can always warp through a force field.$()",
+   "$(li)玩家在力场中传送时，必须持续潜行直至完全离开力场屏障，否则将被击杀。$(li)$(l:mffs:tools/id_card)识别卡$()在生物识别器激活状态下无法被取出。$(li)穿过力场可能导致短暂的恶心IV效果。$(li)创造模式下的玩家始终可自由传送穿过力场。$()"
+  ],
+  [
+   [
+    "pages",
+    8,
+    "title"
+   ],
+   "Notes",
+   "笔记"
+  ]
+ ]
+}

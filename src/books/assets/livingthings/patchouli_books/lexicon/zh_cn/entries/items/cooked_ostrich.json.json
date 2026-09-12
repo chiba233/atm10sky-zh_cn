@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/items/cooked_ostrich.json",
+ "sha1": "f224277510944f91f5f092dc0447a3426e2c54a9",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Cooked Ostrich Meat",
+   "烤鸵鸟肉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br)$(bold)Obtaining:$()$(br)can be obtained by smelting Raw Ostrich Meat",
+   "$(br)$(bold)获取方式：$()$(br)可通过冶炼生鸵鸟肉获得"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(br)$(bold)Usage:$()$(li)can be eaten",
+   "$(br)$(bold)用途：$()$(li)可食用"
+  ]
+ ]
+}

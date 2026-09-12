@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/neutral_mobs/elephant.json",
+ "sha1": "3d1b5272cefd0cbeb1d0ce0286f7cb42fdf6773e",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Elephant",
+   "大象"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "Huge animals that will be angry when you attack them!$(br2)$(bold)Health: $()30 Hearts$(br)$(bold)Attack-Damage: $()3.5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Wheat (only tamed ones)$(br2)Can be tamed with apples. Tamed Elephants can be equipped with a saddle, and then with a chest.",
+   "体型庞大的动物，一旦受到攻击便会暴怒！$(br2)$(bold)生命值：$()30颗心$(br)$(bold)攻击伤害：$()3.5颗心$(br2)$(bold)繁殖物品：$()$(li)小麦（仅限已驯服个体）$(br2)可用苹果驯服。驯服后的大象可装备马鞍，再装备箱子。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in all $(bold)Savanna$() biomes.",
+   "可在所有$(bold)热带草原$()生物群系中找到。"
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/using_tools/rice_cooker.json",
+ "sha1": "fa0b3bfdd7e91e0348cb8f603eba68032f516880",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Rice Cooker",
+   "电饭煲"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A machine used to cook rice perfectly to $(6)Uncle Roger$() standards. To cook it you will need Rice, Water and some fuel to cook it up. $(br2)You won't have to worry about the weights in the output slot, Cooked Rice will be combined automatically.",
+   "一台专为将稻米烹煮至$(6)罗杰叔叔$()标准而设计的机器。烹煮时需准备稻米、水以及一定量的燃油。$(br2)输出槽中的重量无需担心，米饭将自动合并为 cooked rice（米饭）。"
+  ]
+ ]
+}

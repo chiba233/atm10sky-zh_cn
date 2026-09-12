@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/items/elephant.json",
+ "sha1": "ab70561f3fb6efffa723f5e461a3997473840da4",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Raw Elephant Meat",
+   "生大象肉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br)$(bold)Obtaining:$()$(br)can be dropped by Elephants",
+   "$(br)$(bold)获取方式：$()$(br)可由大象掉落"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(br)$(bold)Usage:$()$(li)can be eaten$(li)can be smelted to Cooked Elephant Meat",
+   "$(br)$(bold)用途：$()$(li)可食用$(li)可冶炼为烤大象肉"
+  ]
+ ]
+}

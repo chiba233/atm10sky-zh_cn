@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/passive_mobs/penguin.json",
+ "sha1": "7487099c8c01c43ae21dad9fe7f2b9c7d8d9bae5",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Penguin",
+   "企鹅"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "A cute animal that is very talkative.$(br2)$(bold)Health: $()5 Hearts$(br2)$(bold)Breeding Items: $()$(li)Raw Salmon$(li)Raw Cod$(li)Pufferfish",
+   "一只可爱又爱说话的小动物。$(br2)$(bold)生命值：$()5颗心$(br2)$(bold)繁殖物品：$()$(li)生鲑鱼$(li)生鳕鱼$(li)河豚"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Can be found in $(bold)Snowy$() biomes.",
+   "可在$(bold)雪原$()生物群系中找到。"
+  ]
+ ]
+}

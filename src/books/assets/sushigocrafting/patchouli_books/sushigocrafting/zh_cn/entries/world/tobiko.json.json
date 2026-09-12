@@ -1,0 +1,22 @@
+{
+ "src": "assets/sushigocrafting/patchouli_books/sushigocrafting/en_us/entries/world/tobiko.json",
+ "sha1": "51059ca43f807962a94c124dcbaaa92744385a49",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Tobiko",
+   "鱼子"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "You can get Tobiko from killing fishes.",
+   "你可以通过击杀鱼类获得鱼子。"
+  ]
+ ]
+}

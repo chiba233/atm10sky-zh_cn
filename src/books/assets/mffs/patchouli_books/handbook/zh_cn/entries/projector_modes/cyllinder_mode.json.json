@@ -1,0 +1,67 @@
+{
+ "src": "assets/mffs/patchouli_books/handbook/en_us/entries/projector_modes/cyllinder_mode.json",
+ "sha1": "ebb456b5d21c891c2995442e8d94131f60191c59",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Cylinder Mode",
+   "圆柱体模式"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "By default, the $(2)Cylinder Mode$() sets the Projector to generate a force field in the shape of a cylinder that is exactly 1 block thick. Each $(l:mffs:upgrade_modules/scale_module)$(5)Scale Module$() increases the size of the force field by 1 block in the target direction.",
+   "默认情况下，$(2)圆柱体模式$()会将投射器设置为生成厚度恰好为1个方块的圆柱形力场。每个$(l:mffs:upgrade_modules/scale_module)$(5)扩展模块$()均可使力场在目标方向上扩大1个方块。"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "Crafting the $(2)Cylinder Mode$().",
+   "合成$(2)圆柱体模式$()。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "text"
+   ],
+   "Placing a $(l:mffs:upgrade_modules/scale_module)$(5)Scale Module$() into an item slot marked by a directional arrow will scale the field by 1 block in only that direction. For example, to increase the height of a force field by 1 block; add a $(l:mffs:upgrade_modules/scale_module)$(5)Scale Module$() into an item slot marked by a directional arrow pointing towards the top-left or top-right of the GUI screen.",
+   "将$(l:mffs:upgrade_modules/scale_module)$(5)扩展模块$()放入带有方向箭头标记的物品槽中，可使力场仅在该方向上扩大1个方块。例如，若要将力场高度增加1个方块，请将$(l:mffs:upgrade_modules/scale_module)$(5)扩展模块$()放入GUI界面左上角或右上角方向箭头所标记的物品槽中。"
+  ],
+  [
+   [
+    "pages",
+    2,
+    "title"
+   ],
+   "Field Adjustment",
+   "场调整"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "text"
+   ],
+   "A scaled $(2)Cylinder Mode$() field being projected.",
+   "一个已缩放的$(2)圆柱体模式$()力场正在被投射。"
+  ],
+  [
+   [
+    "pages",
+    3,
+    "title"
+   ],
+   "Projection",
+   "投射"
+  ]
+ ]
+}

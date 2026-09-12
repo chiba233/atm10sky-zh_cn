@@ -1,0 +1,31 @@
+{
+ "src": "assets/livingthings/patchouli_books/lexicon/en_us/entries/items/banana.json",
+ "sha1": "b913d1d16132ea3522b8918e8ee144dc90bd61cc",
+ "t": [
+  [
+   [
+    "name"
+   ],
+   "Banana",
+   "香蕉"
+  ],
+  [
+   [
+    "pages",
+    0,
+    "text"
+   ],
+   "$(br)$(bold)Obtaining:$()$(br)can be obtained by breaking jungle leaves",
+   "$(br)$(bold)获取方式：$()$(br)可通过破坏丛林树叶获得"
+  ],
+  [
+   [
+    "pages",
+    1,
+    "text"
+   ],
+   "$(br)$(bold)Usage:$()$(li)can be eaten",
+   "$(br)$(bold)用途：$()$(li)可食用"
+  ]
+ ]
+}
