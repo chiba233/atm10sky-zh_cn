@@ -1,78 +1,228 @@
 {
+	quest.0061B0577B1C4AEF.quest_desc: ["&7我们踏进&bEnder IO&7的第一步，是去找一种会发光的奇怪材料。\\n&6无限粉&r的拿法是给&7基岩&r或&5黑曜石块1x&r&c点火&r。点燃一块基岩时，它有小概率掉出这个物品；筛尘土也能筛到。\\n&a提示：&r开局只需要一小把，因为几乎每个 Ender IO 基础配方都以它起头，包括那台朴实无华的&6合金炉&r。"]
 	quest.0061B0577B1C4AEF.quest_subtitle: "&7基岩之力的一点火星"
 	quest.0061B0577B1C4AEF.title: "&d&l无限粉"
+	quest.00E6B3F670E20454.quest_desc: [
+		"&7&l魂金&r由&6金&r和&7灵魂沙&r在&6合金炉&r里熔炼而成。"
+		"&5灵魂瓶&r，以及所有与捕捉、绑定灵魂打交道的机器——比如&5灵魂绑定器&r——背后靠的都是它。"
+	]
 	quest.00E6B3F670E20454.quest_subtitle: "&7与受难灵魂绑在一起的黄金"
 	quest.00E6B3F670E20454.title: "&5&l魂金锭"
+	quest.03EC3173343B11F5.quest_desc: ["&7这把剑由&7玄钢锭&r打造，功能远不及它全盛时期。眼下它唯一的用处是砍下怪物的头，概率 7%。"]
 	quest.03EC3173343B11F5.quest_subtitle: "&7与我们一同成长的利刃"
 	quest.03EC3173343B11F5.title: "&7&l终结之剑"
+	quest.0527CE6921ADB079.quest_desc: [
+		"&7&5灵魂绑定器&r消耗&9µI&r能量和经验汁来合成特殊物品，比如把装了怪的&5灵魂瓶&r绑到&7破损的刷怪笼&r上。"
+		"给它灌经验可以用&7经验棒&r，也可以用流体导管把&2经验汁&r输进去。"
+	]
 	quest.0527CE6921ADB079.quest_subtitle: "&7能量与液态经验交汇之处"
 	quest.0527CE6921ADB079.title: "&5&l灵魂绑定器"
+	quest.05352452468E8375.quest_desc: [
+		"&7&b导电合金&r在&6合金炉&r里用&6金&r、&c红石&r和&e荧石粉&r熔炼而成。"
+		"我们会拿它来做高级能量导管，以及若干磨珠和中期机器。"
+	]
 	quest.05352452468E8375.quest_subtitle: "&7黄金、红石与荧石的结合"
 	quest.05352452468E8375.title: "&b&l导电合金锭"
+	quest.082DEC8CBA6D23E5.quest_desc: [
+		"&7&l玄钢&r是我们在 Ender IO 里要做的最重要的合金之一。"
+		"在&6合金炉&r里把&f铁&r、&8煤炭粉&r和&5黑曜石&r合到一起就能做出它。"
+		"&a提示：&r这种锭是玄钢工具、玄钢盔甲和若干高级机器的骨架，手头最好一直备着。"
+	]
 	quest.082DEC8CBA6D23E5.quest_subtitle: "&7由铁、煤与黑曜石锻成"
 	quest.082DEC8CBA6D23E5.title: "&7&l玄钢锭"
+	quest.0C220E9B2A780082.quest_desc: [
+		"&7把电池升级成&b高级电容库&r，储能量和给工具充电的速度都会提高。"
+		"它由&b基础电容库&r和&a双层电容&r合成。"
+	]
 	quest.0C220E9B2A780082.quest_subtitle: "&7更大的缓存，更快的充能"
 	quest.0C220E9B2A780082.title: "&b&l高级电容库"
+	quest.0EAB51C9B13A959B.quest_desc: [
+		"&7只要站在附近，&9无线充能器&r就会给我们手上和身上任何吃 RF 的工具、盔甲或物品充电。"
+		"有了它，靠电容驱动的装备就能一直满电，不用一件件手动去插。"
+	]
 	quest.0EAB51C9B13A959B.quest_subtitle: "&7不接线也能充能"
 	quest.0EAB51C9B13A959B.title: "&9&l无线充能器"
+	quest.128E4A78E76F366C.quest_desc: [
+		"&7先准备一个&7破损的刷怪笼&r，再把装着目标怪物的&5灵魂瓶&r放进&5灵魂绑定器&r，把那个灵魂绑上去。"
+		"接着和&c电动刷怪笼&r的外壳组合，就得到一台专刷该怪物、完全可用的刷怪笼——驱动它的是&9µI&r，而不是守在旁边的玩家。"
+		"&e注意：&r这条任务我们用的是&f悦灵&r，但灵魂瓶几乎能装下任何怪物。"
+	]
 	quest.128E4A78E76F366C.quest_subtitle: "&7让任何刷怪笼听我们的"
 	quest.128E4A78E76F366C.title: "&c&l电动刷怪笼"
+	quest.141101C9A381905C.quest_desc: [
+		"&7几乎&l每一台&r Ender IO 机器都要装上电容，才能储存和使用&9µI&r能量。"
+		"&a基础电容&r是起步的那一档，由&e充能合金&r制成。没有它，机器根本转不起来。"
+	]
 	quest.141101C9A381905C.quest_subtitle: "&7每台机器的心脏"
 	quest.141101C9A381905C.title: "&a&l基础电容"
+	quest.19456F38224A24DB.quest_desc: [
+		"&7&8半自磨机&r靠&9µI&r把矿物和其他物品磨成碎块或粉末，产出往往比普通熔炉或合成配方更多。"
+		"往它的升级槽里放&7磨珠&r，就能提升速度、效率，甚至提高翻倍产出的概率。"
+		"&a提示：&r把粗矿拿来磨而不是直接烧，长远看每份矿能出更多锭。"
+	]
 	quest.19456F38224A24DB.quest_subtitle: "&7把矿石磨出额外的收获"
 	quest.19456F38224A24DB.title: "&8&l半自磨机"
+	quest.1AF97F48B4C13020.quest_desc: [
+		"&7&6耶塔扳手&r是我们摆弄 Ender IO 方块的常备工具：右键旋转机器，潜行右键把它整台收走，内容物和升级件都不会丢。"
+		"配置&b导管&r也少不了它：设定输入/输出面和颜色，让物品、能量和流体精准流向我们想要的地方。"
+	]
 	quest.1AF97F48B4C13020.quest_subtitle: "&7机器与导管的万用工具"
 	quest.1AF97F48B4C13020.title: "&6&l耶塔扳手&r &f\& &2&l导管"
+	quest.1D0725DC4463F895.quest_desc: [
+		"&7只要通过导管或漏斗把材料送进去，&f合成器&r就会自动合成我们在它里面设定好的任何配方。"
+		"它是自动化工厂的中坚，从此量产物品再也不用碰工作台。"
+	]
 	quest.1D0725DC4463F895.quest_subtitle: "&7让工作台自己动手"
 	quest.1D0725DC4463F895.title: "&f&l合成器"
+	quest.224BF0C9690FBEBF.quest_desc: [
+		"&7&5附魔器&r让我们直接给书本&d附魔&r，不用受&5附魔台&r随机性的摆布。"
+		"想往玄钢或末影系的工具武器上叠附魔时，它尤其好用。"
+	]
 	quest.224BF0C9690FBEBF.quest_subtitle: "&7把魔咒附到书上"
 	quest.224BF0C9690FBEBF.title: "&5&l附魔器"
+	quest.262B331BB96336F5.quest_desc: [
+		"&7基地一旦铺满&b导管&r，场面就乱了。&f导管伪装方块&r能把任意导管束伪装成我们挑中的任意方块。"
+		"&a提示：&r把伪装方块往导管上一放，它外观就融进建筑里，底下照常工作。"
+	]
 	quest.262B331BB96336F5.quest_subtitle: "&7把导管藏在明面上"
 	quest.262B331BB96336F5.title: "&f&l导管伪装方块"
+	quest.2802D606849ED924.quest_desc: [
+		"&7&6喷涂机&r会自动给方块套上伪装材质，成批换皮，不必一块块手动摆。"
+		"&a提示：&r把要伪装的方块和想让它长成的那种方块一起丢进去，它会替我们把一整组都处理完。"
+	]
 	quest.2802D606849ED924.quest_subtitle: "&7批量给方块换外观"
 	quest.2802D606849ED924.title: "&6&l喷涂机"
+	quest.2AD8903E9EE3269E.quest_desc: [
+		"&7&5灵魂链条&r由&5魂金&r合成，是灵魂类机器和装备的零件。"
+		"它代表了 Ender IO 合成树里更神秘、更具末影气息的那一面。"
+	]
 	quest.2AD8903E9EE3269E.quest_subtitle: "&7以魂金锻成"
 	quest.2AD8903E9EE3269E.title: "&5&l灵魂链条"
+	quest.2C7D1CD63680FA80.quest_desc: [
+		"&7&2头颅装配机&r能把两件附魔物品合成一件，像原版铁砧那样合并附魔，只不过驱动它的是&9µI&r。"
+		"它还能修理工具和盔甲，而且不需要对应材料，长期下来省下不少资源。"
+	]
 	quest.2C7D1CD63680FA80.quest_subtitle: "&7合并魔咒、修复工具"
 	quest.2C7D1CD63680FA80.title: "&2&l头颅装配机"
+	quest.32191922242B11B5.quest_desc: [
+		"&7&5注魂框架&r是拿&5灵魂链条&r把基础的&8虚空框架&r升级而来，给它添上一点灵魂魔法。"
+		"Ender IO 里一些更高阶的灵魂主题机器要用到它，带我们继续深入这个模组的末影传说。"
+	]
 	quest.32191922242B11B5.quest_subtitle: "&7与灵魂绑定的框架"
 	quest.32191922242B11B5.title: "&5&l注魂框架"
+	quest.3294189EF3C0D5E5.quest_desc: [
+		"&7&d旅行权杖&r让我们在世界各处放下的&d旅行锚&r之间瞬间传送，只要经验够付这一跳的代价。"
+		"基地和任何偏远前哨都该放一个&d旅行锚&r，出门探险和回家都会省心得多。"
+	]
 	quest.3294189EF3C0D5E5.quest_subtitle: "&7在旅行锚之间传送"
 	quest.3294189EF3C0D5E5.title: "&d&l旅行权杖"
+	quest.3DBAC2CDD75763F3.quest_desc: [
+		"&7&9电磁铁&r由&b导电合金&r和&e充能合金&r合成。"
+		"它主要当作零件用，供 Ender IO 的高级机械，以及那些需要吸附或处理金属材料的物品使用。"
+	]
 	quest.3DBAC2CDD75763F3.quest_subtitle: "&7隔空吸引金属"
 	quest.3DBAC2CDD75763F3.title: "&9&l电磁铁"
+	quest.402A53010DFB2D69.quest_desc: [
+		"&7&6斯特林发电机&r烧煤、木炭这类固体燃料，为机器产出&9µI&r能量。"
+		"它简单可靠；在换上更大的发电机之前，拿它把第一套 Ender IO 设备跑起来再合适不过。"
+	]
 	quest.402A53010DFB2D69.quest_subtitle: "&7我们的第一处能量来源"
 	quest.402A53010DFB2D69.title: "&6&l斯特林发电机"
+	quest.435B180FCE208A7B.quest_desc: [
+		"&7升级到&a双层电容&r，机器的储能量和处理速度都会提升。"
+		"它由&e充能合金&r和一个&a基础电容&r合成；等发电量上来了，自然就该走这一步。"
+	]
 	quest.435B180FCE208A7B.quest_subtitle: "&7更多能量，更快速度"
 	quest.435B180FCE208A7B.title: "&a&l双层电容"
+	quest.448CCD89539AEBAC.quest_desc: [
+		"&7&9有线充能器&r会给放进它里面的任何吃 RF 的物品充电，它本身通过导管直连我们的能源网络。"
+		"它和无线充能器是绝配：想把工具丢着慢慢充、自己去忙别的时，用它正好。"
+	]
 	quest.448CCD89539AEBAC.quest_subtitle: "&7把装备直接插上去充"
 	quest.448CCD89539AEBAC.title: "&9&l有线充能器"
+	quest.4557E63F1A6971DA.quest_desc: [
+		"&7&b振动电容库&r是储能设备的最后一档，能存下海量&9µI&r。"
+		"造它需要一个&b高级电容库&r和&a八位电容&r，很适合当作电网的长期目标。"
+	]
 	quest.4557E63F1A6971DA.quest_subtitle: "&7终极能量存储"
 	quest.4557E63F1A6971DA.title: "&b&l振动电容库"
+	quest.477F0905998597FE.quest_desc: [
+		"&7&b汲液泵&r会自动把附近实体产出的流体——比如牛产的奶——直接收进相连的储罐。"
+		"想把流体收集自动化，又不用一只只手动去挤，它很省事。"
+	]
 	quest.477F0905998597FE.quest_subtitle: "&7从附近的生物身上抽取流体"
 	quest.477F0905998597FE.title: "&b&l汲液泵"
+	quest.47F7BA8E81383714.quest_desc: [
+		"&7&d末影水晶&r要在&5灵魂绑定器&r里做，材料是装着&d末影人&r的&5灵魂瓶&r。"
+		"它是 Ender IO 一些最高阶物品的关键零件，与这个模组的末影主题魔法深度绑定。"
+	]
 	quest.47F7BA8E81383714.quest_subtitle: "&7末地结晶而成的碎片"
 	quest.47F7BA8E81383714.title: "&d&l末影水晶"
+	quest.490B64C64BDE76F7.quest_desc: [
+		"&7&8虚空框架&r是 Ender IO 多数前中期机器的基础骨架，从发电机到加工机都用它。"
+		"基地一扩张，这东西得做不少，所以值得多囤点&6玄钢锭&r。"
+	]
 	quest.490B64C64BDE76F7.quest_subtitle: "&7撑起机器的框架"
 	quest.490B64C64BDE76F7.title: "&8&l虚空框架"
+	quest.4A7DBDB179F30BC3.quest_desc: [
+		"&7&e充能合金&r是在&6合金炉&r里把&c红石&r、&e荧石粉&r和&6金&r合到一起做成的。"
+		"它是&6电容&r的基础零件，为了让机器一直有电，我们会做很多很多。"
+	]
 	quest.4A7DBDB179F30BC3.quest_subtitle: "&7红石、荧石与黄金"
 	quest.4A7DBDB179F30BC3.title: "&e&l充能合金锭"
+	quest.5D327D85B91E5032.quest_desc: [
+		"&7手握&d无限粉&7，我们终于能造出&6合金炉&r——Ender IO 前期进度的核心。"
+		"这台机器使用 Ender IO 自有的能量形式&9微无限（µI）&r，既能像熔炉一样烧矿，也能熔炼玄钢这类特殊&6合金&r。"
+		"&e注意：&r至少要装上一个&6基础电容&r它才会启动，这一件可别落下！"
+	]
 	quest.5D327D85B91E5032.quest_subtitle: "&7我们第一台真正的机器"
 	quest.5D327D85B91E5032.title: "&6&l合金炉"
+	quest.60A8F55648685236.quest_desc: [
+		"&7&a八位电容&r是我们能做出的最强电容，由&d振动合金&r和一个&a双层电容&r合成。"
+		"装上它的机器，速度和能量缓冲都能拉满，很适合后期的大型工程。"
+	]
 	quest.60A8F55648685236.quest_subtitle: "&7我们最好的一档电容"
 	quest.60A8F55648685236.title: "&a&l八位电容"
+	quest.62788B8B97AF2D76.quest_desc: [
+		"&7在&6合金炉&r里把&e充能合金&r和&d末影珍珠&r合到一起，就得到&d振动合金&r。"
+		"我们最好的电容和若干后期机器都靠这种合金撑着，多搭进去的末影珍珠很值。"
+	]
 	quest.62788B8B97AF2D76.quest_subtitle: "&7被末影魔力浸染的充能合金"
 	quest.62788B8B97AF2D76.title: "&d&l振动合金锭"
+	quest.6B37B24E3D25BF5C.quest_desc: [
+		"&7&2酿液桶&r会把末影水晶粉一类的有机材料随时间发酵成特殊流体，比如&d虚空露水&r。"
+		"记得给它备好对路的原料，还要有耐心——发酵不是一瞬间的事。"
+	]
 	quest.6B37B24E3D25BF5C.quest_subtitle: "&7一路发酵，直到虚空露水"
 	quest.6B37B24E3D25BF5C.title: "&2&l酿液桶"
+	quest.720A9D781C5B9B2D.quest_desc: [
+		"&7&b基础电容库&r把&9µI&r能量存起来留待后用，相当于基地的电池。"
+		"放进它物品栏里的工具和盔甲也能充电；它本身由&a基础电容&r制成。"
+	]
 	quest.720A9D781C5B9B2D.quest_subtitle: "&7我们的第一块电池"
 	quest.720A9D781C5B9B2D.title: "&b&l基础电容库"
+	quest.726857C4BE6ADCDE.quest_desc: [
+		"&7&e飘浮权杖&r在有电时让我们免疫摔落伤害，还能缓缓滑降到地面，每次使用消耗经验。"
+		"&a提示：&r探索高耸建筑、或者在高空架桥的时候，它能救命。"
+	]
 	quest.726857C4BE6ADCDE.quest_subtitle: "&7落得更轻，跳得更高"
 	quest.726857C4BE6ADCDE.title: "&e&l飘浮权杖"
+	quest.729B89CA30BE3B28.quest_desc: [
+		"&7&e脉冲漏斗&r会把附近的掉落物和经验球直接吸进自己的物品栏，对农场和刷怪机来说就是个吸尘器。"
+		"再接一条物品导管，它收上来的东西就能直接送进我们的存储系统。"
+	]
 	quest.729B89CA30BE3B28.quest_subtitle: "&7把地上的物品与经验吸起来"
 	quest.729B89CA30BE3B28.title: "&e&l脉冲漏斗"
+	quest.7717E30B48E53462.quest_desc: [
+		"&7&2真空经验箱&r是一件可穿戴的升级件，我们走到哪儿，它就把附近的经验球直接吸进经验条。"
+		"&2真空箱&r对掉落物做同样的事，把它们吸进自己的物品栏，大型刷怪塔的战利品从此不会再漏。"
+	]
 	quest.7717E30B48E53462.quest_subtitle: "&7再也不漏掉战利品"
 	quest.7717E30B48E53462.title: "&2&l真空经验箱&r &2\& &l真空箱"
+	quest.79590DE87595F3C6.quest_desc: [
+		"&7这种粒可以直接合成，也可以由&5魂金锭&r拆开得到，用在少数只需要一点点该材料的配方里。"
+		"手边常备一组粒，就不用为了点小合成去拆整锭。"
+	]
 	quest.79590DE87595F3C6.quest_subtitle: "&7一小块被束缚的黄金"
 	quest.79590DE87595F3C6.title: "&5&l魂金粒"
 	task.57477AFF1BFD16C9.title: "导管"
