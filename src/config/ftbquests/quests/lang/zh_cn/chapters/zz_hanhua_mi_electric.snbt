@@ -21,6 +21,7 @@
 	quest.1745124F83D033B9.title: "基础组件"
 	quest.18C0EF38430C3E67.quest_subtitle: "数字时代"
 	quest.1A84DF4478D55C41.quest_subtitle: "与蒸汽合一无异"
+	quest.1B4CD5AC8F6C3307.quest_desc: ["&#4497DB超频模块&r能让机器在配方没有运行时也保持效率。代价是它会把机器锁定在这个配方上。"]
 	quest.1E0EF28175A7424F.quest_desc: ["既然你已经能生产蒸汽，何不利用它来发电呢？只需放置一台&#6363DB涡轮机&r，输入&7蒸汽&r，即可输出&#DBDB63电力&r。"]
 	quest.1E0EF28175A7424F.quest_subtitle: "蒸汽 -> 电力"
 	quest.1F21B578FAF4CCAC.quest_subtitle: "与蒸汽合一无异"
@@ -87,6 +88,11 @@
 	quest.6256612D46C88C0C.title: "低压-中压变压器"
 	quest.6647A9652EFDDCDF.quest_desc: ["要冷却&#ADF0EE热不锈钢锭&r，只需将其放入&#56E3DF真空冷却机&r中，即可转变为可用的&#ADF0EE不锈钢锭&r。"]
 	quest.66D4256F79D5B30B.quest_subtitle: "与蒸汽合一无异"
+	quest.6A25ED4059E224D2.quest_desc: [
+		"&#ED5585蒸馏室&r用来蒸馏特定流体，得到更合我们用的产物。"
+		""
+		"如果同一种输入能产出多种结果，你必须锁定配方才能拿到想要的那个。先点界面里的锁图标，再点箭头，然后在目标配方上点&7「+」&r图标。"
+	]
 	quest.6A25ED4059E224D2.quest_subtitle: "锁定配方"
 	quest.6E7DF4AF86A036EC.title: "页岩油处理"
 	quest.72FFD9E471242D68.quest_desc: ["不锈钢的熔炼温度高于普通熔炉。我们必须使用之前建造的电力高炉。"]

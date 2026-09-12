@@ -6,6 +6,7 @@
 	quest.08E484DD3E751697.title: "&b蓝色Xy晶宝石"
 	quest.0D01524F249E25D7.quest_subtitle: "谁关掉了灯光？"
 	quest.0D01524F249E25D7.title: "&8暗色Xy晶宝石"
+	quest.15540271BF17C2E4.quest_desc: ["&l欢迎来到 XyCraft！&r\\n\\n这一系列模组主要围绕 XyCraft: World 和 XyCraft: Machines 展开！\\nWorld 提供了各种宝石，靠过筛就能拿到。"]
 	quest.15540271BF17C2E4.title: "&l晶工艺"
 	quest.16B4A00948D1F60D.quest_desc: ["这个任务由&6AllTheMods团队&r或&2社区贡献者&r为AllTheMods模组包编写。\\n\\n由于所有&6AllTheMods&r模组包均受&e保留所有权利&r许可，此任务不得在未经&6AllTheMods团队&r明确许可的情况下用于任何非AllTheMods团队发布的公共模组包。\\n\\n此任务被故意隐藏，如果你看到此任务，说明你正在编辑模式。"]
 	quest.1E00DBAACDF4404F.quest_desc: ["收集器是一种非常便宜的吸收漏斗。\\n\\n它会收集半径3格内的所有物品，并将其放入下方的库存或自身中。可以通过红石关闭它！"]
@@ -44,6 +45,7 @@
 	quest.69F11A94D44AB5CF.title: "&f亮色Xy晶宝石"
 	quest.6D0876A402C22067.quest_desc: ["晶工艺有一些物品存储和操作功能，但不如流体存储和操作功能多！"]
 	quest.6D0876A402C22067.title: "&6物品存储与操作"
+	quest.71D133BA3EC6F4FD.quest_desc: ["提取机会把它下方的方块或物品「催生」出来，再送进它上方的容器。\\n\\n拿它能做出兼容多种石头的刷石机、紫水晶机，甚至龙蛋机，等等等等！"]
 	quest.71D133BA3EC6F4FD.quest_subtitle: "岩石（及其他）的种植！"
 	quest.7574A782DCFB87CE.quest_desc: ["磊岩可以用于多种用途，主要用于装饰和机器。\\n\\n你需要磊岩来制作机器框架和其他晶工艺机器。它可以在石匠切割台上与Xy晶宝石一起用于制作装饰性方块。"]
 	quest.7574A782DCFB87CE.title: "&l&7磊岩"

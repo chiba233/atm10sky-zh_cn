@@ -73,7 +73,13 @@
 	quest.4ED29ACF4A699E1B.quest_subtitle: "更更更好用"
 	quest.4F89C04CEBF812F9.quest_subtitle: "把宝石冶炼成锭"
 	quest.4F89C04CEBF812F9.title: "锭"
+	quest.50243E5CF1B156ED.quest_desc: ["想拿到&5钚粉&r，得先在粉碎工厂里把&a粗铀&r打碎，得到&5小撮钚粉&r。别在意它出自&#A0DE45现代工业化&r，拿来给奥瑞科技用照样没问题。"]
 	quest.50243E5CF1B156ED.quest_subtitle: "从铀石到钚"
+	quest.5189D72ED3808DC6.quest_desc: [
+		"拿目标标识器&a潜行右键&r紫水晶簇，再&a潜行右键&r镭射器，就能把目标设好。"
+		""
+		"这些小水晶可不只是好看。它们能储存能量，还能用来做更复杂的机器。"
+	]
 	quest.5189D72ED3808DC6.quest_subtitle: "用激光给紫水晶充能"
 	quest.53880926982968FD.quest_subtitle: "说出我的名字"
 	quest.53D5A6F210DF199C.quest_subtitle: "平稳传输 10k RF/t"

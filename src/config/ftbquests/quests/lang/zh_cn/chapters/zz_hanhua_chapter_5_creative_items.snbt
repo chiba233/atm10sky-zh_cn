@@ -1,5 +1,6 @@
 {
 	quest.26B0D931730C13C2.title: "终结的开端"
+	quest.26DF04FB3185ACDB.quest_desc: ["它能提供你这辈子需要的&o全部压力&r，当然，绝无双关之意。"]
 	quest.315F60A6F85B20C6.quest_subtitle: "法术（和魔力）管够"
 	quest.3D4647F929C44E7E.quest_subtitle: "这个是真的快"
 	quest.541FAAC70253D519.quest_subtitle: "一罐满足你魔法需求的汁水"
@@ -7,4 +8,5 @@
 	quest.74B8E2EA0BB98B5F.quest_subtitle: "把星星方块喂给派大星蜂"
 	quest.74B8E2EA0BB98B5F.title: "&#7A95FF无限能量"
 	quest.77E461E7705E4346.quest_subtitle: "低调的炫耀，但真有用"
+	quest.78BCB80016523F07.quest_desc: ["它相当于给你的&#7AFFFAAE&r系统当创造模式的无限源。"]
 }

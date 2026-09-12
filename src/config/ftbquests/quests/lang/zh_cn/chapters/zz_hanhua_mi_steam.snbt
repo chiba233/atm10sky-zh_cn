@@ -58,6 +58,11 @@
 	quest.55C6BBC996B51838.quest_subtitle: "沸腾的水"
 	quest.589DFDB8FB7211AA.quest_desc: ["在进入&a电气时代&r时，生产&7橡胶&r是微不足道的。尽早自动化它将使你走得更远。"]
 	quest.589DFDB8FB7211AA.title: "橡胶和电路板"
+	quest.5CCF92238B23EDC9.quest_desc: [
+		"&#A0DE45&n现代工业化&r在性质上与&#D93D3DIC2&r和&#D93D3D格雷科技&r类似，但推进路线和那两个模组很不一样。"
+		""
+		"接下来这几条任务，我会带你把做&#43E898无限盔甲&r所需的部件一步步做出来。"
+	]
 	quest.5CCF92238B23EDC9.quest_subtitle: "阅读将有所帮助"
 	quest.5CCF92238B23EDC9.title: "&a欢迎来到现代工业化"
 	quest.5E191081662C2F1A.quest_desc: ["&7&n锻压台&r作为&a现代工业化&r村民的工作台方块。这个村民将为你提供各种有用的交易。"]
