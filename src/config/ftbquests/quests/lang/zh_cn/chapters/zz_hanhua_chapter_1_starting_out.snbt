@@ -1,18 +1,35 @@
 {
 	quest.01B5005BF9056A2E.quest_subtitle: "锤沙子"
+	quest.040C336C718DCC7D.quest_desc: ["这是一个&6&lATM 整合包&r，你会需要&l海量&r材料。\\n\\n那么堆积如山的&7沙砾&r怎么办？摆一亿个箱子？\\n\\n不必，我们可以把 9 个方块合成 1 个压缩方块。\\n\\n很多方块都能这么压缩，而且还能一层层压下去！"]
 	quest.040C336C718DCC7D.title: "压缩方块"
+	quest.043AB8772206FF71.quest_desc: ["&0燧石&r可以像平常那样破坏&7沙砾&r小概率掉落，也可以靠&b筛&r方块得到！\\n\\n在&2&lMinecraft&r里&0燧石&r通常挺没用的：做个打火石，然后就没有然后了。\\n\\n但&b&l空岛&r完全不一样！所以攒着它，游戏前期用得上。"]
 	quest.043AB8772206FF71.title: "&8燧石"
+	quest.04ACC7E762537FB4.quest_desc: ["这里不需要一亿台花哨的机器来翻倍矿物……几台就够了！\\n\\n&3&l动态联合&r的&3&l挤压机&r能把&7粗矿块&r变回&7粗矿&r。\\n\\n用法很简单：把&7粗矿块&r放进&3&l挤压机&r，然后跳上去把它压下去。压碎之后&7粗矿&r就会吐出来，运气好还会多给！\\n\\n还没完！\\n\\n我们还有矿石锤，能把&7粗矿&r敲成 2 份&7粉末&r，再烧成&7锭&r。"]
 	quest.04ACC7E762537FB4.title: "轻松翻倍矿物"
+	quest.091F1D752FA3BAAC.quest_desc: ["只要 2 个&0燧石&r就能做出&0燧石剪刀&r。用起来和普通剪刀一样，只是更便宜。\\n\\n我们要靠它来拿&2树叶&r！\\n\\n还有羊毛……如果你需要羊毛的话。"]
 	quest.091F1D752FA3BAAC.title: "收集&2树叶"
+	quest.0BD70DFE33D84323.quest_desc: [
+		"&b&l筛子&r是我们获取大部分资源的途径。\\n\\n光把它放下去没什么用，得给它装上筛网才能用。线筛网是第一种，之后还能升级。\\n\\n拿着筛网对&b&l筛子&r右键就装上了，潜行右键则取下来。\\n\\n装好筛网后，对着&b&l筛子&r右键放入特定方块，把它们一点点筛下去。持续右键或按住不放，筛到底就会掉出物品。\\n\\n小技巧：相邻的&b&l筛子&r会同时工作！最多可达 5×5 的范围！"
+		"{image:atm:textures/questpics/chap1/chap1_sieve.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/chap1/chap1_sieves.png width:100 height:100 align:center}"
+	]
 	quest.0BD70DFE33D84323.title: "&b&l筛子&r与筛网"
+	quest.0D794D25F04E04A7.quest_desc: ["我们没法去&c&l下界&r挖&4下界岩&r——那儿空空如也。只能自己造！\\n\\n在&6&l木桶&r里把&5巫水&r和&c熔岩&r混在一起就能得到&4下界岩&r。\\n\\n它还能用&8锤&r砸碎，再拿去&b筛&r出更多东西！"]
 	quest.0D794D25F04E04A7.title: "&4下界岩"
+	quest.0E7F7CF44A982EA3.quest_desc: ["&7黏土球&r加骨粉可以做出&3瓷土&r。\\n\\n做&3桶&r要用到它，做更大的桶——也就是&c&l坩埚&r——也要用它！"]
 	quest.0E7F7CF44A982EA3.title: "&3瓷土"
+	quest.0FEFD055B435B17F.quest_desc: ["现在终于能弄到&c熔岩&r了。再也不用担心把&7刷石机&r搞坏了！\\n\\n我们做不出无限&c熔岩源&r，但至少能源源不断地再造。\\n\\n它在流体混合和其他配方里非常重要，你多半会需要一大堆！"]
 	quest.0FEFD055B435B17F.title: "&c熔岩"
+	quest.11032183CCCA206D.quest_desc: ["&a被动型生物&r生成需要两样东西。\\n\\n一、&2草方块&r，这个我们有。\\n\\n二、光照，这个得自己想办法！\\n\\n只要够亮、又有&2草方块&r，它们就会随机生成。\\n\\n有时候要等上一会儿。"]
 	quest.11032183CCCA206D.title: "&a被动型生物"
+	quest.128A1EEAF8F45042.quest_desc: ["&5菌丝孢子&r可以从&b筛&r泥土时小概率获得。\\n\\n它和&2草籽&r用法一样，放到泥土或&2草方块&r上就能长出&5菌丝&r！"]
 	quest.128A1EEAF8F45042.title: "来点菌丝！"
+	quest.145917B219D0D28D.quest_desc: ["所有&b空岛&r世界开局都会给你必需品：&2草方块&f和一棵&2树&r。\\n\\n&2树&r是用来拿&6木头&r以及一切木制品的。那&2草方块&r呢？\\n\\n一、&a被动型生物&r要靠&2草方块&r才会生成。二、&2草方块&r会向别的泥土蔓延。三、潜行右键&2草方块&r能得到&7小石子&r！"]
 	quest.145917B219D0D28D.title: "&2草方块"
 	quest.162AB6F9257EB71E.title: "下一章"
+	quest.1B186F14606C07D7.quest_desc: ["在&6&l木桶&r里（最好是&7&l石头&r做的那种）把&e荧石&r和&c熔岩&r混在一起，就能得到&e末地石&r。\\n\\n和&4下界岩&r一样，可以用&8锤&r砸碎，再把碎块拿去&b筛&r！\\n\\n这样能筛出&3末影珍珠&r、&a末影之眼&r，还有更多东西……"]
 	quest.1B186F14606C07D7.title: "&e末地石"
+	quest.1E9F1FBAA6AAA43B.quest_desc: ["&c敌对生物&r比&a被动型&r好生成。\\n\\n只要够黑、而且离你至少 24 格远，它们就会生成。\\n\\n岛越修越大的话，记得把它照亮！"]
 	quest.1E9F1FBAA6AAA43B.title: "&c敌对生物"
 	quest.1FA3ACD9B8CD02FE.title: "&5巫水"
 	quest.23E71537225B8392.title: "感染我们的&2树"
