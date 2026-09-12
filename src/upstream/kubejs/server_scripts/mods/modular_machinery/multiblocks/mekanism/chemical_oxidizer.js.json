@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_oxidizer.js",
+ "edits": [
+  {
+   "find": [
+    "        .name('Runic Processor - Chemical Oxidizer')\n"
+   ],
+   "replace": [
+    "        .name('符文处理器 - 化学氧化机')\n"
+   ]
+  }
+ ]
+}

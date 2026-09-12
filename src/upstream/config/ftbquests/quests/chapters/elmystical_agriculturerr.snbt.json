@@ -1,0 +1,104 @@
+{
+ "src": "config/ftbquests/quests/chapters/elmystical_agriculturerr.snbt",
+ "edits": [
+  {
+   "find": [
+    "\t\t\thover: [\"Inferium Watering Can\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"下级精华洒水壶\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Prudentium Watering Can\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"初级精华洒水壶\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Tertium Watering Can\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"中级精华洒水壶\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Inferium Machine Upgrade\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"下级升级\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Prudentium Machine Upgrade\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"初级升级\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Tertium Machine Upgrade\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"中级升级\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Imperium Machine Upgrade\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"高级升级\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Imperium Watering Can\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"高级精华洒水壶\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Supremium Watering Can\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"终极精华洒水壶\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Awakened Supremium Machine Upgrade\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"觉醒终极升级\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Machine Frame\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"机器框架\"]\n"
+   ],
+   "all": true
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "src": "config/mysticalcustomization/tiers/magical.json",
+ "edits": [
+  {
+   "find": [
+    "    \"name\": \"§bMagical\",\n",
+    "    \"value\": 7,\n",
+    "    \"farmland\": \"mysticalagradditions:insanium_farmland\",\n",
+    "    \"essence\": \"mysticalagradditions:insanium_block\",\n",
+    "    \"fertilizable\": false,\n",
+    "    \"secondarySeedDrop\": false\n"
+   ],
+   "replace": [
+    "  \"name\": \"§b魔法\",\n",
+    "  \"value\": 7,\n",
+    "  \"farmland\": \"mysticalagradditions:insanium_farmland\",\n",
+    "  \"essence\": \"mysticalagradditions:insanium_block\",\n",
+    "  \"fertilizable\": false,\n",
+    "  \"secondarySeedDrop\": false\n"
+   ]
+  }
+ ]
+}

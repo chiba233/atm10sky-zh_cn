@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_infuser.js",
+ "edits": [
+  {
+   "find": [
+    "        .name('Runic Processor - Chemical Infuser')\n"
+   ],
+   "replace": [
+    "        .name('符文处理器 - 化学灌注器')\n"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "src": "config/ftbquests/quests/chapters/justdirethings.snbt",
+ "edits": [
+  {
+   "find": [
+    "\t\t\thover: [\"Pilpoh's Time Crystal Automation Tutorial\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"Pilpoh 的时间水晶自动化教程\"]\n"
+   ],
+   "all": true
+  }
+ ]
+}

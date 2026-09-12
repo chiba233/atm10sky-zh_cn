@@ -1,0 +1,35 @@
+{
+ "src": "config/mysticalcustomization/crops/azure_silver.json",
+ "edits": [
+  {
+   "find": [
+    "    \"name\": \"Azure Silver\",\n",
+    "    \"type\": \"mysticalagriculture:resource\",\n",
+    "    \"tier\": \"mysticalagriculture:3\",\n",
+    "    \"ingredient\": {\n",
+    "      \"tag\": \"c:ingots/azure_silver\"\n",
+    "    },\n",
+    "    \"color\": \"FABEFC\",\n",
+    "    \"textures\": {\n",
+    "      \"flower\": \"mysticalagriculture:block/flower_ingot\",\n",
+    "      \"essence\": \"mysticalagriculture:item/essence_ingot\"\n",
+    "    }\n",
+    "  }"
+   ],
+   "replace": [
+    "  \"name\": \"蔚蓝银\",\n",
+    "  \"type\": \"mysticalagriculture:resource\",\n",
+    "  \"tier\": \"mysticalagriculture:3\",\n",
+    "  \"ingredient\": {\n",
+    "    \"tag\": \"c:ingots/azure_silver\"\n",
+    "  },\n",
+    "  \"color\": \"FABEFC\",\n",
+    "  \"textures\": {\n",
+    "    \"flower\": \"mysticalagriculture:block/flower_ingot\",\n",
+    "    \"essence\": \"mysticalagriculture:item/essence_ingot\"\n",
+    "  }\n",
+    "}"
+   ]
+  }
+ ]
+}

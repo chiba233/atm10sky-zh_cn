@@ -1,0 +1,19 @@
+{
+ "src": "config/mysticalcustomization/crops/entro.json",
+ "edits": [
+  {
+   "find": [
+    "  \"name\": \"Entro\",\n"
+   ],
+   "replace": [
+    "  \"name\": \"恩特罗\",\n"
+   ]
+  },
+  {
+   "find": [
+    "  \n"
+   ],
+   "replace": []
+  }
+ ]
+}

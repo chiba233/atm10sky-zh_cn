@@ -1,0 +1,179 @@
+{
+ "src": "kubejs/client_scripts/Mekanism-Tooltips.js",
+ "edits": [
+  {
+   "find": [
+    "        Text.red('Increased Energy Consumption!'),\n",
+    "        Text.green('Increased Energy Capacity')\n"
+   ],
+   "replace": [
+    "        Text.red('能量消耗增加！'),\n",
+    "        Text.green('能量容量增加')\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.red('Increased Energy Consumption!'),\n",
+    "        Text.green('Increased Energy Capacity!'),\n",
+    "        Text.green('Increased Attack Speed & Damage!')\n"
+   ],
+   "replace": [
+    "        Text.red('能量消耗增加！'),\n",
+    "        Text.green('能量容量增加！'),\n",
+    "        Text.green('攻击速度和伤害提高！')\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add('mekanismgenerators:solar_generator', [\n",
+    "        Text.green('Increased Energy Capacity & Production!')\n"
+   ],
+   "replace": [
+    "    allthemods.add('mekanismgenerators:solar_generator', [\n",
+    "        Text.green('能量容量和产能提高！')\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add('mekanismgenerators:advanced_solar_generator', [\n",
+    "        Text.green('Increased Energy Capacity & Production!')\n"
+   ],
+   "replace": [
+    "    allthemods.add('mekanismgenerators:advanced_solar_generator', [\n",
+    "        Text.green('能量容量和产能提高！')\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add('mekanismgenerators:wind_generator', [\n",
+    "        Text.green('Increased Energy Capacity & Production!')\n"
+   ],
+   "replace": [
+    "    allthemods.add('mekanismgenerators:wind_generator', [\n",
+    "        Text.green('能量容量和产能提高！')\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add('mekanismgenerators:heat_generator', [\n",
+    "        Text.green('Increased Energy Capacity & Production!')\n"
+   ],
+   "replace": [
+    "    allthemods.add('mekanismgenerators:heat_generator', [\n",
+    "        Text.green('能量容量和产能提高！')\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.red('Decreased Energy Production!'),\n",
+    "        Text.red('Increased Fuel Consumption!')\n"
+   ],
+   "replace": [
+    "        Text.red('能量产出降低！'),\n",
+    "        Text.red('燃料消耗增加！')\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add(/mekanismgenerators:fission_/, [\n",
+    "        Text.red('Decreased Energy Production!'),\n"
+   ],
+   "replace": [
+    "    allthemods.add(/mekanismgenerators:fission_/, [\n",
+    "        Text.red('能量产出降低！'),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.red('Decreased Energy Production!'),\n",
+    "        Text.green('Decreased Fuel Consumption!'),\n"
+   ],
+   "replace": [
+    "        Text.red('能量产出降低！'),\n",
+    "        Text.green('燃料消耗降低！'),\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add(/mekanismgenerators:turbine_/, [\n",
+    "        Text.green('Increased Production Speed!'),\n"
+   ],
+   "replace": [
+    "    allthemods.add(/mekanismgenerators:turbine_/, [\n",
+    "        Text.green('生产速度提高！'),\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add(/mekanism:boiler_/, [\n",
+    "        Text.green('Increased Production Speed!'),\n"
+   ],
+   "replace": [
+    "    allthemods.add(/mekanism:boiler_/, [\n",
+    "        Text.green('生产速度提高！'),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.green('Increased Machine Boost!')\n"
+   ],
+   "replace": [
+    "        Text.green('机器增幅提高！')\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.green('Increased Decay Rate!')\n"
+   ],
+   "replace": [
+    "        Text.green('衰变速率提高！')\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add(/mekanism:thermal_evaporation_/, [\n",
+    "        Text.green('Increased Production Speed!')\n"
+   ],
+   "replace": [
+    "    allthemods.add(/mekanism:thermal_evaporation_/, [\n",
+    "        Text.green('生产速度提高！')\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.green('Increased Production Speed!'),\n",
+    "        Text.green('Waste -> Polonium buffed!')\n"
+   ],
+   "replace": [
+    "        Text.green('生产速度提高！'),\n",
+    "        Text.green('废料 -> 钋已增强！')\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.green('Waste -> Plutonium buffed!')\n"
+   ],
+   "replace": [
+    "        Text.green('废料 -> 钚已增强！')\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add('mekanism:electric_pump', [\n",
+    "        Text.green('Increased Production Speed!')\n"
+   ],
+   "replace": [
+    "    allthemods.add('mekanism:electric_pump', [\n",
+    "        Text.green('生产速度提高！')\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.green('Decreased Energy Consumption!')\n"
+   ],
+   "replace": [
+    "        Text.green('能量消耗降低！')\n"
+   ]
+  }
+ ]
+}

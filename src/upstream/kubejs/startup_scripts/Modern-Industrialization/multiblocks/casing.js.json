@@ -1,0 +1,35 @@
+{
+ "src": "kubejs/startup_scripts/Modern-Industrialization/multiblocks/casing.js",
+ "edits": [
+  {
+   "find": [
+    "        'Runic',\n",
+    "        'Runic',\n"
+   ],
+   "replace": [
+    "        '符文',\n",
+    "        '符文',\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods  .fluid(\n",
+    "        'Runic',\n"
+   ],
+   "replace": [
+    "    allthemods  .fluid(\n",
+    "        '符文',\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.item(\n",
+    "        'Runic',\n"
+   ],
+   "replace": [
+    "    allthemods.item(\n",
+    "        '符文',\n"
+   ]
+  }
+ ]
+}

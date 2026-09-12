@@ -1,0 +1,13 @@
+{
+ "src": "config/mysticalcustomization/crops/unexplored_wood.json",
+ "edits": [
+  {
+   "find": [
+    "  \"name\": \"Unexplored Wood\",\n"
+   ],
+   "replace": [
+    "  \"name\": \"未勘之木\",\n"
+   ]
+  }
+ ]
+}

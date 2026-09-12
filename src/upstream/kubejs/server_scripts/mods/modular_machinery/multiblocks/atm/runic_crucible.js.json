@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_crucible.js",
+ "edits": [
+  {
+   "find": [
+    "        .name('Runic Crucible')\n"
+   ],
+   "replace": [
+    "        .name('符文坩埚')\n"
+   ]
+  }
+ ]
+}

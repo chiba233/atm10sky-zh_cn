@@ -1,0 +1,14 @@
+{
+ "src": "config/ftbquests/quests/chapters/apotheosis_gear.snbt",
+ "edits": [
+  {
+   "find": [
+    "\t\t\thover: [\"Sigil of Supremacy\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"至高符石\"]\n"
+   ],
+   "all": true
+  }
+ ]
+}

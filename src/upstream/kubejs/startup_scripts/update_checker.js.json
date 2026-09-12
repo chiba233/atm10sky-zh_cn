@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/startup_scripts/update_checker.js",
+ "edits": [
+  {
+   "find": [
+    "        $SystemToast.add(Client.getToasts(), new $SystemToastId(10000), \"New update is available!\", Text.of(\"Version \").append(Text.green(cfLatestVersion)).append(\" is already available!\"))\n"
+   ],
+   "replace": [
+    "        $SystemToast.add(Client.getToasts(), new $SystemToastId(10000), \"有新更新可用！\", Text.of(\"版本 \").append(Text.green(cfLatestVersion)).append(\" 已可用！\"))\n"
+   ]
+  }
+ ]
+}

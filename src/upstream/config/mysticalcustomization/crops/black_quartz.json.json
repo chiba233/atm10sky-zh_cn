@@ -1,0 +1,13 @@
+{
+ "src": "config/mysticalcustomization/crops/black_quartz.json",
+ "edits": [
+  {
+   "find": [
+    "  \"name\": \"Black Quartz\",\n"
+   ],
+   "replace": [
+    "  \"name\": \"焦黑石英\",\n"
+   ]
+  }
+ ]
+}

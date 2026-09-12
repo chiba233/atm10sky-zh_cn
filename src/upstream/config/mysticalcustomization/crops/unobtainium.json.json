@@ -1,0 +1,37 @@
+{
+ "src": "config/mysticalcustomization/crops/unobtainium.json",
+ "edits": [
+  {
+   "find": [
+    "    \"name\": \"Unobtainium\",\n",
+    "    \"type\": \"mysticalagriculture:resource\",\n",
+    "    \"tier\": \"mysticalcustomization:magical\",\n",
+    "    \"ingredient\": {\n",
+    "      \"tag\": \"c:storage_blocks/unobtainium\"\n",
+    "    },\n",
+    "    \"color\": \"CE51E0\",\n",
+    "    \"textures\": {\n",
+    "      \"flower\": \"mysticalagriculture:block/flower_ingot\",\n",
+    "      \"essence\": \"mysticalagriculture:item/essence_ingot\"\n",
+    "    },\n",
+    "    \"crux\": \"kubejs:magical_soil\"\n",
+    "  }"
+   ],
+   "replace": [
+    "  \"name\": \"难得素\",\n",
+    "  \"type\": \"mysticalagriculture:resource\",\n",
+    "  \"tier\": \"mysticalcustomization:magical\",\n",
+    "  \"ingredient\": {\n",
+    "    \"tag\": \"c:storage_blocks/unobtainium\"\n",
+    "  },\n",
+    "  \"color\": \"CE51E0\",\n",
+    "  \"textures\": {\n",
+    "    \"flower\": \"mysticalagriculture:block/flower_ingot\",\n",
+    "    \"essence\": \"mysticalagriculture:item/essence_ingot\"\n",
+    "  },\n",
+    "  \"crux\": \"kubejs:magical_soil\"\n",
+    "}"
+   ]
+  }
+ ]
+}

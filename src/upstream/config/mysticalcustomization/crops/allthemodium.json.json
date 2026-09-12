@@ -1,0 +1,13 @@
+{
+ "src": "config/mysticalcustomization/crops/allthemodium.json",
+ "edits": [
+  {
+   "find": [
+    "  \"name\": \"Allthemodium\",\n"
+   ],
+   "replace": [
+    "  \"name\": \"ATM\",\n"
+   ]
+  }
+ ]
+}

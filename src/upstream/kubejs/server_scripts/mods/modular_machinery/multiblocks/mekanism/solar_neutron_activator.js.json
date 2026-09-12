@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/solar_neutron_activator.js",
+ "edits": [
+  {
+   "find": [
+    "        .name('Runic Processor - Solar Neutron Activator')\n"
+   ],
+   "replace": [
+    "        .name('符文处理器 - 太阳能中子活化器')\n"
+   ]
+  }
+ ]
+}

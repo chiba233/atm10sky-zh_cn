@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/startup_scripts/Modern-Industrialization/multiblocks/runic_star_altar.js",
+ "edits": [
+  {
+   "find": [
+    "        'Runic Star Altar',\n"
+   ],
+   "replace": [
+    "        '符文星祭坛',\n"
+   ]
+  }
+ ]
+}

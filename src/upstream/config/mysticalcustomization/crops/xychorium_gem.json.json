@@ -1,0 +1,19 @@
+{
+ "src": "config/mysticalcustomization/crops/xychorium_gem.json",
+ "edits": [
+  {
+   "find": [
+    "  \"name\": \"Xychorium Gem\",\n"
+   ],
+   "replace": [
+    "  \"name\": \"Xy晶宝石\",\n"
+   ]
+  },
+  {
+   "find": [
+    "\n"
+   ],
+   "replace": []
+  }
+ ]
+}

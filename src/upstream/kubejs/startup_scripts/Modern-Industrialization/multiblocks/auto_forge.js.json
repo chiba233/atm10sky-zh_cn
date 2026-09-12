@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/startup_scripts/Modern-Industrialization/multiblocks/auto_forge.js",
+ "edits": [
+  {
+   "find": [
+    "        'Automatic Hephaestus Forge',\n"
+   ],
+   "replace": [
+    "        '自动赫菲斯托斯锻炉',\n"
+   ]
+  }
+ ]
+}

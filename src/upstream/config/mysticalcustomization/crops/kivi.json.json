@@ -1,0 +1,13 @@
+{
+ "src": "config/mysticalcustomization/crops/kivi.json",
+ "edits": [
+  {
+   "find": [
+    "  \"name\": \"Kivi\",\n"
+   ],
+   "replace": [
+    "  \"name\": \"磊岩\",\n"
+   ]
+  }
+ ]
+}

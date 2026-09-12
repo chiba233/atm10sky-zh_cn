@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/electrolytic_seperator.js",
+ "edits": [
+  {
+   "find": [
+    "        .name('Runic Processor - Electrolytic Seperator')\n"
+   ],
+   "replace": [
+    "        .name('符文处理器 - 电解分离器')\n"
+   ]
+  }
+ ]
+}

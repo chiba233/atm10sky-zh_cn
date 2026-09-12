@@ -1,0 +1,41 @@
+{
+ "src": "config/ftbquests/quests/chapters/bumblezone.snbt",
+ "edits": [
+  {
+   "find": [
+    "\t\t\thover: [\"Your Highness\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"陛下\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Cell Maze\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"巢室迷宫\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Battle Cubes\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"战斗方块\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Honitel\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"蜂蜜旅店\"]\n"
+   ],
+   "all": true
+  }
+ ]
+}

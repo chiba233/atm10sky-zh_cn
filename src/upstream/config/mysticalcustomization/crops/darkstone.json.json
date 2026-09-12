@@ -1,0 +1,13 @@
+{
+ "src": "config/mysticalcustomization/crops/darkstone.json",
+ "edits": [
+  {
+   "find": [
+    "  \"name\": \"Darkstone\",\n"
+   ],
+   "replace": [
+    "  \"name\": \"暗黑石\",\n"
+   ]
+  }
+ ]
+}

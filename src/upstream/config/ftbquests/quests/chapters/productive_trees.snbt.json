@@ -1,0 +1,14 @@
+{
+ "src": "config/ftbquests/quests/chapters/productive_trees.snbt",
+ "edits": [
+  {
+   "find": [
+    "\t\t\thover: [\"Pilpoh's Productive Trees Guide\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"Pilpoh 的高效树木指南\"]\n"
+   ],
+   "all": true
+  }
+ ]
+}

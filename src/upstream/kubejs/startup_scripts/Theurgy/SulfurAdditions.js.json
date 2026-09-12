@@ -1,0 +1,77 @@
+{
+ "src": "kubejs/startup_scripts/Theurgy/SulfurAdditions.js",
+ "edits": [
+  {
+   "find": [
+    "        .sourceName(\"Stellarite Piece\")\n"
+   ],
+   "replace": [
+    "        .sourceName(\"流星碎片\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        .sourceName(\"Arcane Crystal\")\n"
+   ],
+   "replace": [
+    "        .sourceName(\"神秘水晶\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        .sourceName(\"Rune\")\n"
+   ],
+   "replace": [
+    "        .sourceName(\"基础符文\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        .sourceName(\"Salt\")\n"
+   ],
+   "replace": [
+    "        .sourceName(\"盐\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        .sourceName(\"Sulfur\")\n"
+   ],
+   "replace": [
+    "        .sourceName(\"硫磺\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        .sourceName(\"Prosperity Shard\")\n"
+   ],
+   "replace": [
+    "        .sourceName(\"活化水晶碎片\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        .sourceName(\"Iesnium\")\n"
+   ],
+   "replace": [
+    "        .sourceName(\"艾瑟金属\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        .sourceName(\"Mithril\")\n"
+   ],
+   "replace": [
+    "        .sourceName(\"秘银\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        .sourceName(\"Bort\")\n"
+   ],
+   "replace": [
+    "        .sourceName(\"圆粒金刚石\")\n"
+   ]
+  }
+ ]
+}

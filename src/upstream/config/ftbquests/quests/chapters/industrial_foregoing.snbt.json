@@ -1,0 +1,41 @@
+{
+ "src": "config/ftbquests/quests/chapters/industrial_foregoing.snbt",
+ "edits": [
+  {
+   "find": [
+    "\t\t\thover: [\"Fluid Extractor\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"液体提取机\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Block Placer\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"方块放置器\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Latex Processing Unit\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"胶乳加工机\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"BucketSt's Industrial Foregoing Video\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"BucketSt 的工业先锋视频\"]\n"
+   ],
+   "all": true
+  }
+ ]
+}

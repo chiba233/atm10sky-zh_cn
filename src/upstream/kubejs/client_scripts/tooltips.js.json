@@ -1,0 +1,421 @@
+{
+ "src": "kubejs/client_scripts/tooltips.js",
+ "edits": [
+  {
+   "find": [
+    "        Text.of('§7Needs at least Netherite to be mined'),\n",
+    "        Text.of('§6Found in the Deep Dark Biome and will always spawn air exposed'),\n",
+    "        Text.of('§6Also found in the Deep Slate Layer of Mining Dimension')\n"
+   ],
+   "replace": [
+    "        Text.of('§7至少需要下界合金级才能挖掘'),\n",
+    "        Text.of('§6生成于深暗之域，且始终以暴露于空气中的方式生成'),\n",
+    "        Text.of('§6亦可在挖矿维度的深板岩层中发现')\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of('§7Needs at least AllTheModium to be mined'),\n",
+    "        Text.of('§bFound in any Nether biome'),\n",
+    "        Text.of('§bAlso found in The Other')\n"
+   ],
+   "replace": [
+    "        Text.of('§7至少需要ATM合金工具方可挖掘'),\n",
+    "        Text.of('§b可在任意下界生物群系中找到'),\n",
+    "        Text.of('§b也可在异界找到')\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of('§7Needs at least Vibranium to be mined'),\n",
+    "        Text.of('§dFound in the End Highlands')\n"
+   ],
+   "replace": [
+    "        Text.of('§7至少需要振金级才能挖掘'),\n",
+    "        Text.of('§d可在末地高地找到')\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add('kubejs:silent_allthemodium_plate',[\n",
+    "        Text.of(\"§7§oIt's less... talkative now\")\n"
+   ],
+   "replace": [
+    "    allthemods.add('kubejs:silent_allthemodium_plate',[\n",
+    "        Text.of(\"§7§o它现在没那么……多话了\")\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add('kubejs:silent_vibranium_plate',[\n",
+    "        Text.of(\"§7§oIt's less... talkative now\")\n"
+   ],
+   "replace": [
+    "    allthemods.add('kubejs:silent_vibranium_plate',[\n",
+    "        Text.of(\"§7§o它现在没那么……多话了\")\n"
+   ]
+  },
+  {
+   "find": [
+    "    allthemods.add('kubejs:silent_unobtainium_plate',[\n",
+    "        Text.of(\"§7§oIt's less... talkative now\")\n"
+   ],
+   "replace": [
+    "    allthemods.add('kubejs:silent_unobtainium_plate',[\n",
+    "        Text.of(\"§7§o它现在没那么……多话了\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7§oThese arent the ingots you are looking for\"),\n",
+    "        Text.of(\"§6Look for the [Silent Allthemodium Plate]\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7§o（挥了挥手）这不是你要找的锭\"),\n",
+    "        Text.of(\"§6去找那块[寂静ATM板]\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7§oThese arent the ingots you are looking for\"),\n",
+    "        Text.of(\"§6Look for the [Silent Vibranium Plate]\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7§o（挥了挥手）这不是你要找的锭\"),\n",
+    "        Text.of(\"§6去找那块[寂静振金板]\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7§oThese arent the ingots you are looking for\"),\n",
+    "        Text.of(\"§6Look for the [Silent Unobtainium Plate]\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7§o（挥了挥手）这不是你要找的锭\"),\n",
+    "        Text.of(\"§6去找那块[寂静难得素板]\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of('§6Found in Suspicious Clay in Ancient Cities')\n"
+   ],
+   "replace": [
+    "        Text.of('§6在远古城市的可疑粘土中发现')\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of('§bFound in Suspicious Soul Sand in Bastions')\n"
+   ],
+   "replace": [
+    "        Text.of('§b可在堡垒遗迹的可疑灵魂沙里找到')\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of('§dDropped by the Trial Spawner in the Library of the Dungeon within The Other')\n"
+   ],
+   "replace": [
+    "        Text.of('§d掉落自异界合金地牢图书馆内的试炼刷怪笼')\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§c§lShift-Right-Click§r§c the §c§lSmithing Table§r§c with §lMundabitur Dust\"),\n",
+    "        Text.of(\"§c█ = Gilded Chiseled Polished Darkstone with Smithing Table on top\"),\n",
+    "        Text.of(\"§7█ = Polished Darkstone\"),\n",
+    "        Text.of(\"§5█§7 = Gilded Chiseled Polished Darkstone\"),\n",
+    "        Text.of(\"§6█§7 = Chiseled Arcane Polished Darkstone\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§c§l搭建完成后按住潜行键使用洁净粉末右击锻造台\"),\n",
+    "        Text.of(\"§c█ = 镀金錾制磨制暗黑石（上方放置锻造台）\"),\n",
+    "        Text.of(\"§7█ = 磨制暗黑石\"),\n",
+    "        Text.of(\"§5█§7 = 镀金錾制磨制暗黑石\"),\n",
+    "        Text.of(\"§6█§7 = 錾制神秘磨制暗黑石\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§c§lShift-Right-Click§r§c the §c§lClibano Core§r§c with §c§lMundabitur Dust\"),\n",
+    "        Text.of(\"§5█§7 = Polished Darkstone\"),\n",
+    "        Text.of(\"§7█ = Polished Darkstone Bricks\"),\n",
+    "        Text.of(\"§6█§7 = Clibano Core\"),\n",
+    "        Text.of(\"§7Right to Left -> Bottom to Top\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§c§l搭建完成后使用洁净粉末右击炽炉核心\"),\n",
+    "        Text.of(\"§5█§7 = 磨制暗黑石\"),\n",
+    "        Text.of(\"§7█ = 磨制暗黑石砖\"),\n",
+    "        Text.of(\"§6█§7 = 炽炉核心\"),\n",
+    "        Text.of(\"§7从右到左 -> 从下到上\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§4Obtainable from the Wandering Trader\"),\n",
+    "        Text.of(\"§4Or by using a Corrupt Soul on an Oak Sapling\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§4可从流浪商人处获得\"),\n",
+    "        Text.of(\"§4或对橡树树苗使用腐化灵魂获得\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7Use Ferrognetic Mixture on the Darkstone Pedestal\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7在暗黑石基座上使用铁磁性混合物\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7Use a Soul Extractor on Soul Sand\"),\n",
+    "        Text.of(\"§7Rarely spawns in world\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7对灵魂沙使用灵魂提取器\"),\n",
+    "        Text.of(\"§7极少生成于世界中\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7Use a Splash Aureal Bottle on a normal soul\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7对普通灵魂使用喷溅型耀金瓶\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7Rarely spawns when killing mobs\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7击杀生物时极少生成\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7Hold a test tube in your off-hand and then kill mobs\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7副手持试管，然后击杀生物\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7Only obtainable via the Black Hole\"),\n",
+    "        Text.of(\"§7To make a Black Hole throw Dark Matter together with Corrupti Dust on the ground\"),\n",
+    "        Text.of(\"§7Feed it enough xp to make it spit out an Xpetrified Orb\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7只能通过黑洞获得\"),\n",
+    "        Text.of(\"§7制作黑洞：将暗物质与腐化粉末一同投掷于地面\"),\n",
+    "        Text.of(\"§7为其注入足够经验，使其吐出一个石化经验球\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7Dropped by the Ender Dragon\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7由末影龙掉落\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7Very rarely spawns between Y -44 and Y 42\"),\n",
+    "        Text.of(\"§cWill explode when you mine it!\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7极罕见地生成于Y=-44至Y=42之间\"),\n",
+    "        Text.of(\"§c挖掘时会爆炸！\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7Spawns at the bottom of the world up to Y 2\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7生成于世界底层，最高至Y=2\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7Very rarely spawns between Y -40 and Y 14\"),\n",
+    "        Text.of(\"§7Most common at Y -13\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7极罕见地生成于Y=-40至Y=14之间\"),\n",
+    "        Text.of(\"§7在 Y=-13 最常见\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§aFound in the Armorer, Toolsmith, or Weaponsmith villager buildings\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§a可在盔甲匠、工具匠或武器匠村民的房屋中找到\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§cUnobtainable\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§c不可获得\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§aFound in Pillager Outposts\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§a可在掠夺者前哨站中找到\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§cWill turn into a Crimson Stone after 1 use\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§c使用 1 次后会变成绯红之石\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§aFound in Jungle Temples, Desert Pyramids, and Underwater Ruins\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§a可在丛林神庙、沙漠神殿及海底废墟中找到\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§aFound in the Village and Pyramid in The Other\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§a可在异界的村庄和金字塔中找到\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§aFound in Treasure Bastions\"),\n"
+   ],
+   "replace": [
+    "        Text.of(\"§a可在藏宝堡垒中找到\"),\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§cDisabled for Fake Player\"),\n",
+    "        Text.of(\"§c(Blocks like Modular Routers, Clickers, etc)\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§c对假玩家无效\"),\n",
+    "        Text.of(\"§c（如模块化路由器、点击器等方块）\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§7Has it's own slot to be placed in\"),\n",
+    "        Text.of(\"§7Check your Keybinds for \\\"Open Belt Slot Inventory\\\"\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§7拥有专属插槽可供放置\"),\n",
+    "        Text.of(\"§7检查快捷键设置中的“打开传送带物品栏”绑定\")\n"
+   ]
+  },
+  {
+   "find": [
+    "        Text.of(\"§aRight click with job site block to put it inside and allow trade restocking\")\n"
+   ],
+   "replace": [
+    "        Text.of(\"§a使用对应职业站点方块右击，将其放入并启用交易补货\")\n"
+   ]
+  },
+  {
+   "find": [
+    "            Text.of(\"§aThis mod will be removed on version 6.0+\")\n"
+   ],
+   "replace": [
+    "            Text.of(\"§a该模组将在6.0+版本中移除！\")\n"
+   ]
+  },
+  {
+   "find": [
+    "            Text.of('This loot bag is from the \\\"Lunar Monstrosity\\\".')\n"
+   ],
+   "replace": [
+    "            Text.of('这个战利品袋来自“月藤巨物”。')\n"
+   ]
+  },
+  {
+   "find": [
+    "        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine=\"atm:runic_crucible\"]', [\n",
+    "            Text.of('§cWARNING, this machine has be depreciated.'),\n",
+    "            Text.of('Use crafting table to convert to the new version.')\n"
+   ],
+   "replace": [
+    "        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine=\"atm:runic_crucible\"]', [\n",
+    "            Text.of('§c警告：该机器已被弃用。'),\n",
+    "            Text.of('请使用工作台转换为新版本。')\n"
+   ]
+  },
+  {
+   "find": [
+    "        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine=\"atm:runic_star_altar\"]', [\n",
+    "            Text.of('§cWARNING, this machine has be depreciated.'),\n",
+    "            Text.of('Use crafting table to convert to the new version.')\n"
+   ],
+   "replace": [
+    "        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine=\"atm:runic_star_altar\"]', [\n",
+    "            Text.of('§c警告：该机器已被弃用。'),\n",
+    "            Text.of('请使用工作台转换为新版本。')\n"
+   ]
+  },
+  {
+   "find": [
+    "        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine=\"atm:runic_enchanter\"]', [\n",
+    "            Text.of('§cWARNING, this machine has be depreciated.'),\n",
+    "            Text.of('Use crafting table to convert to the new version.')\n"
+   ],
+   "replace": [
+    "        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine=\"atm:runic_enchanter\"]', [\n",
+    "            Text.of('§c警告：该机器已被弃用。'),\n",
+    "            Text.of('请使用工作台转换为新版本。')\n"
+   ]
+  },
+  {
+   "find": [
+    "        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine=\"atm:auto_hepheastus_forge\"]', [\n",
+    "            Text.of('§cWARNING, this machine has be depreciated.'),\n",
+    "            Text.of('Use crafting table to convert to the new version.')\n"
+   ],
+   "replace": [
+    "        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine=\"atm:auto_hepheastus_forge\"]', [\n",
+    "            Text.of('§c警告：该机器已被弃用。'),\n",
+    "            Text.of('请使用工作台转换为新版本。')\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\tText.of(\"§cWARNING: Will implode at wave 3 outside of the following dimensions:\"),\n",
+    "\t\tText.of(\"§cOverworld, The Nether, The End, The Twilight Forest\")\n"
+   ],
+   "replace": [
+    "\t\tText.of(\"§c警告：在以下维度之外，第3波时将发生内爆：\"),\n",
+    "\t\tText.of(\"§c主世界、下界、末地、暮色森林\")\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\tText.of(\"§9In a Botany Pot: Requires a hoe enchanted with Silk Touch to be harvested\")\n"
+   ],
+   "replace": [
+    "\t\tText.of(\"§9在植物盆中：需使用附有精准采集魔咒的锄头方可收获\")\n"
+   ]
+  }
+ ]
+}

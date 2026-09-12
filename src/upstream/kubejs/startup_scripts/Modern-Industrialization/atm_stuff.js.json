@@ -1,0 +1,101 @@
+{
+ "src": "kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js",
+ "edits": [
+  {
+   "find": [
+    "        .displayName('Allthemodium Drill');\n"
+   ],
+   "replace": [
+    "        .displayName('全合金钻头');\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Allthemodium Drill Head');\n"
+   ],
+   "replace": [
+    "        .displayName('ATM钻头头部');\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Allthemodium Curved Plate');\n"
+   ],
+   "replace": [
+    "        .displayName('ATM曲面板');\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Allthemodium Bolt');\n"
+   ],
+   "replace": [
+    "        .displayName('全合金螺栓');\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Vibranium Drill');\n"
+   ],
+   "replace": [
+    "        .displayName('振金钻头');\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Vibranium Drill Head');\n"
+   ],
+   "replace": [
+    "        .displayName('振金钻头头部');\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Vibranium Curved Plate');\n"
+   ],
+   "replace": [
+    "        .displayName('振金曲面板');\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Vibranium Bolt');\n"
+   ],
+   "replace": [
+    "        .displayName('振金螺栓');\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Unobtainium Drill');\n"
+   ],
+   "replace": [
+    "        .displayName('难得素钻头');\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Unobtainium Drill Head');\n"
+   ],
+   "replace": [
+    "        .displayName('难得素钻头头部');\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Unobtainium Curved Plate');\n"
+   ],
+   "replace": [
+    "        .displayName('难得素曲面板');\n"
+   ]
+  },
+  {
+   "find": [
+    "        .displayName('Unobtainium Bolt');\n"
+   ],
+   "replace": [
+    "        .displayName('难得素螺栓');\n"
+   ]
+  }
+ ]
+}

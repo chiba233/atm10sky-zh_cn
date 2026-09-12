@@ -1,0 +1,69 @@
+{
+ "src": "kubejs/client_scripts/ponder/fission_mek_port.js",
+ "edits": [
+  {
+   "find": [
+    "\t.scene('fission_mek_port','Mekanism Fission Reactor: Ports', 'kubejs:fission_mek',\n"
+   ],
+   "replace": [
+    "\t.scene('fission_mek_port','通用机械裂变反应堆：端口', 'kubejs:fission_mek',\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'A Reactor Needs At Least 4 Ports', [0, 1.5, 3.5]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '反应堆至少需要 4 个端口', [0, 1.5, 3.5]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Ports Can Be Changed Using A Configurator', [0, 1.5, 3.5]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '端口可使用配置器进行更改', [0, 1.5, 3.5]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(160, 'Required Ports:', [-1, 4, 4]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(160, '所需端口：', [-1, 4, 4]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(40, 'Input Coolant', [3.5, 1.5, 0]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(40, '输入冷却液', [3.5, 1.5, 0]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(40, 'Input Fuel', [1.5, 1.5, 0]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(40, '输入燃料', [1.5, 1.5, 0]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(40, 'Output Waste', [0, 1.5, 1.5]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(40, '输出废料', [0, 1.5, 1.5]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(40, 'Output Heated Coolant', [0, 1.5, 3.5]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(40, '输出高温冷却液', [0, 1.5, 3.5]).placeNearTarget();\n"
+   ]
+  }
+ ]
+}

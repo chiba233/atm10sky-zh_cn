@@ -1,0 +1,45 @@
+{
+ "src": "kubejs/client_scripts/ponder/fission_mek.js",
+ "edits": [
+  {
+   "find": [
+    "\t.scene('fission_mek','Mekanism Fission Reactor', 'kubejs:fission_mek',\n"
+   ],
+   "replace": [
+    "\t.scene('fission_mek','通用机械裂变反应堆', 'kubejs:fission_mek',\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'The Edges Must Be Casings', [0, 4.5, 4.5]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '边框必须是外壳', [0, 4.5, 4.5]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'The Walls Can Be Either Casings Or Glass', [0, 2.5, 2.5]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '墙面可以是反应堆外壳或玻璃', [0, 2.5, 2.5]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Place Fuel Assembly Blocks Inside To Make The Fuel Rods', [2.5, 2.5, 2.5]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '在内部放置燃料组件方块以制成燃料棒', [2.5, 2.5, 2.5]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Place Control Rod Assembly At The Top Of Each Fuel Rod', [2.5, 3.5, 2.5]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '在每根燃料棒顶部放置控制棒组件', [2.5, 3.5, 2.5]).placeNearTarget();\n"
+   ]
+  }
+ ]
+}

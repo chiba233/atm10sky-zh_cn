@@ -1,0 +1,77 @@
+{
+ "src": "kubejs/client_scripts/ponder/induction_mek.js",
+ "edits": [
+  {
+   "find": [
+    "\t.scene('induction_mek','Mekanism: Induction Matrix', 'kubejs:induction_matrix',\n"
+   ],
+   "replace": [
+    "\t.scene('induction_mek','通用机械：感应矩阵', 'kubejs:induction_matrix',\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'The Induction Matrix is used to store tons of Power.', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '输导矩阵用于储存海量电力。', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'The Edges Must Be Casings', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '边框必须是外壳', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'The Faces Can Be Either Casings Or Structural Glass.', [0, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '各面可以是外壳或结构玻璃。', [0, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Ports Are Used To Transfer Power.', [1.5, 1.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '端口用于传输电力。', [1.5, 1.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'Ports Can Be Changed Using A Configurator.', [1.5, 1.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '端口可使用配置器进行更改。', [1.5, 1.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Induction Cells Are Used To Increase Power Storage.', [2.5, 1.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '感应电池用于提高储能容量。', [2.5, 1.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Induction Providers Are Used To Increase Power Transfer Rate.', [2.5, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '输导供应器用于提升电力传输速率。', [2.5, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'The Matrix Must Have One Cell and One Provider.', [2, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '矩阵必须包含一个单元格与一个供应器。', [2, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "src": "kubejs/client_scripts/ponder/fusion_activate.js",
+ "edits": [
+  {
+   "find": [
+    "\t.scene('fusion_activation','Mekanism Fusion Reactor: Activation', 'kubejs:fusion_activation',\n"
+   ],
+   "replace": [
+    "\t.scene('fusion_activation','通用机械聚变反应堆：启动', 'kubejs:fusion_activation',\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'To activate the Fusion Reactor, we will need a few things.', [2, 2.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '要启动聚变反应堆，我们需要准备几样东西。', [2, 2.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(100, 'You will need to put a Hohlraum filled with D-T fuel in the Controller.', [4.5, 5, 3.5]).attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(100, '需在控制器中放入一个装有D-T燃料的黑体辐射腔。', [4.5, 5, 3.5]).attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(100, 'You will need to shoot 400MRF using Lasers into the Laser Matrix.', [0, 2.5, 3.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(100, '需使用激光向激光聚焦矩阵射入4亿MRF能量。', [0, 2.5, 3.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(100, 'The Laser Amplifier needs to have the Red face pointing towards the Matrix.', [1, 2.5, 3]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(100, '激光增幅器需将红色面朝向矩阵。', [1, 2.5, 3]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.overlay.showText(100).text(\"You will also need to give the Reactor fuel.\").independent(-50);\n",
+    "\t\t\tscene.text(50, 'For Deuterium', [5.5, 2.5, 1]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.overlay.showText(100).text(\"你还需要为反应堆提供燃料。\").independent(-50);\n",
+    "\t\t\tscene.text(50, '用于氘', [5.5, 2.5, 1]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(50, 'For Tritium.', [3.5, 2.5, 1]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(50, '对于氚。', [3.5, 2.5, 1]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'The Reactor mixes the D-T fuel at a set rate when they are pumped in separately.', [4.5, 2.5, 1]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '当D-T燃料被分别泵入时，反应堆将以设定速率进行混合。', [4.5, 2.5, 1]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  }
+ ]
+}

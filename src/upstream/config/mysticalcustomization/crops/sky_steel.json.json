@@ -1,0 +1,13 @@
+{
+ "src": "config/mysticalcustomization/crops/sky_steel.json",
+ "edits": [
+  {
+   "find": [
+    "  \"name\": \"Sky Steel\",\n"
+   ],
+   "replace": [
+    "  \"name\": \"陨钢\",\n"
+   ]
+  }
+ ]
+}

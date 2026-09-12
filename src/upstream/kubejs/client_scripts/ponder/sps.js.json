@@ -1,0 +1,77 @@
+{
+ "src": "kubejs/client_scripts/ponder/sps.js",
+ "edits": [
+  {
+   "find": [
+    "\t.scene('sps','Mekanism: Supercritical Phase Shifter (SPS)', 'kubejs:sps',\n"
+   ],
+   "replace": [
+    "\t.scene('sps','通用机械：超临界移相器（SPS）', 'kubejs:sps',\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'The SPS converts Polonium into Antimatter Gas using a large amount of power', [0, 3.5, 6.5]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, 'SPS通过消耗大量电力将钋转化为反物质气体。', [0, 3.5, 6.5]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Ports Can Be Changed Using A Configurator', [2.5, 1.5, 0]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '端口可使用配置器进行更改', [2.5, 1.5, 0]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'The SPS is built using this pattern for each face.', [2.5, 4, 5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '超临界移相器（SPS）需按此结构逐面搭建。', [2.5, 4, 5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'On one side, you will need a Port in the middle to input power.', [5.5, 4, 3]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '一侧需在中央放置一个端口以输入电力。', [5.5, 4, 3]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'On the inside, place a Supercharged Coil on the Port.', [5, 4, 3]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '内部需在端口上放置一个增压线圈。', [5, 4, 3]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'You can also use two Supercharged Coils for max power usage.', [0, 4, 3]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '也可使用两个增压线圈以实现最大电力消耗。', [0, 4, 3]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'You will need one Port for inputting Polonium.', [4.5, 1.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '你需要一个端口来输入钋。', [4.5, 1.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'And another for exporting Antimatter Gas.', [2.5, 1.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '还需要另一个端口来输出反物质气体。', [2.5, 1.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  }
+ ]
+}

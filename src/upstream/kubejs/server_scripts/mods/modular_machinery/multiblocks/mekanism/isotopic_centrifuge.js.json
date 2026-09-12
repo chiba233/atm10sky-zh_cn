@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/isotopic_centrifuge.js",
+ "edits": [
+  {
+   "find": [
+    "        .name('Runic Processor - Isotopic Centrifuge')\n"
+   ],
+   "replace": [
+    "        .name('符文处理器 - 同位素离心机')\n"
+   ]
+  }
+ ]
+}

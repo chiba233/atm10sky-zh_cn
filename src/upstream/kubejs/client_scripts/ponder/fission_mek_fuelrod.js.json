@@ -1,0 +1,61 @@
+{
+ "src": "kubejs/client_scripts/ponder/fission_mek_fuelrod.js",
+ "edits": [
+  {
+   "find": [
+    "\t.scene('fission_mek_fuelrod','Mekanism Fission Reactor: Fuel Assembly', 'kubejs:fission_mek',\n"
+   ],
+   "replace": [
+    "\t.scene('fission_mek_fuelrod','通用机械裂变反应堆：燃料组件', 'kubejs:fission_mek',\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'Place Fuel Assembly Blocks Inside To Make The Fuel Rods', [2.5, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '在内部放置燃料组件方块以制成燃料棒', [2.5, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(120, 'Fuel Rods are created with several Fission Fuel Assembly blocks with a Control Rod Assembly on top.', [1.5, 2.5, 2.5]).placeNearTarget();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(120, '燃料棒由多个裂变燃料组件方块构成，顶部需放置控制棒组件。', [1.5, 2.5, 2.5]).placeNearTarget();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'Place Control Rod Assembly At The Top Of Each Fuel Rod', [1.5, 3.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '在每根燃料棒顶部放置控制棒组件', [1.5, 3.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'Control Rod Assembly blocks are placed 1 block from the ceiling.', [1.5, 3.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '控制棒组件方块需放置在距天花板1格处。', [1.5, 3.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Fuel Rods Cannot Touch', [1.5, 1.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '燃料棒不能相互接触', [1.5, 1.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'Multiple Fuel Rods work best in a checkerboard pattern.', [1.5, 1.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '多个燃料棒以棋盘格模式布置效果最佳。', [1.5, 1.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  }
+ ]
+}

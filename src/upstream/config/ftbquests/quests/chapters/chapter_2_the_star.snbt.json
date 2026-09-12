@@ -1,0 +1,30 @@
+{
+ "_说明": "任务「派大星星」的三件奖励是改了名的混凝土（chipped:smooth_yellow_concrete 等），名字写死在物品的 minecraft:custom_name 组件里，不是任务书的语言键——FTB Quests 的语言拆分只覆盖 title/subtitle/description，碰不到组件，所以只能在章节文件本身上改。译名取自物品真名（ATM块／振金块／难得素块），这个梗要的就是「看起来像真的」。",
+ "src": "config/ftbquests/quests/chapters/chapter_2_the_star.snbt",
+ "edits": [
+  {
+   "find": [
+    "\t\t\t\t\t\t\t\"minecraft:custom_name\": \"\\\"Allthemodium Block\\\"\"\n"
+   ],
+   "replace": [
+    "\t\t\t\t\t\t\t\"minecraft:custom_name\": \"\\\"ATM块\\\"\"\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\t\t\t\t\t\"minecraft:custom_name\": \"\\\"Vibranium Block\\\"\"\n"
+   ],
+   "replace": [
+    "\t\t\t\t\t\t\t\"minecraft:custom_name\": \"\\\"振金块\\\"\"\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\t\t\t\t\t\"minecraft:custom_name\": \"\\\"Unobtainium Block\\\"\"\n"
+   ],
+   "replace": [
+    "\t\t\t\t\t\t\t\"minecraft:custom_name\": \"\\\"难得素块\\\"\"\n"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_star_altar.js",
+ "edits": [
+  {
+   "find": [
+    "        .name('Runic Star Altar')\n"
+   ],
+   "replace": [
+    "        .name('符文星祭坛')\n"
+   ]
+  }
+ ]
+}

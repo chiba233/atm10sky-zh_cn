@@ -1,0 +1,14 @@
+{
+ "src": "config/ftbquests/quests/chapters/welcome.snbt",
+ "edits": [
+  {
+   "find": [
+    "\t\t\thover: [\"Join the Discord!\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"加入 Discord！\"]\n"
+   ],
+   "all": true
+  }
+ ]
+}

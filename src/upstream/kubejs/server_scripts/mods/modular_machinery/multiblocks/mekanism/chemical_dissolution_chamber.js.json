@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_dissolution_chamber.js",
+ "edits": [
+  {
+   "find": [
+    "        .name('Runic Processor - Chemical Dissolution Chamber')\n"
+   ],
+   "replace": [
+    "        .name('符文处理器 - 化学溶解室')\n"
+   ]
+  }
+ ]
+}

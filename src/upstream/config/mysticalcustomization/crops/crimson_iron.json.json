@@ -1,0 +1,35 @@
+{
+ "src": "config/mysticalcustomization/crops/crimson_iron.json",
+ "edits": [
+  {
+   "find": [
+    "    \"name\": \"Crimson Iron\",\n",
+    "    \"type\": \"mysticalagriculture:resource\",\n",
+    "    \"tier\": \"mysticalagriculture:3\",\n",
+    "    \"ingredient\": {\n",
+    "      \"tag\": \"c:ingots/crimson_iron\"\n",
+    "    },\n",
+    "    \"color\": \"FC6087\",\n",
+    "    \"textures\": {\n",
+    "      \"flower\": \"mysticalagriculture:block/flower_ingot\",\n",
+    "      \"essence\": \"mysticalagriculture:item/essence_ingot\"\n",
+    "    }\n",
+    "  }"
+   ],
+   "replace": [
+    "  \"name\": \"绯红铁\",\n",
+    "  \"type\": \"mysticalagriculture:resource\",\n",
+    "  \"tier\": \"mysticalagriculture:3\",\n",
+    "  \"ingredient\": {\n",
+    "    \"tag\": \"c:ingots/crimson_iron\"\n",
+    "  },\n",
+    "  \"color\": \"FC6087\",\n",
+    "  \"textures\": {\n",
+    "    \"flower\": \"mysticalagriculture:block/flower_ingot\",\n",
+    "    \"essence\": \"mysticalagriculture:item/essence_ingot\"\n",
+    "  }\n",
+    "}"
+   ]
+  }
+ ]
+}

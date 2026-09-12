@@ -1,0 +1,77 @@
+{
+ "src": "kubejs/client_scripts/ponder/fusion_reactor.js",
+ "edits": [
+  {
+   "find": [
+    "\t.scene('fusion_reactor','Mekanism Fusion Reactor', 'kubejs:fusion_mek',\n"
+   ],
+   "replace": [
+    "\t.scene('fusion_reactor','通用机械聚变反应堆', 'kubejs:fusion_mek',\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'The Fusion Reactor can be used to generate millions of RF per tick.', [0, 2.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '聚变反应堆可用于每刻生成数百万RF能量。', [0, 2.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Ports Can Be Changed Using A Configurator', [1.5, 2.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '端口可使用配置器进行更改', [1.5, 2.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'The Fusion Reactor is built using this pattern for each face.', [2.5, 2, 4.5]).attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '聚变反应堆需按此结构逐面搭建。', [2.5, 2, 4.5]).attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'You will need a port for exporting power.', [4, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '你需要一个用于输出电力的端口。', [4, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'The Laser Matrix is used to kickstart the reactor.', [0, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '激光矩阵用于启动反应堆。', [0, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'The Fusion Reactor Controller must be placed in the middle of the top face.', [2.5, 4.5, 3.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '聚变堆控制器必须放置在顶面正中央。', [2.5, 4.5, 3.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(30, 'You will need two ports for inputting Deuterium', [3.5, 2.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(30, '你需要两个端口来输入氘', [3.5, 2.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(40, 'and Tritium.', [1.5, 2.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(40, '和氚。', [1.5, 2.5, 0]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  }
+ ]
+}

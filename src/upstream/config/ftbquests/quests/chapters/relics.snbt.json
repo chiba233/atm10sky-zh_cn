@@ -1,0 +1,95 @@
+{
+ "src": "config/ftbquests/quests/chapters/relics.snbt",
+ "edits": [
+  {
+   "find": [
+    "\t\t\thover: [\"Bastion\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"堡垒\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Fortress\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"下界要塞\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Ruined Portal\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"废弃传送门\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"End City\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"末地城\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"End Ship\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"末地船\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Ocean Ruin\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"海底废墟\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Shipwreck\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"沉船\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Mineshaft\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"废弃矿井\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Village\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"村庄\"]\n"
+   ],
+   "all": true
+  },
+  {
+   "find": [
+    "\t\t\thover: [\"Stronghold\"]\n"
+   ],
+   "replace": [
+    "\t\t\thover: [\"要塞\"]\n"
+   ],
+   "all": true
+  }
+ ]
+}

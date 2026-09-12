@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/auto_hephaestus_forge.js",
+ "edits": [
+  {
+   "find": [
+    "        .name('Automatic Hepheastus Forge')\n"
+   ],
+   "replace": [
+    "        .name('自动赫菲斯托斯锻炉')\n"
+   ]
+  }
+ ]
+}

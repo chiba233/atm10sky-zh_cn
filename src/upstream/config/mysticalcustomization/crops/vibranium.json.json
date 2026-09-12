@@ -1,0 +1,37 @@
+{
+ "src": "config/mysticalcustomization/crops/vibranium.json",
+ "edits": [
+  {
+   "find": [
+    "    \"name\": \"Vibranium\",\n",
+    "    \"type\": \"mysticalagriculture:resource\",\n",
+    "    \"tier\": \"mysticalcustomization:magical\",\n",
+    "    \"ingredient\": {\n",
+    "      \"tag\": \"c:storage_blocks/vibranium\"\n",
+    "    },\n",
+    "    \"color\": \"26DB86\",\n",
+    "    \"textures\": {\n",
+    "      \"flower\": \"mysticalagriculture:block/flower_ingot\",\n",
+    "      \"essence\": \"mysticalagriculture:item/essence_ingot\"\n",
+    "    },\n",
+    "    \"crux\": \"kubejs:magical_soil\"\n",
+    "  }"
+   ],
+   "replace": [
+    "  \"name\": \"振金\",\n",
+    "  \"type\": \"mysticalagriculture:resource\",\n",
+    "  \"tier\": \"mysticalcustomization:magical\",\n",
+    "  \"ingredient\": {\n",
+    "    \"tag\": \"c:storage_blocks/vibranium\"\n",
+    "  },\n",
+    "  \"color\": \"26DB86\",\n",
+    "  \"textures\": {\n",
+    "    \"flower\": \"mysticalagriculture:block/flower_ingot\",\n",
+    "    \"essence\": \"mysticalagriculture:item/essence_ingot\"\n",
+    "  },\n",
+    "  \"crux\": \"kubejs:magical_soil\"\n",
+    "}"
+   ]
+  }
+ ]
+}

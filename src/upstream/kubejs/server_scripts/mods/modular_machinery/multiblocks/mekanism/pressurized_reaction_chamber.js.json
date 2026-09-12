@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/pressurized_reaction_chamber.js",
+ "edits": [
+  {
+   "find": [
+    "        .name('Runic Processor - Pressurized Reaction Chamber')\n"
+   ],
+   "replace": [
+    "        .name('符文处理器 - 加压反应室')\n"
+   ]
+  }
+ ]
+}

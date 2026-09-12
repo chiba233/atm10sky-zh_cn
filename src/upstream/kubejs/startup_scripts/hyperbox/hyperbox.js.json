@@ -1,0 +1,15 @@
+{
+ "src": "kubejs/startup_scripts/hyperbox/hyperbox.js",
+ "edits": [
+  {
+   "find": [
+    "                Client.gui.setTitle(Text.blue(\"Hyperbox\").append(Text.red(\" will be removed!\")))\n",
+    "                Client.gui.setSubtitle(Text.white(\"Transfer your stuff to new mod \").append(Text.blue(\"Compact Machines\")))\n"
+   ],
+   "replace": [
+    "                Client.gui.setTitle(Text.blue(\"超立方盒\").append(Text.red(\" 将被移除！\")))\n",
+    "                Client.gui.setSubtitle(Text.white(\"请将你的物品转移到新模组 \").append(Text.blue(\"紧凑机械\")))\n"
+   ]
+  }
+ ]
+}

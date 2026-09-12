@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/startup_scripts/Modern-Industrialization/multiblocks/runic_enchanter.js",
+ "edits": [
+  {
+   "find": [
+    "        'Runic Enchanter',\n"
+   ],
+   "replace": [
+    "        '符文附魔台',\n"
+   ]
+  }
+ ]
+}

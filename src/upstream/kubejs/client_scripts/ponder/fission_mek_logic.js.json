@@ -1,0 +1,77 @@
+{
+ "src": "kubejs/client_scripts/ponder/fission_mek_logic.js",
+ "edits": [
+  {
+   "find": [
+    "\t.scene('fission_mek_logic','Mekanism Fission Reactor: Logic Adapters', 'kubejs:fission_logic_example',\n"
+   ],
+   "replace": [
+    "\t.scene('fission_mek_logic','通用机械裂变反应堆：逻辑适配器', 'kubejs:fission_logic_example',\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Logic Adapters allow Redstone Control for Reactors.', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '逻辑适配器支持红石控制反应堆。', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Right Click to Open Configuration Settings', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '右击以打开配置设置', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'With two, you can set up a Fail Safe that can shut off the Reactor under certain conditions.', [2.5, 3.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '使用两个即可设置安全模式，在特定条件下自动关闭反应堆。', [2.5, 3.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Set this one to Activation', [2.5, 3.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '将这个设为启动', [2.5, 3.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Set this one to Damage Critical.', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '将这个设为损伤临界值。', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'When the Reactor has Critical Damage, it will give off a redstone signal.', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '当反应堆遭受严重损伤时，将输出红石信号。', [2.5, 1.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'We can use this to activate a piston with gravel or sand on it to activate an Observer.', [2.5, 1.5, 1]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '可利用此装置激活带有沙砾或沙子的活塞，从而触发侦测器。', [2.5, 1.5, 1]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(120, 'This is an Oberserver facing towards the Gravel. The Gravel will activate it and turn off the reactor.', [2.5, 3.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(120, '这是一个面向沙砾的侦测器。沙砾将激活它并关闭反应堆。', [2.5, 3.5, 2]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  }
+ ]
+}

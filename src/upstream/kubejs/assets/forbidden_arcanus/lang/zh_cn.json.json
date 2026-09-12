@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/assets/forbidden_arcanus/lang/zh_cn.json",
+ "edits": [
+  {
+   "find": [
+    "    \"item.forbidden_arcanus.corrupted_arcane_crystal\": \"符文共鸣水晶\"\n"
+   ],
+   "replace": [
+    "  \"item.forbidden_arcanus.corrupted_arcane_crystal\": \"符文共鸣水晶\"\n"
+   ]
+  }
+ ]
+}

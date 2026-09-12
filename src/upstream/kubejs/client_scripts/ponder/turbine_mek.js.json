@@ -1,0 +1,109 @@
+{
+ "src": "kubejs/client_scripts/ponder/turbine_mek.js",
+ "edits": [
+  {
+   "find": [
+    "\t.scene('turbine_mek','Mekanism: Industrial Turbine', 'kubejs:turbine_mek',\n"
+   ],
+   "replace": [
+    "\t.scene('turbine_mek','通用机械：工业涡轮机', 'kubejs:turbine_mek',\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'The Industrial Turbine uses Heated Coolant to create Power.', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '工业涡轮利用热冷却剂发电。', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'The edges must be made of Turbine Casings.', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '边框必须由涡轮机外壳构成。', [0, 4.5, 4.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'The faces can be Turbine Casings, Structural Glass, Valves, or Vents.', [0, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '各面可采用涡轮外壳、结构玻璃、阀门或排气口。', [0, 2.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Turbine Valves pump in Steam, or export Power.', [0, 1.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '涡轮阀门用于泵入蒸汽或输出电力。', [0, 1.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'Turbine Rotors must be placed in the middle. Each Rotor uses 2 Turbine Blades.', [2, 3.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '涡轮转子必须放置在中央。每个转子消耗2个涡轮叶片。', [2, 3.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'A Rotational Complex must be placed on top of the Turbine Rotor.', [2, 4.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '复杂旋钮装置必须放置在涡轮转子上方。', [2, 4.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'Pressure Dispersers must fill the layer around the Rotational Complex.', [1, 4.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '分压元件必须填满围绕复杂旋钮装置的整层。', [1, 4.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(120, 'Starting on this layer, Turbine Vents can be used for the outer faces. These also export Water from the Turbine.', [0, 4.5, 3.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(120, '从此层开始，外侧表面可使用涡轮排气口。这些排气口还可导出涡轮内的水。', [0, 4.5, 3.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(60, 'Electromagnetic Coils are placed on top of the Rotational Complex.', [2, 5.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(60, '电磁线圈需放置在复杂旋钮装置顶部。', [2, 5.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(100, 'A max of 5 can be placed. They either must connect to each other, or be touching the Rotational Complex.', [2, 5.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(100, '最多可放置5个。它们必须彼此相连，或直接接触复杂旋钮装置。', [2, 5.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(120, 'Saturating Condensers are used to convert Steam back into Water. These are not required, but must be placed on or above the Coil Layer.', [1, 5.5, 1.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(120, '饱和冷凝器用于将蒸汽重新转化为水。非必需，但必须放置在或高于线圈层。', [1, 5.5, 1.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\tscene.text(80, 'The Top Face can be replaced with Turbine Vents, if needed.', [2.5, 6.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ],
+   "replace": [
+    "\t\t\tscene.text(80, '如需，顶面可用涡轮排气口替代。', [2.5, 6.5, 2.5]).placeNearTarget().attachKeyFrame();\n"
+   ]
+  }
+ ]
+}

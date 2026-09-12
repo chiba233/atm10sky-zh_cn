@@ -1,0 +1,26 @@
+{
+ "src": "kubejs/assets/atm/lang/zh_cn.json",
+ "edits": [
+  {
+   "find": [
+    "{\t\"packmenu.atm.discord\": \"Discord\",\n",
+    "\t\"packmenu.atm.akliz\": \"建服\",\n",
+    "\t\"packmenu.atm.reddit\": \"Reddit\",\n",
+    "\t\"packmenu.atm.github\": \"Github\",\n",
+    "\t\"packmenu.atm.patreon\": \"捐赠\"}\n"
+   ],
+   "replace": [
+    "{\n",
+    "  \"announcements.atm.dismiss_up_to_version\": \"[忽略截至版本 %s 的公告]\",\n",
+    "  \"announcements.atm.dismissed_up_to_version\": \"已忽略截至版本 %s 的公告！\",\n",
+    "  \"kubejs.atm.click_here\": \"点击此处关闭\",\n",
+    "  \"packmenu.atm.akliz\": \"建服\",\n",
+    "  \"packmenu.atm.discord\": \"Discord\",\n",
+    "  \"packmenu.atm.github\": \"Github\",\n",
+    "  \"packmenu.atm.patreon\": \"捐赠\",\n",
+    "  \"packmenu.atm.reddit\": \"Reddit\"\n",
+    "}"
+   ]
+  }
+ ]
+}
