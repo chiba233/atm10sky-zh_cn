@@ -13,6 +13,7 @@
 	quest.012287E678B226D4.title: "混沌蜜蜂"
 	quest.01F7F3589EBD8872.quest_subtitle: "喂菌菇蜜蜂一个棕色蘑菇"
 	quest.01F7F3589EBD8872.title: "棕色蘑菇蜜蜂"
+	quest.02084CEEBADE52E4.quest_desc: ["别和末影龙蜜蜂搞混了"]
 	quest.02084CEEBADE52E4.quest_subtitle: "双足飞龙聚合合成"
 	quest.02084CEEBADE52E4.title: "龙锭蜜蜂"
 	quest.027FD9135DEC4949.quest_subtitle: "放置在下界并给予恶魂之泪时吸引恶魂蜜蜂"
@@ -34,11 +35,13 @@
 	quest.05428EA120583BD0.title: "下界晶体蜜蜂"
 	quest.05F8458AB4A6950B.quest_subtitle: "喂钻石蜜蜂虚空辉凝胶"
 	quest.05F8458AB4A6950B.title: "苍穹晶蜜蜂"
+	quest.06044B4452A6B720.quest_desc: ["把沙子蜂巢放在主世界的任意生物群系里，它会引来巧克力穴居蜜蜂或灰烬穴居蜜蜂。"]
 	quest.06044B4452A6B720.quest_subtitle: "可在主世界任意生物群系使用"
 	quest.065196033249A0AA.quest_subtitle: "将粗有机聚合物与铁蜜蜂蛋合金"
 	quest.065196033249A0AA.title: "有机钢蜜蜂"
 	quest.0691BDE968724213.quest_subtitle: "在合金熔炉中制作"
 	quest.0691BDE968724213.title: "振动合金蜜蜂"
+	quest.069247036385D7CF.quest_desc: ["决定蜜蜂在一天里的哪个时段干活，共三档：&a昼行性&r、&d夜行性&r、&c昼夜双行性&r。&a昼行性&r只在白天工作，&d夜行性&r只在夜里工作，&c昼夜双行性&r则全天都能干。我们要的是&c昼夜双行性&r。\\n\\nBeeBee 天生就是&c昼夜双行性&r，可惜前面说过它正在休假，所以我们得另想办法。\\n\\n办法是：夜里把蜜蜂拴在栅栏上，它会变成&d夜行性&r；再把这些蜜蜂白天继续拴在栅栏上，就变成&c昼夜双行性&r。用恶魂蜜蜂可以省掉一步——它天生就是&d夜行性&r。"]
 	quest.069247036385D7CF.quest_subtitle: "睡觉是弱者才干的事"
 	quest.069247036385D7CF.title: "&l&e行为"
 	quest.06B352AE90DD0D3E.quest_desc: ["&8烈焰蜜蜂&r为&4黑曜石蜜蜂刷怪蛋&r授粉会将其转化为&2无限蜜蜂刷怪蛋&r。"]
@@ -55,6 +58,11 @@
 	quest.094D28B7A0170039.quest_subtitle: "喂原版蜜蜂一个漏斗"
 	quest.094D28B7A0170039.title: "收集者蜜蜂"
 	quest.097DE7038A746847.quest_subtitle: "从甘蔗蜂巢生成"
+	quest.09FD3D0B9BCAEB5A.quest_desc: [
+		"沙砾蜂巢在主世界的任意生物群系里都能引来蜜蜂。"
+		""
+		"它会引来灰烬穴居蜜蜂、巧克力穴居蜜蜂和挖掘者蜜蜂。"
+	]
 	quest.09FD3D0B9BCAEB5A.quest_subtitle: "可在主世界任意生物群系使用"
 	quest.0A11725B41AB45F6.quest_desc: ["此任务由&6AllTheMods团队&r或&2社区贡献者&r编写，用于AllTheMods整合包。\\n\\n由于所有&6AllTheMods&r整合包均采用&e保留所有权利&r许可，未经&6AllTheMods团队&r明确许可，此任务不允许在任何非&6AllTheMods团队&r发布的公开整合包中使用。\\n\\n此任务默认隐藏，如果您能看到此内容，说明您正处于编辑模式。"]
 	quest.0AF2460579C6BD8C.quest_subtitle: "锇 + 黑曜石"
@@ -86,7 +94,23 @@
 	quest.117241986C99E475.quest_desc: ["使用发光蜜蜂，将其与巧克力穴居蜜蜂杂交获得红石蜜蜂！"]
 	quest.117241986C99E475.quest_subtitle: "发光 + 巧克力穴居"
 	quest.117241986C99E475.title: "红石蜜蜂"
+	quest.120BDCB70AD352AC.quest_desc: [
+		"想把养蜂场变成资源工厂，第一步是用&6蜂巢&r把蜜蜂引出来。"
+		""
+		"这些蜂巢放哪个生物群系都行。个别蜂巢例外，比如石英蜂巢仍然得放进下界。"
+		""
+		"要把蜜蜂引进蜂巢，拿&9蜜蜂小食&r右键它。没有小食，蜂巢是不工作的！！"
+		""
+		"&9重要提示&r：有些蜜蜂只住蜂巢，不肯进高级蜂箱。凡是不产蜜脾的，就得让它住蜂巢。"
+	]
 	quest.120BDCB70AD352AC.quest_subtitle: "需要蜂蜜小食"
+	quest.128A14A3842325FE.quest_desc: [
+		"装进高级蜂箱后，蜜蜂不再真的飞出去，去花源方块的那趟路会被模拟掉。"
+		""
+		"记得在蜂箱正前方放上它需要的花源方块，或者放一块饲养板、里面装好箱内蜜蜂所需的花源方块或物品。具体怎么摆，看饲养板那条任务。"
+		""
+		"强烈建议装上它，免得蜜蜂跑丢或者飞进虚空。"
+	]
 	quest.128A14A3842325FE.quest_subtitle: "蜜蜂还是真的吗？"
 	quest.131EC039435B8878.quest_desc: [
 		"在资源蜜蜂模组中，你不需要花大部分时间飞来飞去找特定的蜜蜂。"
@@ -97,6 +121,7 @@
 		""
 		"确保查看需要在哪个生物群系中才能吸引正确的蜜蜂！"
 	]
+	quest.13AA91D39A2CABF2.quest_desc: ["欢迎来到&6资源蜜蜂&r！\\n\\n想上手这个模组，先得弄到一些蜜脾和蜂蜜瓶！在花丛附近种几棵树长出蜂巢（或者让魔精替你弄蜜脾），再让蜜蜂干一会儿活。等蜂巢满了用剪刀剪，就能拿到蜜脾；用玻璃瓶则能装到蜂蜜瓶！\\n\\n&9重要提示&r：蜜蜂类任务要交蜜脾，而这些配方不会直接显示出来。需要的话记得去 JEI 里查。"]
 	quest.13AA91D39A2CABF2.title: "资源蜜蜂！"
 	quest.13C5C06278DD9C95.quest_subtitle: "将钻石蜜蜂刷怪蛋与镍蜜蜂刷怪蛋合金"
 	quest.13C5C06278DD9C95.title: "精镍蜜蜂"
@@ -124,6 +149,7 @@
 		"&9蜜蜂转化&r需要你喂食蜜蜂特定物品将其转化为新的蜂种。"
 	]
 	quest.17419401147B5C02.quest_subtitle: "蜜蜂与蜜蜂的那些事儿"
+	quest.176ACC61DC206E55.quest_desc: ["它的蜂巢也可以靠催生绯红菌得到，概率 2%。"]
 	quest.176ACC61DC206E55.quest_subtitle: "喂食绯红菌给蘑菇蜜蜂"
 	quest.176ACC61DC206E55.title: "绯红菌蜜蜂"
 	quest.177199FED92C3B5B.quest_subtitle: "喂食注能钻石给钻石蜜蜂"
@@ -148,6 +174,7 @@
 	quest.1A4FAE5705B53753.title: "气之精华蜜蜂"
 	quest.1ACB3EDBCB732514.quest_subtitle: "将一个独居石块喂给硫蜜蜂"
 	quest.1ACB3EDBCB732514.title: "独居石蜜蜂"
+	quest.1B135C28E29F249F.quest_desc: ["决定蜜蜂的攻击性，也就是它蜇不蜇你。这条性状相对没那么要紧，不过当你要在世界里直接跟蜜蜂打交道时，还是别挑好斗的。共四档：&a友好&r、&9正常&r、&c敌意&r、&d好斗&r。\\n\\n老实讲，每一档具体差在哪儿我也说不清。我只知道&d好斗&r的蜜蜂**一定**会蜇你，哪怕你根本没招惹它。喂蜜蜂小食可以让它们温和一些。"]
 	quest.1B135C28E29F249F.quest_subtitle: "别再蛰我了！"
 	quest.1B135C28E29F249F.title: "&l&4性格"
 	quest.1C40B30823B2A254.quest_subtitle: "钓鱼获得"
@@ -160,6 +187,7 @@
 	quest.1D995548A159F291.title: "灵魂锭蜜蜂"
 	quest.1DC407272D9D9CCE.quest_subtitle: "觉醒合成"
 	quest.1DC407272D9D9CCE.title: "觉醒终极精华蜜蜂"
+	quest.1DF026030780AE96.quest_desc: ["不过它相当慢就是了……"]
 	quest.1DF026030780AE96.quest_subtitle: "从蜂巢中的蜜蜂提取基因"
 	quest.1E9BD4B74DAEA9FC.quest_desc: ["要吸引蜜蜂到这个蜂巢，你需要爆裂紫颂果而不是蜂蜜小食。"]
 	quest.1E9BD4B74DAEA9FC.quest_subtitle: "放置在末地时吸引末影蜜蜂"
@@ -167,6 +195,7 @@
 	quest.205DE46ABA1CCC8F.title: "导电合金蜜蜂"
 	quest.2086C73688C8BA51.quest_subtitle: "喂食一桶硫酸给熔岩蜜蜂"
 	quest.2086C73688C8BA51.title: "硫酸蜜蜂"
+	quest.20D61CC211D0495D.quest_desc: ["别和觉醒终极精华蜜蜂搞混了"]
 	quest.20D61CC211D0495D.quest_subtitle: "龙锭聚合合成"
 	quest.20D61CC211D0495D.title: "觉醒蜜蜂"
 	quest.2182492BCC1B33D8.quest_desc: ["安装在蜂巢中时，每次产出蜂蜜都有5%的几率生成一只新的幼蜂。\\n\\n放置在捕捉器中时，只允许捕捉器捕捉幼蜂。\\n\\n可以叠加使用多个，以获得更高的几率。"]
@@ -185,6 +214,7 @@
 	quest.24888CAD50B32B04.quest_subtitle: "使用石头蜂巢生成"
 	quest.24B147D251D0CFFF.quest_subtitle: "喂食烈焰蕾凝胶给金蜜蜂"
 	quest.24B147D251D0CFFF.title: "烈焰金蜜蜂"
+	quest.264BFB8C5F79616F.quest_desc: ["把雪蜂巢放在主世界的任意生物群系里，就能引来汗蜜蜂。"]
 	quest.264BFB8C5F79616F.quest_subtitle: "在主世界任意生物群系引来汗蜜蜂"
 	quest.26B3AE1E77A84BCB.quest_desc: ["如果你将&9锇蜜蜂刷怪蛋&r、&b充能赛特斯石英&r和&8天空石&r扔进熔岩，你将创造一个&e陨锇蜜蜂刷怪蛋"]
 	quest.26B3AE1E77A84BCB.title: "陨锇蜜蜂"
@@ -192,6 +222,7 @@
 	quest.26FB7A789981BD3C.title: "石墨蜜蜂"
 	quest.28AE3B536D23E138.quest_subtitle: "注魔合成"
 	quest.28AE3B536D23E138.title: "下级精华蜜蜂"
+	quest.2982D38BD5EE6349.quest_desc: ["它的蜂巢也可以靠催生诡异菌得到，概率 2%。"]
 	quest.2982D38BD5EE6349.quest_subtitle: "喂食诡异菌给蘑菇蜜蜂"
 	quest.2982D38BD5EE6349.title: "诡异菌蜜蜂"
 	quest.29A71E780923874E.quest_subtitle: "游牧 + 芦苇"
@@ -208,6 +239,7 @@
 	quest.2A559D527BC88DEC.title: "陨钢蜜蜂"
 	quest.2AEEDCC6826CF4AB.quest_subtitle: "这买卖，多少有点腥"
 	quest.2AEEDCC6826CF4AB.title: "石油蜜蜂"
+	quest.2BE538246C672689.quest_desc: ["用熔铸炉把&#9332D9熔融难得素&r浇到&#F2EB2E振金蜜蜂刷怪蛋&r上。"]
 	quest.2BE538246C672689.quest_subtitle: "把熔融难得素浇在振金蜜蜂刷怪蛋上"
 	quest.2BE538246C672689.title: "难得素蜜蜂"
 	quest.2C29683DA28A8D47.quest_subtitle: "在再处理器中制造"
@@ -252,6 +284,7 @@
 	quest.35E8F1CC0080E45E.title: "红宝石蜜蜂"
 	quest.35EAB77C195E594E.quest_subtitle: "喂钻石蜜蜂一颗紫水晶"
 	quest.35EAB77C195E594E.title: "紫水晶蜜蜂"
+	quest.35FCF2D4A89D55F6.quest_desc: ["蜜蜂身上有各种性状，决定它怎么干活、什么时候干活、攻击性有多强，以及蜇人之后会不会把刺留下。这几条任务会讲清楚怎么拿到最好的性状，以及怎么用它们。\\n\\n基因样本的来源见「装瓶机」那条任务，它是本条的前置。想把基因样本真正用到蜜蜂身上，得在合成格里把它和蜜蜂小食合到一起；除「类型」以外的性状，喂这块蜜蜂小食就能生效。「类型」不一样，必须放进小蜜蜂孵化器，做成对应蜜蜂的刷怪蛋。"]
 	quest.35FCF2D4A89D55F6.quest_subtitle: "为了造出终极蜜蜂"
 	quest.35FE9C3395491433.quest_subtitle: "对铁蜜蜂刷怪蛋加压"
 	quest.35FE9C3395491433.title: "压缩铁蜜蜂"
@@ -259,6 +292,7 @@
 	quest.36541A2179A7E76B.title: "蓝锥矿蜜蜂"
 	quest.369D3AF332181DA8.quest_desc: ["石头蜂巢可以放置在任何主世界生物群系以吸引石匠蜜蜂或挖掘者蜜蜂。"]
 	quest.369D3AF332181DA8.quest_subtitle: "在任何主世界生物群系吸引蜜蜂"
+	quest.36C06EB2F3B9E6B2.quest_desc: ["决定蜜蜂能不能在恶劣天气下干活，共三档：&a无&r、&d雨&r、&c任何&r。我们要的是&c任何&r。\\n\\n你要是愿意，也可以在雷暴天里把蜜蜂拴到栅栏上，但这也太狠了点。\\n\\n我给你个省事的办法：钓鱼。没错，蜜蜂能钓上来。水蜜蜂和海晶蜜蜂天生就能扛住任何天气，正好拿来用！而且它们在这儿连生物群系要求都没有。"]
 	quest.36C06EB2F3B9E6B2.quest_subtitle: "大件里最不起眼的那个"
 	quest.36C06EB2F3B9E6B2.title: "&9&l天气耐受性"
 	quest.37045B986619A03D.quest_subtitle: "黄色 + 绿色木匠蜜蜂"
@@ -301,9 +335,11 @@
 	quest.3E301F3EEC8C763A.quest_subtitle: "幼蜂托儿所"
 	quest.40E4F1172A164DD1.quest_subtitle: "在丛林中破坏可可豆时有几率生成"
 	quest.40E4F1172A164DD1.title: "蜜袋蜜蜂"
+	quest.419DD6FE84B91749.quest_desc: ["收集基因时拿到的是某条性状的百分比。你可以在工作台里把它们叠加起来，也可以丢进基因检索器自动合并。它不需要红石信号。"]
 	quest.419DD6FE84B91749.quest_subtitle: "基因组合器与箱子"
 	quest.41CF7CAEE4F60CCD.quest_desc: ["当放置在下界并给予荧石时，荧石蜂巢会吸引发光蜜蜂。"]
 	quest.41CF7CAEE4F60CCD.quest_subtitle: "在下界吸引发光蜜蜂"
+	quest.41D0CC616B762F4C.quest_desc: ["把&9福鲁伊克斯蜜蜂刷怪蛋&r和&8恩特罗粉&r一起丢进水里，就能得到陨钢蜜蜂刷怪蛋。"]
 	quest.41D0CC616B762F4C.title: "恩特罗蜜蜂"
 	quest.41FD145B911BD625.quest_subtitle: "将银蜜蜂刷怪蛋放入灵火"
 	quest.41FD145B911BD625.title: "艾瑟金属蜜蜂"
@@ -312,6 +348,11 @@
 	quest.439B5FDAC84271A2.quest_subtitle: "钻石 + 铁"
 	quest.439B5FDAC84271A2.title: "钛蜜蜂"
 	quest.447CAC472A99835B.quest_subtitle: "生成于雪蜂巢"
+	quest.47CEFA06392C4211.quest_desc: [
+		"扩容盒装在高级蜂箱顶上，能把箱内可容纳的蜜蜂数量扩到 5 格。"
+		""
+		"此外，装了它蜂箱才支持升级件。"
+	]
 	quest.47CEFA06392C4211.quest_subtitle: "增加我们的蜜蜂存储空间"
 	quest.47CEFA06392C4211.title: "扩容盒"
 	quest.4897C7BB3139C6C6.quest_subtitle: "伐木工 + 牧场主"
@@ -326,6 +367,7 @@
 	]
 	quest.4C47EB9D2CE26BC6.quest_subtitle: "生成于下界的石英蜂巢"
 	quest.4C47EB9D2CE26BC6.title: "石英蜜蜂"
+	quest.4DDF647FE6494DE1.quest_desc: ["这个模组里最强的产量升级，本身就自带模拟升级和蜜脾块升级。"]
 	quest.4ED01E04D55999D9.quest_subtitle: "把熔融乌鲁浇在难得素蜜蜂刷怪蛋上"
 	quest.4ED01E04D55999D9.title: "乌鲁金属蜜蜂"
 	quest.4FE7F45C72EF5DC1.quest_subtitle: "铁 + 汗蜜蜂"
@@ -397,7 +439,15 @@
 	]
 	quest.6786B08C30D26037.quest_subtitle: "生成于已有灰烬穴居蜜蜂的蜂巢中"
 	quest.683B58B699D4D381.quest_subtitle: "生成于已有蓝色条纹蜜蜂的蜂巢中"
+	quest.6875021F338116AF.quest_desc: [
+		"繁殖箱可以让两只蜜蜂自动繁殖。它既能同种自交，也能用两种蜜蜂杂交出第三种（例如：灰烬穴居 + 石英 → 铁）。如果这一对会产生冲突（还是上面那个例子：灰烬穴居 + 石英 → 铝），把其中一只取出来再放回去即可。"
+		""
+		"每个槽位都要放繁殖材料（通常是花；对着装有某种蜜蜂的蜜蜂笼按住 SHIFT，就能看到它用的是什么繁殖材料，比如末影龙蜜蜂要 2 份龙尘），另外还要备几个蜜蜂笼。"
+		""
+		"还有……千万别干出那种会招来 F.Bee.I. 的事。真被盯上了，我保证把你写进耻辱榜。"
+	]
 	quest.6875021F338116AF.quest_subtitle: "造娃 2：蜂回路转"
+	quest.68CE30097BADE20E.quest_desc: ["对着你正在找的那种蜂巢右键，它会给你指出另一个的方向！这玩意儿真有用吗？"]
 	quest.68CE30097BADE20E.quest_subtitle: "再说你上哪儿找去？"
 	quest.68CE30097BADE20E.title: "寻找蜂巢"
 	quest.692BC8AADCBF76C3.quest_subtitle: "在合金熔炉中制造"
@@ -412,6 +462,7 @@
 		"提示：黄铜在制作静默齿轮工具时具有精准采集特性。"
 	]
 	quest.6D484150536536B9.quest_subtitle: "在下界吸引石英蜜蜂"
+	quest.6DBF9CAB37B9BBF3.quest_desc: ["产量升级同样会提高离心机单次处理的物品数量。"]
 	quest.6DBF9CAB37B9BBF3.quest_subtitle: "将蜜蜂生产力提高120%"
 	quest.6DC826659699E638.quest_subtitle: "将红石蜜蜂刷怪蛋与琥珀金蜜蜂刷怪蛋碰撞"
 	quest.6DC826659699E638.title: "辐水晶蜜蜂"
@@ -419,8 +470,10 @@
 	quest.6DF215923418F56F.title: "超越经验蜜蜂"
 	quest.6E4C3B87FABE9EFA.quest_subtitle: "将熔融青铜倒在铜/锡蜜蜂刷怪蛋上"
 	quest.6E4C3B87FABE9EFA.title: "青铜蜜蜂"
+	quest.6E819CCD57B15D54.quest_desc: ["用熔铸炉把&#4CE688熔融振金&r浇到&#F2EB2EATM蜜蜂刷怪蛋&r上。"]
 	quest.6E819CCD57B15D54.quest_subtitle: "把熔融振金浇在 ATM 蜜蜂刷怪蛋上"
 	quest.6E819CCD57B15D54.title: "振金蜜蜂"
+	quest.6EFFF0DC80C1C8A3.quest_desc: ["用熔铸炉把&#F2EB2E熔融ATM&r浇到&#944A12远古蜜蜂刷怪蛋&r上。"]
 	quest.6EFFF0DC80C1C8A3.quest_subtitle: "把熔融 ATM 浇在远古蜜蜂刷怪蛋上"
 	quest.6EFFF0DC80C1C8A3.title: "ATM蜜蜂"
 	quest.6F7AC41B703028CC.quest_subtitle: "将熔融信素倒在铜/银蜜蜂刷怪蛋上"
@@ -430,6 +483,7 @@
 		"{image:atm:textures/questpics/bees/bottler.png width:100 height:150 align:1}"
 	]
 	quest.6F978C4D561F35EC.quest_subtitle: "亲爱的，我把蜜蜂压扁了"
+	quest.6FD944282C44BCE1.quest_desc: ["决定蜜蜂攻击东西时把刺留下的概率。这条性状比前面三条次要，不过还是说一说。共四档：&a弱&r、&9正常&r、&d中&r、&c强&r，我要讲的是&c强&r。\\n\\n有些蜜蜂天生耐力就强，比如末影龙蜜蜂、黑曜石蜜蜂，还有一些我可能没提到的，它们蜇完还能留住自己的刺。"]
 	quest.6FD944282C44BCE1.quest_subtitle: "没那么要紧的一个"
 	quest.6FD944282C44BCE1.title: "&l&b耐力"
 	quest.70C878DB6AE413B2.quest_subtitle: "岩浆 + 煤炭"
@@ -469,6 +523,7 @@
 	quest.7941938014E97A30.title: "大黄蜂"
 	quest.79CA2F401982C04F.quest_subtitle: "将符文块喂给神秘蜜蜂"
 	quest.79CA2F401982C04F.title: "符文蜜蜂"
+	quest.79D6A251FE3761B3.quest_desc: ["把黏液蜂巢放在主世界的任意生物群系里，就能引来黏液蜜蜂。"]
 	quest.79D6A251FE3761B3.quest_subtitle: "在主世界任意生物群系引来黏液蜜蜂"
 	quest.7A2B26CF0EDAA724.quest_subtitle: "在合金熔炉中制作"
 	quest.7A2B26CF0EDAA724.title: "末地钢蜜蜂"
@@ -491,6 +546,7 @@
 	quest.7E57964F6AD5B060.title: "茶蜜蜂"
 	quest.7EAFF64FFE8B5378.quest_subtitle: "铁 + 汗"
 	quest.7EAFF64FFE8B5378.title: "锌蜜蜂"
+	quest.7F61CAC8922A3A2A.quest_desc: ["决定蜜蜂每次产蜜脾时给几个，共四档：&a正常&r、&9中&r、&d高&r、&c很高&r。我们要的是&c很高&r，它出现在 KamikazBee 和 BeeBee 身上。\\n\\n不过 BeeBee 眼下正在下面度假，所以只剩 KamikazBee 这一条路。\\n\\n想拿到 KamikazBee，你需要一顶蜂巢头盔。戴着它被怪物打（或者拿箭射自己一下），就有 30% 的概率冒出一只 KamikazBee。它速度相当快，而且会去蜇打你的那个东西（除非那个东西就是你），所以要么赶紧抓住，要么用捕捉器。"]
 	quest.7F61CAC8922A3A2A.quest_subtitle: "最要紧的那个"
 	quest.7F61CAC8922A3A2A.title: "&a&l产量"
 	task.065E5450AC87F1D5.title: "远古蜜蜂蜜脾"
