@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 # ATM10 Sky @@MCVER@@ 汉化补丁安装器 (macOS / Linux)
 # 版本号一律用 @@MCVER@@ 占位，由 scripts/build_dist.sh 按目标整合包版本填。
-# 写死一个版本号的话，7.0 / 7.1 的包里会印着「ATM10 7.2」——三个包里两个是错的。
+# 写死版本号的话，同一补丁版本产出的其他整合包版本的包里会印错版本。
 # 用法：把整个汉化文件夹放进 ATM10 Sky 实例根目录后运行：
 #   bash install.sh                    # 交互菜单
 #   bash install.sh apply              # 应用汉化（自动先备份，不含可选mods）

@@ -10,7 +10,7 @@
 # 资源包 zip 与服务端 jar 均不入 git，由本脚本从源码目录现场压缩。
 #
 # 本包按**整合包版本族**发布：公共内容 + versions/<整合包版本>/ 的专属覆盖层，
-# 一个补丁版本可以同时产出 7.0 / 7.1 / 7.2 三个包。补丁自己的版本号与整合包版本解耦。
+# 一个补丁版本可以同时产出多个整合包版本的包。补丁自己的版本号与整合包版本解耦。
 #
 # 用法:
 #   ./scripts/build_dist.sh r12            # 出 versions/ 下声明过的全部整合包版本
@@ -153,7 +153,7 @@ cp "installer/双击安装-Windows.bat" "$CSTAGE/install-windows.bat"
 DP="$(grep -v '^#' "versions/${MC}/default_resource_packs.txt" 2>/dev/null | sed '/^[[:space:]]*$/d' \
      | sed 's/.*/"&"/' | paste -sd, - || true)"
 # 安装器里凡是跟整合包版本有关的字样，一律占位符现填：资源包文件名、界面标题、注释。
-# 以前只用 sed 换资源包文件名，界面上那句「ATM10 7.2 汉化补丁」原样留在 7.0/7.1 的包里。
+# 只换资源包文件名的话，界面标题那句「ATM10 Sky x.y 汉化补丁」会留着别的版本的字样。
 # 漏填会被 verify_dist.py 的 @@ 残留检查拦下。
 for f in "$CSTAGE/install.sh" "$CSTAGE/install.ps1"; do
   [ -f "$f" ] || continue
@@ -209,7 +209,7 @@ done
 mkdir -p "$SSTAGE/config"
 cp -R "$TREE/config/ftbquests" "$TREE/config/vaultpatcher_asm" "$SSTAGE/config/"
 # 服务端说明里写着「适用于 ATM10 Sky x.y 专用服务器」，那是**本包**的适用版本，
-# 必须跟着走；写死一个的话 7.0 / 7.1 的包里都印着 7.2（玩家实际报过这个）。
+# 必须跟着走；写死一个的话，其他整合包版本的包里会印错版本。
 MC="$MC" NF="$NF" python3 -c "
 import os, pathlib, sys
 src, dst = pathlib.Path(sys.argv[1]), pathlib.Path(sys.argv[2])

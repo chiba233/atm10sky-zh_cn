@@ -12,7 +12,7 @@
 // ⚠️ **块里只许赋值，不许声明。** KubeJS 的 Rhino 里，写在 `try {}` / `if {}` 这类
 //    嵌套块内部的 `const` 会抛 `TypeError: redeclaration of var <名字>`，而且是
 //    **运行时**才抛：脚本加载阶段照样 0 errors，躺在事件回调里就表现成「什么都没
-//    发生」。2026-08-01 实机踩过两次。拿整包 ATM10 的 kubejs 对照过：上游能跑的
+//    发生」。2026-08-01 实机踩过两次。拿整包 ATM10 Sky 的 kubejs 对照过：上游能跑的
 //    `const` 全部在函数/回调体的顶层，没有任何一处写进块里。所以这里所有变量都在
 //    函数体顶层用 `let` 声明，`try` 内部只做赋值。这条由 check.py 的
 //    js-no-const-inside-block 守住。
@@ -80,7 +80,7 @@
       try { http.close() } catch (err) { /* 关不掉就算了，进程退出时一起收 */ }
       http = null
     }
-    if (message) console.warn('[ATM10 汉化] ' + message)
+    if (message) console.warn('[ATM10 Sky 汉化] ' + message)
   }
 
   function startRequest() {
@@ -122,7 +122,7 @@
   function tell(latest) {
     let player = Client.player
     if (!player) return
-    player.tell(Text.gold('[ATM10 汉化] ')
+    player.tell(Text.gold('[ATM10 Sky 汉化] ')
       .append(Text.yellow('发现新版本 ' + latest + '（当前 ' + HANHUA_VERSION + '）。'))
       .append(Text.green(' [点击下载]').clickOpenUrl(RELEASES_URL)
         .hover('打开 GitHub Releases 最新正式版页面')))
@@ -158,14 +158,14 @@
     }
     done(null)
     if (!matched) {
-      console.warn('[ATM10 汉化] 更新检查：响应里没有 tag_name')
+      console.warn('[ATM10 Sky 汉化] 更新检查：响应里没有 tag_name')
       return
     }
 
     latest = matched[1]
     latestVersion = releaseVersion(latest)
     if (latestVersion === null) {
-      console.warn('[ATM10 汉化] 更新检查：看不懂的版本号 ' + latest)
+      console.warn('[ATM10 Sky 汉化] 更新检查：看不懂的版本号 ' + latest)
       return
     }
     if (isNewerVersion(latestVersion, releaseVersion(HANHUA_VERSION))) tell(latest)

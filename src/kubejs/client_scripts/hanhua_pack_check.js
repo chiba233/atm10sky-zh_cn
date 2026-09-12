@@ -52,7 +52,7 @@
   let offenders = ''
 
   function say(line) {
-    console.info('[ATM10 汉化] ' + line)
+    console.info('[ATM10 Sky 汉化] ' + line)
   }
 
   // ---------- 第一层：包生效了没有 ----------
@@ -103,7 +103,8 @@
       LocClass = Java.loadClass('net.minecraft.resources.ResourceLocation')
       repo = McClass.getInstance().getResourcePackRepository()
       // 越靠后优先级越高。注意这个列表跟资源包界面看到的不是一回事：NeoForge 把
-      // 每个模组自带的资源拆成独立的包，实测 ATM10 7.3 有 534 项，而界面里只有十几项。
+      // 每个模组自带的资源拆成独立的包，ATM10 Sky 2.0.4 的 321 个 jar 里有 280 个带
+      // assets/，都会各占一项，而界面里只有十几项。
       list = repo.getSelectedPacks().toArray()
     } catch (err) {
       say('顺序自检取不到包列表，跳过：' + err)
@@ -183,7 +184,7 @@
     if (!player) return
 
     if (result === 'missing') {
-      player.tell(Text.red('[ATM10 汉化] ')
+      player.tell(Text.red('[ATM10 Sky 汉化] ')
         .append(Text.yellow('汉化资源包没有生效，游戏里绝大部分文本仍然是英文。')))
       player.tell(Text.gray('  打开 ')
         .append(Text.white('选项 → 资源包'))
@@ -196,7 +197,7 @@
     }
 
     if (result === 'order') {
-      player.tell(Text.gold('[ATM10 汉化] ')
+      player.tell(Text.gold('[ATM10 Sky 汉化] ')
         .append(Text.yellow('汉化资源包被压在下面了，部分名字会显示成别的译法。')))
       if (blocked !== '') {
         player.tell(Text.gray('  你自己装的 ')
@@ -214,7 +215,7 @@
     }
 
     packed = result.substring('mismatch:'.length)
-    player.tell(Text.red('[ATM10 汉化] ')
+    player.tell(Text.red('[ATM10 Sky 汉化] ')
       .append(Text.yellow('资源包版本与汉化本体对不上：包是 ' + packed
         + '，本体是 ' + PACK_VERSION + '。')))
     player.tell(Text.gray('  多半是旧版本的包还留在 resourcepacks 里且被启用着，'

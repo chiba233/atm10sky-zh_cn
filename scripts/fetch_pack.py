@@ -363,8 +363,8 @@ if __name__ == '__main__':
         d = Path(a[1])
         # 排除的只有「按 manifest 下载的 jar」与出处文件本身。
         # **不能一刀切排除 mods/**：整合包自己的 overrides 里就可能带 jar
-        # （ATM10 7.2 在 overrides/mods/ 放了 cc-tweaked 1.120.0 去盖掉 manifest
-        # 里那个会崩的 1.113.1），那是指纹的正当组成部分。
+        # （整合包会用 overrides/mods/ 里的 jar 去盖掉 manifest 里那一份），
+        # 那是指纹的正当组成部分。
         skip = {'mods.provenance.json'}
         pf = d / 'mods.provenance.json'
         if pf.is_file():

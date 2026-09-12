@@ -71,7 +71,7 @@ Modrinth 项目页标为 GPL-3.0-only，jar 内 `META-INF/neoforge.mods.toml` �
 
 仅在构建时读取、不随包分发：
 
-    All the Mods 10 整合包本体              见其发布页
+    All the Mods 10 to the Sky 整合包本体              见其发布页
     整合包内各模组的 jar                    各自许可证
     思源黑体、更纱黑体等字体                SIL Open Font License 1.1
 

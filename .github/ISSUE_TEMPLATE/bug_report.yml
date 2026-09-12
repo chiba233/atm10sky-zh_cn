@@ -30,7 +30,7 @@ body:
     attributes:
       label: 汉化补丁版本 / Patch version
       description: 见下载的压缩包文件名或 Release 页。 / See the zip filename or the Release page.
-      placeholder: 例如 v7.2.0
+      placeholder: 例如 vr1
     validations:
       required: true
   - type: dropdown
