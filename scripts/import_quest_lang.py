@@ -78,6 +78,34 @@ LANG_REL = 'config/ftbquests/quests/lang'
 # 同时满足两个在册版本——而跨版本是这套结构的根本能力。判据见 src/rules/quests.json。
 DELTA_PREFIX = 'zz_hanhua_'
 
+# 只前导颜色码不同的那一类。本包给章节标题统一加了 &f，正文一个字没改——
+# 这不是「原文改过」，拿中文照搬、把前导码换成本包的即可，结果与原文一一对应。
+# 独立成一个阶段、单独计数：主判据（逐字节一致）一个字没松，这一条是它之外的
+# 另一条**可证明安全**的判据，红线仍然是「正文有任何差异就不搬」。
+LEAD = re.compile(r'^(?:&[0-9a-fk-or])*')
+
+
+def recolor(en_src, en_dst, zh):
+    """源、目标只差前导颜色码时，返回配上目标前导码的中文；否则 None。
+
+    三样都是 SNBT 的原始切片，可能带引号。跨行数组不参与——那种情形里
+    「只差颜色码」难以逐段证明，留给人看。
+    """
+    def unq(s):
+        s = s.strip()
+        return (s[1:-1], '"') if len(s) >= 2 and s[0] == '"' == s[-1] else (None, '')
+    a, qa = unq(en_src)
+    b, qb = unq(en_dst)
+    z, qz = unq(zh)
+    if a is None or b is None or z is None:
+        return None
+    pa, pb, pz = LEAD.match(a).group(), LEAD.match(b).group(), LEAD.match(z).group()
+    if a[len(pa):] != b[len(pb):]:        # 正文有差异 → 不是这一类
+        return None
+    if pz != pa:                          # 中文的前导码与源英文对不上 → 说不清，不碰
+        return None
+    return '%s%s%s%s' % (qz, pb, z[len(pz):], qz)
+
 # 键行：行首若干空白 + 标识符 + 冒号。值一直取到**下一个键**为止，所以跨行数组
 # 不需要单独处理括号配平。
 KEY = re.compile(r'^(\s*)([A-Za-z_][\w.\-]*)\s*:[ \t]*', re.M)
@@ -173,6 +201,7 @@ def main(zh_tree, src_pack, dst_pack):
           % (len(src_zh), len(zh_files), len(src_en)))
 
     carried = 0
+    recolored = 0
     drift = []
     absent = 0
     files = 0
@@ -185,7 +214,12 @@ def main(zh_tree, src_pack, dst_pack):
                 absent += 1
                 continue
             if src_en.get(k) != en:
-                drift.append((f.name, k, src_en.get(k), en))
+                fixed = recolor(src_en.get(k) or '', en, src_zh[k])
+                if fixed is None:
+                    drift.append((f.name, k, src_en.get(k), en))
+                    continue
+                recolored += 1
+                pairs.append((k, fixed))
                 continue
             pairs.append((k, src_zh[k]))
         if not pairs:
@@ -198,14 +232,16 @@ def main(zh_tree, src_pack, dst_pack):
         dst = OUT / rel.parent / name
         dst.parent.mkdir(parents=True, exist_ok=True)
         dst.write_text(dump(pairs), encoding='utf-8')
-        carried += len(pairs)
+        carried += sum(1 for k, _ in pairs if src_en.get(k) == dst_en[k])
         files += 1
 
-    total = carried + len(drift) + absent
+    total = carried + recolored + len(drift) + absent
     print()
     print('目标整合包 %d 个英文键：' % total)
     print('  ✅ 原文逐字节一致 → 已搬 : %5d  (%.1f%%)  写进 %d 个文件'
           % (carried, carried / total * 100, files))
+    print('  ✅ 只差前导颜色码 → 已搬 : %5d  (%.1f%%)  中文配上本包的前导码'
+          % (recolored, recolored / total * 100))
     print('  ⚠️  原文改过 → 没搬       : %5d  (%.1f%%)'
           % (len(drift), len(drift) / total * 100))
     print('  ⛔ 源里没有中文 → 没搬   : %5d  (%.1f%%)'
