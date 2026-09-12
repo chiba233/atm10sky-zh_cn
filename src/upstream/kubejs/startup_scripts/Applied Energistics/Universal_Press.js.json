@@ -3,10 +3,10 @@
  "edits": [
   {
    "find": [
-    "        .displayName('Inscriber Universal Press');\n"
+    "    .displayName(\"Inscriber Universal Press\")\n"
    ],
    "replace": [
-    "        .displayName('通用压印模板');\n"
+    "    .displayName(\"通用压印模板\")\n"
    ]
   }
  ]
