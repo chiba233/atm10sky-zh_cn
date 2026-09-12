@@ -1,0 +1,26 @@
+{
+ "_说明": "本包自己加的两个神秘学仪式象征物：名字与提示都写死在 KubeJS 里，不是翻译键。\n译法照模组自己的句式——「仪式: 合成X」「荒野魔灵将会铸造一X。」；\n蜜脾、恶魔树苗、魔精、荒野魔灵都取本包资源包里已有的名字。",
+ "src": "kubejs/startup_scripts/Occultism/RitualDummies.js",
+ "edits": [
+  {
+   "find": [
+    "    .displayName(\"Ritual: Craft Honeycomb\")\n",
+    "    .ritualTooltip(\"A Foliot will act as a bee, producing Honeycombs.\")\n"
+   ],
+   "replace": [
+    "    .displayName(\"仪式: 合成蜜脾\")\n",
+    "    .ritualTooltip(\"魔精将充当蜜蜂，为你产出蜜脾。\")\n"
+   ]
+  },
+  {
+   "find": [
+    "    .displayName(\"Ritual: Forge Demonic Sapling\")\n",
+    "    .ritualTooltip(\"Wild Spirits will forge a Demonic Sapling.\")\n"
+   ],
+   "replace": [
+    "    .displayName(\"仪式: 铸造恶魔树苗\")\n",
+    "    .ritualTooltip(\"荒野魔灵将会铸造一株恶魔树苗。\")\n"
+   ]
+  }
+ ]
+}

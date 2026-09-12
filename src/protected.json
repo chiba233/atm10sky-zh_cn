@@ -3275,6 +3275,7 @@
     "src/upstream/kubejs/server_scripts/banlist_script.js.json",
     "src/upstream/kubejs/startup_scripts/Applied Energistics/Universal_Press.js.json",
     "src/upstream/kubejs/startup_scripts/CustomAdditions.js.json",
+    "src/upstream/kubejs/startup_scripts/Occultism/RitualDummies.js.json",
     "src/vaultpatcher/modules/abundance.json",
     "src/vaultpatcher/modules/actuallyadditions.json",
     "src/vaultpatcher/modules/actuallyadditions_dynamic.json",
