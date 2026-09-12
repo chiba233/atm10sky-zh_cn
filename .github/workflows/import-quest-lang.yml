@@ -55,8 +55,8 @@ jobs:
           # 指纹要与它仓库里记的那份对得上，对不上当场红。
           python3 scripts/fetch_pack.py "$SRC_VER" ../srcpack --no-jars
           # 它的 delta 摊进一棵临时树，再用它自己的生成器并进上游 zh_cn
-          mkdir -p ../zhtree
-          cp -R src/config/. ../zhtree/
+          mkdir -p ../zhtree/config
+          cp -R src/config/. ../zhtree/config/
           python3 scripts/gen_quest_lang_patches.py ../srcpack ../zhtree "$SRC_VER"
           cd ../..
           ZH=build/zhtree/config/ftbquests/quests/lang/zh_cn
