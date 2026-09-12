@@ -80,25 +80,53 @@
 	quest.441200BE0C75C2AD.title: "升级筛网"
 	quest.469E414BC7F0C238.quest_desc: ["&3瓷桶&r的用法和&7铁桶&r一样。\\n\\n只是更便宜、前期更好弄，而且倒完&c熔岩&r就会碎！\\n\\n等等，什么？\\n\\n是的，它不耐热，倒完&c熔岩&r之后这个&3桶&r就碎了。\\n\\n装&9水&r倒是没问题！\\n你要是愿意，用&7铁桶&r也能完成这条任务。"]
 	quest.469E414BC7F0C238.title: "&3瓷桶"
+	quest.488C8BDF45B9CA0F.quest_desc: [
+		"&a传送门&r是拿&a被动型生物&r和战利品奖励的省事办法！\\n\\n好吧，也许没那么省事。你得打退一波波&c怪物&r，而且还要一个&a末影之眼&r才能做出来。\\n\\n但很值！\\n\\n不同的&a门&r给的奖励和&c怪物&r都不一样。这一个会给你每种农场动物各 6 只。"
+		"{image:atm:textures/questpics/chap1/chap1_gateway.png width:100 height:100 align:center}"
+	]
 	quest.488C8BDF45B9CA0F.title: "白嫖生物！！！"
+	quest.4C502B5A1C1A0C58.quest_desc: ["有了&5巫水&r，我们可以像用&9水&r得到&7黏土&r那样，把&e沙子&r丢进去，只不过这次得到的是&8灵魂沙&r。\\n\\n&8灵魂沙&r可以拿去&b筛&r出更多&c&l下界&r的东西！\\n\\n对了，&c&l下界&r可能会让你有点失望……"]
 	quest.4C502B5A1C1A0C58.title: "&8灵魂沙"
+	quest.4CCA1C828677D518.quest_desc: ["看着&2草方块&r的顶面按住潜行右键，就能拿到&7小石子&r！\\n\\n&7小石子&r分为&7石头&f、&8深板岩&f、&7安山岩&f、&d花岗岩&f、闪长岩、&0黑石&r和&8玄武岩&r几种。\\n\\n4 个&7小石子&r能合成对应的&7石头&r。或者在背包里把鼠标悬在一堆上直接按 K！\\n\\n很多配方类似的物品都能这么干，试试看！"]
 	quest.4CCA1C828677D518.title: "翻找&2草方块"
+	quest.522B2CE771DDBA0F.quest_desc: ["我撒谎了，&6&l木桶&r不只会混合液体，它还能堆肥！\\n\\n把&2农作物&f、&2苔藓&f或&2树叶&r丢进&6&l（橡木）木桶&r，就会变成泥土。\\n\\n这是游戏前期获取更多泥土的唯一办法！"]
 	quest.522B2CE771DDBA0F.title: "造泥土？"
+	quest.52DD11BC71F45E32.quest_desc: [
+		"&9&l坩埚&r在这里只有一个用处：不靠天吃饭地拿&9水&r！\\n\\n你可以等&9下雨&r把&6木桶&r白白接满，也可以把&2树叶&r丢进&9&l坩埚&r里等着。\\n\\n信我，&9&l坩埚&r快得多！"
+		"{image:atm:textures/questpics/chap1/chap1_crucible.png width:100 height:100 align:center}"
+	]
 	quest.52DD11BC71F45E32.title: "&9水&f取自&2树叶"
 	quest.60D53C6A50F9245B.quest_subtitle: "锤沙砾"
 	quest.6113DCE514DBB5D4.quest_subtitle: "锤圆石"
+	quest.62AF24DD96B7B4AD.quest_desc: ["我们&b&l筛&r&7矿物&r时不会直接拿到完整的&7粗矿&r。那也太容易了！我们拿到的是&7碎块&r！\\n\\n4 个&7碎块&r能做成 1 个&7粗矿块&r。\\n\\n在背包里把鼠标悬在&7碎块&r上按 K，可以一次合完！"]
 	quest.62AF24DD96B7B4AD.title: "&7矿物碎块"
+	quest.62C9E87ECD00CA84.quest_desc: ["&b&l空岛&r的开局和普通的&2&lMinecraft&r世界一样！抡&2树&r就完事了！\\n\\n只是……别往下看。\\n\\n还有，小心别把&2树苗&r弄丢了！ "]
 	quest.62C9E87ECD00CA84.title: "徒手打&2树"
+	quest.62FCB337688ACDBC.quest_desc: ["&6木制工具&r就别想了，直接上&7石制&r的。\\n\\n而且没错，你照样能用&9水&f和&c熔岩&r搭&7&l刷石机&r！\\n\\n如果你走的是更难的那条路线，现在还用不了它们，得先把任务往下推。"]
 	quest.62FCB337688ACDBC.title: "&7圆石"
+	quest.647E94E2156CB596.quest_desc: [
+		"玩过&b&lATM9TTS&r的话，你大概记得那种&7造石机方块&r——它会直接往上方的容器里产&7圆石&r。\\n\\n这里的机制有点不一样……你仍然需要在&7&l造石机&r上方放个容器来收方块，但它的工作方式变了。\\n\\n它要工作，得在&7&l造石机&r的两个侧面分别放上&c熔岩源&r和&9水源&r。然后它就开始产&7圆石&r了。\\n\\n想产别的方块，比如&7安山岩&r甚至&5黑曜石&r，就把那种方块放在&7&l造石机&r下面。更多配方查 JEI！\\n\\n&l&7造石机&r可以升级，升级只加快速度！"
+		"{image:atm:textures/questpics/chap1/chap1_stone.png width:150 height:100 align:center}"
+	]
 	quest.647E94E2156CB596.title: "&7&l造石机"
 	quest.658751C690E2B520.quest_subtitle: "锤深板岩"
+	quest.6C1D268CE2B0D05D.quest_desc: [
+		"把&3瓷土&r烧成&c&l陶瓷坩埚&r。\\n\\n它只有一个用途：把物品煮成&c熔岩&r！\\n\\n把&c&l坩埚&r架在&6热源&r上方。&6热源&r越旺速度越快：&c火&r比&e灯笼&r强，&c火&f又比&c熔岩&r强。\\n\\n然后往&c&l坩埚&r里放方块，比如&7石头&r，甚至&4下界岩&r。过一会儿就会出&c熔岩&r！"
+		"{image:atm:textures/questpics/chap1/chap1_lava.png width:120 height:200 align:center}"
+	]
 	quest.6C1D268CE2B0D05D.title: "&c&l陶瓷坩埚"
+	quest.6CCF2126B2BA72A6.quest_desc: ["通常&2苔藓&r要去&2繁茂洞穴&r里找……呃，&b&l天上&r哪来的洞穴？\\n\\n好在我们随时可以用 4 个&2草籽&r合成 1 块&2苔藓&r！\\n\\n听起来不划算？别忘了&2苔藓&r可以用骨粉催生，向周围所有泥土、&2草方块&r和&7石头&r蔓延。\\n\\n&2苔藓&r也能像泥土一样拿去&b筛&r，只不过筛出来的不是&2农作物&r，而是&2树苗&r！"]
 	quest.6CCF2126B2BA72A6.title: "&2苔藓"
+	quest.70C2B568FA46337F.quest_desc: ["我们会需要大量&7沙砾&f／&e沙子&r／粉末。那就一次多做 9 倍吧！\\n\\n把 9 把&8锤&r合成一把&8压缩锤&r。它能像砸普通方块那样砸压缩方块。\\n\\n用&8锤&r砸&7压缩圆石&r会给 9 份&7沙砾&r。"]
 	quest.70C2B568FA46337F.title: "粉碎压缩方块"
+	quest.79D6F21C1E1D1749.quest_desc: ["所有失败的&b&l空岛&r世界共同的阴影……&5黑曜石&r。\\n\\n很多&b&l空岛&r玩家都吃过这个亏：&9水&f碰到&c熔岩源&r方块就会变成&5黑曜石&r。\\n\\n用&6&l木桶&r可以更平和地做到这一点！"]
 	quest.79D6F21C1E1D1749.title: "&5黑曜石"
+	quest.7ADFD864139BF2F2.quest_desc: ["欢迎来到&b&l天上&r！\\n\\n你大概已经发现这里缺……嗯，基本上什么都缺！\\n\\n要是你反而觉得地太多了（说明你开的是普通&2世界&r，不是&b空岛&r），去&9Discord&r里看 FAQ 找答案。\\n\\n输入指令 \"/skyblock gui\" 就能建队并开一座岛！选好类型和名字就可以开始了。其余配置项是给多人游戏用的。"]
 	quest.7ADFD864139BF2F2.quest_subtitle: "欢迎来到 All The Mods 10: To the Sky！终于迈进两位数了。"
 	quest.7ADFD864139BF2F2.title: "起步"
+	quest.7B08D4FC6F1B0005.quest_desc: ["往&6&l木桶&r里装&9水&r，再把一块粉末方块丢进去，就能得到&7黏土&r！\\n\\n要右键&6&l木桶&r才能把&7黏土&r取出来。\\n\\n&7黏土&r有几处用得上，比如&c耐火砖&r和&3瓷土&r。"]
 	quest.7B08D4FC6F1B0005.title: "&7黏土"
+	quest.7CC729E68A89D962.quest_desc: ["在&6&l木桶&r里把&9水&r和牛奶混在一起，就能得到&a史莱姆块&r！\\n\\n这是什么原理？\\n\\n我不知道！\\n\\n而且我也真的不想知道！"]
 	quest.7CC729E68A89D962.quest_subtitle: "黏黏糊糊"
 	quest.7CC729E68A89D962.title: "&a史莱姆"
 	task.16149AC27DE92A7D.title: "桶"
