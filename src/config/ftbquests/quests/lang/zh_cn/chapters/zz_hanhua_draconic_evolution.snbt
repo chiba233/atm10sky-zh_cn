@@ -1,4 +1,5 @@
 {
+	quest.0000A88BB40B2149.quest_desc: ["去混沌岛之前我建议先做好准备。它看着像末影龙，实际难打得多。最好带上伤害够高的神龙系武器或工具，会轻松不少。它的伤害也高得吓人，所以难得素或 MekaSuit 这类好盔甲是必需的。（生命恢复、伤害吸收和抗性提升这几个效果也能帮你保命。）别担心，要是还没准备好，随时可以改天再来。"]
 	quest.0000A88BB40B2149.title: "这很困难，你需要做好准备"
 	quest.01612963DBBAC9A1.quest_desc: ["希望这能保护你。"]
 	quest.01612963DBBAC9A1.title: "混沌护胸"
@@ -32,6 +33,7 @@
 	quest.120B403D56EE5C79.title: "双足飞龙能量模块"
 	quest.12469CC0CCFBA1C5.quest_desc: ["最好的剑加上最快的镐加上铲子？？？？你还想要什么！"]
 	quest.12469CC0CCFBA1C5.title: "混沌权杖"
+	quest.129E09C03E40BA57.quest_desc: ["反应堆烧的燃料是觉醒龙锭，别心疼，它效率很高！燃料消耗进度决定觉醒龙锭什么时候转化成混沌。它一次最多装 8 块，而且只有在反应堆关停时才能加料或补料。半自动停机模式能让这件事省心不少！另外燃料放在右下角的槽位里。"]
 	quest.129E09C03E40BA57.title: "我们反应堆的燃料"
 	quest.12BDE512C734D19A.quest_desc: ["龙族核心是龙之进化中许多配方的重要材料，尤其是基础等级的物品。"]
 	quest.12BDE512C734D19A.title: "基础龙芯"
@@ -56,8 +58,14 @@
 	quest.1A53B6544782442E.title: "双足飞龙护盾控制模块"
 	quest.1C8210712349A2E3.quest_desc: ["原理很简单，斧头和剑可以造成更多伤害。是的，它们可以叠加！"]
 	quest.1C8210712349A2E3.title: "基础伤害模块"
+	quest.1D3E2363CFD4C5E0.quest_desc: ["聚合合成分档次，档次由注入器决定，从低到高依次是：龙（为了好区分，我一般叫它基础）、飞龙、神龙、混沌。注入器要放在聚合核心的左右两侧，与核心隔开几格。它们可以摆成十字形，核心每一侧最多 5 个。供能可以靠连上去的能量端口水晶，具体见「水晶绑定」那一节。"]
 	quest.1D3E2363CFD4C5E0.title: "基础等级"
 	quest.1E41A5071854DEC8.title: "双足飞龙伤害模块"
+	quest.1F7D147C9AF6A4FC.quest_desc: [
+		"第四档不一样。首先要用 26 块红石块把核心包起来，然后在红石上方再放 54 块龙锭块。"
+		"{image:atm:textures/questpics/draconic/draconic_core_4off.png width:100 height:100 align:1}"
+		"{image:atm:textures/questpics/draconic/draconic_core_4on.png width:100 height:100 align:1}"
+	]
 	quest.1F7D147C9AF6A4FC.quest_subtitle: "存储：9,880,000,000 RF"
 	quest.1F7D147C9AF6A4FC.title: "4级"
 	quest.20D8DA523E900A52.quest_desc: ["无线能量链接有助于无线水晶为你的物品充电。模块越多，它能承受的OP越多，效率也越高。"]
@@ -156,6 +164,7 @@
 	quest.40F34EBE09DA7752.title: "基础自动喂食模块"
 	quest.41BD497108CA109F.quest_desc: ["觉醒龙锭来自将方块融合合成。方块可以分解成9个锭。这些是龙之进化中第二重要的锭，对于飞龙和龙族等级非常重要。"]
 	quest.41BD497108CA109F.title: "觉醒龙锭"
+	quest.421954D7D46FAAD6.quest_desc: ["能量核心稳定器……负责稳定核心？前 4 档核心只要在周围放 4 个稳定器即可。核心的界面也能通过稳定器打开。要是稳定器离核心太近或者位置不对，它会提示你结构无效。"]
 	quest.421954D7D46FAAD6.title: "能量核心稳定器"
 	quest.43C2B07AB25C708E.quest_desc: ["双足飞龙弓的升级版。"]
 	quest.43C2B07AB25C708E.title: "神龙弓"
@@ -218,6 +227,7 @@
 	quest.5C2CF51D28F84CBE.title: "击杀混沌守卫"
 	quest.5D87088E8D71DB9B.quest_desc: ["IO水晶是一种可以相互连接、彼此传输能量的方块。要链接它们，Shift右键点击水晶绑定器来设置一个，然后右键点击你想连接的任何水晶。当你查看水晶时，它会显示输入来自方块或输出到方块。输入是你想从中获取OP的一侧，输出是你想让OP发送到的一侧。"]
 	quest.5D87088E8D71DB9B.title: "传输OP"
+	quest.5E0D78B7B2CF1729.quest_desc: ["我知道这是飞龙档，那为什么这儿会摆着一件神龙物品？"]
 	quest.5E0D78B7B2CF1729.title: "觉醒核心"
 	quest.5E671F1F370DDE43.title: "神龙自动喂食模块"
 	quest.5E8D527DE9D7DD46.quest_desc: ["在你的胸甲上，你可以滑翔！就像使用鞘翅一样（但不需要盔甲成本）。我不喜欢称之为飞行，而是‘优雅地坠落’。"]
@@ -235,6 +245,7 @@
 	quest.6616A62426ED4D15.title: "反应堆能量注入器"
 	quest.69396F87A09FBD85.quest_desc: ["所有镐在同一挖掘等级下挖掘，因此升级的唯一目的是更快地挖掘并获得法杖。"]
 	quest.69396F87A09FBD85.title: "混沌镐"
+	quest.69986817D58AC8BE.quest_desc: ["稳定器负责撑起控制场（也就是反应堆核心外面那层力场）。反应堆开着时，一旦控制场强度掉到 0，就会开始熔毁。4 个稳定器都必须与核心隔开几格（5 格以上），而且要和核心处在同一条轴线附近才能生效。反应堆的 OP 也是从它们这儿往外输的——只是别抽太狠！"]
 	quest.69986817D58AC8BE.title: "反应堆稳定器"
 	quest.6B0CD6732BE0E819.quest_desc: ["合法的跳跃增强。"]
 	quest.6B0CD6732BE0E819.title: "基础跳跃模块"
@@ -274,6 +285,7 @@
 	quest.79886D63280DBBF3.quest_desc: ["过滤还不够？！！你想要销毁物品？！！你这个怪物！"]
 	quest.79886D63280DBBF3.title: "选择性焚化模块"
 	quest.79FC674836B6340E.title: "神龙跳跃模块"
+	quest.7A4ABFCD12202A91.quest_desc: ["运转潜能（OP）是龙之进化的能量形式。搬运 OP 的主要办法（不是唯一办法）是能量中继水晶。想把 OP 真正灌进物品里，还需要一个能量传输模块。"]
 	quest.7A4ABFCD12202A91.title: "什么是能量，或者我们称之为OP？"
 	quest.7B9F5EEC76FDD0D4.title: "神龙伤害模块"
 	quest.7C54581562D2EA75.quest_desc: ["速度模块很有趣，它们几乎适用于所有工具并让它们更快！剑挥动更快，镐挖掘更快，斧头砍伐更快，弓射击更快，胸甲让你移动更快。速度模块越好，它们就越快！（顺便说一句，这是一个很好的时机来提到大多数属性是可以叠加的。两个基础速度模块将使速度提升20%！）"]

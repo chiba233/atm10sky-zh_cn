@@ -34,13 +34,16 @@
 	quest.156605859D553276.title: "&l&bMacaw 的窗户&r"
 	quest.1591013DDD4766E1.quest_desc: ["&l&c懒人厨房&r的全部意义在于让厨房成为你的家。\\n\\n我推荐使用它提供的所有物品，因为每件物品都有用处并且看起来很棒！"]
 	quest.1591013DDD4766E1.title: "&l&c懒人厨房&r"
+	quest.1972B36F72808D55.quest_desc: ["不过这些石头里只有一部分能被凿。"]
 	quest.1972B36F72808D55.title: "&l&b开裂&r石头"
 	quest.1FD60B7448CED1EB.quest_desc: ["这个&b&lMacaw&r模组添加了新型的栅栏、门和墙。\\n\\n是的，带刺铁丝网会伤到你。\\n\\n不，你通常无法跳过它们中的任何一个。"]
 	quest.1FD60B7448CED1EB.title: "&b&lMacaw 的栅栏与墙"
 	quest.2094D1CE4BA66091.quest_desc: ["光线是任何基地非常重要的一部分。\\n\\n它可以防止怪物生成，帮助照明，甚至可以为你的建筑增添更多色彩和活力！\\n\\n或者你可以直接使用夜视药水，但那有什么乐趣呢！"]
+	quest.22D2CFDDB06C720C.quest_desc: ["工具在&2&l我的世界&r里很重要，可背包格子同样重要。那不如做把镐尖斧，省下几格！\\n镐尖斧就是镐、斧、锹三合一。\\n\\n它能剥木头、踩出小路，同级镐／斧／锹能挖的方块它都能挖！"]
 	quest.22D2CFDDB06C720C.title: "镐尖斧"
 	quest.23631A4A743D4F0C.quest_desc: ["这个就别抱怨了。\\n\\n有几十种获取铁的方法，即使是正常的流程发展也需要它。\\n\\n你会得到铁，你会把它做成方块，你会让它变得漂亮！"]
 	quest.23631A4A743D4F0C.title: "&l&b开裂&r金属"
+	quest.26FADB78B04F592B.quest_desc: ["&l&a建筑小帮手 2&r是一个加入了几件超好用物品的模组。\\n\\n当然，全都是为了盖房子！\\n\\n每件都要&c电力&r才能用，默认按&lG&r可以打开它们的菜单。"]
 	quest.26FADB78B04F592B.title: "&l&a建筑小帮手&r"
 	quest.28FDB2D13D0DDE8E.quest_desc: ["&b&l开裂&r与凿刻模组相似，它改变方块的设计，但&b&l开裂&r有自己独特的方式！\\n\\n&b&l开裂&r使用的是你需要前往的工作站来改变方块。\\n\\n有7个不同的工作站，每个工作站改变不同的方块：木匠工作台改变木头，玻璃吹制台改变玻璃。\\n\\n其中6个工作站可以变成手持物品以便于使用。\\n\\n甚至还有它们的背包升级！"]
 	quest.28FDB2D13D0DDE8E.title: "&l&b开裂&r"
@@ -58,6 +61,7 @@
 	quest.3497C2E05DF5A87C.title: "&l&b开裂&r宝石方块"
 	quest.35C46E6E27C9CB1A.quest_desc: ["10种&2原版&r原木很棒，但它们的样式有限！\\n\\n所以&l&b开裂&r当然要插手，为那些原木添加了数十种新设计！"]
 	quest.35C46E6E27C9CB1A.title: "&l&b开裂&r原木"
+	quest.3889D0255074CE85.quest_desc: ["&bMacaw&r觉得光有家具还不够，他的家总不能只靠&b&lMacaw 的窗户&r采光吧。\\n\\n于是就有了&b&lMacaw 的灯具&r，各式各样的光源都齐了。\\n\\n台灯、提灯、吊灯，应有尽有！"]
 	quest.3889D0255074CE85.title: "&l&bMacaw 的灯具和灯&r"
 	quest.392F34FD4FCC794A.quest_desc: ["虽然它们可能很昂贵，但它们也非常时尚！"]
 	quest.392F34FD4FCC794A.title: "&2&l神秘农业&r方块"
@@ -65,6 +69,7 @@
 	quest.3BA4504DEFB87264.title: "墙灯"
 	quest.3D1D5CB45D81A6E4.quest_desc: ["与&b&lMacaw 的门&r类似，这个模组添加了不同类型的活板门及其变体。\\n\\n你想要丛林活板门但带有云杉木的图案？现在你可以了！"]
 	quest.3D1D5CB45D81A6E4.title: "&b&lMacaw 的活板门"
+	quest.3E4B27759C973006.quest_desc: ["&l&6Framed Blocks&r是最重要的建筑模组，没有之一。老实说你丢给我一个整合包，里面要是没有&l&6Framed Blocks&r，我根本不玩。它就是这么重要！\\n\\n&l&6Framed Blocks&r给了我们一批「空壳」方块，可以用任何非方块实体的方块去填充（方块实体指工作台、熔炉、富集仓这类）。\\n\\n这些框架几乎能做成任意形状：竖直台阶、斜坡，甚至四分之一方块！\\n\\n想要&5下界合金&r楼梯？用 Framed Blocks！想要干草堆做的工作台？也行！想让建筑的转角严丝合缝？那就开始做&l&6Framed Blocks&r吧！"]
 	quest.3E4B27759C973006.title: "&l&6框架方块&r"
 	quest.3ED8365BAD406CC5.quest_desc: ["这些是我发现的非常适合装饰你的房子或基地的模组！\\n\\n请随意查看比这里显示的更多内容！"]
 	quest.3ED8365BAD406CC5.title: "装饰模组！"
@@ -72,6 +77,7 @@
 	quest.3EEF17C57375CC39.title: "&l简单的光源&r"
 	quest.3F185554793CCE54.quest_desc: ["要建造，你将需要工具。而且你会想要工具。\\n\\n帮助你获取方块的工具，帮助你获取这些方块不同版本的工具，以及帮助你放置方块的工具！\\n\\n你需要从一根木棍开始！"]
 	quest.3F185554793CCE54.title: "工具！"
+	quest.3FD9DC6B7844A79C.quest_desc: ["我一直嫌混凝土太无聊，现实里尤其如此。\\n\\n好在&2&l我的世界&r里有&l&bChipped&r模组，能把它凿出各种花样！"]
 	quest.3FD9DC6B7844A79C.title: "&l&b开裂&r混凝土"
 	quest.40C068B2B8AC0F33.quest_desc: ["地形改造即使对最简单的建筑来说也是重要的一环。但是我们&2&lMinecraft&r玩家实在没时间精力来做这个。\\n\\n那么为什么不让机器代劳呢？\\n\\n采石场是最简单的方法，但它们都始于方块破坏器。简易方块破坏器只会破坏它前方的方块，不太实用...\\n\\n但高级方块破坏器能够开采一整片区域！对地形改造来说好太多了！"]
 	quest.40C068B2B8AC0F33.title: "采石场与矿场"
@@ -88,9 +94,22 @@
 	quest.59B6C6BF0550D13D.title: "&7&l铁路工艺&r 玻璃"
 	quest.5AD09CCEEDC0B50F.quest_desc: ["这些超级有用，你绝对应该看看！\\n\\n实际的光源是野火灯笼。它会在周围20格或更远的地方放置隐形光源。\\n\\n超级火把则不同：它不发光，但能阻止64格内所有敌对生物的生成！对使用夜视的人很有用。\\n\\n恐惧灯则相反，它阻止相同区域内的被动生物生成。"]
 	quest.5AD09CCEEDC0B50F.title: "&l&e不止火把&r"
+	quest.5C0588F5B9B65AFD.quest_desc: [
+		"&d&lCamol&r能给&l任何东西&r做伪装：从 Pipez 到通用机械的线缆，再到 ATM 之星，除了厨房水槽——不对，等等，水槽它也能。"
+		""
+		"把&d&l伪装方块&r和你想拿来伪装的那种方块合成到一起，再右键你想伪装的目标，比如某根线缆什么的。"
+		""
+		"默认情况下&d&l伪装方块&r会采用被伪装方块的碰撞箱。把它单独放进合成格，就能换成保形版本，那样它会采用伪装用方块的形状。"
+		""
+		"想撤掉&d&l伪装方块&r，拿另一块伪装方块右键被伪装的方块即可。"
+		""
+		"{@pagebreak}"
+		"{image:atm:textures/questpics/building_tips/camol_example.png width:200 height:100 align:center}"
+	]
 	quest.5C0588F5B9B65AFD.title: "&d&lCamol"
 	quest.5D5563142917495A.quest_desc: ["&l&e农夫乐事&r专注于农业和烹饪食物！我们也可以用这些物品进行装饰和使用！\\n\\n炉灶、锅和平底锅是厨房的完美选择。\\n\\n食品桶很适合放在食品储藏室。\\n\\n农场物品很适合户外装饰，而橱柜则适合任何地方！"]
 	quest.5D5563142917495A.title: "&l&e农夫乐事&r"
+	quest.5E5D5D28D82F6891.quest_desc: ["&l&9X&cy&aC&8r&aa&cf&9t&r靠它的&lWorld&r核心带来了大量玻璃！\\n\\n能走过去的、会发光的、更结实的，应有尽有！"]
 	quest.5E5D5D28D82F6891.title: "&l&9X&cy&aC&8r&aa&cf&9t&r 玻璃"
 	quest.5EB488C393B084C4.quest_desc: ["&lChiseled&r的延续，&4&lRechiseled&r！\\n\\n此模组的所有功能都在凿子工具内，右键点击调出它的GUI。\\n左边是选择设计的地方，右下角是放置方块的地方。\\n\\n在上面你可以按固定图案查看设计：单一方块、3x1方块，或该方块的3x3墙面。你还可以点击按钮设置图像是否旋转！\\n\\n在放置方块的旁边，你可以点击凿子，这样做会将选定的设计应用到你物品栏中所有可以改变的方块上。\\n\\n而且没有耐久度！"]
 	quest.5EB488C393B084C4.title: "&4&l再凿&r"
