@@ -3226,80 +3226,22 @@
     "src/upstream/config/fancymenu/customization/title_screen_layout.txt.json",
     "src/upstream/config/ftbquests/quests/chapters/apotheosis_gear.snbt.json",
     "src/upstream/config/ftbquests/quests/chapters/bounty_board.snbt.json",
-    "src/upstream/config/ftbquests/quests/chapters/bumblezone.snbt.json",
-    "src/upstream/config/ftbquests/quests/chapters/chapter_2_the_star.snbt.json",
     "src/upstream/config/ftbquests/quests/chapters/elmystical_agriculturerr.snbt.json",
     "src/upstream/config/ftbquests/quests/chapters/extended__advanced_ae.snbt.json",
     "src/upstream/config/ftbquests/quests/chapters/industrial_foregoing.snbt.json",
-    "src/upstream/config/ftbquests/quests/chapters/iron_spells_and_spellbooks.snbt.json",
     "src/upstream/config/ftbquests/quests/chapters/justdirethings.snbt.json",
     "src/upstream/config/ftbquests/quests/chapters/productive_trees.snbt.json",
     "src/upstream/config/ftbquests/quests/chapters/railcraft.snbt.json",
-    "src/upstream/config/ftbquests/quests/chapters/relics.snbt.json",
     "src/upstream/config/ftbquests/quests/chapters/welcome.snbt.json",
-    "src/upstream/config/mysticalcustomization/crops/allthemodium.json.json",
-    "src/upstream/config/mysticalcustomization/crops/azure_silver.json.json",
-    "src/upstream/config/mysticalcustomization/crops/black_quartz.json.json",
-    "src/upstream/config/mysticalcustomization/crops/crimson_iron.json.json",
-    "src/upstream/config/mysticalcustomization/crops/darkstone.json.json",
-    "src/upstream/config/mysticalcustomization/crops/entro.json.json",
-    "src/upstream/config/mysticalcustomization/crops/kivi.json.json",
-    "src/upstream/config/mysticalcustomization/crops/sky_steel.json.json",
-    "src/upstream/config/mysticalcustomization/crops/unexplored_wood.json.json",
-    "src/upstream/config/mysticalcustomization/crops/unobtainium.json.json",
-    "src/upstream/config/mysticalcustomization/crops/vibranium.json.json",
-    "src/upstream/config/mysticalcustomization/crops/xychorium_gem.json.json",
-    "src/upstream/config/mysticalcustomization/tiers/magical.json.json",
-    "src/upstream/kubejs/assets/atm/lang/zh_cn.json.json",
-    "src/upstream/kubejs/assets/atm10_localization/lang/zh_cn.json.json",
-    "src/upstream/kubejs/assets/compactmachines/lang/zh_cn.json.json",
-    "src/upstream/kubejs/assets/forbidden_arcanus/lang/zh_cn.json.json",
-    "src/upstream/kubejs/assets/hostilenetworks/lang/zh_cn.json.json",
-    "src/upstream/kubejs/assets/kubejs/lang/zh_cn.json.json",
-    "src/upstream/kubejs/assets/modern_industrialization/lang/zh_cn.json.json",
-    "src/upstream/kubejs/client_scripts/Mekanism-Tooltips.js.json",
     "src/upstream/kubejs/client_scripts/RecipeViewer.js.json",
-    "src/upstream/kubejs/client_scripts/ponder/fission_mek.js.json",
-    "src/upstream/kubejs/client_scripts/ponder/fission_mek_fuelrod.js.json",
-    "src/upstream/kubejs/client_scripts/ponder/fission_mek_logic.js.json",
-    "src/upstream/kubejs/client_scripts/ponder/fission_mek_port.js.json",
-    "src/upstream/kubejs/client_scripts/ponder/fusion_activate.js.json",
-    "src/upstream/kubejs/client_scripts/ponder/fusion_reactor.js.json",
-    "src/upstream/kubejs/client_scripts/ponder/induction_mek.js.json",
-    "src/upstream/kubejs/client_scripts/ponder/sps.js.json",
-    "src/upstream/kubejs/client_scripts/ponder/turbine_mek.js.json",
     "src/upstream/kubejs/client_scripts/tooltips.js.json",
     "src/upstream/kubejs/data/silentgear/silentgear_traits/advanced_aquatic.json.json",
     "src/upstream/kubejs/data/silentgear/silentgear_traits/advanced_flame_ward.json.json",
     "src/upstream/kubejs/data/silentgear/silentgear_traits/cure_levitation.json.json",
     "src/upstream/kubejs/data/silentgear/silentgear_traits/cure_nausea.json.json",
-    "src/upstream/kubejs/server_scripts/announcements/announcements.js.json",
     "src/upstream/kubejs/server_scripts/banlist_script.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/auto_hephaestus_forge.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_crucible.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_enchanter.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_star_altar.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_crystallizer.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_dissolution_chamber.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_infuser.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_oxidizer.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_washer.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/electrolytic_seperator.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/isotopic_centrifuge.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/pressurized_reaction_chamber.js.json",
-    "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/solar_neutron_activator.js.json",
     "src/upstream/kubejs/startup_scripts/Applied Energistics/Universal_Press.js.json",
     "src/upstream/kubejs/startup_scripts/CustomAdditions.js.json",
-    "src/upstream/kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js.json",
-    "src/upstream/kubejs/startup_scripts/Modern-Industrialization/multiblocks/auto_forge.js.json",
-    "src/upstream/kubejs/startup_scripts/Modern-Industrialization/multiblocks/casing.js.json",
-    "src/upstream/kubejs/startup_scripts/Modern-Industrialization/multiblocks/runic_crucible.js.json",
-    "src/upstream/kubejs/startup_scripts/Modern-Industrialization/multiblocks/runic_enchanter.js.json",
-    "src/upstream/kubejs/startup_scripts/Modern-Industrialization/multiblocks/runic_star_altar.js.json",
-    "src/upstream/kubejs/startup_scripts/Theurgy/SulfurAdditions.js.json",
-    "src/upstream/kubejs/startup_scripts/hyperbox/hyperbox.js.json",
-    "src/upstream/kubejs/startup_scripts/incompatible_versions.js.json",
-    "src/upstream/kubejs/startup_scripts/update_checker.js.json",
     "src/vaultpatcher/modules/abundance.json",
     "src/vaultpatcher/modules/actuallyadditions.json",
     "src/vaultpatcher/modules/actuallyadditions_dynamic.json",
@@ -3463,5 +3405,354 @@
     "src/vaultpatcher/modules/yet_another_config_lib_v3.json",
     "src/vaultpatcher/modules/yungsapi.json"
   ],
-  "released": []
+  "released": [
+    {
+      "path": "src/upstream/config/ftbquests/quests/chapters/bumblezone.snbt.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版的任务书只有 54 个章节，不含这一章（对应模组不在包里）。"
+    },
+    {
+      "path": "src/upstream/config/ftbquests/quests/chapters/chapter_2_the_star.snbt.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版的任务书只有 54 个章节，不含这一章（对应模组不在包里）。"
+    },
+    {
+      "path": "src/upstream/config/ftbquests/quests/chapters/iron_spells_and_spellbooks.snbt.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版的任务书只有 54 个章节，不含这一章（对应模组不在包里）。"
+    },
+    {
+      "path": "src/upstream/config/ftbquests/quests/chapters/relics.snbt.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版的任务书只有 54 个章节，不含这一章（对应模组不在包里）。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/allthemodium.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/azure_silver.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/black_quartz.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/crimson_iron.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/darkstone.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/entro.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/kivi.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/sky_steel.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/unexplored_wood.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/unobtainium.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/vibranium.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/crops/xychorium_gem.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/config/mysticalcustomization/tiers/magical.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。mysticalcustomization 不在本版整合包里（321 个 jar 里只有 mysticalagriculture 与 MysticalAgradditions 提供 assets/data），config/mysticalcustomization 整个目录不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/assets/atm/lang/zh_cn.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版 ATM 不注入任何 zh_cn：干净实例的 kubejs/assets 下 41 个命名空间只有 pt_br.json，zh_cn.json 一个都没有（en_us.json 只有 compactmachines 与 occultism）。这份映射在上一个整合包是用来改 ATM 注入的那份中文的（注入压过资源包），本版没有注入层，同一批键的中文由模组 jar 自带 zh_cn 加本包 src/pack 决定，没有可改的目标。"
+    },
+    {
+      "path": "src/upstream/kubejs/assets/atm10_localization/lang/zh_cn.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版 ATM 不注入任何 zh_cn：干净实例的 kubejs/assets 下 41 个命名空间只有 pt_br.json，zh_cn.json 一个都没有（en_us.json 只有 compactmachines 与 occultism）。这份映射在上一个整合包是用来改 ATM 注入的那份中文的（注入压过资源包），本版没有注入层，同一批键的中文由模组 jar 自带 zh_cn 加本包 src/pack 决定，没有可改的目标。"
+    },
+    {
+      "path": "src/upstream/kubejs/assets/compactmachines/lang/zh_cn.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版 ATM 不注入任何 zh_cn：干净实例的 kubejs/assets 下 41 个命名空间只有 pt_br.json，zh_cn.json 一个都没有（en_us.json 只有 compactmachines 与 occultism）。这份映射在上一个整合包是用来改 ATM 注入的那份中文的（注入压过资源包），本版没有注入层，同一批键的中文由模组 jar 自带 zh_cn 加本包 src/pack 决定，没有可改的目标。"
+    },
+    {
+      "path": "src/upstream/kubejs/assets/forbidden_arcanus/lang/zh_cn.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版 ATM 不注入任何 zh_cn：干净实例的 kubejs/assets 下 41 个命名空间只有 pt_br.json，zh_cn.json 一个都没有（en_us.json 只有 compactmachines 与 occultism）。这份映射在上一个整合包是用来改 ATM 注入的那份中文的（注入压过资源包），本版没有注入层，同一批键的中文由模组 jar 自带 zh_cn 加本包 src/pack 决定，没有可改的目标。"
+    },
+    {
+      "path": "src/upstream/kubejs/assets/hostilenetworks/lang/zh_cn.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版 ATM 不注入任何 zh_cn：干净实例的 kubejs/assets 下 41 个命名空间只有 pt_br.json，zh_cn.json 一个都没有（en_us.json 只有 compactmachines 与 occultism）。这份映射在上一个整合包是用来改 ATM 注入的那份中文的（注入压过资源包），本版没有注入层，同一批键的中文由模组 jar 自带 zh_cn 加本包 src/pack 决定，没有可改的目标。"
+    },
+    {
+      "path": "src/upstream/kubejs/assets/kubejs/lang/zh_cn.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版 ATM 不注入任何 zh_cn：干净实例的 kubejs/assets 下 41 个命名空间只有 pt_br.json，zh_cn.json 一个都没有（en_us.json 只有 compactmachines 与 occultism）。这份映射在上一个整合包是用来改 ATM 注入的那份中文的（注入压过资源包），本版没有注入层，同一批键的中文由模组 jar 自带 zh_cn 加本包 src/pack 决定，没有可改的目标。"
+    },
+    {
+      "path": "src/upstream/kubejs/assets/modern_industrialization/lang/zh_cn.json.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版 ATM 不注入任何 zh_cn：干净实例的 kubejs/assets 下 41 个命名空间只有 pt_br.json，zh_cn.json 一个都没有（en_us.json 只有 compactmachines 与 occultism）。这份映射在上一个整合包是用来改 ATM 注入的那份中文的（注入压过资源包），本版没有注入层，同一批键的中文由模组 jar 自带 zh_cn 加本包 src/pack 决定，没有可改的目标。"
+    },
+    {
+      "path": "src/upstream/kubejs/client_scripts/Mekanism-Tooltips.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有这个文件（kubejs 对应目录里不存在同名脚本）。"
+    },
+    {
+      "path": "src/upstream/kubejs/client_scripts/ponder/fission_mek.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有 kubejs/client_scripts/ponder 目录（该目录下只有 RecipeViewer.js、att_rpc.js、recipe_viewer、server_sync_banlist.js、tooltips.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/client_scripts/ponder/fission_mek_fuelrod.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有 kubejs/client_scripts/ponder 目录（该目录下只有 RecipeViewer.js、att_rpc.js、recipe_viewer、server_sync_banlist.js、tooltips.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/client_scripts/ponder/fission_mek_logic.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有 kubejs/client_scripts/ponder 目录（该目录下只有 RecipeViewer.js、att_rpc.js、recipe_viewer、server_sync_banlist.js、tooltips.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/client_scripts/ponder/fission_mek_port.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有 kubejs/client_scripts/ponder 目录（该目录下只有 RecipeViewer.js、att_rpc.js、recipe_viewer、server_sync_banlist.js、tooltips.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/client_scripts/ponder/fusion_activate.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有 kubejs/client_scripts/ponder 目录（该目录下只有 RecipeViewer.js、att_rpc.js、recipe_viewer、server_sync_banlist.js、tooltips.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/client_scripts/ponder/fusion_reactor.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有 kubejs/client_scripts/ponder 目录（该目录下只有 RecipeViewer.js、att_rpc.js、recipe_viewer、server_sync_banlist.js、tooltips.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/client_scripts/ponder/induction_mek.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有 kubejs/client_scripts/ponder 目录（该目录下只有 RecipeViewer.js、att_rpc.js、recipe_viewer、server_sync_banlist.js、tooltips.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/client_scripts/ponder/sps.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有 kubejs/client_scripts/ponder 目录（该目录下只有 RecipeViewer.js、att_rpc.js、recipe_viewer、server_sync_banlist.js、tooltips.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/client_scripts/ponder/turbine_mek.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有 kubejs/client_scripts/ponder 目录（该目录下只有 RecipeViewer.js、att_rpc.js、recipe_viewer、server_sync_banlist.js、tooltips.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/announcements/announcements.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有 kubejs/server_scripts/announcements 目录。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/auto_hephaestus_forge.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_crucible.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_enchanter.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/atm/runic_star_altar.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_crystallizer.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_dissolution_chamber.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_infuser.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_oxidizer.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/chemical_washer.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/electrolytic_seperator.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/isotopic_centrifuge.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/pressurized_reaction_chamber.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/server_scripts/mods/modular_machinery/multiblocks/mekanism/solar_neutron_activator.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。modularmachinery 不在本版整合包里：321 个 jar 里没有一个提供 assets/modularmachinery 或 data/modularmachinery，这些多方块脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/startup_scripts/Modern-Industrialization/atm_stuff.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。现代工业化的模组本体在包里，但本版上游没有放这些 kubejs 启动脚本（kubejs/startup_scripts 下只有 Applied Energistics、CreativeMenuAdditions.js、CustomAdditions.js、ExtendedAE、Occultism、burns.js、constants.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/startup_scripts/Modern-Industrialization/multiblocks/auto_forge.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。现代工业化的模组本体在包里，但本版上游没有放这些 kubejs 启动脚本（kubejs/startup_scripts 下只有 Applied Energistics、CreativeMenuAdditions.js、CustomAdditions.js、ExtendedAE、Occultism、burns.js、constants.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/startup_scripts/Modern-Industrialization/multiblocks/casing.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。现代工业化的模组本体在包里，但本版上游没有放这些 kubejs 启动脚本（kubejs/startup_scripts 下只有 Applied Energistics、CreativeMenuAdditions.js、CustomAdditions.js、ExtendedAE、Occultism、burns.js、constants.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/startup_scripts/Modern-Industrialization/multiblocks/runic_crucible.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。现代工业化的模组本体在包里，但本版上游没有放这些 kubejs 启动脚本（kubejs/startup_scripts 下只有 Applied Energistics、CreativeMenuAdditions.js、CustomAdditions.js、ExtendedAE、Occultism、burns.js、constants.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/startup_scripts/Modern-Industrialization/multiblocks/runic_enchanter.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。现代工业化的模组本体在包里，但本版上游没有放这些 kubejs 启动脚本（kubejs/startup_scripts 下只有 Applied Energistics、CreativeMenuAdditions.js、CustomAdditions.js、ExtendedAE、Occultism、burns.js、constants.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/startup_scripts/Modern-Industrialization/multiblocks/runic_star_altar.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。现代工业化的模组本体在包里，但本版上游没有放这些 kubejs 启动脚本（kubejs/startup_scripts 下只有 Applied Energistics、CreativeMenuAdditions.js、CustomAdditions.js、ExtendedAE、Occultism、burns.js、constants.js）。"
+    },
+    {
+      "path": "src/upstream/kubejs/startup_scripts/Theurgy/SulfurAdditions.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。theurgy 不在本版整合包里，对应的启动脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/startup_scripts/hyperbox/hyperbox.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。hyperbox 不在本版整合包里，对应的启动脚本随之不存在。"
+    },
+    {
+      "path": "src/upstream/kubejs/startup_scripts/incompatible_versions.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有这个文件（kubejs 对应目录里不存在同名脚本）。"
+    },
+    {
+      "path": "src/upstream/kubejs/startup_scripts/update_checker.js.json",
+      "approved": "5a445b4",
+      "date": "2026-09-12",
+      "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有这个文件（kubejs 对应目录里不存在同名脚本）。"
+    }
+  ]
 }

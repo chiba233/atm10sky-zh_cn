@@ -10,8 +10,10 @@
 ATM10 Sky 的任务书**不带 zh_cn**；它以 All the Mods 10 为底，两边有大量任务 id 与英文原文
 逐字节相同。那部分中文可以直接搬，不必重译。
 
-本仓库和上一个仓库的形态不同：上一个仓库下面垫着整合包自带的 zh_cn，只写 delta；
-这里没有那一层，`src/config/…/lang/zh_cn/` 就是**整份**中文任务书。
+本包的上游不带 zh_cn，所以这里搬进来的是**整份**中文任务书；但它仍然按 delta 的形态存放
+（`zz_hanhua_<上游章节名>.snbt`，与上游章节名脱钩），和上一个仓库一样。
+「上游没有 zh_cn 所以用不上 delta 层」这个推论是错的：整合包升版会拆章节、改章节名，
+按上游原名存的源文件到那时无法同时满足两个在册版本，而跨版本是这套结构的根本能力。
 
 ## 唯一的硬规矩：英文原文必须逐字节一致
 
@@ -69,6 +71,12 @@ OUT = ROOT / 'src' / 'config' / 'ftbquests' / 'quests' / 'lang' / 'zh_cn'
 REVIEW = ROOT / 'build' / 'quest_lang_review.txt'
 
 LANG_REL = 'config/ftbquests/quests/lang'
+# 出货的是 delta，文件名必须与上游章节名**脱钩**：带前缀的才被 gen_quest_lang_patches.py
+# 认成「本包的覆盖」，再按键打进上游那份同名章节文件里发出去。
+# 直接按上游原名发整份会出两种事故：上游同名文件的键被整份盖掉（早先 2 个键的
+# aether.snbt 盖掉了上游 167 个键）；以及上游哪天拆/改章节名，同一份源文件就无法
+# 同时满足两个在册版本——而跨版本是这套结构的根本能力。判据见 src/rules/quests.json。
+DELTA_PREFIX = 'zz_hanhua_'
 
 # 键行：行首若干空白 + 标识符 + 冒号。值一直取到**下一个键**为止，所以跨行数组
 # 不需要单独处理括号配平。
@@ -184,7 +192,10 @@ def main(zh_tree, src_pack, dst_pack):
             continue
         rel = f.relative_to(base_d) if base_d in f.parents or f.parent == base_d \
             else Path(f.name)
-        dst = OUT / rel.parent / rel.name.replace('.snbt_merged', '.snbt')
+        name = rel.name.replace('.snbt_merged', '.snbt')
+        if not name.startswith(DELTA_PREFIX):
+            name = DELTA_PREFIX + name
+        dst = OUT / rel.parent / name
         dst.parent.mkdir(parents=True, exist_ok=True)
         dst.write_text(dump(pairs), encoding='utf-8')
         carried += len(pairs)
