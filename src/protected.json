@@ -1075,7 +1075,7 @@
     "src/mods/vaultpatcher/verify/com/ldtteam/structurize/client/gui/WindowExtendedBuildTool.java",
     "src/module_hashes.json",
     "src/optional-mods-pinyin/LICENSE-just-enough-characters.txt",
-    "src/optional-mods-pinyin/jecharacters-1.21.1-neoforge-4.5.26.jar",
+    "src/optional-mods-pinyin/jecharacters-1.21.1-neoforge-4.5.29.jar",
     "src/optional-mods-pinyin/来源与许可.md",
     "src/pack/assets/abnormals_delight/lang/zh_cn.json",
     "src/pack/assets/abundant_atmosphere/lang/zh_cn.json",
@@ -3876,6 +3876,12 @@
       "approved": "68209f7",
       "date": "2026-09-12",
       "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/optional-mods-pinyin/jecharacters-1.21.1-neoforge-4.5.26.jar",
+      "approved": "UTC07-2026-09-12 (15:27)",
+      "date": "2026-09-12",
+      "why": "被同目录的 jecharacters-1.21.1-neoforge-4.5.29.jar 取代。assemble.py 把本目录整个拷进出货树，两个 jar 同时在会让包里带两份同一个模组。"
     }
   ]
 }
