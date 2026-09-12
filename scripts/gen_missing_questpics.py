@@ -5,17 +5,14 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """补上任务书**引用了、整合包里却没有**的章节配图。
 
-ATM10 8.0 把机械动力章节的任务连线改成一根根「传动杆」贴图，引用
-`atm:textures/questpics/create/create_shaft.png` 共 27 处——而这张图 7.0/7.1/7.2/
-7.3/8.0 的 `questpics/create/` 里都只有那 11 张，没有它，干净的 8.0 实例全盘 find
-也没有，create 系 jar 里也没有。缺失纹理在游戏里就是那片品红黑格，把整章的连线
-画成一团花（不装本包同样如此，7.0–7.3 不受影响）。
+章节引用了某张 questpic，而整合包的官方文件里没有这张图——游戏里就是那片品红
+黑格，把整章的连线画成一团花（不装本包同样如此）。成因在上游，但玩家看到的是
+「我装了这个包，任务书是花的」，所以补。
 
-**缺图是逐版本的事实。** ATM 在 8.1 里自己把这张图发出来了（27 处引用照旧），
-而 7.0–8.0 的官方文件里仍然没有。所以照旧画进版本中立的出货树，再由 `--prune`
-在组每一版出货树时按**该版**的官方文件剔一次：8.1 用 ATM 自己的贴图，
-7.0–8.0 用我们画的。整条 MISSING 只有在**每个在册版本**的上游都有了之后才该退休，
-那时本脚本会红着要求删掉它。
+**缺图是逐版本的事实。** 画进版本中立的出货树，再由 `--prune` 在组每一版出货树
+时按**该版**的官方文件剔一次：上游自己发了的那一版用上游的，没发的那一版用我们
+画的。整条 MISSING 只有在**每个在册版本**的上游都有了之后才该退休，那时本脚本会
+红着要求删掉它。
 
 成因在上游，但玩家看到的是「我装了这个包，任务书是花的」，所以补。
 资源包的加载顺序排在 KubeJS 之后（见 gen_quest_banners.py 顶部），同路径放一张
@@ -79,9 +76,28 @@ def draw_link(w=512, h=128):
 
 
 # 缺哪张、画成什么样。加一项就是加一行，不用动逻辑。
-MISSING = {
-    'create/create_shaft.png': draw_link,
-}
+def bundled(rel):
+    """取 src/questpics/ 下随包收录的那一张（来源见同目录的「来源.md」）。
+
+    这几张是上游自己引用了却没发的，内容是纯图案与人名招牌，没有可译的文字，
+    所以原样取用而不重画。
+    """
+    def load():
+        return Image.open(ROOT / 'src' / 'questpics' / rel).convert('RGBA')
+    return load
+
+
+# 缺哪张、怎么来。加一项就是加一行，不用动逻辑。
+# 本包的章节一次都没引用 create/create_shaft.png——那是上一个整合包的事，不收。
+MISSING = {rel: bundled(rel) for rel in (
+    'building_tips/building_frame.png',
+    'building_tips/building_mindful.png',
+    'building_tips/building_title_beelumpi.png',
+    'building_tips/building_title_climowitz.png',
+    'building_tips/building_title_mindful.png',
+    'building_tips/building_title_unka.png',
+    'mek/mek_wind.png',
+)}
 
 
 def declared_versions():
