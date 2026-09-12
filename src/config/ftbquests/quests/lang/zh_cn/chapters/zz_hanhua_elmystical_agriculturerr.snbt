@@ -1,22 +1,157 @@
 {
-	image.05C8978607F7FFE8.title: "机器框架"
-	image.0B2508B9A76FBFC1.title: "高级升级"
-	image.34E5823E2BD51326.title: "初级精华洒水壶"
-	image.36B39405FECBACF7.title: "中级精华洒水壶"
-	image.3E6DB2E6E14CCC07.title: "下级升级"
-	image.3FC3715B0E15B159.title: "初级升级"
-	image.44F6FF4C1E4D944F.title: "觉醒终极升级"
-	image.5857221CBA4F5564.title: "终极精华洒水壶"
-	image.6BDE9552EF0251C3.title: "下级精华洒水壶"
-	image.6D09AE9FF80F8CA8.title: "中级升级"
-	image.719FDD15FA8D3E4E.title: "高级精华洒水壶"
-	quest.19065F9DB95FE9C0.quest_subtitle: "等级：&b4"
-	quest.310236F1631C6F7D.quest_subtitle: "等级：&63"
-	quest.3D2B4BF905CB606F.quest_desc: ["觉醒龙种子需要在正下方放一块觉醒龙基质才能生长。"]
-	quest.3D2B4BF905CB606F.quest_subtitle: "等级：&56"
-	quest.47A91A89E9879863.quest_subtitle: "等级：&a2"
-	quest.49E3C40B3C24C36A.quest_subtitle: "等级：&c5"
-	quest.544BF7E113635C8F.quest_subtitle: "等级：&c5"
-	quest.600388EAB96609E4.quest_subtitle: "等级：&a2"
-	quest.7B7F7626FB6813FA.quest_subtitle: "等级：&63"
+	quest.04A7AA70C23830FF.quest_desc: ["镰刀可用于清除大量有机材料。镰刀会破坏你所挖方块周围一片区域内的方块。"]
+	quest.04B6E31120663EB2.quest_subtitle: "等级：&a2"
+	quest.06EAA74E0A10CBB6.quest_subtitle: "范围：&b36&r 格"
+	quest.06EAA74E0A10CBB6.title: "&9高级生长加速器"
+	quest.07564DBB023EE2A6.quest_subtitle: "等级：&b4"
+	quest.077B2D62FA7650FB.quest_subtitle: "范围：&627&r 格"
+	quest.077B2D62FA7650FB.title: "&c中级生长加速器"
+	quest.0B37355262121DD5.quest_desc: ["&a注魔祭坛&r是你制作所有种子的方式。首先放置祭坛，它会显示之后放置基座的位置。\\n\\n为了开始灌注，祭坛需要&4红石信号&r。"]
+	quest.0B37355262121DD5.quest_subtitle: "制作种子"
+	quest.0B37355262121DD5.title: "&4注魔祭坛"
+	quest.13124A7E22999850.quest_subtitle: "等级：&e1"
+	quest.15D764CAF047EA7A.title: "&c中级精华盔甲&r"
+	quest.1609BF52108238B0.quest_subtitle: "等级：&e1"
+	quest.1636F3F12E92CAEA.quest_desc: [
+		"要使用洒水壶，你需要右键点击水源方块将其装满水。装满水后，你可以按住右键对着作物浇水，洒水壶会浇灌其作用范围内的作物。"
+		""
+		"精华洒水壶具有自动浇水功能。只需在空气中Shift+右键点击洒水壶即可切换自动浇水开关。开启时洒水壶会看起来像附魔了一样。"
+	]
+	quest.16E3031D800B40D5.quest_desc: ["灵魂刷怪笼使用生物精华来生成生物。例如，如果你放入一些恶魂精华，你就可以生成恶魂。"]
+	quest.1C4ABF4518638A82.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)\\n - 速度 II (3:00)\\n - 抗性提升 II (3:00)\\n - 生命恢复 II (3:00)\\n - 力量 II (3:00)"]
+	quest.1C4ABF4518638A82.title: "&4终极精华苹果"
+	quest.1CC4F8570A7A99EB.quest_desc: ["&d精华&r是你在神秘农业中所有种植需求的起点。\\n\\n&e下级精华&r是所有精华的基础等级。你可以通过采矿、击杀生物或制作种子来种植获得！\\n\\n要制作更强大更好的精华，你需要制作一个&9注魔水晶&r。"]
+	quest.1CC4F8570A7A99EB.quest_subtitle: "等级：&e1"
+	quest.1CC4F8570A7A99EB.title: "&a下级精华"
+	quest.1CF8263756EE8F2A.quest_desc: ["这种特殊的&e粉末&r由凋灵和末影龙在被附有&d神秘启示&r魔咒的&d精华武器&r击杀时掉落。"]
+	quest.1CF8263756EE8F2A.title: "&5觉醒粉&r"
+	quest.1E0F92F07FDD162E.quest_desc: ["你需要&b活化种子基底&r来创建资源作物。"]
+	quest.1E0F92F07FDD162E.quest_subtitle: "我全都要（种子）基底"
+	quest.1E0F92F07FDD162E.title: "&b活化种子基底"
+	quest.1E414D285E7A5FE2.title: "&c中级精华工具"
+	quest.1E7DC8E0493BE99E.quest_subtitle: "等级：&e1"
+	quest.1F7591DB6D8EC1E7.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)\\n - 速度 II (3:00)\\n - 抗性提升 II (3:00)\\n - 生命恢复 II (3:00)\\n - 力量 II (3:00)\\n - 急迫 II (3:00)"]
+	quest.1F7591DB6D8EC1E7.title: "&5究极精华苹果"
+	quest.1F88C697817A7680.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)"]
+	quest.1F88C697817A7680.title: "&a下级精华苹果"
+	quest.202B1F54D3F06DAB.quest_desc: ["这是6级精华，通过将4个终极精华与注魔水晶结合制成。"]
+	quest.202B1F54D3F06DAB.quest_subtitle: "等级：&56"
+	quest.202B1F54D3F06DAB.title: "&5究极精华"
+	quest.212EF8601746C500.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)\\n - 速度 II (3:00)\\n - 抗性提升 II (3:00)\\n - 生命恢复 II (3:00)"]
+	quest.212EF8601746C500.title: "&9高级精华苹果"
+	quest.21A90474590FCDB8.quest_desc: ["\"熔炉\"是原版熔炉的升级版本，可以通过升级来提高速度和效率。"]
+	quest.21A90474590FCDB8.title: "\"熔炉\""
+	quest.224CE21E56703F6E.quest_desc: ["魔杖可用于激活注魔祭坛，只需右键点击祭坛即可激活灌注过程。"]
+	quest.224CE21E56703F6E.quest_subtitle: "你是个巫师（插入你的名字）！"
+	quest.224CE21E56703F6E.title: "&2魔杖"
+	quest.23C36E4B5DCEBFDD.quest_desc: ["此任务由&6AllTheMods Staff&r或&2社区贡献者&r为在AllTheMods整合包中使用而创作。\\n\\n由于所有&6AllTheMods&r包均在&e保留所有权利&r许可下授权，未经明确许可，此任务不允许在任何非&6AllTheMods Team&r发布的公开包中使用。\\n\\n此任务有意隐藏，如果你看到此内容，说明你处于编辑模式。"]
+	quest.260F9C98DC2E485B.quest_subtitle: "等级：&b4"
+	quest.26A7746051A4A079.quest_subtitle: "等级：&63"
+	quest.27A0BCE75F198A82.quest_subtitle: "等级：&e1"
+	quest.27E8ED4B5F8127F9.quest_subtitle: "等级：&b4"
+	quest.29AE69722AB4C75C.quest_subtitle: "等级：&a2"
+	quest.2A7E3F2CD335EAD0.quest_desc: ["要开始制作&a精华装备&r的旅程，你需要先制作下级精华盔甲。\\n\\n这套装备可以像精华一样升级到更高等级。你也可以用&b工具装配台&r为它们&9升级&r！"]
+	quest.2A7E3F2CD335EAD0.title: "&a下级精华盔甲"
+	quest.2AECDD9E2DEA708C.quest_subtitle: "等级：&a2"
+	quest.2C73E3C5113BF2AC.quest_desc: ["哔哔我是一只羊"]
+	quest.2C73E3C5113BF2AC.quest_subtitle: "等级：&a2"
+	quest.2C9C9CB71941DC01.quest_desc: ["这是3级精华，通过将4个初级精华与注魔水晶结合制成。"]
+	quest.2C9C9CB71941DC01.quest_subtitle: "等级：&63"
+	quest.2C9C9CB71941DC01.title: "&c中级精华"
+	quest.2DDA04088C8220D2.quest_subtitle: "我们终于能拥有活化水晶了吗？"
+	quest.2DDA04088C8220D2.title: "&b活化水晶碎片"
+	quest.30E9255DEC69C061.title: "&4终极工具"
+	quest.32B01BD789F0B037.quest_desc: ["觉醒终极精华和其他等级精华可以通过使用&6资源蜜蜂&r模组来自动化获取。"]
+	quest.32B01BD789F0B037.title: "自动化觉醒终极精华"
+	quest.3339445194568D77.title: "&2初级工具"
+	quest.3384308C78D86059.quest_subtitle: "等级：&a2"
+	quest.33D23C65E7274A8F.quest_desc: ["要觉醒你的终极精华，你需要创建一个新的祭坛和4个新的基座，以及4个&c精华储罐&r。\\n\\n精华储罐需要用初始元素精华填充：火、水、土、风。"]
+	quest.33D23C65E7274A8F.title: "&d觉醒&r"
+	quest.37B297640F537383.quest_desc: ["空白升级用于在注魔祭坛中创造各种升级。通过这些神奇的升级，你可以获得&e急迫&r、&1夜视&r、&b摔落伤害抗性&r、&6火焰抗性&r等等效果！"]
+	quest.37B297640F537383.title: "&f空白升级"
+	quest.38A77DBAD24C4B53.quest_subtitle: "等级：&63"
+	quest.3BB3AA6C29285837.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)\\n - 速度 II (3:00)"]
+	quest.3BB3AA6C29285837.title: "&2初级精华苹果"
+	quest.3C9F5EB59D72AC90.quest_desc: ["合成&6ATM之星&r需要觉醒终极精华锭块。"]
+	quest.3E555B364FD88B43.quest_subtitle: "范围：&c45&r格"
+	quest.3E555B364FD88B43.title: "&4终极生长加速器"
+	quest.3EA2578C3A56FAE8.quest_desc: ["灵魂提取器允许你通过放入灵魂瓶并使用生物物品来填充它们。例如，添加腐肉将填充一部分僵尸灵魂。"]
+	quest.408D8B1CFBA22BAF.quest_desc: ["防凋灵方块、防凋灵砖和防凋灵玻璃具有极高的爆炸抗性，并且不会被凋灵或末影龙破坏。"]
+	quest.408D8B1CFBA22BAF.title: "&0防凋灵方块"
+	quest.409A92D40F539485.quest_subtitle: "等级：&e1"
+	quest.41DBE44D7AA0B623.quest_desc: ["工匠台是你为精华装备添加这些升级的地方！"]
+	quest.4526E151BAE88310.quest_subtitle: "等级：&e1"
+	quest.4530C14828C3D153.quest_subtitle: "等级：&b4"
+	quest.45549E52B3CE2D23.quest_desc: ["镰刀是可以一次性收获大片区域作物的工具。它们也可以用作相当不错的武器。"]
+	quest.4821419D44F8083F.quest_subtitle: "范围：&e9&r格"
+	quest.4821419D44F8083F.title: "&a下级生长加速器"
+	quest.48BF71269DEA1AB1.title: "&4终极耕地"
+	quest.4EF5DE3FBA2A7AE3.quest_desc: ["从下级精华开始，你可以制造锭来制作精华&9工具&r和&9盔甲&r。\\n\\n精华工具可以升级到更高等级，并且像盔甲一样，它们可以在&3工匠台&r中进行&5升级&r。"]
+	quest.4EF5DE3FBA2A7AE3.title: "&a下级工具"
+	quest.4F0DD86CF6E5F1B5.quest_subtitle: "等级：&b4"
+	quest.4F137DB561F45306.title: "&2初级盔甲&r"
+	quest.52BB58D470560219.quest_subtitle: "范围：&c54&r格"
+	quest.52BB58D470560219.title: "&6觉醒终极生长加速器"
+	quest.54735C5FCD2077B3.title: "&a神秘农业！"
+	quest.54D72C234EA76054.quest_subtitle: "等级：&e1"
+	quest.576ABF43FCF886B7.title: "&2初级耕地"
+	quest.5B1E0E3E876339E7.title: "&4终极盔甲"
+	quest.5BC4250E4C9F803C.title: "&9高级耕地"
+	quest.5C590DB2F3D935E5.quest_desc: ["种子再处理器可以将精华种子转换回精华。"]
+	quest.5C590DB2F3D935E5.quest_subtitle: "回收！"
+	quest.5F6ACDE014A61F46.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)\\n - 速度 II (3:00)\\n - 抗性提升 II (3:00)"]
+	quest.5F6ACDE014A61F46.title: "&c中级精华苹果"
+	quest.6235B9923BE0AAEB.quest_desc: ["附魔器是一个允许你使用物品和精华为可附魔物品添加附魔的方块。"]
+	quest.6235B9923BE0AAEB.title: "&b附魔器"
+	quest.62D572BAB055F56F.quest_subtitle: "等级：&e1"
+	quest.6501A410F1543C70.quest_desc: ["魔法肥料的作用类似于骨粉，但效果更好。它可以瞬间使任何使用它的作物生长到完全成熟。"]
+	quest.6501A410F1543C70.title: "&d魔法肥料"
+	quest.66C52B137A4FF869.quest_desc: ["这是4级精华，通过将4个中级精华与一个注魔水晶结合制成。"]
+	quest.66C52B137A4FF869.quest_subtitle: "等级：&b4"
+	quest.66C52B137A4FF869.title: "&9高级精华"
+	quest.67DBE6C59C0D9D1B.quest_desc: ["这是4级精华，由4个高级精华与1个注魔水晶在注魔祭坛中合成。"]
+	quest.67DBE6C59C0D9D1B.quest_subtitle: "等级：&c5"
+	quest.67DBE6C59C0D9D1B.title: "&4终极精华"
+	quest.67DDFA6FB1F9EECA.title: "&9高级精华工具"
+	quest.685C4A646E092A82.title: "&6觉醒终极精华盔甲"
+	quest.6A18B971C3DB83AE.quest_subtitle: "等级：&63"
+	quest.712EB19B26D405DD.quest_subtitle: "等级：&e1"
+	quest.73350AD668200E99.quest_desc: ["这是2级精华，由4个下级精华与1个注魔水晶在注魔祭坛中合成。"]
+	quest.73350AD668200E99.quest_subtitle: "等级：&a2"
+	quest.73350AD668200E99.title: "&2初级精华"
+	quest.75560045ED084900.quest_desc: [
+		"大多数种子制作很简单，但要制作&9生物种子&r，你需要前往下界获取一些&8灵魂&r。"
+		""
+		"利用找到的石头和矿石，你需要制作&3离魂匕首&r和&3灵魂瓶&r。使用匕首杀死生物，你将能够收集它们的&b灵魂&r，这些灵魂可在注魔祭坛中用于制作相应的生物种子。"
+		""
+		"或者，你可以在&3灵魂提取器&r中放入灵魂瓶，并使用生物物品来填充它们。例如，放入腐肉将获得部分僵尸灵魂。"
+	]
+	quest.75560045ED084900.title: "制作生物种子"
+	quest.7580037DB8ADEB3C.quest_desc: ["喵喵，我是牛……"]
+	quest.7580037DB8ADEB3C.quest_subtitle: "等级：&a2"
+	quest.76071C22A73A2026.title: "&c中级耕地"
+	quest.7655E1C6C5E5469F.quest_subtitle: "范围：&a18&r格"
+	quest.7655E1C6C5E5469F.title: "&2初级生长加速器"
+	quest.77C6667B4C37589C.quest_desc: ["机器升级用于加速&a神秘农业&r机器。"]
+	quest.7A103577EAE7B3F1.quest_desc: ["这是5级 - 觉醒精华，由4个觉醒粉、10个各类元素精华和1个终极精华块在觉醒祭坛中合成。"]
+	quest.7A103577EAE7B3F1.quest_subtitle: "等级：&c5 - 觉醒"
+	quest.7A103577EAE7B3F1.title: "&6觉醒终极精华"
+	quest.7ADE214373DE135F.quest_subtitle: "等级：&63"
+	quest.7CFA92CC48D1E7E3.quest_subtitle: "等级：&c5"
+	quest.7D43016926E77150.title: "&9高级精华盔甲&r"
+	quest.7DFF18CFEB0B8DBE.quest_desc: ["你应该尽快开始种植&a下级精华&r！\\n\\n虽然不是种植这些种子所必需的，但你也可以制作&e精华耕地&r来提高种子的生长速度（尤其是下级精华种子）。然而，某些种子需要特定的耕地才能种植。"]
+	quest.7DFF18CFEB0B8DBE.title: "&a下级耕地"
+	task.011F410922A4D859.title: "收割刀"
+	task.0C92F7E44100B2BA.title: "中级精华工具"
+	task.2DA0BD7B2834A560.title: "防凋灵方块"
+	task.323D34AF775A642B.title: "镰刀"
+	task.34551E919FD101CF.title: "高级精华工具"
+	task.3E133AC7B615971D.title: "终极精华工具"
+	task.41910A3BC6C0E838.title: "初级精华工具"
+	task.4F6E8F2EC33DB910.title: "觉醒终极精华工具"
+	task.518B9569DCE0A771.title: "保留所有权利"
+	task.51A3E013D2B3D744.title: "机器升级"
+	task.64FADC78A8AD3FE4.title: "种子"
+	task.773CA1FDC4CEFCEF.title: "保留所有权利"
+	task.7D9A58EBADE91F54.title: "下级精华工具"
 }
