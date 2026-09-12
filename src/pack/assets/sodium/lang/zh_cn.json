@@ -87,5 +87,6 @@
  "sodium.console.corrupt_config.message.body": "尝试加载配置文件时出现问题。\n这可能是文件在磁盘上损坏，或手动编辑文件导致的。\n\n若继续，配置文件将重置为已知可用的默认值，\n你之后对视频设置所做的更改将丢失。\n\n关于此错误的更多信息见日志文件。",
  "sodium.options.search": "搜索",
  "sodium.options.search.hint": "搜索…",
- "sodium.options.open_external_page_button": "打开"
+ "sodium.options.open_external_page_button": "打开",
+ "sodium.options.always_defer_chunk_updates.name": "始终推迟区块更新"
 }

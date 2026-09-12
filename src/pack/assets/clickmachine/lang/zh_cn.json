@@ -1,0 +1,7 @@
+{
+ "gui.clickmachine.speed": "%s次点击每秒",
+ "gui.clickmachine.sneaking": "潜行",
+ "gui.clickmachine.right_click": "右键点击",
+ "gui.clickmachine.power.usage": "消耗%sFE/t",
+ "gui.clickmachine.rainbow_magic": "由彩虹魔法驱动！"
+}

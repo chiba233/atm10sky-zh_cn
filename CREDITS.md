@@ -53,7 +53,7 @@ Patchouli 系导览书把正文直接写在 `data/<模组>/patchouli_books/**` �
 | 来源 | 说明 | 许可 |
 |---|---|---|
 | **[atm10-zh-cn](https://github.com/chiba233/atm10-zh-cn)** | 本包的语言文件、导览书与任务书译文由该项目迁入。ATM10 Sky 以 All the Mods 10 为底，两包共用的部分不重复翻译；任务书按**英文原文逐字节一致**搬运，原文被改写过的一条都不搬。 | 同本包 |
-| **CFPA 社区翻译**（[Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package)） | 上述内容中有相当一部分与 CFPA 1.21 语言包一致。感谢 CFPA 团队与众多贡献者。 | **CC BY-NC-SA 4.0**（署名—非商业性使用—相同方式共享） |
+| **CFPA 社区翻译**（[Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package)） | 上述内容中有相当一部分与 CFPA 语言包一致。另有 101 条是直接取自该项目：本包用到的那句英文与 CFPA 收录的**逐字节相同**时才采用，主要补齐 `exmachinis`（空岛的筛与锤）与 `libx` 两个模组。感谢 CFPA 团队与众多贡献者。 | **CC BY-NC-SA 4.0**（署名—非商业性使用—相同方式共享） |
 | **All the Mods 团队** | 整合包本身，以及它自带的中文（任务书之外，`kubejs/assets/**/lang/zh_cn.json` 也由上游提供）。另有七张章节配图：本包的任务书引用了它们，本包的官方文件里却没有，于是取自同一作者组的 All the Mods 10 原样收录（清单与理由见 `src/questpics/来源.md`）。 | 见整合包 |
 | 各模组原作者 | 大量模组自带官方中文，本包直接沿用，不做重复翻译。 | 各自许可 |
 
