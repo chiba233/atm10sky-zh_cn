@@ -59,6 +59,7 @@
 	quest.2F9B0C642A6BE30C.title: "&f铁制背包"
 	quest.2FC15D3916DBF4E4.quest_subtitle: "更多的过滤选项"
 	quest.2FC15D3916DBF4E4.title: "&e高级虚空升级"
+	quest.3043C83CCFC9706D.title: "集成终端"
 	quest.33882172DA8021F6.quest_desc: ["自动使用背包中的物品，为玩家物品栏里的同类物品补满堆叠数量。"]
 	quest.33AADC1B97E9F7A9.quest_desc: ["带箱子的矿车是装有箱子的矿车。你不能骑在这些矿车上，但它们可以用于通过铁路系统运输物品。"]
 	quest.36BCE35215B2B6E9.quest_desc: ["在背包中自动熔炼物品。"]
@@ -70,6 +71,7 @@
 	quest.3A1D07AED2A841E4.title: "&e自动熔炼升级"
 	quest.3B570B3DB5F6D2CB.quest_subtitle: "x16 存储升级"
 	quest.3B570B3DB5F6D2CB.title: "&e金升级"
+	quest.3CE3CDB9C93CBDAD.title: "自动合成"
 	quest.3E33730DC2115D26.title: "&e金箱"
 	quest.4007DFA7CC3A5FF2.quest_desc: ["为了避免这个 &o整个任务部分&r 被升级覆盖，请查看精妙背包的升级\\n\\n你需要制作精妙存储的等效升级，但它们的功能大致相同。"]
 	quest.4007DFA7CC3A5FF2.quest_subtitle: "升级的基础"

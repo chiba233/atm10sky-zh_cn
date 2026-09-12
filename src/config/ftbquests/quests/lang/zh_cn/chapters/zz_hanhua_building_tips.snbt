@@ -123,6 +123,7 @@
 	quest.7E49C985A0433B20.quest_desc: ["&d&l新生魔艺&r是一个非常有趣的魔法模组，它带来了自己的一套木材！\\n\\n至高木有5种不同颜色的树，生成于大多数生物群系，但主要是在它们的至高木生物群系！"]
 	quest.7E49C985A0433B20.title: "&d&l新生魔艺&r 原木"
 	task.00A904FBEDE80712.title: "Macaw的屋顶"
+	task.022D9FAD58AEE2C8.title: "流光"
 	task.064B1841F9288CC3.title: "方块"
 	task.06F2EC3901908BF1.title: "塑料砖块™"
 	task.074BDA389D0FB989.title: "碎裂铜"
@@ -147,6 +148,7 @@
 	task.32CB6A7BC1AB644E.title: "简易光源"
 	task.36E85C17C558F436.title: "不止火把"
 	task.389B5B0F35B89FC8.title: "碎裂混凝土"
+	task.3BE936F7D054FDDA.title: "建筑棒"
 	task.3C16167530BEC231.title: "保留所有权利"
 	task.3C18AB7133946682.title: "镐尖斧"
 	task.3C4997133CCECBE0.title: "精巧手艺"

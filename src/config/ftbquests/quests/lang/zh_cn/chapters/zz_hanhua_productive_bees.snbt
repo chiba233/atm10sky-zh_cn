@@ -9,8 +9,10 @@
 	quest.00FD36C207845895.title: "末影龙蜜蜂"
 	quest.010A970FC91BD617.quest_subtitle: "在合金熔炉中制作"
 	quest.010A970FC91BD617.title: "魂金蜜蜂"
+	quest.012287E678B226D4.title: "混沌蜜蜂"
 	quest.01F7F3589EBD8872.quest_subtitle: "喂菌菇蜜蜂一个棕色蘑菇"
 	quest.01F7F3589EBD8872.title: "棕色蘑菇蜜蜂"
+	quest.02084CEEBADE52E4.title: "龙锭蜜蜂"
 	quest.027FD9135DEC4949.quest_subtitle: "放置在下界并给予恶魂之泪时吸引恶魂蜜蜂"
 	quest.029AA03790F055E8.quest_subtitle: "水晶 + 石匠"
 	quest.029AA03790F055E8.title: "金蜜蜂"
@@ -155,6 +157,7 @@
 	quest.205DE46ABA1CCC8F.title: "导电合金蜜蜂"
 	quest.2086C73688C8BA51.quest_subtitle: "喂食一桶硫酸给熔岩蜜蜂"
 	quest.2086C73688C8BA51.title: "硫酸蜜蜂"
+	quest.20D61CC211D0495D.title: "觉醒蜜蜂"
 	quest.2182492BCC1B33D8.quest_desc: ["安装在蜂巢中时，每次产出蜂蜜都有5%的几率生成一只新的幼蜂。\\n\\n放置在捕捉器中时，只允许捕捉器捕捉幼蜂。\\n\\n可以叠加使用多个，以获得更高的几率。"]
 	quest.2182492BCC1B33D8.quest_subtitle: "制造幼蜂"
 	quest.21FDF07571B5DCA7.quest_subtitle: "喂食原初凝胶给铁蜜蜂"

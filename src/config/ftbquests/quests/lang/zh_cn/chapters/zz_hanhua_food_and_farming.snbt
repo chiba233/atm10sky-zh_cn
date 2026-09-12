@@ -41,6 +41,7 @@
 	quest.2E9C035EEE7E5C34.quest_desc: ["经典的拴绳。用它把动物带到你的农场区域。\\n\\n这和矿石不一样。"]
 	quest.2E9C035EEE7E5C34.quest_subtitle: "让小狗乖一点"
 	quest.2E9C035EEE7E5C34.title: "我们用传统方式来做"
+	quest.2FBF54AC8273E8DF.title: "丰产树"
 	quest.361DFDB1E1352D6B.quest_desc: ["在一些水旁边找一些甘蔗。"]
 	quest.361DFDB1E1352D6B.title: "糖，糖"
 	quest.37CA6F9F0226F10E.quest_desc: ["这个方块可以存储用于烹饪的物品。\\n\\n你还可以在上面放置其他厨房多方块物品，比如烤面包机和罐中牛。"]
@@ -80,6 +81,7 @@
 	task.1D8904E53906D972.title: "保留所有权利"
 	task.2725700B5EA1CD75.title: "剪刀"
 	task.323A434E1AF54408.title: "锄"
+	task.3DA0D9582AEFCBCF.title: "亚麻种子"
 	task.5805158E69C05AED.title: "保留所有权利"
 	task.669DEA201002793D.title: "冰箱"
 	task.78D7794707E4BD83.title: "农作物"
