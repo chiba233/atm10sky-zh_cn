@@ -170,6 +170,10 @@
 	quest.43EF5513A1C52A37.quest_desc: ["&3热气动加工机&r将用于制造熔融塑料，只需泵入一些液化石油气、煤炭和热量。"]
 	quest.43EF5513A1C52A37.quest_subtitle: "名称越长越好"
 	quest.43EF5513A1C52A37.title: "热气动加工"
+	quest.440B1E1D4951F808.quest_desc: [
+		"&3智能箱子&r是一个防爆箱子，72 格容量，内置一个可完全配置的全向漏斗，还带升级槽。它不能合成大箱子，但用起来也像潜影盒。"
+		"{image:atm:textures/questpics/pneumaticcraft/smart_chest_ui.png width:200 height:100 align:center}"
+	]
 	quest.440B1E1D4951F808.quest_subtitle: "箱子界的学霸"
 	quest.456B9DD108CF340F.quest_desc: ["使事物运行更快。"]
 	quest.456B9DD108CF340F.quest_subtitle: "飞速！"
@@ -225,6 +229,7 @@
 	quest.5A0860631323B5E3.quest_subtitle: "你需要揉面"
 	quest.5A9D6672385D3D82.quest_desc: ["只需使用1个青金石进行升级，而不是4个。"]
 	quest.5A9D6672385D3D82.quest_subtitle: "节省青金石"
+	quest.5AEE86EB39FD4087.quest_desc: ["&3涡流管&r把压力分成冷热两股气流：冷气从蓝色那一端出，热气从红色那一端出。"]
 	quest.5AEE86EB39FD4087.quest_subtitle: "仍然不是RF……"
 	quest.5AEE86EB39FD4087.title: "热量生产"
 	quest.5B9F933ECD6B24FD.quest_desc: ["让你跳得比II级升级更高。"]
@@ -246,16 +251,19 @@
 	quest.5E71F8A046C60346.title: "发电"
 	quest.602C3E88D96F8843.quest_desc: ["将曝光过的空印刷电路板放入&3蚀刻器&r，再提供一些蚀刻酸和热量，就能得到&3未组装的印刷电路板&r。\\n\\n蚀刻是按概率成功的，概率写在物品的说明里；失败会得到失效的印刷电路板。"]
 	quest.602C3E88D96F8843.quest_subtitle: "快完成了！"
+	quest.61AD2207E770CD7F.quest_desc: ["让你能从更远的地方捡起物品和经验。"]
 	quest.61AD2207E770CD7F.quest_subtitle: "最大可安装数量：6"
 	quest.61B479079DC1C69C.quest_desc: ["让你跳得比I级升级更高。"]
 	quest.61B479079DC1C69C.quest_subtitle: "最大可安装数量：1"
 	quest.61BA2932EC86DA2E.quest_desc: ["让你跳得非常高。"]
 	quest.61BA2932EC86DA2E.quest_subtitle: "最大可安装数量：1"
+	quest.63F6F4EBCEB914B0.quest_desc: ["&3压力室&r是一种重要的多方块结构，由&3压力室墙壁&r搭成（各面可以用&3压力室玻璃&r替换）。它最小 3x3x3，最大 5x5x5；本任务要交的就是搭 5x5x5 所需的方块。\\n\\n使用压力室时，要用先前做好的&3压力管道&r把压力送进&3压力室气阀&r，别忘了往气阀里装一个安全升级。&l不同配方要求的压力不同&r。\\n\\n你还得能往压力室里送物品、把产物取出来，这就轮到&3压力室接口&r了：外侧是蓝色的负责输入，外侧是金色的负责输出，两种各在任意一面放一个。"]
 	quest.63F6F4EBCEB914B0.quest_subtitle: "加压！"
 	quest.63F6F4EBCEB914B0.title: "压力室"
 	quest.649167FC31EB916E.quest_desc: ["&3植物油&r可通过将农作物或种子放入&3热气动加工机&r来制作。"]
 	quest.649167FC31EB916E.quest_subtitle: "更好的油"
 	quest.649167FC31EB916E.title: "植物油"
+	quest.64D34A6C3487C5DF.quest_desc: ["&3空气接口&r可以给你身上那些能充压的东西补压。这下气动盔甲不用再单独充能了！"]
 	quest.64D34A6C3487C5DF.quest_subtitle: "无线压力！"
 	quest.64E2E05B228EA53E.quest_desc: ["&3高级压力管道&r是目前最好的压力管道，能够承受20 bar的压力！\\n\\n虽然它们本身已经很出色，但还可用于一些更酷的配方中。"]
 	quest.64E2E05B228EA53E.quest_subtitle: "全新水平！"
@@ -282,6 +290,7 @@
 	quest.6CA01DCE1F4A0EC3.quest_desc: ["模组的下一阶段需要收集&3原油&r。这种油会在主世界地表自然生成。"]
 	quest.6CA01DCE1F4A0EC3.quest_subtitle: "通往塑料之路"
 	quest.6CA01DCE1F4A0EC3.title: "原油"
+	quest.6D124ACF4AE80490.quest_desc: ["有了微型导弹，你能隔着老远把爆炸送过去！从此谁也跑不掉！"]
 	quest.6D124ACF4AE80490.quest_subtitle: "远程发射爆炸！"
 	quest.6EB53CDCB80D4B66.quest_desc: [
 		"&3气动门&r可作为自动门，可设置为仅为你打开！"
