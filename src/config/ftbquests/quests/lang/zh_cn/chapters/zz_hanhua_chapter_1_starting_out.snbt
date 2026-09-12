@@ -26,24 +26,59 @@
 	quest.128A1EEAF8F45042.title: "来点菌丝！"
 	quest.145917B219D0D28D.quest_desc: ["所有&b空岛&r世界开局都会给你必需品：&2草方块&f和一棵&2树&r。\\n\\n&2树&r是用来拿&6木头&r以及一切木制品的。那&2草方块&r呢？\\n\\n一、&a被动型生物&r要靠&2草方块&r才会生成。二、&2草方块&r会向别的泥土蔓延。三、潜行右键&2草方块&r能得到&7小石子&r！"]
 	quest.145917B219D0D28D.title: "&2草方块"
+	quest.162AB6F9257EB71E.quest_desc: [
+		"产出第一点能量的办法有很多。"
+		""
+		"本包对发电机盛会做了一次翻修：升到 8 倍和 64 倍更便宜了，各档发电量也全面提高。先弄一台够劲的熔岩发电机，然后就可以上路了！要在 ATM10:TTS 里开始自动化，我们还得再往能源里多走几步，认识几个新模组！"
+		""
+		"下面是其中几个模组！"
+		""
+		"&bGenerators Galore&r（分档与改动）"
+		""
+		"&b催生器分档&r（推荐定向的那款，特别快！）"
+		""
+		"&bGeores&r（把你缺的材料种出来！）&r"
+	]
 	quest.162AB6F9257EB71E.title: "下一章"
 	quest.1B186F14606C07D7.quest_desc: ["在&6&l木桶&r里（最好是&7&l石头&r做的那种）把&e荧石&r和&c熔岩&r混在一起，就能得到&e末地石&r。\\n\\n和&4下界岩&r一样，可以用&8锤&r砸碎，再把碎块拿去&b筛&r！\\n\\n这样能筛出&3末影珍珠&r、&a末影之眼&r，还有更多东西……"]
 	quest.1B186F14606C07D7.title: "&e末地石"
 	quest.1E9F1FBAA6AAA43B.quest_desc: ["&c敌对生物&r比&a被动型&r好生成。\\n\\n只要够黑、而且离你至少 24 格远，它们就会生成。\\n\\n岛越修越大的话，记得把它照亮！"]
 	quest.1E9F1FBAA6AAA43B.title: "&c敌对生物"
+	quest.1FA3ACD9B8CD02FE.quest_desc: ["哪种&9水&r？&5巫水&r！\\n\\n把&6&l木桶&r放在&5菌丝块&r上方，往桶里装&9水&r，就能得到&5巫水&r。\\n需要等一小会儿，不过没关系，我们有的是耐心！\\n\\n（顺带一提，&5巫水&r附近的&5菌丝块&r会开始长出&c蘑菇&r！）"]
 	quest.1FA3ACD9B8CD02FE.title: "&5巫水"
+	quest.23E71537225B8392.quest_desc: [
+		"有了木头就能做木棍，有了木棍就能做&6钩子&r！\\n\\n它可以用来破坏&2树叶&r。这样破坏时，&2树叶&r会掉出更多&2树苗&r，还有一种叫&e蚕&r的新物品。\\n\\n把&e蚕&r丢到&2树叶&r上就能让它们被感染。感染会向周围的树叶蔓延，并随时间生长。\\n\\n你可能会问，正常人为什么想要一片被&e蚕&r感染的树林？\\n\\n当然是为了线！现在去打掉那些白色的树叶就有了。"
+		"{image:atm:textures/questpics/chap1/chap1_tree.png width:100 height:100 align:center}"
+	]
 	quest.23E71537225B8392.title: "感染我们的&2树"
+	quest.25B49E9D15BAEF3E.quest_desc: ["&9水&r的来路有好几条。\\n\\n&9下雨&r、&6&l木桶&r堆肥、&b冰&r！\\n\\n不管你用哪种，只要在 2×2 的范围里对角摆两个&9水源&r，立刻就有了&9无限水源&r。\\n\\n这样以后就不用再为&9水&r发愁了！"]
 	quest.25B49E9D15BAEF3E.title: "&9水"
+	quest.29F82373417B2006.quest_desc: ["树苗用完了？任务界面右上角可以领应急树苗！而且能反复领：出了岔子也不必重开世界！"]
 	quest.29F82373417B2006.title: "应急树苗"
+	quest.2A3BF8D20EEED292.quest_desc: [
+		"&6&l（橡木）木桶&r和&2&lMinecraft&r的桶完全是两码事。\\n\\n实际上有一大堆物品和方块都要靠它！\\n\\n往桶里装液体、再把物品丢进去，就能把物品和液体混合。\\n\\n把两种液体都倒进&6&l木桶&r，也能做液体混合。\\n\\n顺带一提，要和&c熔岩&r混合得用&7&l石桶&r。&6木头&r做的会烧掉！\\n\\n&9下雨&r时它会自己接满&9水&r。"
+		"{image:atm:textures/questpics/chap1/chap1_barrel.png width:100 height:110 align:center}"
+		"{image:atm:textures/questpics/chap1/chap1_leaves.png width:100 height:110 align:center}"
+	]
 	quest.2A3BF8D20EEED292.title: "&6&l（橡木）木桶"
+	quest.2C134DDBF9283407.quest_desc: ["给想快速开局的人：这条会给你一个「简单模式」的起步。它不是必做的，也不影响进度。"]
 	quest.2C134DDBF9283407.quest_subtitle: "给想直接跳到后面的人"
 	quest.2C134DDBF9283407.title: "抢跑一步"
+	quest.322F7A333B35F7FD.quest_desc: ["要拿材料就得把方块过一遍&b&l筛子&r……可是这些&7石头&r太硬，塞不进&b&l筛子&r。\\n\\n那就拿&8锤&r把它们砸碎吧！\\n\\n以为我在开玩笑？拿&8锤&r破坏方块，就能得到它们被砸碎后的形态！"]
 	quest.322F7A333B35F7FD.title: "&8锤"
+	quest.376BAC497511F067.quest_desc: [
+		"在工作台里用铁把熔炉围起来，就能把熔炉升级成铁熔炉。"
+		""
+		"它烧得更快，还能用界面左上角那个齿轮配置成自动化。"
+	]
 	quest.376BAC497511F067.quest_subtitle: "这个包里是不是什么都能升级？"
 	quest.376BAC497511F067.title: "用铁来烧铁"
 	quest.3948A052907BEC04.quest_subtitle: "锤黑石"
+	quest.3C5AAFC9672F2CF7.quest_desc: ["泥土也能丢进&b&l筛子&r里筛出东西！\\n\\n泥土挺稀缺又必不可少，所以先确保手头够用再拿去&b筛&r。\\n\\n筛泥土会给我们&2农作物&r，还有&2草籽&r！&2草籽&r用在泥土上就能长出&2草方块&r。\\n\\n任何泥土，任何地方！"]
 	quest.3C5AAFC9672F2CF7.title: "&2草籽"
+	quest.441200BE0C75C2AD.quest_desc: ["筛网是可以升级的！而且必须升级才能筛出新东西！\\n\\n具体产物可以查 JEI，总之筛网越好，掉落越好。\\n\\n掉落的种类和概率都会随筛网变化。"]
 	quest.441200BE0C75C2AD.title: "升级筛网"
+	quest.469E414BC7F0C238.quest_desc: ["&3瓷桶&r的用法和&7铁桶&r一样。\\n\\n只是更便宜、前期更好弄，而且倒完&c熔岩&r就会碎！\\n\\n等等，什么？\\n\\n是的，它不耐热，倒完&c熔岩&r之后这个&3桶&r就碎了。\\n\\n装&9水&r倒是没问题！\\n你要是愿意，用&7铁桶&r也能完成这条任务。"]
 	quest.469E414BC7F0C238.title: "&3瓷桶"
 	quest.488C8BDF45B9CA0F.title: "白嫖生物！！！"
 	quest.4C502B5A1C1A0C58.title: "&8灵魂沙"
