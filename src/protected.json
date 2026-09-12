@@ -1049,6 +1049,7 @@
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_welcome.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_xycraft.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/zz_hanhua_chapter.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/zz_hanhua_image.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/zz_hanhua_reward_table.snbt",
     "src/config/vaultpatcher_asm/config.json",
     "src/config_ui_terms.json",
