@@ -6,26 +6,23 @@ name: 任务书搬运（一次性）
 # 把上一个仓库已有的中文任务书按「英文原文逐字节一致」搬进本仓库。
 # 迁移期跑一次就够；搬完这条流水线与 scripts/import_quest_lang.py 一起退役。
 #
-# 三份输入，各自的身份都由构造保证，不靠人记：
-#   中文     上一个仓库 Build 流水线的 artifact，解开任一 client zip 里那棵出货树。
-#            **不取游戏目录**：那份是 ftbquestslangsplitter 运行时按哈希序合并出来的，
-#            值的形态与键的有无都会变。
-#   源英文   clone 上一个仓库，用**它自己的** fetch_pack.py 取——PROJECT 钉在它那边，
-#            本仓库这支一个字节都不用改。
-#   目标英文 本仓库的 fetch_pack.py 取。
-# 两支 fetch_pack.py 都会核 overrides 指纹，拿错包或下载不干净当场红。
+# 三份输入，身份都由构造保证，不靠令牌也不靠人记：
+#   中文出货树  clone 上一个仓库（公开），用**它自己的** fetch_pack.py 取它那一版的
+#               官方 overrides，再用**它自己的** gen_quest_lang_patches.py 把它的 delta
+#               并进上游的 zh_cn——这就是它的出货树。
+#               **不取游戏目录**：那份是 ftbquestslangsplitter 运行时按哈希序合并的，
+#               值的形态与键的有无都会变。
+#   源英文      同一份 overrides 里的 en_us。
+#   目标英文    本仓库的 fetch_pack.py 取本包 overrides 里的 en_us。
+# 两支 fetch_pack.py 的 PROJECT 各钉在各自仓库，都会核 overrides 指纹，拿错包当场红。
 #
 # 产物上传成 artifact、末尾 exit 1：搬运结果是译文，机器只负责算，人负责过目并提交。
 
 on:
   workflow_dispatch:
     inputs:
-      atm10_run_id:
-        description: '上一个仓库的 Build run id（留空＝取 main 上最近一次成功的）'
-        required: false
-        default: ''
       atm10_version:
-        description: '取哪个整合包版本的 client zip（留空＝版本号最大的那个）'
+        description: '取上一个仓库哪个在册版本（留空＝它在册的最新版）'
         required: false
         default: ''
 
@@ -44,68 +41,29 @@ jobs:
         with:
           python-version: '3.12'
 
-      # 跨仓库读 artifact 要 actions:read，而 GITHUB_TOKEN 只覆盖本仓库。
-      # 取不到就红，**不许**退化成「拿 Releases 里那份」——已发布的包可能落后于 main，
-      # 用旧译文去对今天的英文，会把「原文改过」误判成「原文一致」。
-      - name: 前提：跨仓库读 artifact 的令牌
+      - name: 摊出上一个仓库的中文任务书出货树
         env:
-          TOKEN: ${{ secrets.ATM10_ARTIFACT_TOKEN }}
-        run: |
-          set -euo pipefail
-          if [ -z "$TOKEN" ]; then
-            echo "❌ 缺 secret ATM10_ARTIFACT_TOKEN"
-            echo "   要一个对 $SRC_REPO 有 actions:read 的细粒度令牌，加到"
-            echo "   本仓库 Settings → Secrets and variables → Actions。"
-            exit 1
-          fi
-          echo "令牌已配置 ✅"
-
-      - name: 取中文出货树（上一个仓库的 Build artifact）
-        env:
-          GH_TOKEN: ${{ secrets.ATM10_ARTIFACT_TOKEN }}
-          RUN_ID: ${{ github.event.inputs.atm10_run_id }}
-          WANT_VER: ${{ github.event.inputs.atm10_version }}
-        run: |
-          set -euo pipefail
-          if [ -z "$RUN_ID" ]; then
-            RUN_ID=$(gh run list --repo "$SRC_REPO" --workflow Build --branch main \
-              --status success --limit 1 --json databaseId -q '.[0].databaseId')
-            [ -n "$RUN_ID" ] || { echo "❌ $SRC_REPO 的 main 上没有成功的 Build run"; exit 1; }
-          fi
-          echo "源 run: $RUN_ID"
-          mkdir -p build/zhsrc
-          # artifact 名由它那边的 build.yml 决定：push 触发时补丁版本号是 dev
-          gh run download "$RUN_ID" --repo "$SRC_REPO" -n 'atm10-zh_cn-dev' -D build/zhsrc
-          ls -la build/zhsrc
-          # 选一个 client zip。每个 zip 里的任务书中文是同一份公共译文加该版覆盖，
-          # 取版本号最大的那个＝与公共层一致、覆盖最少。
-          if [ -n "$WANT_VER" ]; then
-            ZIP=$(ls build/zhsrc/*client*-atm${WANT_VER}.zip)
-          else
-            ZIP=$(ls build/zhsrc/*client*.zip | sort -V | tail -1)
-          fi
-          echo "取 $ZIP"
-          mkdir -p build/zhtree && (cd build/zhtree && unzip -q "../../$ZIP")
-          # 出货树的位置在 zip 里是 <包名>/config/ftbquests/quests/lang/zh_cn
-          mapfile -t FOUND < <(find build/zhtree -type d -path '*/config/ftbquests/quests/lang/zh_cn')
-          if [ "${#FOUND[@]}" -ne 1 ]; then
-            echo "❌ 在 $ZIP 里找到 ${#FOUND[@]} 棵 lang/zh_cn，期望恰好 1 棵："
-            printf '   %s\n' "${FOUND[@]}"
-            exit 1
-          fi
-          echo "ZH_TREE=${FOUND[0]}" >> "$GITHUB_ENV"
-          echo "中文出货树 ${FOUND[0]}（$(find "${FOUND[0]}" -name '*.snbt*' | wc -l) 个 .snbt）"
-
-      - name: 取源整合包的官方 en_us（用上一个仓库自己的 fetch_pack.py）
+          WANT: ${{ github.event.inputs.atm10_version }}
         run: |
           set -euo pipefail
           git clone --depth 1 "https://github.com/$SRC_REPO.git" build/srcrepo
-          # 它在册的最新版本＝出货树那份公共译文对的那一版
-          SRC_VER=$(ls -d build/srcrepo/versions/[0-9]* | xargs -n1 basename | sort -V | tail -1)
+          cd build/srcrepo
+          if [ -n "$WANT" ]; then SRC_VER="$WANT"; else
+            SRC_VER=$(ls -d versions/[0-9]* | xargs -n1 basename | sort -V | tail -1); fi
           echo "源整合包版本 $SRC_VER"
-          python3 build/srcrepo/scripts/fetch_pack.py "$SRC_VER" build/srcpack --no-jars
+          # 它自己的 fetch_pack.py（PROJECT 钉在它那边）取它那一版的官方 overrides；
+          # 指纹要与它仓库里记的那份对得上，对不上当场红。
+          python3 scripts/fetch_pack.py "$SRC_VER" ../srcpack --no-jars
+          # 它的 delta 摊进一棵临时树，再用它自己的生成器并进上游 zh_cn
+          mkdir -p ../zhtree
+          cp -R src/config/. ../zhtree/
+          python3 scripts/gen_quest_lang_patches.py ../srcpack ../zhtree "$SRC_VER"
+          cd ../..
+          ZH=build/zhtree/config/ftbquests/quests/lang/zh_cn
+          [ -d "$ZH" ] || { echo "❌ 没摊出 $ZH"; exit 1; }
+          echo "中文出货树 $ZH（$(find "$ZH" -name '*.snbt' | wc -l) 个 .snbt）"
+          echo "ZH_TREE=$ZH" >> "$GITHUB_ENV"
           echo "SRC_PACK=build/srcpack" >> "$GITHUB_ENV"
-          find build/srcpack/config/ftbquests/quests/lang -maxdepth 1 | head
 
       - name: 取本包整合包的官方 en_us
         run: |
@@ -114,7 +72,6 @@ jobs:
           echo "本包整合包版本 $VER"
           python3 scripts/fetch_pack.py "$VER" build/dstpack --no-jars
           echo "DST_PACK=build/dstpack" >> "$GITHUB_ENV"
-          find build/dstpack/config/ftbquests/quests/lang -maxdepth 1 | head
 
       - name: 搬运（判据：英文原文逐字节一致）
         run: python3 scripts/import_quest_lang.py "$ZH_TREE" "$SRC_PACK" "$DST_PACK"
