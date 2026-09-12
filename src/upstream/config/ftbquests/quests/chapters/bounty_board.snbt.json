@@ -1,0 +1,22 @@
+{
+ "_说明": "悬赏板任务「击败流浪商人和他的烦人羊驼」的奖励是一把改了名的铁剑，剑名与剑身说明写死在物品的 minecraft:custom_name / minecraft:lore 组件里，不是任务书的语言键——FTB Quests 的语言拆分只覆盖 title/subtitle/description，碰不到组件，所以只能在章节文件本身上改。AlfredGG 是 ATM 任务书作者的名字，整合包自带中文在该任务的副标题里也照原样保留，这里跟着不译。",
+ "src": "config/ftbquests/quests/chapters/bounty_board.snbt",
+ "edits": [
+  {
+   "find": [
+    "\t\t\t\t\t\t\t\"minecraft:custom_name\": \"{\\\"italic\\\":false,\\\"text\\\":\\\"Sword of AlfredGG\\\"}\"\n"
+   ],
+   "replace": [
+    "\t\t\t\t\t\t\t\"minecraft:custom_name\": \"{\\\"italic\\\":false,\\\"text\\\":\\\"AlfredGG之剑\\\"}\"\n"
+   ]
+  },
+  {
+   "find": [
+    "\t\t\t\t\t\t\t\"minecraft:lore\": [\"{\\\"italic\\\":false,\\\"text\\\":\\\"For those brave enough to slaughter the Mighty and Annoying Trader\\\"}\"]\n"
+   ],
+   "replace": [
+    "\t\t\t\t\t\t\t\"minecraft:lore\": [\"{\\\"italic\\\":false,\\\"text\\\":\\\"献给敢于屠戮那位伟大而烦人的商人的勇者\\\"}\"]\n"
+   ]
+  }
+ ]
+}

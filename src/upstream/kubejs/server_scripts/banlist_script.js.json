@@ -1,0 +1,13 @@
+{
+ "src": "kubejs/server_scripts/banlist_script.js",
+ "edits": [
+  {
+   "find": [
+    "      event.player.setStatusMessage(Text.red(\"This server does not allow you to use this item!\"))\n"
+   ],
+   "replace": [
+    "      event.player.setStatusMessage(Text.red(\"此服务器不允许你使用该物品！\"))\n"
+   ]
+  }
+ ]
+}
