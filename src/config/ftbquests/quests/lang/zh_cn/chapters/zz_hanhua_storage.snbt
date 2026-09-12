@@ -6,6 +6,7 @@
 	quest.0298A17C2AAC5765.quest_desc: ["将背包的堆叠大小增加8。"]
 	quest.0298A17C2AAC5765.title: "&b堆叠升级T3"
 	quest.037415D5B965E214.quest_desc: ["这个升级使背包不会被破坏。"]
+	quest.0682DC1F2417DAEB.quest_desc: ["实用存储是一个存储向的模组，加入了各种有用的物品，帮你整理收纳、成组地存放同一种东西。\\n\\n圆石、泥土这类东西正好用得上。"]
 	quest.0682DC1F2417DAEB.quest_subtitle: "存储抽屉的远亲"
 	quest.0682DC1F2417DAEB.title: "功能性存储"
 	quest.072FBEB0F6F1BC48.quest_desc: ["用于将抽屉连接到控制器，并连接末影抽屉。\\n\\n要将抽屉连接到控制器，请右键点击控制器方块以开始配置。右键点击抽屉会将它们添加到网络中。\\n\\n持有工具会显示哪些抽屉连接到了控制器。"]
@@ -19,10 +20,15 @@
 	quest.0E5AE195158CF344.quest_subtitle: "x32 存储升级"
 	quest.0E5AE195158CF344.title: "&d下界合金升级"
 	quest.110D27EA86CDA62B.quest_desc: ["将物品磁吸到背包中。"]
+	quest.11A351E2CDE2A31E.quest_desc: [
+		"集成终端还能让你无线访问自己的存储！只要在连接存储的任意逻辑线缆上装一个集成动力的全向连接器，"
+		"再用便携式存储终端右键一下，你就能随时随地访问整套系统了。"
+	]
 	quest.11A351E2CDE2A31E.title: "随身访问存储"
 	quest.11D4EEAC61C7E530.quest_desc: ["收集器升级将使抽屉从一侧吸走物品。"]
 	quest.11D57C768032E3F7.quest_subtitle: "更多的过滤选项"
 	quest.11D57C768032E3F7.title: "&e高级磁铁升级"
+	quest.122FBF5110E4CFF2.quest_desc: ["铁降级会把抽屉的容量上限压到一组。想让某样东西常备、但又不要太多时，这很有用。"]
 	quest.1310C1E14C259807.quest_desc: ["想要自定义抽屉吗？请看这里，这些抽屉可以在外部模仿一个方块的纹理，在前面则可以是另一种纹理。\\n\\n按照提示说明操作。"]
 	quest.134608BB2B04D96E.quest_desc: ["箱子有27个格子，可以制作成双倍箱子，存储两倍的数量。"]
 	quest.134608BB2B04D96E.quest_subtitle: "箱子"
@@ -37,11 +43,13 @@
 	quest.1985CFD1F0425E88.quest_subtitle: "更多的过滤选项"
 	quest.1985CFD1F0425E88.title: "&e高级拾取升级"
 	quest.19DFAEB6D88F3580.quest_desc: ["推送器升级允许抽屉将物品推出到任何一侧。"]
+	quest.1A4B1CA7EC15348E.quest_desc: ["用&a链接工具&r可以把两个末影抽屉连起来，让它们内容同步。\\n\\n效果就像末影箱，只不过是抽屉版。\\n\\n连接方法：拿&a链接工具&r右键第一个末影抽屉，再左键第二个。"]
 	quest.1A4B1CA7EC15348E.quest_subtitle: "维度抽屉..."
 	quest.1A739D36D5E3B1AD.quest_subtitle: "更多的过滤选项"
 	quest.1A739D36D5E3B1AD.title: "&e高级喂食升级"
 	quest.1B72E95569B07E18.quest_subtitle: "x24 存储升级"
 	quest.1B72E95569B07E18.title: "&b钻石升级"
+	quest.1CACE201C6AA0913.quest_desc: ["这个升级会在抽屉装满后把多出来的物品销毁。\\n\\n拿它防溢出，或者避免整条生产线因为存储塞满而堵住，都很好用。"]
 	quest.1CD2C6AFD788C35E.quest_desc: ["将背包中的物品压缩成它们的2x2配方。"]
 	quest.1E499F94A2A193E1.quest_desc: ["为背包添加一个高炉GUI。"]
 	quest.1FE052F643401232.quest_desc: ["你需要这些来制作背包升级。"]
@@ -55,11 +63,24 @@
 	quest.26A9F402DAE15EA2.quest_desc: ["为背包添加一个烟熏炉GUI。"]
 	quest.2746575C929B6C50.quest_desc: ["抽屉可以是1x1、2x1或2x2。抽屉可以容纳大量1/2/4物品的堆叠，具体取决于抽屉的类型。"]
 	quest.2746575C929B6C50.quest_subtitle: "堆积如山"
+	quest.289ED1DFD83B9838.quest_desc: [
+		"能接进来的不只有物品，流体也行！在任何能装流体的存储上装一个流体接口，再用逻辑线缆连起来，它就会出现在你的系统里！"
+		""
+		"操作流体有个省事的办法：背包里带上桶，先点流体、再点桶，就能把桶灌满！"
+	]
 	quest.2B422B7E0CE3590D.quest_desc: ["压缩抽屉可以将放入其中的物品转换成它们的碎屑或方块形式。\\n\\n例如：将一个铁锭放入其中，你可以拉出9个碎屑，或者如果放入更多的铁，会将其转换成铁块。"]
 	quest.2B422B7E0CE3590D.quest_subtitle: "自动压缩/解压"
 	quest.2F9B0C642A6BE30C.title: "&f铁制背包"
 	quest.2FC15D3916DBF4E4.quest_subtitle: "更多的过滤选项"
 	quest.2FC15D3916DBF4E4.title: "&e高级虚空升级"
+	quest.3043C83CCFC9706D.quest_desc: [
+		"在搭起 AE2 之前，最好的存储方案毫无疑问是&9集成终端&r。"
+		""
+		"&9集成终端&r提供了一套前期就能用的存储方案，"
+		"让你访问周围所有箱子，还带一些自动合成的功能！"
+		""
+		"第一步，把玻璃放进灌满门瑞欧树脂的烘干池，做出门瑞欧玻璃。"
+	]
 	quest.3043C83CCFC9706D.title: "集成终端"
 	quest.33882172DA8021F6.quest_desc: ["自动使用背包中的物品，为玩家物品栏里的同类物品补满堆叠数量。"]
 	quest.33AADC1B97E9F7A9.quest_desc: ["带箱子的矿车是装有箱子的矿车。你不能骑在这些矿车上，但它们可以用于通过铁路系统运输物品。"]
@@ -72,6 +93,7 @@
 	quest.3A1D07AED2A841E4.title: "&e自动熔炼升级"
 	quest.3B570B3DB5F6D2CB.quest_subtitle: "x16 存储升级"
 	quest.3B570B3DB5F6D2CB.title: "&e金升级"
+	quest.3CE3CDB9C93CBDAD.quest_desc: ["[ \"想搞自动合成？去看完整的\", { \"text\": \"集成动力\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"499CF9F39CED8899\" } }, \"指南！\" ]"]
 	quest.3CE3CDB9C93CBDAD.title: "自动合成"
 	quest.3E33730DC2115D26.title: "&e金箱"
 	quest.4007DFA7CC3A5FF2.quest_desc: ["为了避免这个 &o整个任务部分&r 被升级覆盖，请查看精妙背包的升级\\n\\n你需要制作精妙存储的等效升级，但它们的功能大致相同。"]
@@ -117,9 +139,17 @@
 	quest.6A2B2C5E2ADCE366.quest_desc: ["精妙背包提供可升级的背包，可以使用过滤器添加实用功能！\\n\\n背包可以放在你的Curios背部插槽中，并且可以染色。"]
 	quest.6A2B2C5E2ADCE366.quest_subtitle: "物品容器太小"
 	quest.6A2B2C5E2ADCE366.title: "精妙背包"
+	quest.6E3D53D1C4569A89.quest_desc: ["让你在自己和背包之间来回输送经验。"]
 	quest.6E3D53D1C4569A89.quest_subtitle: "存储经验"
 	quest.6E3D53D1C4569A89.title: "&a经验泵升级"
 	quest.6E9041744C592573.quest_desc: ["添加从储液升级中泵取液体的能力。"]
+	quest.6F6A23579CAE8013.quest_desc: [
+		"接下来做几个物品接口和逻辑线缆。"
+		""
+		"把接口装在你想接入的箱子上，再用逻辑线缆把它们全部连起来。"
+		""
+		"然后往上一拍存储终端，搞定！整套存储系统你都能访问了。"
+	]
 	quest.6F6A23579CAE8013.title: "把存储连起来"
 	quest.6FBAE89EE782DABA.quest_desc: ["当放置并使用 &a链接工具&r 连接到其他抽屉时，控制器充当\"中心枢纽\"。\\n\\n如果你双击右键此控制器，所有在抽屉网络中有插槽的物品都会被拉入。\\n\\n通过潜行右键点击控制器并手持空物品，你可以打开升级标签页，为这些插槽添加普通存储升级以增加控制器的范围。最大范围为所有方向40个方块，或80x80x80的立方体。"]
 	quest.6FBAE89EE782DABA.quest_subtitle: "抽屉的大脑"
