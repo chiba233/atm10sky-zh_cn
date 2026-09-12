@@ -120,7 +120,6 @@ ATM_PACK_ROOT=<整合包目录> ./scripts/generate_all.sh    # 摊 + 跑全部�
 | `gen_quest_lang_patches.py` | 把本包的任务书覆盖打进 ATM 自己那份章节文件，按**原文件名**出货 |
 | `gen_productive_trees_quest_lang.py` | 任务书里「甲 + 乙」那种育种公式：拿 `versions/db/<版本>/productive_trees.json` 套上树名。名字必须与 JEI 逐字一致，手写必漂 |
 | `gen_quest_space_fix.py` | 去掉中文里从英文原文带过来的半角空格 |
-| `gen_rootsclassic_wrap.py` | 根源经典的教程书按行宽预切、在断点插 ASCII 空格（那本书自己不折中文）|
 | `gen_occultism_flame.py` | 自动化之火 tooltip 上那行橙色的仪式 ID 换成中文仪式名 |
 
 **运行时才拼出名字的**

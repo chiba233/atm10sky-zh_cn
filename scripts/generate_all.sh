@@ -74,8 +74,6 @@ echo "▶ 章节配图：补上上游引用了却没发的那几张（顺带核�
 python3 scripts/gen_missing_questpics.py
 echo "▶ 主菜单按钮（14 张）"
 python3 scripts/gen_menu_buttons.py
-echo "▶ 根源经典教程书：按行宽预切并插空格（它的折行只认 ASCII 空格，中文切不开）"
-python3 scripts/gen_rootsclassic_wrap.py
 echo "▶ 自动化之火：tooltip 上那行仪式 ID 是数据不是翻译键，只能在显示层换成中文"
 python3 scripts/gen_occultism_flame.py
 
