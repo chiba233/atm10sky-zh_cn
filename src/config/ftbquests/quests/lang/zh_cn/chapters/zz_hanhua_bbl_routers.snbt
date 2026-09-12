@@ -1,7 +1,15 @@
 {
+	quest.0A497EC17534D248.quest_desc: ["&#53BAEDBBL Routers&r是一个全无线的物流模组。你只需要&#8B53ED输入器&r和&#EDB753输出器&r，它们就能传送物品、流体、电力、化学品和魔源。"]
 	quest.0A497EC17534D248.title: "&#45A5ED欢迎来到 BBL 路由器"
 	quest.222446C143B43770.title: "传输魔源"
 	quest.33A1316FD66C6428.quest_subtitle: "输入口／输出口要装升级才能动"
+	quest.3584DE12E1D7D14F.quest_desc: [
+		"这个模组有两种过滤器，手持它们&7右键&r即可设置："
+		""
+		"1. &#EDDE53模组过滤器&r：要填写模组的完整名称，中间不留空格。"
+		""
+		"2. &#EDDE53标签过滤器&r：填写标签时不要带 # 号。"
+	]
 	quest.3584DE12E1D7D14F.title: "过滤升级"
 	quest.3E14842D5F454F98.title: "提高运行速度"
 	quest.401A518B2D1BDB9A.quest_subtitle: "装在接收方的容器上"
@@ -9,6 +17,11 @@
 	quest.548676DCD1E09A7F.quest_subtitle: "装在发送方的容器上"
 	quest.6420E8B38993D8E3.title: "能量传输"
 	quest.671141CF874D89A4.title: "传输流体"
+	quest.68ABBA8CB99AF6A1.quest_desc: [
+		"把鼠标悬在物品上按住&#EDD353Shift&r，会显示它的详细信息。"
+		""
+		"使用&#537CED连接器&r时，先&7右键&r&#EDB553输入器&r，再&7右键&r&#5360ED输出器&r，两者就连起来了。"
+	]
 	quest.6B11A21220723520.title: "传输化学品"
 	quest.7742D896461A4632.quest_subtitle: "丢进输出口就行"
 	task.368EEAEC5B950F4D.title: "用好连接器"
