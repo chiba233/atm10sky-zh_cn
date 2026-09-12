@@ -116,7 +116,6 @@ ATM_PACK_ROOT=<整合包目录> ./scripts/generate_all.sh    # 摊 + 跑全部�
 | `gen_literal_books.py` | 正文直接写死在 JSON 里的那类书 |
 | `gen_quest_banners.py` | 任务书章节横幅上的艺术字（烤进 PNG）|
 | `gen_menu_buttons.py` | 主菜单按钮图上的中文 |
-| `gen_mod_textures.py` | 模组把英文**画进贴图**的那几张，擦掉英文重写中文 |
 | `gen_quest_lang_patches.py` | 把本包的任务书覆盖打进 ATM 自己那份章节文件，按**原文件名**出货 |
 | `gen_productive_trees_quest_lang.py` | 任务书里「甲 + 乙」那种育种公式：拿 `versions/db/<版本>/productive_trees.json` 套上树名。名字必须与 JEI 逐字一致，手写必漂 |
 | `gen_quest_space_fix.py` | 去掉中文里从英文原文带过来的半角空格 |

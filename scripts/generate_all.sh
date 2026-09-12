@@ -82,9 +82,6 @@ if [ "$HAVE_JARS" = 1 ]; then
   echo "▶ 配置界面标签（按逐词词典生成，缺词的整条跳过不猜）"
   python3 scripts/gen_config_ui.py "$ATM_PACK_ROOT"
 
-  echo "▶ 模组贴图里烤进去的英文（minecolonies 速查手册标题）：擦掉重写中文"
-  python3 scripts/gen_mod_textures.py
-
   echo "▶ 导览书（Patchouli / AE2 Guide / Oracle Index …）：拿 jar 里那份现套译文"
   python3 scripts/gen_books.py
 

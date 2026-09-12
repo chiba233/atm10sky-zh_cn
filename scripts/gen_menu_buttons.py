@@ -138,7 +138,7 @@ def text_color(im):
 def render(word, color, target_h=TARGET_H):
     """把词渲染成一张紧贴文字的 RGBA 图（超采样后缩回）
 
-    target_h 缺省是主菜单按钮的字高；gen_mod_textures.py 拿它按各自原图的字高复用。
+    target_h 缺省是主菜单按钮的字高；要盖别的贴图时按那张原图的字高传进来。
     """
     # 先按目标字高反推字号：CJK 字面高度约为字号的 0.86
     size = int(round(target_h / 0.86))
