@@ -91,6 +91,7 @@ def bundled(rel):
 # 本包的章节一次都没引用 create/create_shaft.png——那是上一个整合包的事，不收。
 MISSING = {rel: bundled(rel) for rel in (
     'building_tips/building_frame.png',
+    'industrialforegoing/brewing_input.png',   # 由任务正文引用，不在章节文件里
     'building_tips/building_mindful.png',
     'building_tips/building_title_beelumpi.png',
     'building_tips/building_title_climowitz.png',

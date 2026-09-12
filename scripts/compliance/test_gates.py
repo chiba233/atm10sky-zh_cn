@@ -1194,12 +1194,19 @@ def _prune(tmp, upstream_has):
     返回 (退出码, 我们画的那张还在不在)。`upstream_has=None` 表示**根本没取到**
     该版的官方文件——那时「上游有没有这张图」是不知道，不是「没有」。
     """
-    rel = 'create/create_shaft.png'
+    # 用**真实登记表里的那一条**，别写死文件名：写死的话，登记表一换内容，
+    # 这三条反例就变成空转——跑得绿，其实一个字都没验到。
+    sys.path.insert(0, str(ROOT / 'scripts'))
+    import gen_missing_questpics
+    rels = sorted(gen_missing_questpics.MISSING)
+    assert rels, 'MISSING 是空的，prune 的三条反例无从验起——要么登记表写错了，要么这三条该改'
+    rel = rels[0]
     up = tmp / 'packsrc'
     if upstream_has is not None:
-        (up / 'kubejs/assets/atm/textures/questpics/create').mkdir(parents=True)
+        base = up / 'kubejs/assets/atm/textures/questpics'
+        (base / rel).parent.mkdir(parents=True, exist_ok=True)
         if upstream_has:
-            (up / 'kubejs/assets/atm/textures/questpics' / rel).write_bytes(b'\x89PNG up')
+            (base / rel).write_bytes(b'\x89PNG up')
     tree = tmp / 'tree'
     ours = tree / 'resourcepacks' / 'ATM10Sky汉化包' / 'assets/atm/textures/questpics' / rel
     ours.parent.mkdir(parents=True)

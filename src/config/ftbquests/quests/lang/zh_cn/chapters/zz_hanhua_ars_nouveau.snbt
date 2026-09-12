@@ -1,4 +1,5 @@
 {
+	quest.0043ED1E4EF2D4A1.quest_desc: ["这些东西用来强化你自身的能力。"]
 	quest.0043ED1E4EF2D4A1.quest_subtitle: "打辅助的那几个"
 	quest.0043ED1E4EF2D4A1.title: "&5其他核心"
 	quest.04987E54ADC2C057.title: "&6德格米护符"
@@ -11,6 +12,7 @@
 	quest.0D330FAD6C993DBC.quest_desc: ["这是你的法术书的更高级版本！\\n\\n这本更高级的法术书能够增加你的总体魔力值以及提高你的魔力恢复速率，同时允许你创建和使用2级魔符。"]
 	quest.0D330FAD6C993DBC.quest_subtitle: "第二版"
 	quest.0D330FAD6C993DBC.title: "&5法师法术书"
+	quest.0DA31E972F2DE8AB.quest_desc: ["核心会从多个方面强化某一系的魔法。把鼠标悬停在魔符上，看右上角就知道这个法术属于哪一系。"]
 	quest.0DA31E972F2DE8AB.quest_subtitle: "轻一点的偏向"
 	quest.0DA31E972F2DE8AB.title: "&9次级元素核心"
 	quest.0E2AD156E5EF263A.quest_desc: ["用于在抄写台上刻写法术。"]
@@ -18,6 +20,7 @@
 	quest.0E2AD156E5EF263A.title: "&d法术羊皮纸"
 	quest.111649D7E16D869F.quest_desc: ["&9巫师之杖&r只能接受一个法术，用抄写台刻写。\\n\\n巫师之杖上的法术总是以「弹射物>加速」开头，而且刻上去的法术不能带别的形态（例如触碰、自身等）。\\n\\n这样你就能施放超出10个法术上限的法术。如果你只想用破坏，那就单独把破坏刻上去。"]
 	quest.111649D7E16D869F.title: "&d巫师之杖"
+	quest.1322CDAC5D3007BA.quest_desc: ["这条比较绕。首先，跟 4 级的&5可疑的巫师&r交易拿到凭证，再用凭证做出德格米护符。拿它右键&2苔石&r，就能造出&2德格米石阵&r，石阵会生成德格米。\\n\\n接下来轮到收容罐上场。启动收容仪式，把收容罐和你想量产掉落物的那只怪一起放进去，再准备一些&d魔源&r，怪就会被装进罐子里。\\n\\n最后，把罐子放在德格米 10 格以内，并在&2石阵&r旁边放一个装满的&d魔源罐&r和一个箱子。你应该能看到罐子上冒出绿色粒子，过一会儿怪物掉落物就会出现在箱子里。\\n\\n具体产率怎么算，去看 wiki。"]
 	quest.1322CDAC5D3007BA.quest_subtitle: "连 Boss 都吃这一套"
 	quest.1322CDAC5D3007BA.title: "&6德格米养殖"
 	quest.14DB8A515CA50932.quest_desc: ["&9巫师之剑&r允许你将触碰法术附在剑上。\\n\\n剑上的所有法术会在最后一个效果上获得一个额外的强化符文。\\n\\n要将法术附在剑上，需要使用抄写台，且创建法术时不要使用形态。"]
@@ -25,6 +28,7 @@
 	quest.151648179684B088.quest_desc: ["符文粉笔用于在地面上绘制永久符文。这些符文会对经过的实体施放法术。\\n\\n要将法术附在符文上，使用抄写台刻写&e法术羊皮纸&r。\\n\\n注意：符文需要魔源才能运行。"]
 	quest.151648179684B088.quest_subtitle: "可放置的法术"
 	quest.151648179684B088.title: "&6符文粉笔"
+	quest.1631AD6036F80333.quest_desc: ["用&6资源蜜蜂&r能省下宝贵的时间和空间！越早弄到越好。"]
 	quest.1631AD6036F80333.quest_subtitle: "比灌注室强"
 	quest.1631AD6036F80333.title: "&5自动化魔源宝石"
 	quest.17D7D34F519F7E5F.quest_desc: ["要获得最高级别的法术书，你需要击败&6荒野奇美拉&r，用它掉落的&6荒野供物&r来合成。\\n\\n荒野奇美拉要通过仪式召唤，你需要用&9仪式火盆&r和荒野召唤来完成。"]
@@ -35,16 +39,22 @@
 	quest.18A2FBE2D4133FA2.title: "奥术基座"
 	quest.19D02325579F2AA8.quest_desc: ["火山魔源通道通过消耗可燃物品产出魔源。至高木原木会额外产出魔源，其中烈焰至高木产出最多。\\n\\n它在燃烧物品时，会把附近的石头先转化为岩浆块，再熔成熔岩，同时还会长出熔岩百合。"]
 	quest.19D02325579F2AA8.quest_subtitle: "殃及池鱼"
+	quest.1A26E6650D007262.quest_desc: ["来源：JEI，据说是这样。（对，我在说反话。这条路只能给你煤，别的矿晶转化一个都拿不到，JEI 纯粹是在忽悠你们。想要别的得走别的路子。）"]
 	quest.1A26E6650D007262.quest_subtitle: "绝对、百分之百、一定能把你的难得素块变成矿晶母岩"
+	quest.1D86B2E553503E53.quest_desc: ["&6支配之杖&r用来操控你在世界里遇到的那些生灵！每种生灵对它的反应都不一样，记得翻残破的宝典查清楚！"]
 	quest.1D86B2E553503E53.quest_subtitle: "友好的小帮手"
 	quest.1D86B2E553503E53.title: "&6召唤帮手！"
+	quest.21B43DA96BAD42A6.quest_desc: ["&5难得素魔源罐&r能存 10 万点魔源，而普通那个只有可怜的 1 万。它同时也是&d创造魔源罐&r的材料。"]
 	quest.21B43DA96BAD42A6.quest_subtitle: "稀土金属……很魔法"
 	quest.21B43DA96BAD42A6.title: "&5难得素魔源罐"
 	quest.227DBA8836021B0B.quest_desc: ["在新生魔艺中，机器的能源系统称为&9魔源&r。\\n\\n要开始收集一些魔源，我们需要一个魔源罐。\\n\\n魔源也可以通过桶移动，或者通过破坏和拾取魔源罐来获取。"]
 	quest.227DBA8836021B0B.quest_subtitle: "存储魔源"
+	quest.252F320615FA2839.quest_desc: ["想让法术每次都打到同一个地方？把它对准你要的方向，弹射物就会&a弹&r向那里。"]
 	quest.252F320615FA2839.quest_subtitle: "反弹回去"
+	quest.25B98F334ECF79BD.quest_desc: ["一种靠内部计时器而不是红石来触发的炮塔。"]
 	quest.25B98F334ECF79BD.quest_subtitle: "自动施法"
 	quest.25B98F334ECF79BD.title: "&e定时法术炮塔"
+	quest.292A382E323B8A39.quest_desc: ["&d&lArs Additions&r 的&6护符&r是带防护与实用效果的魔法饰品。它们可以用&d魔源&r充能，效果五花八门：免疫火焰伤害、免于死亡，或者让你在水下呼吸。"]
 	quest.292A382E323B8A39.title: "&6功能护符"
 	quest.295C77EEC89000FC.quest_subtitle: "从生物死亡和动物繁殖中生成魔源"
 	quest.2C47C9B566A63135.title: "&a风转草护符"
@@ -54,12 +64,15 @@
 	quest.3142A40E1EAEBAA3.quest_subtitle: "魔法探测器"
 	quest.3182E8AF755104E4.quest_desc: ["在格挡伤害时，&9巫师之盾&r会为使用者提供短时间的魔力再生和法术伤害提升效果。\\n\\n此外，盾牌还会随时间推移用佩戴者的魔力修复自身。"]
 	quest.3182E8AF755104E4.title: "&5巫师之盾"
+	quest.33682F4B44950123.quest_desc: ["想进一步钻研法术，我们需要一种特别的魔法木材！"]
 	quest.33682F4B44950123.quest_subtitle: "讲究的木头"
 	quest.33682F4B44950123.title: "&9至高木"
 	quest.34A173721735401B.title: "&d薇克精护符"
 	quest.36CDA39C23D3AA2B.quest_desc: ["此任务由&6AllTheMods 工作组&r 或&2社区贡献者&r 为 AllTheMods 模组包编写。\\n\\n由于所有&6AllTheMods&r 包均受&e保留所有权利&r 许可，此任务不得在未经&6AllTheMods 团队&r 明确许可的情况下用于任何非 AllTheMods 团队发布的公共包中。\\n\\n此任务故意隐藏，如果你看到此任务，说明你正在编辑模式。"]
+	quest.3AE659C0C3850002.quest_desc: ["德格米会以&a经验宝石&r的形式帮你攒经验！这东西没什么大用，随便花！"]
 	quest.3AE659C0C3850002.quest_subtitle: "凝固的经验"
 	quest.3AE659C0C3850002.title: "&a经验"
+	quest.3CAB80B2BB5C2C37.quest_desc: ["筛选类魔符让你把法术限定在特定类型的目标上。"]
 	quest.3CAB80B2BB5C2C37.title: "&6筛选魔符"
 	quest.3D4D88B8BE881351.quest_desc: ["如果你想施放更强大的法术，你需要一个&6抄写台&r来为你的法术书解锁新的魔符。\\n\\n有3种等级的魔符需要解锁，每个等级都需要一些经验和物品。\\n\\n抄写台还用于将法术附加到法术羊皮纸上。为此，将法术羊皮纸放在桌子上，选择法术书中的法术，然后潜行右键点击书桌。\\n\\n要创建一个魔符，右键点击抄写台上的法术书。搜索你想要制作的魔符，然后点击底部的“选择”。右键点击桌子并使用所需的物品，魔符将被创建。使用魔符来学习它。\\n\\n注意：桌子可以从附近的库存中拉取物品。"]
 	quest.3D4D88B8BE881351.quest_subtitle: "升级法术"
@@ -70,9 +83,11 @@
 	]
 	quest.3D862A3D3F83CA26.quest_subtitle: "讲究的合成"
 	quest.3D862A3D3F83CA26.title: "&9附魔装置"
+	quest.3DEF6BC2C123E676.quest_desc: ["可调朝向的版本，照例要配&6支配之杖&r。它同样吃后面那些好用的透镜。"]
 	quest.3DEF6BC2C123E676.quest_subtitle: "这一下是冲着你来的"
 	quest.3FD702B5AB006402.quest_desc: ["你是否想过可以随时随地漂浮？\\n\\n这条腰带允许你漂浮。要激活它，只需在空中按住潜行键——无论你是在下落还是在跳跃。"]
 	quest.3FD702B5AB006402.title: "&9浮空腰带"
+	quest.40321FBF721ACF46.quest_desc: ["升级件的作用一看就懂，而且……&4强得离谱&r。自己试试就知道了……"]
 	quest.40321FBF721ACF46.quest_subtitle: "把弹反再加强一点"
 	quest.40BC67BDEE15D1DE.quest_desc: ["要制作魔源宝石，我们需要将青金石或紫水晶碎片放入灌注室。随着时间的推移，这些会转化为魔源宝石！"]
 	quest.40BC67BDEE15D1DE.quest_subtitle: "新生魔艺里的「铁」"
@@ -84,21 +99,27 @@
 	quest.457DE8C154641437.quest_desc: ["&9仪式火盆&r 用于施放仪式。它也可以用于装饰。如果你想点燃火盆，使用光之法术。\\n\\n要进行仪式，你需要奥术基座。由于有大量仪式可以施放，确保使用&6残破的宝典&r 查阅每个仪式。\\n\\n这可以通过在仪式桌上按住 Ctrl 并在物品栏中持有宝典完成。"]
 	quest.457DE8C154641437.quest_subtitle: "真不是什么邪教……"
 	quest.457DE8C154641437.title: "&9仪式火盆"
+	quest.47DD9F268BC2254E.quest_desc: ["我们有炮了！&d&l新生魔艺&r的&5基础法术炮塔&r是一种方块，收到红石信号就会释放事先刻好的法术。它的用法类似发射器，只是发射的是法术，施放所需的魔源从附近的&5魔源罐&r里取。"]
 	quest.47DD9F268BC2254E.quest_subtitle: "啾啾"
 	quest.47DD9F268BC2254E.title: "&5基础法术炮塔"
 	quest.48A5B5FBAFD3AED7.quest_subtitle: "这一拳更重"
 	quest.48A5B5FBAFD3AED7.title: "&a压缩经验"
 	quest.48A6087A6EAD6A85.title: "&b海妖护符"
 	quest.48D5D9D9AD98409F.title: "&6星宝石兽护符"
+	quest.48D8E1B9D76BAFC1.quest_desc: ["&d&l新生魔艺&r的&6手环&r属于饰品，是一类提供被动能力、还能提升法术伤害的魔法装备。做出来戴上，就能获得元素相关的效果并增强你的魔力。"]
 	quest.48D8E1B9D76BAFC1.title: "&6手镯"
+	quest.4D4D383E210A4897.quest_desc: ["&d&lArs&r 的&5精华&r是另一种极其重要的材料。几乎每个法术配方和附魔装置配方都要用到它。"]
 	quest.4D4D383E210A4897.quest_subtitle: "这些你会用得上……"
 	quest.4D4D383E210A4897.title: "&2新生&r&9魔&r&4艺&r&6精华"
 	quest.51162B9185A45BB1.quest_desc: ["这张弓可以使用抄写台刻写法术。\\n\\n以法力为代价，箭矢会变成法术箭，并在目标上施放法术。\\n\\n如果没有箭矢，将施放一个造成 0 伤害的法术箭。如果法力不足，将发射普通箭矢。\\n\\n&9附魔弓&r 还可以使用特殊强化箭矢来增强刻写的法术。"]
 	quest.51162B9185A45BB1.title: "&5巫师之弓"
+	quest.542C6D76B579886C.quest_desc: ["有了这些种子，我们就该做出第一种纤维——&5法师之花纤维&r。\\n\\n它是做各种魔法饰品的材料！"]
 	quest.542C6D76B579886C.quest_subtitle: "讲究的线"
 	quest.542C6D76B579886C.title: "&d法师之花纤维"
+	quest.54954F1FF453CAA2.quest_desc: ["这些家伙不好惹。只要法术与它自身的元素属性一致，它就会射出威力暴涨的法术。\\n\\n&o提示：拿来防守最合适。"]
 	quest.54954F1FF453CAA2.quest_subtitle: "防守的主力"
 	quest.54954F1FF453CAA2.title: "&6元素炮塔"
+	quest.555B604217D266AF.quest_desc: ["一直想把魔源搬来搬去？机会来了！&3末影魔源罐&r是一种纠缠状态的&d魔源罐&r，用&d支配之杖&r把它们连起来，容量也会一并连通，等于瞬间传输。"]
 	quest.555B604217D266AF.quest_subtitle: "一直自动下去"
 	quest.555B604217D266AF.title: "&3末影魔源罐"
 	quest.5766C8B9E850C186.quest_desc: [
@@ -112,6 +133,7 @@
 	quest.58EC47584C773B82.quest_desc: ["使用我们的附魔装置结构，来制作第一颗种子——&5法师之花种子&r。\\n\\n这将用于制作一些魔法服装！"]
 	quest.58EC47584C773B82.quest_subtitle: "种植魔法"
 	quest.58EC47584C773B82.title: "&5法师之花种子"
+	quest.5AEFB843AA0A575E.quest_desc: ["&d&l元素魔艺&r里很多高级物品都要用它来做。"]
 	quest.5AEFB843AA0A575E.quest_subtitle: "只给大师"
 	quest.5AEFB843AA0A575E.title: "&5精通印记"
 	quest.5C3FF43CF16BCF30.quest_desc: ["使用魔源宝石来制作&5魔源石&r，你就可以开始制造各种机器了。"]
@@ -124,6 +146,7 @@
 	]
 	quest.5CFBA24B3E0CDEDD.quest_subtitle: "你是个巫师，哈利！"
 	quest.5CFBA24B3E0CDEDD.title: "&3制作你的第一个法术"
+	quest.6165B87E2B8D2021.quest_desc: ["这些是核心的强化版，威力更大。"]
 	quest.6165B87E2B8D2021.quest_subtitle: "偏向的极致"
 	quest.6165B87E2B8D2021.title: "&c元素核心"
 	quest.632BC46928CC9A8C.quest_desc: ["&9巫师之镜&r在使用时会施放一个自施法术。\\n\\n通过镜子施放的法术效果会打折扣，不过会获得额外的持续时间加成。\\n\\n要将法术应用到巫师之镜上，需要使用抄写台，且需创建一个不使用形态的法术。"]
@@ -134,8 +157,10 @@
 	quest.64D0E66CB4FBEC82.quest_desc: ["要开始入门本模组，你需要制作一本&6初学者法术书&r！\\n\\n这是你创建和存储法术的地方。\\n\\n按&9C&r键将打开“创建法术”页面。在左侧有几个标签，但主要的3个是：法术创建、颜色选择器和随从。\\n\\n这本法术书只能让你创建和使用1级魔符。要创建更好的法术，你需要升级你的法术书！"]
 	quest.64D0E66CB4FBEC82.quest_subtitle: "我们的第一本法术书"
 	quest.64D0E66CB4FBEC82.title: "法术书"
+	quest.671B67E617D56184.quest_desc: ["一种可以自由指定朝向的炮塔。"]
 	quest.671B67E617D56184.quest_subtitle: "瞄准"
 	quest.671B67E617D56184.title: "&9全向法术炮塔"
+	quest.6877742C20B7A40B.quest_desc: ["这才像话。可惜另外四种精华还没有对应的蜜蜂……"]
 	quest.6877742C20B7A40B.quest_subtitle: "一点小改进"
 	quest.6877742C20B7A40B.title: "&2自动化&r&3精华"
 	quest.6A1C0B17B22CE50F.quest_desc: ["&9魔力提升护身符&r 提供最大魔力的加成。\\n\\n&6魔力再生护身符&r 提供魔力再生的加成。"]
@@ -148,6 +173,7 @@
 	quest.6DAA82B5F94AF9F8.title: "&b瓶子"
 	quest.6E0E13806F388D7E.quest_desc: ["欢迎来到&a新生魔艺&f！\\n\\n新生魔艺是一个魔法模组，允许你使用模组中的各种魔符来创建自定义法术！"]
 	quest.6E0E13806F388D7E.title: "欢迎来到&a新生魔艺&f！"
+	quest.6EDA801044ED0445.quest_desc: ["这台升级版炮塔射出的法术强得多，还会额外加强它们的威力。"]
 	quest.6EDA801044ED0445.quest_subtitle: "火力升级"
 	quest.6EDA801044ED0445.title: "&d附魔法术炮塔"
 	quest.6F3602F5600A6221.quest_desc: ["3 级魔符需要10级经验才能制作。\\n\\n它们还需要一个&6大法师法术书&r。"]
