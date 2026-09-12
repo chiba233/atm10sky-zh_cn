@@ -97,6 +97,7 @@
 	quest.1F7DA060792D716A.title: "&l&d搅拌机"
 	quest.1FA44E8FEE004AB4.quest_desc: ["麻绳和&8钢缆&r可以像普通&c线缆&r一样放置在&c连接器&f和&c继电器&r上，但不会传输&c能量&r。\\n\\n相反，它们用于装饰或使用&6&l工程师天钩&r！"]
 	quest.1FA44E8FEE004AB4.title: "适用于&6&l天钩&r使用！"
+	quest.2224AA108FC006F3.quest_desc: ["左轮快速装弹器严格来说不是升级件，而是一件单独的辅助物品。\\n\\n像给&d&l左轮&r装弹那样把弹药填进去，之后每当&d&l左轮&r要换弹，右键一下就能瞬间装满！"]
 	quest.2224AA108FC006F3.quest_subtitle: "我开了6枪？还是只开了5枪？"
 	quest.2262AB9F934165D0.quest_desc: ["我不关心你是怎么得到它的，我只需要你得到它！\\n\\n&8&l沉浸工程&r为&8钢&r增加了比简单建造多得多的用途，几乎所有的东西都需要&8钢&r来制作！\\n\\n主要是工具、机械零件和建筑方块。很多都是用&8钢板&r或&8脚手架&r制成的。\\n\\n你需要大量的钢，但&l&c粗制高炉&r和&l&6合金窑&r无法自动化，所以我们可能需要一个……"]
 	quest.2262AB9F934165D0.title: "&8钢锭"
@@ -169,12 +170,14 @@
 	quest.36EB83BB41A9E621.title: "&b&l流体储罐"
 	quest.373668AE257A7A94.quest_desc: ["高爆弹会向你的敌人发射爆炸物，像TNT一样炸毁附近的一切！\\n\\n龙息弹的工作方式类似于鹿弹，但现在弹射物着火了！！！！\\n\\n药水弹根据其制作时使用的药水给予药水效果。\\n\\n信号弹的工作方式类似于弩中的烟花火箭。\\n\\n追踪弹会瞄准离你最近的生物……希望它是一个危险的生物。\\n\\n狼群弹类似于鹿弹，但现在弹射物是追踪弹！"]
 	quest.373668AE257A7A94.title: "特种子弹"
+	quest.38C98FCB6A2D4226.quest_desc: ["微型特斯拉线圈的效果类似荆棘附魔。\\n\\n只要你背着&c&l背包&r，任何打你的人都会被电到，既吃伤害又中效果！"]
 	quest.38F01BAEC74D5D68.quest_desc: ["它和另一个预热器一样，我只是想让它们对称 :D。"]
 	quest.39DAC0592300992A.quest_desc: ["&9金属冲压模具蓝图&r可以合成。\\n\\n&7&l金属冲压多方块结构&r将自动化生产&7金属板&r和&e物品&r。\\n\\n要冲压&7金属&r，我们需要模具。\\n\\n为了制作模具，我们将需要这些&9蓝图&r！"]
 	quest.39DAC0592300992A.title: "&9金属冲压模具蓝图"
 	quest.3A4A8EAA3022C7BA.quest_desc: ["水车是我们可以用于动能发电机的机器之一。\\n\\n与风车相比，它们更紧凑但也更昂贵。\\n\\n要使用它们，你需要让&9水&r流过水车。周围&9水&r越多，它转动得越快。只需确保&9水&r没有以两种不同的方式流动！\\n\\n更紧凑意味着我们可以在1个动能发电机上放置3个水车以获得更多能量。"]
 	quest.3DE14F16F3109229.quest_desc: ["通过将任意8个木板与一&7桶杂酚油&r结合，我们将得到防腐木板！\\n\\n防腐木板几乎用于&8&l沉浸工程&r提供给我们的每一个物品，以及大多数简单的机器。\\n\\n最重要的是&6工程师装配台&r！这些将为我们提供大量新配方。"]
 	quest.3DE14F16F3109229.title: "防腐木板"
+	quest.3E32450DBB7529AA.quest_desc: ["&e计量分配器&r有点像过山车的排队区。\\n\\n座位没坐满，过山车就不发车；同样地，没凑齐设定的过滤条件和数量，&e分配器&r就不会&6输出&e物品&r。\\n\\n像&5&l通用机械&r的矿物处理那样、必须&9输入&r特定数量&e物品&r否则就会堵住的场合，用它再合适不过。"]
 	quest.3E32450DBB7529AA.title: "&e计量分配器"
 	quest.3E89034E0CB8D687.quest_desc: ["木箱的功能类似于储物桶……不过是&2&lMinecraft&r风格的，也就是可以从任何一面打开的箱子！\\n\\n它们有27个格子，但可以用&6工程师锤&r按住Shift右键点击（多次）来将其关闭！这意味着它们可以被破坏并保留内部的&e物品&r。\\n\\n你还可以像在铁砧里一样编辑箱子的文本以更改其名称。\\n\\n强化箱子的功能与普通箱子完全相同，只是不会被炸毁！"]
 	quest.3E89034E0CB8D687.title: "存储 &e物品"
@@ -182,6 +185,17 @@
 	quest.3ED40CC40458087E.title: "&c&l蓄电池背包"
 	quest.3EDDF96EA5056D28.quest_desc: ["&6铜&r和&7镍&r可以制成&6康铜&r！\\n最后，这种合金在&8&l沉浸工程&r中用途相当广泛，尤其是在使用热量和金属的机器或物品中，比如发电机。"]
 	quest.3EDDF96EA5056D28.title: "&6康铜锭"
+	quest.3EE95747CA6DFB1A.quest_desc: [
+		"凡是跟&7金属&r沾边的合成，&7&l金属冲压机&r都是我们的好帮手！\\n\\n用法很简单：把模具放上冲压机，顶部接上&c电力&r，再把&e物品&r丢到&e传送带&r上。\\n\\n&e物品&r经过时会被&7&l冲压&r，变成新的&e物品&r并继续沿&e传送带&r前进！\\n\\n它能做&c电线&r、&7板&r、&8杆&r，还有……&2西瓜片&r？"
+		"{@pagebreak}"
+		"第一层非常简单：&8钢脚手架&r，中间是&4红石工程块&r，两侧对称。"
+		"{image:atm:textures/questpics/immersive/immersive_press1.png width:150 height:75 align:center}"
+		"接着在&4红石工程块&r上方放一个朝下的活塞，旁边再加两条传送带。"
+		"{image:atm:textures/questpics/immersive/immersive_press2.png width:125 height:100 align:center}"
+		"然后在活塞上方放一块&7重型工程块&r！"
+		"{image:atm:textures/questpics/immersive/immersive_press3.png width:100 height:100 align:center}"
+		"最后拿工程师锤右键那个活塞。"
+	]
 	quest.3EE95747CA6DFB1A.title: "&l&7金属冲压机"
 	quest.407C2D00F22BD89D.quest_desc: ["这个升级提供了额外6发子弹的空间！使总数达到14发。"]
 	quest.4104C5D003D4705A.quest_desc: [
@@ -195,7 +209,20 @@
 		"{image:atm:textures/questpics/immersive/immersive_automated.png width:100 height:100 align:center}"
 	]
 	quest.4104C5D003D4705A.title: "&l&6自动化工程师装配台"
+	quest.41B99DBD03EB74FF.quest_desc: [
+		"相信我，这座多方块结构说自己「改良」过可不是吹的！\\n\\n它可以自动化：从顶部&9输入&r，从前后两个槽位&6输出&r。\\n\\n而且左右两侧还能加装预热器！\\n\\n这些加起来让它快得多，效率当然也更高！"
+		"{@pagebreak}"
+		"终于换了个不一样的！先用 3x3x3 的&4强化高炉砖&r打底。"
+		"{image:atm:textures/questpics/immersive/immersive_blast1.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_blast2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_blast3.png width:100 height:100 align:center}"
+		"接着在中间那块的顶上放一个漏斗。"
+		"{image:atm:textures/questpics/immersive/immersive_blast4.png width:100 height:125 align:center}"
+		"然后拿&6工程师锤&r右键第二层正中那块方块。"
+		"{image:atm:textures/questpics/immersive/immersive_blast.png width:100 height:150 align:center}"
+	]
 	quest.41B99DBD03EB74FF.title: "&l&4改良高炉"
+	quest.4295C863C9A81F28.quest_desc: ["特斯拉线圈是一套既好玩又吃&c电&r的家庭防卫装置！\\n\\n先从它任意一个端口通上&c电&r，然后要么给它&4红石信号&r让它启动，要么用&6工程师螺丝刀&r把它设成常开！\\n\\n启动之后它会持续耗&c电&r；生物一靠近就会被它电晕并受到伤害！不过电到生物时耗电会更高。\\n\\n拿&6工程师螺丝刀&r潜行右键可以切到低功率模式：耗&c电&r更少，但范围更小、伤害也更低！"]
 	quest.431C62A6F8ECB4EC.quest_desc: ["&7铝棒&r - 10 \\n&7铁棒&r - 16 \\n&8钢棒&r - 24 \\n&8锯片&r - 12 \\n&0石墨电极&r - 30"]
 	quest.431C62A6F8ECB4EC.title: "&5&l磁轨炮&r弹药（来自&8&l沉浸工程&r）"
 	quest.442B1A1900BADAFC.quest_desc: ["&8&l沉浸工程&r中的一些机器不是多方块结构，而是单方块机器！\\n\\n但不要因为它们是由一个方块构成就认为它们不重要！"]
@@ -334,6 +361,19 @@
 	]
 	quest.5DE3F2A96715BA2E.title: "&l&e储物筒仓"
 	quest.5E228ACA1B13AD04.quest_desc: ["现在它既能射击又能敲打了！"]
+	quest.5EE1DF1C8F0C1FF9.quest_desc: [
+		"搭好&l&5雷电线圈&r之后，闪电就会劈中那些&8钢栅栏&r，转化成&c电力&r存进它自己的&c电力&r储量里。\\n\\n&8钢栅栏&r越多，招来闪电的概率越高！\\n\\n不知道能不能用别的模组来召唤闪电？"
+		"{@pagebreak}"
+		"想驾驭大自然最凶猛的力量，先从一块&5高压线圈方块&r开始。在它四周贴着放&5高压蓄电池&r，四角放&8钢脚手架&r。"
+		"{image:atm:textures/questpics/immersive/immersive_lightning1.png width:100 height:100 align:center}"
+		"第二层在原来那块上面再放一块&5高压线圈方块&r，与它相邻的位置放&e轻型工程块&r，四角用普通的防腐木栅栏就行！"
+		"{image:atm:textures/questpics/immersive/immersive_lightning2.png width:100 height:100 align:center}"
+		"接着在最上面再放第三块&5高压线圈方块&r，围着它放 8 块&6铜线圈&r。"
+		"{image:atm:textures/questpics/immersive/immersive_lightning3.png width:100 height:100 align:center}"
+		"最后拿&6锤子&r右键正面那块&e轻型工程块&r，把它变成&5&l雷电线圈&r！"
+		"{image:atm:textures/questpics/immersive/immersive_lightning.png width:100 height:100 align:center}"
+		"这一步我没配图，不过你还得在&5&l雷电线圈&r顶上摆&8钢栅栏&r，闪电才会劈到它！"
+	]
 	quest.5EE1DF1C8F0C1FF9.title: "&5&l避雷针"
 	quest.5F4F7637044BD4F1.quest_desc: [
 		"&2&l工业发酵机&r会存放你的食物&e物品&r，过一段时间后会将其转化为乙醇。\\n\\n有一个物品列表，你可以在&6工程师手册&r中找到，列出了可以通过背部和左侧端口放入&2&l工业发酵机&r的&e物品&r。\\n\\n如果你使用&6蜂蜜瓶&r，你可以从右侧的端口&6提取&r空瓶。\\n\\n&2&l工业发酵机&r需要&c能量&r，这些能量将从&2&l工业发酵机&r顶部的端口输入！"
