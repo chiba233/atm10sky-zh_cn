@@ -1002,49 +1002,54 @@
     "src/books/literal/minecolonies_gui.json",
     "src/books/literal/structurize.json",
     "src/books/literal/xnet.json",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_aether.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_allthemodium.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_apotheosis_2.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_apotheosis_gear.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_apothic_enchanting.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_applied_energistics_2.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_ars_nouveau.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_atm_terms_fix.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_basic_armor.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_basic_logistics.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_basic_power.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_basic_tools.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_bounty_board.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_building_tips.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_bumblezone_rename.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_cataclysm.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_chapter_2_the_star.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_chapter_2_the_cool_parts.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_create.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_draconic_evolution.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_elmystical_agriculturerr.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_eternal_starlight.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_evilcraft.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_extended__advanced_ae.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_extreme_reactors.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_food_and_farming.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_forbidden__arcanus.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_generators.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_hostile_neural_networks.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_ice__fire.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_immersive_engineering.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_industrial_foregoing.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_iron_spells_and_spellbooks.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_integrated_dynamics.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_justdirethings.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_mainquestline_part_1.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_mekanism.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_mekanism_reactors.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_mi_digital.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_mi_electric.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_mi_endgame.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_mi_steam.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_modular_router.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_natures_aura.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_neo_vitae.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_occultism.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_oritech.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_pneumaticcraft.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_powah.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_productive_bees.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_productive_trees.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_pylons.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_railcraft.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_refined_storage.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_relics.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_silent_gear.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_storage.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_tips_and_tricks.snbt",
-    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_undergarden.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_welcome.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_xycraft.snbt",
     "src/config/ftbquests/quests/lang/zh_cn/zz_hanhua_chapter.snbt",
+    "src/config/ftbquests/quests/lang/zh_cn/zz_hanhua_reward_table.snbt",
     "src/config/vaultpatcher_asm/config.json",
     "src/config_ui_terms.json",
     "src/keep_english.json",
@@ -3753,6 +3758,96 @@
       "approved": "5a445b4",
       "date": "2026-09-12",
       "why": "目标文件在 ATM10 Sky 2.0.4 的官方字节里整份不存在，gen_upstream_patches.py 对这种情形硬退出（unpatchable.json 登记的是「某一处改动套不上」，覆盖不到整份缺失）。本版上游没有这个文件（kubejs 对应目录里不存在同名脚本）。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_aether.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_allthemodium.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_atm_terms_fix.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_bumblezone_rename.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_cataclysm.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_chapter_2_the_star.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_eternal_starlight.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_evilcraft.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_ice__fire.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_iron_spells_and_spellbooks.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_mainquestline_part_1.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_natures_aura.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_refined_storage.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_relics.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
+    },
+    {
+      "path": "src/config/ftbquests/quests/lang/zh_cn/chapters/zz_hanhua_undergarden.snbt",
+      "approved": "68209f7",
+      "date": "2026-09-12",
+      "why": "上一个整合包专属的章节文件，本包的任务书里没有同名章节。它的 1877 个键里：694 键已由 import_quest_lang.py 按本包章节重新落位（译文一字未动），1110 键在本包的英文任务书里压根不存在，余下 73 键是本包英文改过、按「英文原文逐字节一致」判据不许套旧译文的那一批，已进 build/quest_lang_review.txt。"
     }
   ]
 }
