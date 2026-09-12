@@ -107,6 +107,8 @@
 	quest.617695A9CA45D88F.quest_desc: ["当你使用 &c&lLaserIO&r 进行&l物流&r时，你可能会有很多卡。每张卡占用一个库存插槽，这可能会很拥挤。我希望它们有一个卡的存储器……哦，它们确实有，那就是卡存储器！\\n\\n你可以在其中存储多张卡，当你打开激光节点时，卡存储器也会打开，就像第二个库存。非常有用！"]
 	quest.6718043D0F2D1830.quest_desc: ["DireWolf 被要求让他的卡与&5&l通用机械&r及其……其他物质状态一起工作。加压管道可以移动的一切，这些卡也可以。气体、注入类型和色素。"]
 	quest.6718043D0F2D1830.title: "&5化学品卡"
+	quest.67A0164D3A25BE73.quest_subtitle: "方块之间挤不下管道的时候"
+	quest.67A0164D3A25BE73.title: "传输标签"
 	quest.6A962535CD68713E.quest_desc: ["&e&l管道&r能搬运更多东西！\\n\\n所有升级都会增加&e&l管道&r的搬运量，同时也会为&e&l管道&r解锁更多可用选项。\\n\\n基础升级可以让&e&l管道&r接受红石激活、更改分配方式（最近优先、最远优先、轮询或随机），并添加过滤器。\\n\\n改进、高级和终极升级不会带来任何新功能，它们只是让&e&l管道&r搬运得更多！"]
 	quest.6CD7D99AA102A5C3.quest_desc: ["&n&f&l物流&r：\\n一种移动、管理和存储物品或资源的系统。\\n\\n在模组化的 Minecraft 中，它几乎是一样的，移动物品！在模组化的 Minecraft 中，你需要物品，而且成千上万，如果想要&6&lATM之星&r，那可能达到数百万！因此你需要从工厂、机器、农场，尤其是箱子中移动物品。这就是&l&f物流&r的作用。"]
 	quest.6CD7D99AA102A5C3.title: "&l物流"
@@ -128,8 +130,11 @@
 		"{image:atm:textures/questpics/logistics/id_energy.png width:200 height:50 align:center}"
 	]
 	quest.76CECFB244F39F18.title: "&3能量导入"
+	quest.7AD6E01ED01E6F13.quest_subtitle: "又见面了……"
+	quest.7AD6E01ED01E6F13.title: "猜猜谁回来了？"
 	quest.7BC8F50A89A3BE1A.quest_desc: ["这些只是用于连接&c激光节点&r和连接器。不太重要，我只是想保持扳手的主题。\\n\\n它确实可以作为其他配置的扳手使用！"]
 	quest.7EE27C3908008E20.quest_desc: ["如果你需要将&c激光节点&r连接得很远，可以尝试使用连接器！只需像平常一样使用扳手。"]
+	task.1807A230BA87899B.title: "传输标签"
 	task.2BA7FC10243AA011.title: "加压管道"
 	task.337725ECA2C04090.title: "逻辑运输器"
 	task.4448DE84ABA737BE.title: "通用线缆"
@@ -138,5 +143,6 @@
 	task.4CCB830CFDD43B5E.title: "保留所有权利"
 	task.5B7926B511000F1F.title: "机械管道"
 	task.5E4B74F97BDED243.title: "保留所有权利"
+	task.77187686AC2440DB.title: "转移器"
 	task.79E961F671475850.title: "热力学导体"
 }

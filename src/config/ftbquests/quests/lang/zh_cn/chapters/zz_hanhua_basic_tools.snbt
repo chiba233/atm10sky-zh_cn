@@ -1,6 +1,8 @@
 {
+	quest.01F59AF41A6DA0F7.quest_subtitle: "等阶：&54"
 	quest.03E05018D64DDEE1.quest_desc: ["&e等级 5&r 基本上只能用于采集 ATM 矿石，没有其他用途。"]
 	quest.03E05018D64DDEE1.title: "&e采集等级 5"
+	quest.053E6882650CEFC6.quest_subtitle: "等阶：&e5"
 	quest.0583862ED0114442.quest_subtitle: "&f4 &c攻击伤害"
 	quest.077A214422FEFF02.quest_subtitle: "&f6.5 &c攻击伤害"
 	quest.09733948CBCB3FB9.quest_desc: ["&d等级 6&r 是最高等级，任何可破坏的方块都可以用它挖掘，包括振金和难得素。"]
@@ -9,6 +11,7 @@
 	quest.161878AB4236C58B.quest_subtitle: "&f6.5 &c攻击伤害"
 	quest.16AAC61729C44881.quest_desc: ["此任务由 &6AllTheMods 团队&r 或 &2社区贡献者&r 为 AllTheMods 整合包编写。\\n\\n由于所有 &6AllTheMods&r 整合包均受 &e保留所有权利&r 许可，因此此任务不得在未经 &6AllTheMods 团队&r 明确许可的情况下用于任何非官方发布的整合包。\\n\\n此任务默认隐藏，如果你看到此任务，说明你正在编辑模式。"]
 	quest.1756F81ACFC56C58.quest_subtitle: "等级：&e5"
+	quest.175A03C28F72244D.quest_subtitle: "等阶：&54"
 	quest.17FE0C7748DD65CA.quest_desc: ["&5等级 4&r 是钻石工具等级，用于获取黑曜石和下界合金。也用于一些模组矿石，如铀和铂。"]
 	quest.17FE0C7748DD65CA.title: "&5采集等级 4"
 	quest.1D3F11194EA3BB73.quest_subtitle: "等级：&b3"
@@ -22,14 +25,17 @@
 	quest.2A6753C806D2AF8D.quest_desc: ["造成的伤害比你可能需要的还要多！不过也有一些缺点。"]
 	quest.2A6753C806D2AF8D.quest_subtitle: "&f∞ &c攻击伤害"
 	quest.2B9AF0D6ED8BA628.quest_subtitle: "&f6 &c攻击伤害"
+	quest.2D4E406DD9EFA8C8.quest_subtitle: "等阶：&b3"
 	quest.2E6D11A5F5626A6C.quest_subtitle: "等级：&f2"
 	quest.2EE4E88FC814AFA4.quest_subtitle: "等级：&91"
+	quest.31B58988AAB27E91.quest_subtitle: "等阶：&54"
 	quest.36A3ECD4F6CA2732.quest_subtitle: "&f8 &c攻击伤害"
 	quest.36B9D5A99E1AA85C.quest_subtitle: "&f8 &c攻击伤害"
 	quest.3917DECAEF56A06A.quest_desc: ["&f等级 2&r 是石镐等级。几乎只用于采集铁矿。"]
 	quest.3917DECAEF56A06A.title: "&f采集等级 2"
 	quest.3B542DC05240242C.quest_subtitle: "&f6 &c攻击伤害"
 	quest.3BF1900346772703.quest_subtitle: "等级：&f2"
+	quest.3EDD2310E7290A54.quest_subtitle: "等阶：&b3"
 	quest.47AED7219704EB3E.quest_subtitle: "&f18 &c攻击伤害"
 	quest.480FA9FE57743B66.quest_subtitle: "&f5 &c攻击伤害"
 	quest.4C8C56F960D92E9D.quest_subtitle: "&f51 &c攻击伤害"
@@ -48,6 +54,7 @@
 	quest.5A2908437EC43AC6.quest_subtitle: "等级：&54"
 	quest.5A6670364ADE0858.quest_subtitle: "&f29 &c攻击伤害"
 	quest.609D03E335CF32E2.quest_subtitle: "等级：&d6"
+	quest.632E537DA0F45CC7.quest_subtitle: "等阶：&d6"
 	quest.6552E301C370D203.quest_subtitle: "&f7 &c攻击伤害"
 	quest.6601450C63FEEE61.quest_desc: ["&b等级 3&r 是铁镐等级，可以挖掘大多数矿石，如钻石、绿宝石和金矿。"]
 	quest.6601450C63FEEE61.title: "&b采集等级 3"
@@ -62,6 +69,7 @@
 	quest.7EDF2CC08FC774F9.quest_subtitle: "&f10 &c攻击伤害"
 	quest.7F076FC4F2187692.quest_subtitle: "&f8 &c攻击伤害"
 	task.01EFD73293B10452.title: "调谐的离魂匕首"
+	task.0C4BD16741E25837.title: "入门龙锭镐"
 	task.2363F64BEC430933.title: "石英剑"
 	task.2962DF63EE602AD6.title: "机械模组铁镐"
 	task.485E17B9E80D5DFF.title: "神秘学镐"
@@ -69,5 +77,6 @@
 	task.57DD9261905988F3.title: "通用机械钢剑"
 	task.66ACCF967C939342.title: "保留所有权利"
 	task.68667F586AF5D058.title: "Dire Things钻石镐"
+	task.70972BAFF5896EA8.title: "神秘农业镐"
 	task.7EA0E7DF4C5C4858.title: "AE2镐"
 }

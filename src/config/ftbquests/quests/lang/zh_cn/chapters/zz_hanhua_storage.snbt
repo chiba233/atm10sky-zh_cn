@@ -19,6 +19,7 @@
 	quest.0E5AE195158CF344.quest_subtitle: "x32 存储升级"
 	quest.0E5AE195158CF344.title: "&d下界合金升级"
 	quest.110D27EA86CDA62B.quest_desc: ["将物品磁吸到背包中。"]
+	quest.11A351E2CDE2A31E.title: "随身访问存储"
 	quest.11D4EEAC61C7E530.quest_desc: ["收集器升级将使抽屉从一侧吸走物品。"]
 	quest.11D57C768032E3F7.quest_subtitle: "更多的过滤选项"
 	quest.11D57C768032E3F7.title: "&e高级磁铁升级"
@@ -119,6 +120,7 @@
 	quest.6E3D53D1C4569A89.quest_subtitle: "存储经验"
 	quest.6E3D53D1C4569A89.title: "&a经验泵升级"
 	quest.6E9041744C592573.quest_desc: ["添加从储液升级中泵取液体的能力。"]
+	quest.6F6A23579CAE8013.title: "把存储连起来"
 	quest.6FBAE89EE782DABA.quest_desc: ["当放置并使用 &a链接工具&r 连接到其他抽屉时，控制器充当\"中心枢纽\"。\\n\\n如果你双击右键此控制器，所有在抽屉网络中有插槽的物品都会被拉入。\\n\\n通过潜行右键点击控制器并手持空物品，你可以打开升级标签页，为这些插槽添加普通存储升级以增加控制器的范围。最大范围为所有方向40个方块，或80x80x80的立方体。"]
 	quest.6FBAE89EE782DABA.quest_subtitle: "抽屉的大脑"
 	quest.70902EF96F060672.quest_desc: ["此升级将使抽屉在所有方向上输出红石信号，信号强度表示抽屉的满/空程度。\\n\\n对于多插槽抽屉，升级可以配置要监控的插槽。\\n\\n0 - 表示空。\\n15 - 表示满。"]

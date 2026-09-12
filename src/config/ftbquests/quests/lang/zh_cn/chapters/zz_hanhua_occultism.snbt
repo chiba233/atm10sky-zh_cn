@@ -22,6 +22,7 @@
 	quest.0D18BBB04693885A.quest_desc: ["斯特里格的高等束缚是&6灌注仪式&r的第二阶。它有许多用途，但我们主要需要的是灌注镐和灰色糨糊。"]
 	quest.0D18BBB04693885A.quest_subtitle: "“万能”仪式"
 	quest.0D18BBB04693885A.title: "&a斯特里格的高等束缚"
+	quest.0FE3094B22412BD3.quest_subtitle: "以魔源代替献祭"
 	quest.11A0593C0E2E6A35.quest_desc: ["使用&e埃兹维斯的灵体驱策&r，我们可以灌注多种不同的自然方块来形成一些&2自然糨糊&r。将这种糨糊与一些含杂白色粉笔结合，即可制作绿色粉笔。"]
 	quest.11A0593C0E2E6A35.title: "&2绿色粉笔"
 	quest.145C8235BCCB9BA8.quest_desc: [
@@ -67,6 +68,8 @@
 	quest.2960FFE0C53DFEB1.quest_subtitle: "“更多万能”仪式"
 	quest.2960FFE0C53DFEB1.title: "&c塞维拉永囚咒"
 	quest.29C83B00AC4AFC23.title: "接下来呢？"
+	quest.2A3D132CDBDC8174.quest_subtitle: "魔灵可以在收容罐里干活"
+	quest.2A3D132CDBDC8174.title: "隐秘之术：魔灵罐"
 	quest.2A5004EB99AE4F96.quest_desc: [
 		"你需要收集更多异界物品，而每次需要&7第三只眼&r效果时都吃&c魔鬼之梦果&r会很烦人。"
 		""
@@ -74,6 +77,8 @@
 	]
 	quest.2A5004EB99AE4F96.quest_subtitle: "别再吃那个水果了！"
 	quest.2A5004EB99AE4F96.title: "行会工具：幽灵眼镜"
+	quest.2A6FE386DF0E1D98.quest_subtitle: "通往浅蓝色的另一条路"
+	quest.2A6FE386DF0E1D98.title: "&a欧菲克斯呼唤"
 	quest.2AD68066C1948C90.quest_desc: [
 		"第一个&e魔精碎矿者&r很酷，但如果我告诉你，你可以召唤一个每粉碎一个粗矿石能给你6个粉末的恶魔呢？"
 		""
@@ -238,6 +243,7 @@
 	]
 	quest.78ECC28DD4BA9696.quest_subtitle: "搜寻&d异界&r材料"
 	quest.78ECC28DD4BA9696.title: "行家工具：探测杖"
+	quest.7B574DD5CC5ACAE3.title: "五芒星阵前言"
 	quest.7BCD4A425CF6199B.quest_desc: ["在击败由&9希奥弗伦斯敕令术&r召唤的仁慈之山羊后，你将获得一份残暴灵髓。将其与一些可可豆结合即可制作棕色粉笔。"]
 	quest.7BCD4A425CF6199B.title: "&#4E2C00棕色粉笔"
 	quest.7F09F8F98C13F11B.title: "仪式准备：&6碗"
@@ -252,12 +258,20 @@
 	task.036759CF4EEFFC7D.title: "保留所有权利"
 	task.05A43D4098C30ED1.title: "诡奇圣杯"
 	task.0EE813C344409F59.title: "蜡烛"
+	task.10037D5225C2D20E.title: "艾瑟金属献祭之碗"
 	task.1709A45C149125F1.title: "保留所有权利"
+	task.1BBB313192F51FA8.title: "存储促动器底座"
 	task.2C5C6F411E2F0CAF.title: "任意 #c:dusts/netherite"
 	task.348A7E3E3A3D324E.title: "是的，我已阅读并保证不会忘记！"
 	task.3621D48E2CFAF2C2.title: "任意 #c:wools"
+	task.4EDB733716D494CE.title: "存储促动器"
+	task.51F520BF7DA37873.title: "存储稳定器"
 	task.523951BF097BA61F.title: "任意 #c:dusts/emerald"
 	task.53DE943DF951696B.title: "恶魔矿工"
 	task.55DE27AB2EDB306E.title: "献祭之碗"
+	task.57108C994437F25B.title: "任意 #ae2:all_nether_quartz"
+	task.6A5F16B79D587128.title: "金碗"
+	task.6B57473B652B8AAB.title: "读懂五芒星阵升级"
 	task.6C3887D42B6B2122.title: "使魔"
+	task.792FA8ED0719803C.title: "稳定虫洞"
 }

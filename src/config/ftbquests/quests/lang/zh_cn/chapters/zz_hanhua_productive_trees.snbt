@@ -1,10 +1,15 @@
 {
 	quest.0661E9669E639621.quest_subtitle: "自我繁殖？"
 	quest.18A2F6BA778D96B1.quest_desc: ["这些可以在堡垒遗迹中找到的箱子中获得。"]
+	quest.18A2F6BA778D96B1.quest_subtitle: "索科特拉龙血树 + 炽焰水晶 + 黑色染料"
 	quest.22151D56616559CB.quest_desc: ["这些可以在沉船中找到的箱子中获得。"]
+	quest.22151D56616559CB.quest_subtitle: "杨桃 + 下界之星 + 蓝色染料"
 	quest.25D8BE0280B6E7F1.quest_desc: ["这个任务由 &6AllTheMods 团队&r 或 &2社区贡献者&r 为 AllTheMods 模组包编写。\\n\\n由于所有 &6AllTheMods&r 包都采用 &e保留所有权利&r 许可，此任务不得在未经 &6AllTheMods 团队&r 明确许可的情况下用于任何非 AllTheMods 团队发布的公共包。\\n\\n此任务故意隐藏，如果你看到此任务，说明你正在编辑模式。"]
 	quest.289B30DAC960BFF2.quest_desc: ["这些可以在末地城中找到的箱子中获得。"]
+	quest.289B30DAC960BFF2.quest_subtitle: "阿萨伊棕榈 + 禁忌与奥秘的灵魂"
 	quest.4281BCDCE233F65B.quest_desc: ["这些可以在古代城市中找到的箱子中获得。"]
+	quest.4281BCDCE233F65B.quest_subtitle: "红枫 + 烟花火箭 + 监守者触须 + 监守者"
+	quest.4C3B7BAEA653587B.quest_subtitle: "山茱萸 + 太阳宝石"
 	quest.543F00603790AD3E.quest_desc: ["(原木) 去皮机使用放入机器中的斧头自动去皮原木。"]
 	quest.543F00603790AD3E.quest_subtitle: "请不要"
 	quest.543F00603790AD3E.title: "去皮"
@@ -17,4 +22,5 @@
 	task.0E7EAD7D7DF5E7C3.title: "保留所有权利"
 	task.3D3F0DB8237E5856.title: "保留所有权利"
 	task.6609E5E7EDE6F92B.title: "树苗"
+	task.79889CC26DCD7F19.title: "自花授粉"
 }

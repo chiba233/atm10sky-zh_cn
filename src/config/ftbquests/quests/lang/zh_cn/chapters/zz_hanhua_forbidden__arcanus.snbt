@@ -72,6 +72,7 @@
 	]
 	quest.4707FB01F15F6E1F.title: "&b&l炽炉"
 	quest.487C70679535DDDB.quest_desc: ["你讨厌量子捕捉器那些愚蠢的限制吗？不能把监守者放进你朋友的基地！\\n\\n好吧，现在不用担心了，因为我们可以用3个&2流星碎片&r和一个下界之星来升级我们的量子捕捉器，制造Boss捕捉器。\\n\\n现在我们可以把我们的Boss运到任何我们想要的地方！"]
+	quest.487C70679535DDDB.quest_subtitle: "知道了，三位一体宝石，用不着冲我喊"
 	quest.49D0B6D3ED3DCCCD.quest_desc: ["&b神秘水晶粉末&r相当简单，只需烧炼&b神秘水晶&r，砰！\\n\\n你也可以使用炽炉多方块结构来回收一些&b神秘水晶&r！"]
 	quest.49D0B6D3ED3DCCCD.title: "&b神秘水晶粉末"
 	quest.4A564E8FE587C7E4.quest_desc: ["获取灵魂的最佳方式是使用灵魂提取器！\\n\\n用一些下界物品和方块，再加一个瓶罐（制作瓶罐需要埃德木），就能让你的工具获得寻魂能力！\\n\\n对准灵魂沙长按右键，它就会把其中的灵魂提取出来。\\n\\n剩下的就是沙子……不对，是失魂沙……失魂沙到底是什么东西？！？！？！"]
@@ -80,6 +81,8 @@
 		"{image:atm:textures/questpics/forbidden/forbidden_aureal.png width:135 height:100 align:center}"
 	]
 	quest.4BE209D5DAF1F321.title: "&b耀金"
+	quest.4C93FCBAB7F3C00D.quest_subtitle: "我还以为这是禁忌与奥秘的任务页"
+	quest.4C93FCBAB7F3C00D.title: "神秘学？"
 	quest.4CFE097D0A8683C8.quest_desc: ["&5黑曜石头骨&r是一个头盔，佩戴时可以保护你免受火焰/熔岩伤害！\\n\\n随着时间的推移它会磨损，你需要用&5黑曜石钢&r修复它。\\n\\n这也是你制作它的方式，一个骷髅头颅和8个&5黑曜石钢&r。"]
 	quest.4CFE097D0A8683C8.title: "&5黑曜石头骨"
 	quest.52472667678E10D1.title: "&2流星碎片"
@@ -112,4 +115,6 @@
 	quest.7671AFAA1EFD287F.title: "&b神秘水晶方尖碑"
 	quest.79C9875A1A494762.quest_subtitle: "来自流浪商人"
 	quest.79C9875A1A494762.title: "购买埃德木"
+	task.63D5DE02A5E407A1.title: "任意 #occultism:miners"
+	task.763964008982F4ED.title: "商人地毯"
 }

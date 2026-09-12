@@ -88,6 +88,7 @@
 	quest.59B6C6BF0550D13D.title: "&7&l铁路工艺&r 玻璃"
 	quest.5AD09CCEEDC0B50F.quest_desc: ["这些超级有用，你绝对应该看看！\\n\\n实际的光源是野火灯笼。它会在周围20格或更远的地方放置隐形光源。\\n\\n超级火把则不同：它不发光，但能阻止64格内所有敌对生物的生成！对使用夜视的人很有用。\\n\\n恐惧灯则相反，它阻止相同区域内的被动生物生成。"]
 	quest.5AD09CCEEDC0B50F.title: "&l&e不止火把&r"
+	quest.5C0588F5B9B65AFD.title: "&d&lCamol"
 	quest.5D5563142917495A.quest_desc: ["&l&e农夫乐事&r专注于农业和烹饪食物！我们也可以用这些物品进行装饰和使用！\\n\\n炉灶、锅和平底锅是厨房的完美选择。\\n\\n食品桶很适合放在食品储藏室。\\n\\n农场物品很适合户外装饰，而橱柜则适合任何地方！"]
 	quest.5D5563142917495A.title: "&l&e农夫乐事&r"
 	quest.5E5D5D28D82F6891.title: "&l&9X&cy&aC&8r&aa&cf&9t&r 玻璃"
@@ -123,6 +124,7 @@
 	quest.7E49C985A0433B20.quest_desc: ["&d&l新生魔艺&r是一个非常有趣的魔法模组，它带来了自己的一套木材！\\n\\n至高木有5种不同颜色的树，生成于大多数生物群系，但主要是在它们的至高木生物群系！"]
 	quest.7E49C985A0433B20.title: "&d&l新生魔艺&r 原木"
 	task.00A904FBEDE80712.title: "Macaw的屋顶"
+	task.0138936FB4DD8A88.title: "凿工实用方块"
 	task.022D9FAD58AEE2C8.title: "流光"
 	task.064B1841F9288CC3.title: "方块"
 	task.06F2EC3901908BF1.title: "塑料砖块™"
@@ -135,6 +137,7 @@
 	task.16EF7FF802D5A2BB.title: "框架方块"
 	task.195338A3977C682E.title: "神秘农业 方块"
 	task.1A66B7FFB4E2163E.title: "原版 原木"
+	task.1A7078C3984DD910.title: "下界合金块"
 	task.1BA8C5F08A824C08.title: "Macaw的灯具"
 	task.1E7A57902EA62332.title: "光源"
 	task.20374000F8ADE952.title: "Macaw的活板门"
@@ -156,6 +159,7 @@
 	task.41602F0D9097E74F.title: "碎裂陶瓦"
 	task.41FF171C7D97B574.title: "碎裂宝石块"
 	task.436475D6C527A458.title: "Macaw的小径与铺路"
+	task.46803BBAC2069773.title: "替换方块"
 	task.46905D1E23255397.title: "Macaw的窗户"
 	task.49F387C7EAD579A2.title: "完整的Macaw"
 	task.4B13D48FF9D2530E.title: "晶工艺灯具"

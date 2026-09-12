@@ -50,6 +50,7 @@
 		""
 		"这台机器也是高级AE中量子相关配方所必需的。"
 	]
+	quest.14FC9E4A3C80C0AE.title: "反应效率：反应室"
 	quest.18499D33BA12A8A9.quest_desc: ["是否曾觉得成型面板像存储总线一样用于自动化太不直观？看看主动成型面板吧。它的工作原理类似于ME输出总线，但将世界作为其媒介。你不需要为它建立子网络。"]
 	quest.18499D33BA12A8A9.quest_subtitle: "滚出去：主动版"
 	quest.18499D33BA12A8A9.title: "从网络主动放置：主动成型面板"
@@ -73,6 +74,7 @@
 	quest.27FC0C092EE00532.title: "罐装此液体：ME装罐机"
 	quest.2E61219FC0BAB675.quest_subtitle: "最高+5触及距离"
 	quest.3347CB6478F486C6.quest_subtitle: "随身携带的元件工作台"
+	quest.33B7C1D2A229EB5C.title: "终极量子计算机"
 	quest.34FBD04361657724.quest_subtitle: "不要与时间晶体混淆"
 	quest.34FBD04361657724.title: "时空之晶：恩特罗水晶"
 	quest.3621155A4138EBCA.quest_desc: [
