@@ -1,0 +1,24 @@
+{
+	quest.0B218DD73FE8D985.quest_desc: ["如果你正确完成了上一个任务，你应该已经将那个奇点变成了一对&b量子缠绕态奇点&f。这对新奇点用于链接名为&e量子网络桥&f的环形设备。\\n\\n当两个独立的环分别使用其中一个量子缠绕态奇点建立链接，并用一些AE能源（例如能源元件）启动后，就可以跨越长距离甚至维度，将ME网络无线扩展到桥的另一端。"]
+	quest.140DE53DC0FCD9F4.quest_desc: [
+		"&bME破坏面板&f可以自动破坏其前方的方块，并将掉落物直接送入ME网络。 "
+		""
+		"作为额外优势，ME破坏面板可以像普通挖掘工具一样附魔，并会像相应的附魔工具那样影响方块掉落。例如，附上&e时运&f后，它非常适合用于处理矿石块。 "
+		"任何附魔都会显著增加破坏面板每次破坏方块时的能耗。&e效率&f会降低其他附魔带来的额外能耗，而&e耐久&f会像普通工具一样，使其有概率在破坏方块时不消耗能量。"
+	]
+	quest.15564C11744D6AA0.quest_desc: ["一旦你获得了一整套所需的&e压印模板&r，就可以开始制作一些&e处理器&f。它们是制作绝大多数ME联网设备时的重要合成材料。"]
+	quest.332A3C7BA261DBFC.quest_desc: [
+		"用&e陨石罗盘&r找到&e陨石&r的大致方位后，&d新生魔艺&r的&e探源杖&r可以帮你确定它的精确位置。"
+	]
+	quest.332A3C7BA261DBFC.quest_subtitle: "为了更精准"
+	quest.51236544BFEF487B.quest_subtitle: "'漫画#42：寻找鲍比[菲舍尔]'"
+	quest.525F25F4ADE45B50.quest_subtitle: "出去！"
+	quest.7C40F1963FC5BF65.quest_desc: [
+		"除了官方 AE2 指南和游戏内指南之外，这里还有一些额外的 AE2 教程。"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://allthemods.github.io/alltheguides/mods/ae2/\"},\"color\":\"blue\",\"text\":\"AllTheGuides AE2 指南\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=3htUhkDYbJ8\"},\"color\":\"blue\",\"text\":\"BucketSt 的 AE2 视频教程\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLz9AkOmMlH1lI4H3GeBQ3VzEKlcDDNO8_\"},\"color\":\"blue\",\"text\":\"The MindCrafters 的 AE2 教程合集\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=2_s1srWvq20\"},\"color\":\"blue\",\"text\":\"The MindCrafters 的 高级AE 教程\",\"underlined\":true}"
+	]
+	task.2923D1E2BEAF94B0.title: "更多指南"
+}

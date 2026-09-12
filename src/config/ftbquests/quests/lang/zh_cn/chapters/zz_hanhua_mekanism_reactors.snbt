@@ -1,0 +1,28 @@
+{
+	quest.22171982D22CE15F.quest_desc: ["现在每个&a&lMekaSuit部件&r将共享同一份能量，而不是各自拥有独立的能量。\\n\\n这对于保持每个&a&l部件&r充能很重要。\\n\\n而这对保持你活着很重要！"]
+	quest.22171982D22CE15F.title: "&a能量分配&7单元"
+	quest.32ABE5D734703B9C.quest_desc: [
+		"&7鞘翅&r还是&a&lMekaSuit胸甲&r……\\n\\n&7鞘翅&r还是&a&lMekaSuit胸甲&r……\\n\\n小孩子才做选择！"
+	]
+	quest.32ABE5D734703B9C.quest_subtitle: "胸甲"
+	quest.32ABE5D734703B9C.title: "&7鞘翅模块"
+	quest.505799C894C771B2.quest_desc: [
+		"&5&l通用机械&r中的一些&5机器&r可以升级，例如&9&l冶金灌注器&r和&d&l富集仓&r。但有些不行，这些只能使用&8升级&r卡。\\n&6&lATM开发团队&r看到了这一点，希望玩家能制作1个多方块结构，而不是制造50台&9&l电解分离器&r！\\n\\n然而，要合成这些多方块结构，我们需要一个先前的多方块结构：&c&l自动赫菲斯托斯锻炉&r。\\n\\n它在&a第4章&r：&d创造&r中有自己的任务。去那里查看吧！\\n\\n所有多方块结构使用相同的框架，只是控制器不同。查看下一页以获取建造说明！"
+		"{@pagebreak}"
+		"第一层是最复杂的，包含所有&c机器外壳&r。各种&c机器外壳&r位于中间，而&9暗黑石楼梯&f和&9方块&r以及&6镀金錾制磨制暗黑石&r环绕它们。"
+		"{image:atm:textures/questpics/mek/mek_multi_runic1.png width:150 height:100 align:center}"
+		"第二层覆盖第一层，使用更多&9暗黑石砖&r和&9楼梯&r。现在还加入了&9暗黑石台阶&r和&7符文块&r！"
+		"{image:atm:textures/questpics/mek/mek_multi_runic2.png width:150 height:100 align:center}"
+		"没有比这更简单的了！只需在4个外侧&7符文块&r上方放置&9暗黑石柱&r，这就是你需要做的全部！"
+		"{image:atm:textures/questpics/mek/mek_multi_runic3.png width:150 height:100 align:center}"
+		"我说得对，没有更简单的了。它保持了完全相同的简单程度！重复上一步。"
+		"{image:atm:textures/questpics/mek/mek_multi_runic4.png width:150 height:100 align:center}"
+		"最后，在&9暗黑石柱&r上方放置&b神秘水晶块&r，并在未覆盖的&7符文块&r上方放置一个&8量子注入器&r。"
+		"{image:atm:textures/questpics/mek/mek_multi_runic5.png width:150 height:100 align:center}"
+		"我们的&5&l多方块机器&r需要仓口才能工作！要添加它们，请用仓口替换第一层的&9暗黑石砖&r。"
+	]
+	quest.55702BE0151D33FE.quest_desc: [
+		"&a感应端口&r是我们将&a能量&r输入和输出&a&l能量感应矩阵&r的方式。\\n\\n与几乎所有多方块结构一样，你需要将&a端口&r放置在&a&l感应矩阵&r的墙壁内。\\n\\n我认为&a端口&r除了&a&l感应矩阵&r本身的限制外没有其他限制，因此除非你从不同来源获取能量，否则不需要超过2个！"
+	]
+	quest.5B18676A77CD6069.quest_subtitle: "(QIO)"
+}
