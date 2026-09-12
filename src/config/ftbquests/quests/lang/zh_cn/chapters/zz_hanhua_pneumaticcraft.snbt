@@ -313,7 +313,7 @@
 	]
 	quest.715B86DC82EA636B.title: "来自液体的压力"
 	quest.7177E49BF9ECA5CF.quest_desc: [
-		"&3热能压缩机&r靠热量来产生压力！一侧放热的东西，另一侧放冷的东西，压力就出来了。"
+		"&3温差压缩机&r靠热量来产生压力！一侧放热的东西，另一侧放冷的东西，压力就出来了。"
 		""
 		"{image:pneumaticcraft:textures/patchouli/thermal_compressor.png width:100 height:100 align:left fit:true}"
 	]
