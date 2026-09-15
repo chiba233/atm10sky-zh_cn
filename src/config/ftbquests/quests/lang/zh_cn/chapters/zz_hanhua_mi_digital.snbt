@@ -65,7 +65,7 @@
 	quest.4A06CCE1FE0F333C.quest_desc: ["将 &#74C3DB进气口&r 放入 &#46CAF2真空冷却机&r 中，将得到 &#B5E7F7液态空气&r。"]
 	quest.4A618CA66AD6223D.quest_subtitle: "甚至更多的输入功率"
 	quest.4F870252E9FB1A41.quest_desc: ["反应堆可以用燃料棒供能，而这些正是你能制作的最基础款燃料棒。"]
-	quest.50F97171D25CD2EE.quest_desc: ["每装一个&#6EDDFF涡轮升级&r，容量就增加&#FFEB6E512EU/t&r。"]
+	quest.50F97171D25CD2EE.quest_desc: ["&#6EDDFF涡轮升级&r每个升级可增加&#FFEB6E512EU/t&r的容量。"]
 	quest.56A4F5D301BC1E93.quest_desc: ["&#6EDDFF涡轮升级&r 每个升级可增加 &#FFEB6E64EU/t&r 的容量。"]
 	quest.58F7C11C241DD7A4.quest_desc: [
 		"&#6AADD9蒸馏塔&r 是 &#A3D2F0蒸馏室&r 的升级版。其主要优势是它能为相同的输入提供多种输出。"

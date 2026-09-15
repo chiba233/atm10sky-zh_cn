@@ -36,7 +36,7 @@
 		]
 	quest.2F4458E9921DEB86.title: "&a气体管道"
 	quest.3065EA195D0A36BA.quest_desc: ["标签是 Minecraft 中分组物品的重要部分，因此我们当然可以利用它来作为过滤器！\\n\\n你可以放入一个物品并选择一个标签，或者如果你知道它，可以自己输入。\\n\\n对于从系统中取出工具等操作非常有用。\\n\\n（你还可以通过输入 /kubejs hand 来查找你手中的物品的标签。）"]
-	quest.308935C85364B04D.quest_desc: ["每张卡都各自存着自己的数据，一张张改设置实在烦人。那干脆复制吧！\\n\\n拿物流卡复制器左键一张卡，就能把它的数据拷下来；再右键另一张卡，就把数据灌进去了！"]
+	quest.308935C85364B04D.quest_desc: ["由于每张卡都保存自己的数据，不断更改每张卡的设置可能会很烦人。所以我们来克隆它们吧！\\n\\n用克隆器左键点击一张卡以复制其数据，然后右键点击一张卡以赋予它该数据！"]
 	quest.30DE4F5BC3EDB555.quest_desc: [
 		"逻辑运输器是&5&l通用机械&r用来在远处移动物品和方块的工具。\\n\\n它们需要配置为从箱子或抽屉等库存中拉取或推送。"
 		"{image:atm:textures/questpics/logistics/meka_transporter.png width:200 height:50 align:center}"
@@ -48,7 +48,7 @@
 	]
 	quest.316B513FE568EF57.quest_subtitle: "热量"
 	quest.33433A443B65D252.quest_desc: [
-		"&b水&r=&b蓝色&r &b水&r=&b流体&r 因此 &b蓝色&r=&b流体&r\\n\\n许多模组都有自己的&b流体&r，甚至 Minecraft 也有自己的，如&b水&r和&c熔岩&r。你很可能需要移动这些&b流体&r，一个很好的方法是使用&b流体管道&r。\\n\\n它可以连接到水槽以移动无限的&b水&r！"
+		"&b水&r=&b蓝色&r&b水&r=&b流体&r因此&b蓝色&r=&b流体&r\\n\\n许多模组都有自己的&b流体&r，甚至Minecraft也有自己的，如&b水&r和&c熔岩&r。你很可能需要移动这些&b流体&r，一个很好的方法是使用&b流体管道&r。\\n\\n它可以连接到水槽以移动无限的&b水&r！"
 		"{image:atm:textures/questpics/logistics/pipez_fluid.png width:200 height:50 align:center}"
 	]
 	quest.33433A443B65D252.title: "&b流体管道"

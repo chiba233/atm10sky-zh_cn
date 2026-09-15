@@ -6,7 +6,7 @@
 	quest.0298A17C2AAC5765.quest_desc: ["将背包的堆叠大小增加8。"]
 	quest.0298A17C2AAC5765.title: "&b堆叠升级T3"
 	quest.037415D5B965E214.quest_desc: ["这个升级使背包不会被破坏。"]
-	quest.0682DC1F2417DAEB.quest_desc: ["实用存储是一个存储向的模组，加入了各种有用的物品，帮你整理收纳、成组地存放同一种东西。\\n\\n圆石、泥土这类东西正好用得上。"]
+	quest.0682DC1F2417DAEB.quest_desc: ["功能性存储是一个存储模组，添加了各种有用的物品，以帮助存储和存储相同物品的堆叠。\\n\\n这对于圆石、泥土等物品很有用。"]
 	quest.0682DC1F2417DAEB.quest_subtitle: "存储抽屉的远亲"
 	quest.0682DC1F2417DAEB.title: "功能性存储"
 	quest.072FBEB0F6F1BC48.quest_desc: ["用于将抽屉连接到控制器，并连接末影抽屉。\\n\\n要将抽屉连接到控制器，请右键点击控制器方块以开始配置。右键点击抽屉会将它们添加到网络中。\\n\\n持有工具会显示哪些抽屉连接到了控制器。"]
@@ -43,7 +43,7 @@
 	quest.1985CFD1F0425E88.quest_subtitle: "更多的过滤选项"
 	quest.1985CFD1F0425E88.title: "&e高级拾取升级"
 	quest.19DFAEB6D88F3580.quest_desc: ["推送器升级允许抽屉将物品推出到任何一侧。"]
-	quest.1A4B1CA7EC15348E.quest_desc: ["用&a链接工具&r可以把两个末影抽屉连起来，让它们内容同步。\\n\\n效果就像末影箱，只不过是抽屉版。\\n\\n连接方法：拿&a链接工具&r右键第一个末影抽屉，再左键第二个。"]
+	quest.1A4B1CA7EC15348E.quest_desc: ["使用&a链接工具&r，你可以将两个末影抽屉链接起来，以同步它们的内容。\\n\\n这就像末影箱一样，但作为抽屉。\\n\\n要链接，请用&a链接工具&r左键点击第一个末影抽屉（点击外侧，而非物品面），然后潜行/Shift + 右键点击第二个末影抽屉。"]
 	quest.1A4B1CA7EC15348E.quest_subtitle: "维度抽屉..."
 	quest.1A739D36D5E3B1AD.quest_subtitle: "更多的过滤选项"
 	quest.1A739D36D5E3B1AD.title: "&e高级喂食升级"
@@ -139,7 +139,7 @@
 	quest.6A2B2C5E2ADCE366.quest_desc: ["精妙背包提供可升级的背包，可以使用过滤器添加实用功能！\\n\\n背包可以放在你的Curios背部插槽中，并且可以染色。"]
 	quest.6A2B2C5E2ADCE366.quest_subtitle: "物品容器太小"
 	quest.6A2B2C5E2ADCE366.title: "精妙背包"
-	quest.6E3D53D1C4569A89.quest_desc: ["让你在自己和背包之间来回输送经验。"]
+	quest.6E3D53D1C4569A89.quest_desc: ["允许你在自己和背包之间传输经验。"]
 	quest.6E3D53D1C4569A89.quest_subtitle: "存储经验"
 	quest.6E3D53D1C4569A89.title: "&a经验泵升级"
 	quest.6E9041744C592573.quest_desc: ["添加从储液升级中泵取液体的能力。"]
