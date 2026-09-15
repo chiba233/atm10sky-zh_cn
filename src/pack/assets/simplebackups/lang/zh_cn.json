@@ -4,7 +4,7 @@
   "simplebackups.backups_paused": "备份中止",
   "simplebackups.commands.only_modified": "不只备份了修改后的文件，请检查你的配置文件",
   "simplebackups.commands.is_merging": "已有一个合并操作正在执行",
-  "simplebackups.commands.finished": "合并备份成功 %s",
+  "simplebackups.commands.finished": "合并备份成功",
   "simplebackups.backup_errors": "备份期间发生了 %s 个错误",
   "simplebackups.backup_failed_delete": "备份失败（正在删除未完成的文件）- 请检查日志文件以获取更多信息",
   "simplebackups.backup_failed_continue": "备份创建在早期阶段失败，部分文件可能未被备份——请检查日志文件以获取更多信息，防止数据丢失",
