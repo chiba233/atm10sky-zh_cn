@@ -860,5 +860,6 @@
  "tooltip.productivefarming.yellow_bell_pepper.latin": "",
  "tooltip.productivefarming.yellow_dent_corn.latin": "Zea mays convar. saccharata var. rugosa",
  "tooltip.productivefarming.yellow_pear_tomato.latin": "Solanum lycopersicum",
- "tooltip.productivefarming.zucchini.latin": "Cucurbita pepo var. longa"
+ "tooltip.productivefarming.zucchini.latin": "Cucurbita pepo var. longa",
+ "productivefarming.tooltip.mushroom_crop": "把它堆肥有几率让菌丝上长出新的蘑菇"
 }
