@@ -3,30 +3,6 @@
   "protected": [
     "src/books/_copies.json",
     "src/books/_prose.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/categories/items.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/categories/metaphysics.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/categories/peripherals.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/items/chunk_controller.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/items/computer_tool.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/items/memory_card.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/items/pocket_computers.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/end_automata_core.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/fuel_consuming.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/husbandry_automata_core.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/intro.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/overpowered_automata_core.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/weak_automata_core.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/block_reader.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/chat_box.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/colony_integrator.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/energy_detector.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/environment_detector.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/geo_scanner.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/inventory_manager.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/me_bridge.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/nbt_storage.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/player_detector.json.json",
-    "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/rs_bridge.json.json",
     "src/books/assets/allthemodium/patchouli_books/allthemodium_book/zh_cn/categories/armour.json.json",
     "src/books/assets/allthemodium/patchouli_books/allthemodium_book/zh_cn/categories/dimensions.json.json",
     "src/books/assets/allthemodium/patchouli_books/allthemodium_book/zh_cn/categories/food.json.json",
@@ -260,146 +236,6 @@
     "src/books/assets/laserio/patchouli_books/laseriobook/zh_cn/entries/settings_screen.json.json",
     "src/books/assets/laserio/patchouli_books/laseriobook/zh_cn/entries/sneaky.json.json",
     "src/books/assets/laserio/patchouli_books/laseriobook/zh_cn/entries/tickspeed.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/categories/hostile_mobs_category.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/categories/item_category.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/categories/neutral_mobs_category.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/categories/passive_mobs_category.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/hostile_mobs/ancient_blaze.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/hostile_mobs/baby_ender_dragon.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/hostile_mobs/lion.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/hostile_mobs/nether_knight.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/hostile_mobs/shark.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/ancient_helmet.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/banana.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/cooked_crab.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/cooked_elephant.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/cooked_giraffe.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/cooked_lion.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/cooked_ostrich.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/crab.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/crab_shell.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/elephant.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/giraffe.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/lion.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/ostrich.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/ostrich_egg.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/ostrich_nest.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/seahorse_bucket.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/shark_tooth.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/neutral_mobs/crab.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/neutral_mobs/elephant.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/neutral_mobs/giraffe.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/neutral_mobs/monkey.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/neutral_mobs/raccoon.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/flamingo.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/koala.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/mantaray.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/ostrich.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/owl.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/peacock.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/penguin.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/seahorse.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/shroomie.json.json",
-    "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/snail.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/en_us/categories/book.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/en_us/entries/book.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/armor.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/book.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/doors.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/fences.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/foods.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/garlands.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/hanukkah.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/kwanzaa.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/lamp_post.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/lights.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/mantels.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/misc.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/mobs.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/music.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/other.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/present.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/roofs.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/trees.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/wreaths.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/armor.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/book.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/chalice.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/creeper.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/doors.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/dreidel.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/fences.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/foods.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/garlands.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/kinara.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/lamp_post.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/leaves.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/lights.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/logs.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/mantels.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/menorah.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/mkeka.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/music.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/others.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/pie.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/presents.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/roofs.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/ruge.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/stocking.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/templates.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/trees.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/ugly_mobs.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/walls.json.json",
-    "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/wreaths.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/getting_started.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/interdiction_modules.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/machines.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/projector_modes.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/projector_modules.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/tools.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/upgrade_modules.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/getting_started/crafting_components.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/getting_started/fortron.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/getting_started/gathering_resources.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/getting_started/introduction.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/anti_friendly_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/anti_hostile_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/anti_personnel_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/anti_spawn_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/block_access_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/block_alter_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/confiscation_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/warn_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/machines/biometric_identifier.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/machines/coercion_deriver.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/machines/fortron_capacitor.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/machines/interdiction_matrix.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/machines/projector.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/cube_mode.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/custom_mode.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/cyllinder_mode.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/pyramid_mode.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/sphere_mode.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/tube_mode.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/camouflage_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/collection_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/disintegration_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/dome_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/fusion_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/glow_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/inverter_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/rotation_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/shock_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/silence_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/sponge_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/stabilization_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/translation_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/tools/frequency_card.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/tools/id_card.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/tools/remote_controller.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/upgrade_modules/capacity_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/upgrade_modules/scale_module.json.json",
-    "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/upgrade_modules/speed_module.json.json",
     "src/books/assets/modularrouters/patchouli_books/book/zh_cn/categories/augments.json.json",
     "src/books/assets/modularrouters/patchouli_books/book/zh_cn/categories/filters.json.json",
     "src/books/assets/modularrouters/patchouli_books/book/zh_cn/categories/intro.json.json",
@@ -461,11 +297,6 @@
     "src/books/assets/modularrouters/patchouli_books/book/zh_cn/entries/upgrades/speed.json.json",
     "src/books/assets/modularrouters/patchouli_books/book/zh_cn/entries/upgrades/stack.json.json",
     "src/books/assets/modularrouters/patchouli_books/book/zh_cn/entries/upgrades/sync.json.json",
-    "src/books/assets/naturesaura/patchouli_books/book/zh_cn/entries/items/depth_armor.json.json",
-    "src/books/assets/naturesaura/patchouli_books/book/zh_cn/entries/items/depth_ingot.json.json",
-    "src/books/assets/naturesaura/patchouli_books/book/zh_cn/entries/items/depth_tools.json.json",
-    "src/books/assets/naturesaura/patchouli_books/book/zh_cn/entries/practices/gold_trees.json.json",
-    "src/books/assets/naturesaura/patchouli_books/book/zh_cn/entries/using/lower_limiter.json.json",
     "src/books/assets/oracle_index/books/oracle-index/.translated/zh_cn/docs/_meta.json.json",
     "src/books/assets/oracle_index/books/oracle-index/.translated/zh_cn/docs/developer/_meta.json.json",
     "src/books/assets/oracle_index/books/oritech/.translated/zh_cn/content/_meta.json.json",
@@ -980,21 +811,6 @@
     "src/books/assets/rftoolsbase/patchouli_books/manual/zh_cn/entries/tools/tablet.json.json",
     "src/books/assets/rftoolsbase/patchouli_books/manual/zh_cn/entries/wireless/antennas.json.json",
     "src/books/assets/rftoolsbase/patchouli_books/manual/zh_cn/entries/wireless/wireless_router.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/categories/getting_started.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/categories/using_tools.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/categories/world.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/getting_started/effects.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/getting_started/ingredients.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/getting_started/nori.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/using_tools/cooler_box.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/using_tools/cutting_board.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/using_tools/rice_cooker.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/using_tools/roller.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/world/avocado.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/world/crops.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/world/fish.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/world/seaweed.json.json",
-    "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/world/tobiko.json.json",
     "src/books/literal/ars_elemental.json",
     "src/books/literal/ars_nouveau.json",
     "src/books/literal/computercraft.json",
@@ -1784,62 +1600,6 @@
     "src/pack/assets/nullscape/lang/zh_cn.json",
     "src/pack/assets/observable/lang/zh_cn.json",
     "src/pack/assets/occultism/lang/zh_cn.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/ingredients/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/ingredients/focus_matrix.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/ingredients/steel_compound.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/ingredients/steel_ingot.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/anti_friendly_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/anti_hostile_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/anti_personnel_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/anti_spawn_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/block_access_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/block_alter_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/confiscation_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/warn_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/field/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/field/coercion_deriver.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/field/fortron_capacitor.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/field/projector.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/security/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/security/biometric_identifier.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/security/interdiction_matrix.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/cube_mode.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/custom_mode.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/cyllinder_mode.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/pyramid_mode.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/sphere_mode.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/tube_mode.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/camouflage_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/dome_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/fusion_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/glow_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/interaction/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/interaction/collection_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/interaction/disintegration_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/interaction/stabilization_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/inverter_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/rotation_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/shock_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/silence_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/sponge_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/translation_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/tools/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/tools/frequency_card.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/tools/id_card.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/tools/remote_controller.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/upgrade_modules/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/upgrade_modules/capacity_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/upgrade_modules/scale_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/upgrade_modules/speed_module.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/_meta.json",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/fortron.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/gathering_resources.mdx",
-    "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/introduction.mdx",
     "src/pack/assets/oracle_index/books/oracle-index/.translated/zh_cn/docs/_meta.json",
     "src/pack/assets/oracle_index/books/oracle-index/.translated/zh_cn/docs/developer/_meta.json",
     "src/pack/assets/oracle_index/books/oracle-index/.translated/zh_cn/docs/developer/content_unlocks.mdx",
@@ -7258,6 +7018,1446 @@
       "approved": "UTC07-2026-09-15 (17:22)",
       "date": "2026-09-15",
       "why": "该命名空间在 ATM10 Sky 2.0.4 的 321 个 jar（含内嵌 jar）、kubejs 与资源包里都没有提供者，也不是任何 modId；文件里的键没有一条出现在本版的英文键集或整合包自带的脚本与配置里。对应模组不在包里。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/categories/items.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/categories/metaphysics.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/categories/peripherals.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/items/chunk_controller.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/items/computer_tool.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/items/memory_card.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/items/pocket_computers.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/end_automata_core.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/fuel_consuming.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/husbandry_automata_core.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/intro.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/overpowered_automata_core.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/metaphysics/weak_automata_core.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/block_reader.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/chat_box.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/colony_integrator.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/energy_detector.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/environment_detector.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/geo_scanner.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/inventory_manager.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/me_bridge.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/nbt_storage.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/player_detector.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/advancedperipherals/patchouli_books/manual/zh_cn/entries/peripherals/rs_bridge.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/categories/hostile_mobs_category.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/categories/item_category.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/categories/neutral_mobs_category.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/categories/passive_mobs_category.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/hostile_mobs/ancient_blaze.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/hostile_mobs/baby_ender_dragon.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/hostile_mobs/lion.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/hostile_mobs/nether_knight.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/hostile_mobs/shark.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/ancient_helmet.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/banana.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/cooked_crab.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/cooked_elephant.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/cooked_giraffe.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/cooked_lion.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/cooked_ostrich.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/crab.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/crab_shell.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/elephant.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/giraffe.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/lion.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/ostrich.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/ostrich_egg.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/ostrich_nest.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/seahorse_bucket.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/items/shark_tooth.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/neutral_mobs/crab.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/neutral_mobs/elephant.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/neutral_mobs/giraffe.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/neutral_mobs/monkey.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/neutral_mobs/raccoon.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/flamingo.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/koala.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/mantaray.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/ostrich.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/owl.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/peacock.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/penguin.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/seahorse.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/shroomie.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/livingthings/patchouli_books/lexicon/zh_cn/entries/passive_mobs/snail.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/en_us/categories/book.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/en_us/entries/book.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/armor.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/book.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/doors.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/fences.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/foods.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/garlands.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/hanukkah.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/kwanzaa.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/lamp_post.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/lights.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/mantels.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/misc.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/mobs.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/music.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/other.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/present.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/roofs.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/trees.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/categories/wreaths.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/armor.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/book.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/chalice.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/creeper.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/doors.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/dreidel.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/fences.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/foods.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/garlands.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/kinara.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/lamp_post.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/leaves.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/lights.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/logs.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/mantels.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/menorah.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/mkeka.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/music.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/others.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/pie.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/presents.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/roofs.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/ruge.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/stocking.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/templates.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/trees.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/ugly_mobs.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/walls.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/merrymaking/patchouli_books/merrymanual/zh_cn/entries/wreaths.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/getting_started.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/interdiction_modules.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/machines.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/projector_modes.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/projector_modules.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/tools.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/categories/upgrade_modules.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/getting_started/crafting_components.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/getting_started/fortron.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/getting_started/gathering_resources.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/getting_started/introduction.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/anti_friendly_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/anti_hostile_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/anti_personnel_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/anti_spawn_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/block_access_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/block_alter_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/confiscation_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/interdiction_modules/warn_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/machines/biometric_identifier.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/machines/coercion_deriver.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/machines/fortron_capacitor.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/machines/interdiction_matrix.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/machines/projector.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/cube_mode.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/custom_mode.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/cyllinder_mode.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/pyramid_mode.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/sphere_mode.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modes/tube_mode.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/camouflage_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/collection_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/disintegration_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/dome_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/fusion_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/glow_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/inverter_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/rotation_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/shock_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/silence_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/sponge_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/stabilization_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/projector_modules/translation_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/tools/frequency_card.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/tools/id_card.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/tools/remote_controller.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/upgrade_modules/capacity_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/upgrade_modules/scale_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/mffs/patchouli_books/handbook/zh_cn/entries/upgrade_modules/speed_module.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/naturesaura/patchouli_books/book/zh_cn/entries/items/depth_armor.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/naturesaura/patchouli_books/book/zh_cn/entries/items/depth_ingot.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/naturesaura/patchouli_books/book/zh_cn/entries/items/depth_tools.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/naturesaura/patchouli_books/book/zh_cn/entries/practices/gold_trees.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/naturesaura/patchouli_books/book/zh_cn/entries/using/lower_limiter.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/categories/getting_started.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/categories/using_tools.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/categories/world.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/getting_started/effects.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/getting_started/ingredients.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/getting_started/nori.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/using_tools/cooler_box.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/using_tools/cutting_board.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/using_tools/rice_cooker.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/using_tools/roller.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/world/avocado.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/world/crops.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/world/fish.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/world/seaweed.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/books/assets/sushigocrafting/patchouli_books/sushigocrafting/zh_cn/entries/world/tobiko.json.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/ingredients/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/ingredients/focus_matrix.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/ingredients/steel_compound.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/ingredients/steel_ingot.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/anti_friendly_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/anti_hostile_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/anti_personnel_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/anti_spawn_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/block_access_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/block_alter_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/confiscation_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/interdiction_modules/warn_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/field/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/field/coercion_deriver.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/field/fortron_capacitor.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/field/projector.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/security/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/security/biometric_identifier.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/machines/security/interdiction_matrix.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/cube_mode.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/custom_mode.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/cyllinder_mode.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/pyramid_mode.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/sphere_mode.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modes/tube_mode.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/camouflage_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/dome_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/fusion_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/glow_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/interaction/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/interaction/collection_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/interaction/disintegration_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/interaction/stabilization_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/inverter_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/rotation_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/shock_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/silence_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/sponge_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/projector_modules/translation_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/tools/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/tools/frequency_card.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/tools/id_card.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/tools/remote_controller.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/upgrade_modules/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/upgrade_modules/capacity_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/upgrade_modules/scale_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/.content/upgrade_modules/speed_module.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/_meta.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/fortron.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/gathering_resources.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/pack/assets/oracle_index/books/mffs/.translated/zh_cn/introduction.mdx",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
     }
   ]
 }
