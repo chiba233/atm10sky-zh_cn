@@ -5,8 +5,6 @@ mcjtylib
 mcjtylib_manual_zh
 rftoolsbase
 rftoolsbase_filter_zh
-rftoolspower
-rftoolsstorage
 rftoolsutility
 rftools_all_modules_zh
 rftools_gui_labels_zh

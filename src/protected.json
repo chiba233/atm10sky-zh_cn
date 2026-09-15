@@ -2365,9 +2365,7 @@
     "src/vaultpatcher/modules/actuallyadditions.json",
     "src/vaultpatcher/modules/actuallyadditions_dynamic.json",
     "src/vaultpatcher/modules/advanced_ae.json",
-    "src/vaultpatcher/modules/advancedperipherals.json",
     "src/vaultpatcher/modules/ae2.json",
-    "src/vaultpatcher/modules/aether.json",
     "src/vaultpatcher/modules/allthetweaks.json",
     "src/vaultpatcher/modules/almostunified.json",
     "src/vaultpatcher/modules/amendments.json",
@@ -2377,49 +2375,32 @@
     "src/vaultpatcher/modules/appmek.json",
     "src/vaultpatcher/modules/ars_additions.json",
     "src/vaultpatcher/modules/ars_arsenal.json",
-    "src/vaultpatcher/modules/ars_nouveau.json",
-    "src/vaultpatcher/modules/arsomega.json",
-    "src/vaultpatcher/modules/artifacts.json",
     "src/vaultpatcher/modules/atm_custom_name_dynamic.json",
-    "src/vaultpatcher/modules/betterendisland.json",
     "src/vaultpatcher/modules/bhc.json",
     "src/vaultpatcher/modules/bigreactors.json",
     "src/vaultpatcher/modules/blockui.json",
-    "src/vaultpatcher/modules/blockui_dynamic.json",
     "src/vaultpatcher/modules/blockui_legacy_labels.json",
     "src/vaultpatcher/modules/brandonscore.json",
     "src/vaultpatcher/modules/bwncr.json",
-    "src/vaultpatcher/modules/cataclysm.json",
     "src/vaultpatcher/modules/catnip_config_ui.json",
     "src/vaultpatcher/modules/cloth_config2.json",
     "src/vaultpatcher/modules/codechickenlib.json",
     "src/vaultpatcher/modules/commoncapabilities.json",
     "src/vaultpatcher/modules/compactmachines.json",
     "src/vaultpatcher/modules/compactmachines_dynamic.json",
-    "src/vaultpatcher/modules/computercraft.json",
     "src/vaultpatcher/modules/config_ui_generated.json",
     "src/vaultpatcher/modules/connectivity.json",
-    "src/vaultpatcher/modules/corgilib_dynamic.json",
     "src/vaultpatcher/modules/craftingtweaks.json",
     "src/vaultpatcher/modules/crashutilities.json",
     "src/vaultpatcher/modules/crashutilities_dynamic.json",
     "src/vaultpatcher/modules/create.json",
     "src/vaultpatcher/modules/create_dynamic.json",
-    "src/vaultpatcher/modules/creeperoverhaul.json",
-    "src/vaultpatcher/modules/cristellib.json",
     "src/vaultpatcher/modules/crystalix_dynamic.json",
     "src/vaultpatcher/modules/cucumber.json",
     "src/vaultpatcher/modules/cyclopscore.json",
-    "src/vaultpatcher/modules/dimstorage.json",
-    "src/vaultpatcher/modules/disenchanting_table.json",
     "src/vaultpatcher/modules/draconicevolution.json",
     "src/vaultpatcher/modules/dysoncubeproject.json",
-    "src/vaultpatcher/modules/enderdrives.json",
     "src/vaultpatcher/modules/enderio.json",
-    "src/vaultpatcher/modules/energymeter.json",
-    "src/vaultpatcher/modules/eternal_starlight.json",
-    "src/vaultpatcher/modules/evilcraft.json",
-    "src/vaultpatcher/modules/extradisks.json",
     "src/vaultpatcher/modules/fluxnetworks.json",
     "src/vaultpatcher/modules/forbidden_arcanus.json",
     "src/vaultpatcher/modules/framedblocks.json",
@@ -2437,8 +2418,6 @@
     "src/vaultpatcher/modules/herbsandharvest_dynamic.json",
     "src/vaultpatcher/modules/immersiveengineering.json",
     "src/vaultpatcher/modules/immersiveengineering_dynamic.json",
-    "src/vaultpatcher/modules/incontrol.json",
-    "src/vaultpatcher/modules/industrialization_overdrive.json",
     "src/vaultpatcher/modules/integrateddynamics.json",
     "src/vaultpatcher/modules/iris.json",
     "src/vaultpatcher/modules/iris_dynamic.json",
@@ -2447,24 +2426,19 @@
     "src/vaultpatcher/modules/keybind_categories_zh.json",
     "src/vaultpatcher/modules/kubejs_fluid.json",
     "src/vaultpatcher/modules/little_big_redstone.json",
-    "src/vaultpatcher/modules/livingthings.json",
     "src/vaultpatcher/modules/lollipop.json",
     "src/vaultpatcher/modules/lootr.json",
     "src/vaultpatcher/modules/mcjtylib.json",
     "src/vaultpatcher/modules/mcjtylib_manual_zh.json",
-    "src/vaultpatcher/modules/merrymaking.json",
     "src/vaultpatcher/modules/minecolonies.json",
     "src/vaultpatcher/modules/minecolonies_styles.json",
-    "src/vaultpatcher/modules/mininggadgets.json",
     "src/vaultpatcher/modules/mob_grinding_utils.json",
     "src/vaultpatcher/modules/modern_industrialization.json",
     "src/vaultpatcher/modules/modlist_names.json",
     "src/vaultpatcher/modules/modonomicon.json",
     "src/vaultpatcher/modules/modularbees.json",
-    "src/vaultpatcher/modules/monolib.json",
     "src/vaultpatcher/modules/mousetweaks_dynamic.json",
     "src/vaultpatcher/modules/mysticalagriculture.json",
-    "src/vaultpatcher/modules/naturesaura.json",
     "src/vaultpatcher/modules/neovitae_athanor_jei.json",
     "src/vaultpatcher/modules/neovitae_meteor_jei.json",
     "src/vaultpatcher/modules/observable.json",
@@ -2476,23 +2450,13 @@
     "src/vaultpatcher/modules/patchouli.json",
     "src/vaultpatcher/modules/pneumaticcraft.json",
     "src/vaultpatcher/modules/pocketstorage.json",
-    "src/vaultpatcher/modules/potionsmaster_dynamic_lang.json",
-    "src/vaultpatcher/modules/quarryplus.json",
-    "src/vaultpatcher/modules/quarryplus_dynamic.json",
-    "src/vaultpatcher/modules/redstonepen.json",
-    "src/vaultpatcher/modules/refinedstorage.json",
-    "src/vaultpatcher/modules/refurbished_furniture.json",
-    "src/vaultpatcher/modules/refurbished_furniture_dynamic.json",
     "src/vaultpatcher/modules/reliquary.json",
-    "src/vaultpatcher/modules/resourcefulconfig.json",
     "src/vaultpatcher/modules/resourcefullib.json",
     "src/vaultpatcher/modules/rftools_all_modules_zh.json",
     "src/vaultpatcher/modules/rftools_gui_labels_zh.json",
     "src/vaultpatcher/modules/rftoolsbase.json",
     "src/vaultpatcher/modules/rftoolsbase_filter_zh.json",
     "src/vaultpatcher/modules/rftoolsbuilder_hardcode_zh.json",
-    "src/vaultpatcher/modules/rftoolspower.json",
-    "src/vaultpatcher/modules/rftoolsstorage.json",
     "src/vaultpatcher/modules/rftoolsutility.json",
     "src/vaultpatcher/modules/securitycraft.json",
     "src/vaultpatcher/modules/securitycraft_dynamic.json",
@@ -2508,21 +2472,16 @@
     "src/vaultpatcher/modules/stevescarts.json",
     "src/vaultpatcher/modules/structurize.json",
     "src/vaultpatcher/modules/supermartijn642corelib.json",
-    "src/vaultpatcher/modules/tempad.json",
     "src/vaultpatcher/modules/tesseract_api.json",
     "src/vaultpatcher/modules/tiab.json",
     "src/vaultpatcher/modules/titanium.json",
-    "src/vaultpatcher/modules/tombstone.json",
     "src/vaultpatcher/modules/torchmaster.json",
     "src/vaultpatcher/modules/transfer_labels.json",
-    "src/vaultpatcher/modules/twilightforest.json",
     "src/vaultpatcher/modules/utilityvest_dynamic.json",
     "src/vaultpatcher/modules/waystones.json",
-    "src/vaultpatcher/modules/wits.json",
     "src/vaultpatcher/modules/xycraft_core.json",
     "src/vaultpatcher/modules/xycraft_machines.json",
-    "src/vaultpatcher/modules/yet_another_config_lib_v3.json",
-    "src/vaultpatcher/modules/yungsapi.json"
+    "src/vaultpatcher/modules/yet_another_config_lib_v3.json"
   ],
   "released": [
     {
@@ -8458,6 +8417,252 @@
       "approved": "UTC07-2026-09-15 (17:22)",
       "date": "2026-09-15",
       "why": "对应模组不在 ATM10 Sky 2.0.4 里（321 个 jar 含内嵌 jar 均无该命名空间与 modId），这本书在本版不会被读取。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/advancedperipherals.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/aether.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/ars_nouveau.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/arsomega.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/artifacts.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/betterendisland.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/blockui_dynamic.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/cataclysm.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/computercraft.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/corgilib_dynamic.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/creeperoverhaul.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/cristellib.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/dimstorage.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/disenchanting_table.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/enderdrives.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/energymeter.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/eternal_starlight.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/evilcraft.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/extradisks.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/incontrol.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/industrialization_overdrive.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/livingthings.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/merrymaking.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/mininggadgets.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/monolib.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/naturesaura.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/potionsmaster_dynamic_lang.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/quarryplus.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/quarryplus_dynamic.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/redstonepen.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/refinedstorage.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/refurbished_furniture.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/refurbished_furniture_dynamic.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/resourcefulconfig.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/rftoolspower.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/rftoolsstorage.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/tempad.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/tombstone.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/twilightforest.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/wits.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
+    },
+    {
+      "path": "src/vaultpatcher/modules/yungsapi.json",
+      "approved": "UTC07-2026-09-15 (17:22)",
+      "date": "2026-09-15",
+      "why": "模块的目标类在 ATM10 Sky 2.0.4 的全部 jar（含内嵌 jar）里一个都找不到，对应模组不在包里。"
     }
   ]
 }
