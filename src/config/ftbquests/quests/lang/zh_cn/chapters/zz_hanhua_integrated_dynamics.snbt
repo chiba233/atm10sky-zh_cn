@@ -30,9 +30,9 @@
 	quest.65FA86357BC60573.quest_desc: ["现在是时候从一个地方移动物品到另一个地方了。以下是步骤：\\n\\n&l1.&r在一个库存（如箱子或储罐）上放置一个接口\\n\\n&l2.&r在另一个库存上放置一个导入器或导出器，根据你是否想拉取或发送物品来决定。\\n\\n&l3.&r用线缆将它们连接起来，将变量卡插入导入器或导出器，就这样！"]
 	quest.65FA86357BC60573.quest_subtitle: "移动物品！"
 	quest.68498ADEF9765F81.quest_desc: ["要制作门瑞欧结晶碎块，首先需要将一些门瑞欧原木放入挤压机中，跳上挤压机就能把它们挤成门瑞欧树脂。\\n\\n给挤压机一个红石信号，可以清空里面的残留物并让它复位。"]
-	quest.6ABDBE41880CFDA9.quest_desc: ["本任务由 &6AllTheMods 团队&r 或 &2社区贡献者&r 为 AllTheMods 模组包编写。\\n\\n由于所有 &6AllTheMods&r 包都受 &e保留所有权利&r 许可，因此本任务未经 &6AllTheMods 团队&r 明确许可，不得在任何非 AllTheMods 团队发布的公共包中使用。\\n\\n本任务故意隐藏，如果你看到这个，你正在编辑模式。"]
+	quest.6ABDBE41880CFDA9.quest_desc: ["本任务由&6AllTheMods团队&r或&2社区贡献者&r为AllTheMods模组包编写。\\n\\n由于所有&6AllTheMods&r包都受&e保留所有权利&r许可，因此本任务未经&6AllTheMods团队&r明确许可，不得在任何非AllTheMods团队发布的公共包中使用。\\n\\n本任务故意隐藏，如果你看到这个，你正在编辑模式。"]
 	quest.6C9191DA4B1039D6.quest_desc: ["门瑞欧浆果在食用后会给你短时间的夜视效果。"]
-	quest.6D75CF34957ECCD9.quest_desc: ["能量电池可以存储FE。要传输它，你需要 &6能量接口&r。"]
+	quest.6D75CF34957ECCD9.quest_desc: ["能量电池可以存储FE。要传输它，你需要&6能量接口&r。"]
 	quest.6D75CF34957ECCD9.quest_subtitle: "存储能量"
 	quest.72F57D77C3FB366D.quest_desc: ["1个门瑞欧结晶方块可以合成为9个门瑞欧结晶碎块，这些碎块是动态联合的主要合成材料。"]
 	quest.72F57D77C3FB366D.quest_subtitle: "主要合成材料"

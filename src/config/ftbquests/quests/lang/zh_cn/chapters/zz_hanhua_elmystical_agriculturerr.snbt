@@ -1,10 +1,10 @@
 {
 	quest.04A7AA70C23830FF.quest_desc: ["镰刀可用于清除大量有机材料。镰刀会破坏你所挖方块周围一片区域内的方块。"]
 	quest.04B6E31120663EB2.quest_subtitle: "等级：&a2"
-	quest.06EAA74E0A10CBB6.quest_subtitle: "范围：&b36&r 格"
+	quest.06EAA74E0A10CBB6.quest_subtitle: "范围：&b36&r格"
 	quest.06EAA74E0A10CBB6.title: "&9高级生长加速器"
 	quest.07564DBB023EE2A6.quest_subtitle: "等级：&b4"
-	quest.077B2D62FA7650FB.quest_subtitle: "范围：&627&r 格"
+	quest.077B2D62FA7650FB.quest_subtitle: "范围：&627&r格"
 	quest.077B2D62FA7650FB.title: "&c中级生长加速器"
 	quest.0B37355262121DD5.quest_desc: ["&a注魔祭坛&r是你制作所有种子的方式。首先放置祭坛，它会显示之后放置基座的位置。\\n\\n为了开始灌注，祭坛需要&4红石信号&r。"]
 	quest.0B37355262121DD5.quest_subtitle: "制作种子"
@@ -20,7 +20,7 @@
 	]
 	quest.16E3031D800B40D5.quest_desc: ["灵魂刷怪笼使用生物精华来生成生物。例如，如果你放入一些恶魂精华，你就可以生成恶魂。"]
 	quest.1C2CF6253F8B32EE.quest_subtitle: "等阶：&56"
-	quest.1C4ABF4518638A82.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)\\n - 速度 II (3:00)\\n - 抗性提升 II (3:00)\\n - 生命恢复 II (3:00)\\n - 力量 II (3:00)"]
+	quest.1C4ABF4518638A82.quest_desc: ["增益效果：\\n\\n - 伤害吸收II (3:00)\\n - 速度II (3:00)\\n - 抗性提升II (3:00)\\n - 生命恢复II (3:00)\\n - 力量II (3:00)"]
 	quest.1C4ABF4518638A82.title: "&4终极精华苹果"
 	quest.1CC4F8570A7A99EB.quest_desc: ["&d精华&r是你在神秘农业中所有种植需求的起点。\\n\\n&e下级精华&r是所有精华的基础等级。你可以通过采矿、击杀生物或制作种子来种植获得！\\n\\n要制作更强大更好的精华，你需要制作一个&9注魔水晶&r。"]
 	quest.1CC4F8570A7A99EB.quest_subtitle: "等级：&e1"
@@ -32,16 +32,16 @@
 	quest.1E0F92F07FDD162E.title: "&b活化种子基底"
 	quest.1E414D285E7A5FE2.title: "&c中级精华工具"
 	quest.1E7DC8E0493BE99E.quest_subtitle: "等级：&e1"
-	quest.1F7591DB6D8EC1E7.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)\\n - 速度 II (3:00)\\n - 抗性提升 II (3:00)\\n - 生命恢复 II (3:00)\\n - 力量 II (3:00)\\n - 急迫 II (3:00)"]
+	quest.1F7591DB6D8EC1E7.quest_desc: ["增益效果：\\n\\n - 伤害吸收II (3:00)\\n - 速度II (3:00)\\n - 抗性提升II (3:00)\\n - 生命恢复II (3:00)\\n - 力量II (3:00)\\n - 急迫II (3:00)"]
 	quest.1F7591DB6D8EC1E7.title: "&5究极精华苹果"
-	quest.1F88C697817A7680.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)"]
+	quest.1F88C697817A7680.quest_desc: ["增益效果：\\n\\n - 伤害吸收II (3:00)"]
 	quest.1F88C697817A7680.title: "&a下级精华苹果"
 	quest.202B1F54D3F06DAB.quest_desc: ["这是6级精华，通过将4个终极精华与注魔水晶结合制成。"]
 	quest.202B1F54D3F06DAB.quest_subtitle: "等级：&56"
 	quest.202B1F54D3F06DAB.title: "&5究极精华"
 	quest.20851E0CF315F722.quest_desc: ["这一档的种子要想生长，耕地下方必须放一块同类型的基质。"]
 	quest.20851E0CF315F722.title: "&5狂气耕地"
-	quest.212EF8601746C500.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)\\n - 速度 II (3:00)\\n - 抗性提升 II (3:00)\\n - 生命恢复 II (3:00)"]
+	quest.212EF8601746C500.quest_desc: ["增益效果：\\n\\n - 伤害吸收II (3:00)\\n - 速度II (3:00)\\n - 抗性提升II (3:00)\\n - 生命恢复II (3:00)"]
 	quest.212EF8601746C500.title: "&9高级精华苹果"
 	quest.21A90474590FCDB8.quest_desc: ["\"熔炉\"是原版熔炉的升级版本，可以通过升级来提高速度和效率。"]
 	quest.21A90474590FCDB8.title: "\"熔炉\""
@@ -77,7 +77,7 @@
 	quest.37B297640F537383.title: "&f空白升级"
 	quest.38A77DBAD24C4B53.quest_subtitle: "等级：&63"
 	quest.398DEF6BA2E488C1.quest_subtitle: "等阶：&56"
-	quest.3BB3AA6C29285837.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)\\n - 速度 II (3:00)"]
+	quest.3BB3AA6C29285837.quest_desc: ["增益效果：\\n\\n - 伤害吸收II (3:00)\\n - 速度II (3:00)"]
 	quest.3BB3AA6C29285837.title: "&2初级精华苹果"
 	quest.3BD8315851A3EE5F.quest_subtitle: "等阶：&a2"
 	quest.3C9F5EB59D72AC90.quest_desc: ["合成&6ATM之星&r需要觉醒终极精华锭块。"]
@@ -95,7 +95,7 @@
 	quest.4530C14828C3D153.quest_subtitle: "等级：&b4"
 	quest.45549E52B3CE2D23.quest_desc: ["镰刀是可以一次性收获大片区域作物的工具。它们也可以用作相当不错的武器。"]
 	quest.4821419D44F8083F.quest_desc: [
-		"&9生长加速器&r放置在耕地下方时，会略微增加种子的生长速度。每个等级都有一个可以向上加速的方块范围，下级生长加速器的范围最小，为9格。"
+		"&9生长加速器&r放置在耕地下方时，会略微增加种子的生长速度。每个等级都有一个可以向上加速的方块范围，下级生长加速器的范围最小，为12格。"
 		""
 		"注意：所有等级的生长加速器提供相同的生长刻速率。然而，更高的等级有更大的范围，因此你可以在单个植物下方堆叠更多加速器。只要生长加速器放置在其最大范围内，使用哪个等级并不重要。"
 	]
@@ -122,7 +122,7 @@
 	quest.5BC4250E4C9F803C.title: "&9高级耕地"
 	quest.5C590DB2F3D935E5.quest_desc: ["种子再处理器可以将精华种子转换回精华。"]
 	quest.5C590DB2F3D935E5.quest_subtitle: "回收！"
-	quest.5F6ACDE014A61F46.quest_desc: ["增益效果：\\n\\n - 伤害吸收 II (3:00)\\n - 速度 II (3:00)\\n - 抗性提升 II (3:00)"]
+	quest.5F6ACDE014A61F46.quest_desc: ["增益效果：\\n\\n - 伤害吸收II (3:00)\\n - 速度II (3:00)\\n - 抗性提升II (3:00)"]
 	quest.5F6ACDE014A61F46.title: "&c中级精华苹果"
 	quest.617F1FA978197AFD.quest_subtitle: "等阶：&56"
 	quest.6235B9923BE0AAEB.quest_desc: ["附魔器是一个允许你使用物品和精华为可附魔物品添加附魔的方块。"]

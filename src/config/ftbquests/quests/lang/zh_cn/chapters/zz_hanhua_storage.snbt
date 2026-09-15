@@ -17,7 +17,7 @@
 	quest.0E057B7F76401421.title: "&6铜制背包"
 	quest.0E0CAA31480EC0A1.quest_desc: ["允许背包拾取物品。"]
 	quest.0E0CAA31480EC0A1.quest_subtitle: "允许背包拾取物品。"
-	quest.0E5AE195158CF344.quest_subtitle: "x32 存储升级"
+	quest.0E5AE195158CF344.quest_subtitle: "x32存储升级"
 	quest.0E5AE195158CF344.title: "&d下界合金升级"
 	quest.110D27EA86CDA62B.quest_desc: ["将物品磁吸到背包中。"]
 	quest.11A351E2CDE2A31E.quest_desc: [
@@ -43,11 +43,11 @@
 	quest.1985CFD1F0425E88.quest_subtitle: "更多的过滤选项"
 	quest.1985CFD1F0425E88.title: "&e高级拾取升级"
 	quest.19DFAEB6D88F3580.quest_desc: ["推送器升级允许抽屉将物品推出到任何一侧。"]
-	quest.1A4B1CA7EC15348E.quest_desc: ["使用&a链接工具&r，你可以将两个末影抽屉链接起来，以同步它们的内容。\\n\\n这就像末影箱一样，但作为抽屉。\\n\\n要链接，请用&a链接工具&r左键点击第一个末影抽屉（点击外侧，而非物品面），然后潜行/Shift + 右键点击第二个末影抽屉。"]
+	quest.1A4B1CA7EC15348E.quest_desc: ["用&a连接工具&r可以把 2 个末影抽屉连起来，让它们的内容同步。\\n\\n用法和末影箱一样，只不过它是抽屉。\\n\\n连接方法：先用&a连接工具&r右击第一个末影抽屉，再左击第二个。"]
 	quest.1A4B1CA7EC15348E.quest_subtitle: "维度抽屉..."
 	quest.1A739D36D5E3B1AD.quest_subtitle: "更多的过滤选项"
 	quest.1A739D36D5E3B1AD.title: "&e高级喂食升级"
-	quest.1B72E95569B07E18.quest_subtitle: "x24 存储升级"
+	quest.1B72E95569B07E18.quest_subtitle: "x24存储升级"
 	quest.1B72E95569B07E18.title: "&b钻石升级"
 	quest.1CACE201C6AA0913.quest_desc: ["这个升级会在抽屉装满后把多出来的物品销毁。\\n\\n拿它防溢出，或者避免整条生产线因为存储塞满而堵住，都很好用。"]
 	quest.1CD2C6AFD788C35E.quest_desc: ["将背包中的物品压缩成它们的2x2配方。"]
@@ -55,7 +55,7 @@
 	quest.1FE052F643401232.quest_desc: ["你需要这些来制作背包升级。"]
 	quest.1FE052F643401232.quest_subtitle: "升级的基础"
 	quest.1FE17B1C7C639F88.quest_desc: ["存储控制器允许你将多个存储器当作一个大的存储多方块来使用。\\n\\n这可以创建一个非常大的存储网络，可以与应用能源或动态联合等模组结合使用，因为存储控制器作为所有连接到它的存储器的输入/输出点。\\n\\n连接可以通过将存储器放在存储控制器旁边或放在已经连接到存储控制器的其他存储器旁边来完成（这在控制器周围14格范围内所有方向都适用）。"]
-	quest.209DC1E9AD4C5A84.quest_desc: ["这个任务由 &6AllTheMods 团队&r 或 &2社区贡献者&r 为 AllTheMods 模组包编写。\\n\\n由于所有 &6AllTheMods&r 包都采用 &e保留所有权利&r 许可，这个任务不允许在没有 &6AllTheMods 团队&r 明确许可的情况下用于任何公共包。\\n\\n这个任务是故意隐藏的，如果你看到这个，你正在编辑模式。"]
+	quest.209DC1E9AD4C5A84.quest_desc: ["这个任务由&6AllTheMods团队&r或&2社区贡献者&r为AllTheMods模组包编写。\\n\\n由于所有&6AllTheMods&r包都采用&e保留所有权利&r许可，这个任务不允许在没有&6AllTheMods团队&r明确许可的情况下用于任何公共包。\\n\\n这个任务是故意隐藏的，如果你看到这个，你正在编辑模式。"]
 	quest.25AFD10D008DF30B.quest_desc: ["所有末影箱共享同一个物品栏，每个玩家的物品栏都不同。它们不能组合成一个。"]
 	quest.26988E22BD019628.quest_desc: ["在背包中自动熔炼物品。"]
 	quest.26988E22BD019628.quest_subtitle: "自动"
@@ -91,16 +91,16 @@
 	quest.3A1D07AED2A841E4.quest_desc: ["在背包中自动熔炼物品。"]
 	quest.3A1D07AED2A841E4.quest_subtitle: "自动"
 	quest.3A1D07AED2A841E4.title: "&e自动熔炼升级"
-	quest.3B570B3DB5F6D2CB.quest_subtitle: "x16 存储升级"
+	quest.3B570B3DB5F6D2CB.quest_subtitle: "x16存储升级"
 	quest.3B570B3DB5F6D2CB.title: "&e金升级"
 	quest.3CE3CDB9C93CBDAD.quest_desc: ["[ \"想搞自动合成？去看完整的\", { \"text\": \"集成动力\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"499CF9F39CED8899\" } }, \"指南！\" ]"]
 	quest.3CE3CDB9C93CBDAD.title: "自动合成"
 	quest.3E33730DC2115D26.title: "&e金箱"
-	quest.4007DFA7CC3A5FF2.quest_desc: ["为了避免这个 &o整个任务部分&r 被升级覆盖，请查看精妙背包的升级\\n\\n你需要制作精妙存储的等效升级，但它们的功能大致相同。"]
+	quest.4007DFA7CC3A5FF2.quest_desc: ["为了避免这个&o整个任务部分&r被升级覆盖，请查看精妙背包的升级\\n\\n你需要制作精妙存储的等效升级，但它们的功能大致相同。"]
 	quest.4007DFA7CC3A5FF2.quest_subtitle: "升级的基础"
 	quest.45268A619787288F.title: "&e金制背包"
 	quest.46D756F4DC6CC894.title: "&d下界合金背包"
-	quest.485D5664A17E16DF.quest_subtitle: "x8 存储升级"
+	quest.485D5664A17E16DF.quest_subtitle: "x8存储升级"
 	quest.485D5664A17E16DF.title: "&6铜升级"
 	quest.4A854CD5EC70733E.quest_desc: ["为背包添加一个工作台GUI。"]
 	quest.4B62AF0405F68041.quest_desc: ["添加一个过滤器，让你设置背包需要常备哪些物品。Shift+右键点击容器即可为背包补货。"]
@@ -151,7 +151,7 @@
 		"然后往上一拍存储终端，搞定！整套存储系统你都能访问了。"
 	]
 	quest.6F6A23579CAE8013.title: "把存储连起来"
-	quest.6FBAE89EE782DABA.quest_desc: ["当放置并使用 &a链接工具&r 连接到其他抽屉时，控制器充当\"中心枢纽\"。\\n\\n如果你双击右键此控制器，所有在抽屉网络中有插槽的物品都会被拉入。\\n\\n通过潜行右键点击控制器并手持空物品，你可以打开升级标签页，为这些插槽添加普通存储升级以增加控制器的范围。最大范围为所有方向40个方块，或80x80x80的立方体。"]
+	quest.6FBAE89EE782DABA.quest_desc: ["当放置并使用&a链接工具&r连接到其他抽屉时，控制器充当\"中心枢纽\"。\\n\\n如果你双击右键此控制器，所有在抽屉网络中有插槽的物品都会被拉入。\\n\\n通过潜行右键点击控制器并手持空物品，你可以打开升级标签页，为这些插槽添加普通存储升级以增加控制器的范围。最大范围为所有方向40个方块，或80x80x80的立方体。"]
 	quest.6FBAE89EE782DABA.quest_subtitle: "抽屉的大脑"
 	quest.70902EF96F060672.quest_desc: ["此升级将使抽屉在所有方向上输出红石信号，信号强度表示抽屉的满/空程度。\\n\\n对于多插槽抽屉，升级可以配置要监控的插槽。\\n\\n0 - 表示空。\\n15 - 表示满。"]
 	quest.7649D648A3688D4A.quest_desc: ["拉取升级允许抽屉从任何方向拉入物品。"]
@@ -173,7 +173,7 @@
 	quest.7C0F7A1B3AB9A1A1.title: "&e高级补货升级"
 	quest.7E9E03274A88347D.quest_desc: ["将背包中的堆叠大小增加2。"]
 	quest.7E9E03274A88347D.title: "&f堆叠升级T1"
-	quest.7EF57BBEAA4B6B08.quest_desc: ["想要使用像 &9应用能源2&r 这样的模组创建虚拟存储？\\n\\n这些是升级存储的好方法，但重要的是要讨论 &eNBT物品&r 以及如何最好地存储它们。\\n\\nNBT物品是带有附加标签的物品。附魔物品、有耐久度的物品等等。这些物品带有NBT标签，因此它们通常不会堆叠。\\n\\n当你将大量这些物品存储到像AE2这样的存储系统中时，你可能会导致存档或服务器出现问题。\\n\\n因此，最好将它们存储在箱子或背包中！"]
+	quest.7EF57BBEAA4B6B08.quest_desc: ["想要使用像&9应用能源2&r这样的模组创建虚拟存储？\\n\\n这些是升级存储的好方法，但重要的是要讨论&eNBT物品&r以及如何最好地存储它们。\\n\\nNBT物品是带有附加标签的物品。附魔物品、有耐久度的物品等等。这些物品带有NBT标签，因此它们通常不会堆叠。\\n\\n当你将大量这些物品存储到像AE2这样的存储系统中时，你可能会导致存档或服务器出现问题。\\n\\n因此，最好将它们存储在箱子或背包中！"]
 	quest.7EFBFF5D0DA018E7.quest_desc: ["为背包中想要自动删除的物品添加过滤器。"]
 	quest.7EFBFF5D0DA018E7.quest_subtitle: "为背包中想要自动删除的物品添加过滤器。"
 	quest.7F990FBC1A691020.quest_desc: ["陷阱箱与普通箱子相同，但它们在打开时会发出红石信号，并且不能组合成一个。"]

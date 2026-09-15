@@ -3,7 +3,7 @@
 	quest.0043ED1E4EF2D4A1.quest_subtitle: "打辅助的那几个"
 	quest.0043ED1E4EF2D4A1.title: "&5其他核心"
 	quest.04987E54ADC2C057.title: "&6德格米护符"
-	quest.04D9F6587EF8D9B7.quest_desc: ["&9药水罐&r 可以存储最多 100 种药水。你可以通过在罐上使用空瓶或药水烧瓶来取出药水。\\n\\n薇克精会在药水自动合成时使用这些罐。"]
+	quest.04D9F6587EF8D9B7.quest_desc: ["&9药水罐&r可以存储最多100种药水。你可以通过在罐上使用空瓶或药水烧瓶来取出药水。\\n\\n薇克精会在药水自动合成时使用这些罐。"]
 	quest.04D9F6587EF8D9B7.quest_subtitle: "存储药水"
 	quest.088FCB5267CB7A89.quest_desc: ["这条腰带会给予随机的正面药水效果，持续时间较短。这些效果的强度会有所不同。"]
 	quest.088FCB5267CB7A89.title: "&c不稳定礼物腰带"
@@ -60,7 +60,7 @@
 	quest.2C47C9B566A63135.title: "&a风转草护符"
 	quest.2D0CF18C8B2ABB7D.quest_desc: ["把农艺魔源通道放在正在生长的农作物或树苗附近（15格内），它就能持续收集魔源。至高木树苗一类的魔法植物还会额外产出魔源！\\n\\n注意：对农作物使用骨粉并不会产出魔源。"]
 	quest.2D0CF18C8B2ABB7D.quest_subtitle: "通过植物的生长生成魔源"
-	quest.3142A40E1EAEBAA3.quest_desc: ["&6探测杖&r 提供魔法探测和占卜功能。\\n\\n这允许你看到附近的魔法生物，并帮助你找到紫水晶！"]
+	quest.3142A40E1EAEBAA3.quest_desc: ["&6探测杖&r提供魔法探测和占卜功能。\\n\\n这允许你看到附近的魔法生物，并帮助你找到紫水晶！"]
 	quest.3142A40E1EAEBAA3.quest_subtitle: "魔法探测器"
 	quest.3182E8AF755104E4.quest_desc: ["在格挡伤害时，&9巫师之盾&r会为使用者提供短时间的魔力再生和法术伤害提升效果。\\n\\n此外，盾牌还会随时间推移用佩戴者的魔力修复自身。"]
 	quest.3182E8AF755104E4.title: "&5巫师之盾"
@@ -68,7 +68,7 @@
 	quest.33682F4B44950123.quest_subtitle: "讲究的木头"
 	quest.33682F4B44950123.title: "&9至高木"
 	quest.34A173721735401B.title: "&d薇克精护符"
-	quest.36CDA39C23D3AA2B.quest_desc: ["此任务由&6AllTheMods 工作组&r 或&2社区贡献者&r 为 AllTheMods 模组包编写。\\n\\n由于所有&6AllTheMods&r 包均受&e保留所有权利&r 许可，此任务不得在未经&6AllTheMods 团队&r 明确许可的情况下用于任何非 AllTheMods 团队发布的公共包中。\\n\\n此任务故意隐藏，如果你看到此任务，说明你正在编辑模式。"]
+	quest.36CDA39C23D3AA2B.quest_desc: ["此任务由&6AllTheMods工作组&r或&2社区贡献者&r为AllTheMods模组包编写。\\n\\n由于所有&6AllTheMods&r包均受&e保留所有权利&r许可，此任务不得在未经&6AllTheMods团队&r明确许可的情况下用于任何非AllTheMods团队发布的公共包中。\\n\\n此任务故意隐藏，如果你看到此任务，说明你正在编辑模式。"]
 	quest.3AE659C0C3850002.quest_desc: ["德格米会以&a经验宝石&r的形式帮你攒经验！这东西没什么大用，随便花！"]
 	quest.3AE659C0C3850002.quest_subtitle: "凝固的经验"
 	quest.3AE659C0C3850002.title: "&a经验"
@@ -92,7 +92,7 @@
 	quest.40BC67BDEE15D1DE.quest_desc: ["要制作魔源宝石，我们需要将青金石或紫水晶碎片放入灌注室。随着时间的推移，这些会转化为魔源宝石！"]
 	quest.40BC67BDEE15D1DE.quest_subtitle: "新生魔艺里的「铁」"
 	quest.40BC67BDEE15D1DE.title: "&d魔源宝石"
-	quest.41A0BE357C8A74E1.quest_desc: ["&9炼金魔源通道&r 从相邻的药水罐中产生魔源。\\n\\n产生的魔源量因药水和复杂度而异。"]
+	quest.41A0BE357C8A74E1.quest_desc: ["&9炼金魔源通道&r从相邻的药水罐中产生魔源。\\n\\n产生的魔源量因药水和复杂度而异。"]
 	quest.41A0BE357C8A74E1.quest_subtitle: "通过药水获取能量"
 	quest.441C0659ED28D935.quest_desc: ["1 级魔符需要3级经验才能制作。"]
 	quest.441C0659ED28D935.title: "&a1级魔符"
@@ -111,7 +111,7 @@
 	quest.4D4D383E210A4897.quest_desc: ["&d&lArs&r 的&5精华&r是另一种极其重要的材料。几乎每个法术配方和附魔装置配方都要用到它。"]
 	quest.4D4D383E210A4897.quest_subtitle: "这些你会用得上……"
 	quest.4D4D383E210A4897.title: "&2新生&r&9魔&r&4艺&r&6精华"
-	quest.51162B9185A45BB1.quest_desc: ["这张弓可以使用抄写台刻写法术。\\n\\n以法力为代价，箭矢会变成法术箭，并在目标上施放法术。\\n\\n如果没有箭矢，将施放一个造成 0 伤害的法术箭。如果法力不足，将发射普通箭矢。\\n\\n&9附魔弓&r 还可以使用特殊强化箭矢来增强刻写的法术。"]
+	quest.51162B9185A45BB1.quest_desc: ["这张弓可以使用抄写台刻写法术。\\n\\n以法力为代价，箭矢会变成法术箭，并在目标上施放法术。\\n\\n如果没有箭矢，将施放一个造成0伤害的法术箭。如果法力不足，将发射普通箭矢。\\n\\n&9附魔弓&r还可以使用特殊强化箭矢来增强刻写的法术。"]
 	quest.51162B9185A45BB1.title: "&5巫师之弓"
 	quest.542C6D76B579886C.quest_desc: ["有了这些种子，我们就该做出第一种纤维——&5法师之花纤维&r。\\n\\n它是做各种魔法饰品的材料！"]
 	quest.542C6D76B579886C.quest_subtitle: "讲究的线"
@@ -178,7 +178,7 @@
 	quest.6EDA801044ED0445.title: "&d附魔法术炮塔"
 	quest.6F3602F5600A6221.quest_desc: ["3 级魔符需要10级经验才能制作。\\n\\n它们还需要一个&6大法师法术书&r。"]
 	quest.6F3602F5600A6221.title: "&43级魔符"
-	quest.77145113CD5B26FB.quest_desc: ["魔源浆果比其他来源产生更多的魔源。\\n\\n这还会在周围 3x3 区域内将草或泥土转化为菌丝。如果空间为空，它还会在周围生长蘑菇。"]
+	quest.77145113CD5B26FB.quest_desc: ["魔源浆果比其他来源产生更多的魔源。\\n\\n这还会在周围3x3区域内将草或泥土转化为菌丝。如果空间为空，它还会在周围生长蘑菇。"]
 	quest.77145113CD5B26FB.quest_subtitle: "从附近的食物中生成魔源"
 	task.00BEC4A28F318E6F.title: "手镯"
 	task.01FD75641E5EA5E4.title: "法力"
@@ -187,13 +187,13 @@
 	task.0E6876A34D1975EB.title: "保留所有权利"
 	task.15C6E9C02D1FBEC0.title: "2 级魔符"
 	task.1B916AE67F84E6D7.title: "创建你的第一个法术"
-	task.1CC556A6921208B8.title: "1 级符文"
+	task.1CC556A6921208B8.title: "1级符文"
 	task.2BC0F5A88E2F03C3.title: "至高木"
 	task.388545A0E3B4930D.title: "保留所有权利"
 	task.470F4163DBE13B6B.title: "棱镜透镜"
 	task.56CA4F2E7116C934.title: "矿石晶洞傀儡"
 	task.5B96C6088CE5EC1E.title: "功能护符"
-	task.65D68BEEB36FC805.title: "3 级符文"
+	task.65D68BEEB36FC805.title: "3级符文"
 	task.6821298BA1E6D9C4.title: "筛选魔符"
 	task.700585855857088E.title: "其他核心"
 	task.736B8E029232D795.title: "新生魔艺精华"

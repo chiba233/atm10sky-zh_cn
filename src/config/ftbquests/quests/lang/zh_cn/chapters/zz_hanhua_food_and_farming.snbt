@@ -95,7 +95,7 @@
 	quest.528304AA09EA8C23.quest_desc: ["一个都不能少！"]
 	quest.528304AA09EA8C23.quest_subtitle: "钓个没完"
 	quest.528304AA09EA8C23.title: "钓鱼去"
-	quest.55C4824DAD905512.quest_desc: ["这个任务由 &6AllTheMods 团队&r 或 &2社区贡献者&r 为 AllTheMods 模组包编写。\\n\\n由于所有 &6AllTheMods&r 包都采用 &e保留所有权利&r 许可，此任务不得在未经 &6AllTheMods 团队&r 明确许可的情况下用于任何非 AllTheMods 团队发布的公共包。\\n\\n此任务故意隐藏，如果你看到这个，说明你正在编辑模式。"]
+	quest.55C4824DAD905512.quest_desc: ["这个任务由&6AllTheMods团队&r或&2社区贡献者&r为AllTheMods模组包编写。\\n\\n由于所有&6AllTheMods&r包都采用&e保留所有权利&r许可，此任务不得在未经&6AllTheMods团队&r明确许可的情况下用于任何非AllTheMods团队发布的公共包。\\n\\n此任务故意隐藏，如果你看到这个，说明你正在编辑模式。"]
 	quest.58495CFBF4F20CE9.quest_desc: ["这个方块就像厨房柜台，只不过在空中。\\n\\n而且你不能在上面放东西。"]
 	quest.58495CFBF4F20CE9.quest_subtitle: "地方大得很，能整的\"活动\"可多了！"
 	quest.58495CFBF4F20CE9.title: "更多存储空间"

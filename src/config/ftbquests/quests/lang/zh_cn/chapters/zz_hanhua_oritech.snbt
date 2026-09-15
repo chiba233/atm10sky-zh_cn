@@ -21,9 +21,9 @@
 	quest.1DBF1D4061518B0B.title: "精炼矿石"
 	quest.1F139091C1B4E50B.quest_subtitle: "普通电路"
 	quest.208F759905CF7744.quest_desc: [
-		"无人机港速度相当快，但要正常工作，二者之间至少需要相隔&450 格&r。"
+		"无人机港速度相当快，但要正常工作，二者之间至少需要相隔&450格&r。"
 		""
-		"要使用无人机港，先放下 2 个无人机港，并用你的&5目标指示器&r对其中一个&a潜行右键&r，记录它的位置。打开第二个无人机港的界面，把&5目标指示器&r放进去。"
+		"要使用无人机港，先放下2个无人机港，并用你的&5目标指示器&r对其中一个&a潜行右键&r，记录它的位置。打开第二个无人机港的界面，把&5目标指示器&r放进去。"
 		""
 		"现在，当放入了&5目标指示器&r的那个无人机港中有物品时，它就会发射无人机来运输这些物品。"
 	]
@@ -66,7 +66,7 @@
 		]
 	quest.46EFCAE81C09368A.quest_subtitle: "所有机器都要用到机器核心"
 	quest.46EFCAE81C09368A.title: "机器核心"
-	quest.49D03933633D6A45.quest_subtitle: "它是 AI"
+	quest.49D03933633D6A45.quest_subtitle: "它是AI"
 	quest.4CFA7EE8174E3FD8.quest_subtitle: "提高能量输入速率"
 	quest.4EAD06B0B3AD7D6E.quest_subtitle: "将粗矿粉碎成碎块"
 	quest.4EAD06B0B3AD7D6E.title: "碎块"
@@ -82,7 +82,7 @@
 	]
 	quest.5189D72ED3808DC6.quest_subtitle: "用激光给紫水晶充能"
 	quest.53880926982968FD.quest_subtitle: "说出我的名字"
-	quest.53D5A6F210DF199C.quest_subtitle: "平稳传输 10k RF/t"
+	quest.53D5A6F210DF199C.quest_subtitle: "平稳传输10k RF/t"
 	quest.53D5A6F210DF199C.title: "传输能量"
 	quest.55DCCC4035B8BB2A.quest_subtitle: "将下界合金与铂混合"
 	quest.58819CE09A648A43.quest_subtitle: "这些会用于制造大多数机器"
