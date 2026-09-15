@@ -33,9 +33,10 @@ ls -d versions/[0-9]*        # 这就是 MC_VERSIONS，新建一个目录＝多�
 | `quest_overrides.snbt` | 该版专属的任务书中文（见下「什么时候该分叉」） | `gen_quest_lang_patches.py` 等 |
 | `unobtainable.json` | 该版在 CurseForge 上**已被删除**的 jar，按 fileID 逐个登记并写 `why` | `fetch_pack.py`、`build_version_db.py` |
 | `unpatchable.json` | `src/upstream/` 里某条改动**在这一版套不上**，逐条登记并写 `why` | `gen_upstream_patches.py` |
+| `quest_untranslated.json` | 任务书底本（该版上游不带中文时是 en_us）里**有意不译**的键，分组写 `why`，只认写死的键名。漏登记或登记过期都红 | `gen_quest_lang_patches.py` |
 | `upstream/<原文件路径>.json` | 该版专属的上游映射，在通用映射**之后**对同一段文本再套一次 | `gen_upstream_patches.py` |
 
-后三个是登记表，共同的规矩：**双向 fail-closed**。登记了但实际还在 → 红（登记过期）；
+后四个是登记表，共同的规矩：**双向 fail-closed**。登记了但实际还在 → 红（登记过期）；
 没登记又确实缺 → 红（有人在偷偷放行）。反例见 `scripts/compliance/test_gates.py`。
 
 **在册版本的数量随时会变。** 现在只有 2.0.4 一个，是因为比它更老的整合包版本不打算
