@@ -31,7 +31,7 @@
  "sodium.options.particle_quality.tooltip": "控制屏幕上同时存在的最大粒子数量。",
  "sodium.options.chunk_fade_time.value": "%s 秒",
  "sodium.options.smooth_lighting.tooltip": "启用世界中方块的平滑光照与着色。这会略微增加区块加载或更新的耗时，但不影响帧率。",
- "sodium.options.biome_blend.value": "%sx%s 方块",
+ "sodium.options.biome_blend.value": "%s 方块",
  "sodium.options.biome_blend.tooltip": "生物群系颜色平滑混合的范围（以方块为单位）。默认为 5x5。数值越高，区块加载或更新耗时大幅增加，而画质提升甚微。",
  "sodium.options.entity_distance.tooltip": "实体渲染使用的渲染距离倍数。数值越小，实体可见的最大距离越近；数值越大越远。",
  "sodium.options.entity_shadows.tooltip": "启用后，生物与其他实体下方将渲染基础阴影。",
