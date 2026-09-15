@@ -29,6 +29,7 @@ ls -d versions/[0-9]*        # 这就是 MC_VERSIONS，新建一个目录＝多�
 | `overrides.sha256` | 该版官方 overrides 的内容指纹。下载回来对不上就当场红 | `fetch_pack.py`、三个工作流 |
 | `neoforge.txt` | 该版的 NeoForge 版本号，出货说明里按版本现填 | `build_dist.sh` |
 | `default_resource_packs.txt` | 该版 `options.txt` 里 `resourcePacks` 的默认顺序。**没实测就留空并写明原因**——那串顺序必须真起一次实例、干净退出才拿得到；抄别的包会让汉化包被压在内置包下面，而且没有任何提示。留空时安装器不伪造这一行，只提示玩家先启动一次 | `build_dist.sh`、`test_installer.py` |
+| `generated_baseline.txt` | 该版各类生成物的**实测**份数，只抄 CI 打印的实测行，逐项注明 run。`build_dist.sh` 与 `verify_dist.py` 的下限都从这里算，取不到就红。数字掉了先查是不是删错了东西，不许为了变绿往下改 | `build_dist.sh`、`verify_dist.py` |
 | `quest_overrides.snbt` | 该版专属的任务书中文（见下「什么时候该分叉」） | `gen_quest_lang_patches.py` 等 |
 | `unobtainable.json` | 该版在 CurseForge 上**已被删除**的 jar，按 fileID 逐个登记并写 `why` | `fetch_pack.py`、`build_version_db.py` |
 | `unpatchable.json` | `src/upstream/` 里某条改动**在这一版套不上**，逐条登记并写 `why` | `gen_upstream_patches.py` |

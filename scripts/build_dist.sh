@@ -37,15 +37,33 @@ COMMON="build/common"
 BANNERS=$(find "$COMMON/resourcepacks/ATM10Sky汉化包/assets/atm/textures/questpics" -name '*.png' 2>/dev/null | wc -l | tr -d ' ')
 BUTTONS=$(find "$COMMON/config/fancymenu/assets" -name '*.png' 2>/dev/null | wc -l | tr -d ' ')
 # 导览书全是 gen_books.py 现产的（仓库里一份副本都没有），漏了就是一整套英文导览书。
-# 下限 1300：原先写 1500，是「把与上游逐字节相同的页也照搬进来」那会儿的量。
-# 现在两类页不再输出——套完映射与原文一字不差的（游戏按文件回落到 en_us，
-# 发了也是同样的英文），以及模组自己就带中文的——所以基数本来就该低一截。
 BOOKS=$(find "$COMMON/resourcepacks/ATM10Sky汉化包/assets" \
   -path '*patchouli_books*' -o -path '*ae2guide*' -o -path '*oracle-index*' 2>/dev/null | grep -c . || true)
+# 下限取 versions/<版本>/generated_baseline.txt 里的**实测基线**，不写死魔数。
+# 整合包之间模组集合不同，同一套映射能落地的份数本来就不一样；拿别的包量出来的
+# 数字卡本包，红的是「模组换了」而不是「汉化少了」，那种红只会逼人去调数字。
+# 基线取不到就红——判据没了不许放行（fail-closed）。
+# build/common 是**版本中立**的公共出货树，内容由生成时那一个 ATM_PACK_ROOT 决定，
+# 所以基线取正在构建的第一个整合包版本的那一份。
+# 实测数先打出来再比：基线缺项或记错时，这一行就是该填进去的真值。
+echo "生成物实测：books=${BOOKS:-0} banners=${BANNERS:-0} buttons=${BUTTONS:-0}"
+BASE_MC="${MC_VERSIONS%% *}"
+BASE_FILE="versions/${BASE_MC}/generated_baseline.txt"
+[ -f "$BASE_FILE" ] || { echo "❌ 缺 $BASE_FILE —— 取不到生成物基线，判不了就不许放行"; exit 1; }
+baseline() {
+  local v
+  v=$(sed -n "s/^[[:space:]]*$1[[:space:]]*=[[:space:]]*\([0-9][0-9]*\).*/\1/p" "$BASE_FILE" | head -1)
+  # 走 stderr：这个函数在 $(...) 里调，写 stdout 的报错会被吞进变量
+  [ -n "$v" ] || { echo "❌ $BASE_FILE 里没有 $1 这一项" >&2; exit 1; }
+  echo "$v"
+}
+BOOKS_MIN=$(baseline books)
+BANNERS_MIN=$(baseline banners)
+BUTTONS_MIN=$(baseline buttons)
 MISSING=""
-[ "${BOOKS:-0}" -ge 1300 ] || MISSING="$MISSING 导览书(${BOOKS}/1300)"
-[ "${BANNERS:-0}" -ge 200 ] || MISSING="$MISSING 横幅(${BANNERS}/200)"
-[ "${BUTTONS:-0}" -ge 14 ]  || MISSING="$MISSING 按钮(${BUTTONS}/14)"
+[ "${BOOKS:-0}"   -ge "$BOOKS_MIN" ]   || MISSING="$MISSING 导览书(${BOOKS}/${BOOKS_MIN})"
+[ "${BANNERS:-0}" -ge "$BANNERS_MIN" ] || MISSING="$MISSING 横幅(${BANNERS}/${BANNERS_MIN})"
+[ "${BUTTONS:-0}" -ge "$BUTTONS_MIN" ] || MISSING="$MISSING 按钮(${BUTTONS}/${BUTTONS_MIN})"
 for f in \
   "$COMMON/resourcepacks/ATM10Sky汉化包/assets/hanhua_trophies/lang/zh_cn.json" \
   "$COMMON/resourcepacks/ATM10Sky汉化包/assets/hanhua_wood_names/lang/zh_cn.json" \
