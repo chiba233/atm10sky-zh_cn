@@ -3,6 +3,8 @@
 #
 # ── 生成器侧：build_dist.sh 开头「生成物实测」那一行 ──
 # Build run 34952674881（commit 2133499）：books=1303 banners=151 buttons=20
-books   = 1303   # patchouli_books / ae2guide / oracle-index 的输出文件数
+# Build run 34958040928（commit ed085bb）：books=1246 banners=151 buttons=20
+#   books 1303 → 1246：砍掉本包没有的模组的资源包译文与导览书（6e1365c、023a0ae）
+books   = 1246   # patchouli_books / ae2guide / oracle-index 的输出文件数
 banners = 151    # 资源包里的 questpics
 buttons = 20     # config/fancymenu/assets 下全部 png，不只是生成器画的按钮
