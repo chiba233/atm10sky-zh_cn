@@ -280,7 +280,7 @@ python3 scripts/test_installer.py                       # 安装器端到端测�
 | `check_module_hashes.py` | VaultPatcher 模块被改动过没有——改了就得跑 `gen_module_hashes.py` 重钉 |
 | `check_bee_names_in_quests.py` | 任务书提到某只蜜蜂时用的是不是 JEI 里那个名字；蜜脾／蜜脾块／刷怪蛋的名字是拿蜂名现拼的，一并判 |
 | `check_item_names_in_quests.py` | 同一条判据推广到别的模组（mob_grinding_utils / occultism / relics）；另按任务键绑定工业先锋无限工具档位与实际 tooltip 译名 |
-| `check_jetpack_tiers.py` | Iron Jetpacks 的等级名不在 lang 里而在整合包 config 里，缺了会静默回退英文 |
+| `check_jetpack_tiers.py` | Iron Jetpacks 的等级名不在 lang 里而在整合包 config 里（整合包没带 config 时取 jar 里写死的默认档位），缺了会静默回退英文 |
 | `check_oracle_index_paths.py` | 神谕目录的书有两套目录约定，放错那条路径的译文永远不会被读、且不报错 |
 | `check_kubejs_classfilter.py` | 脚本里 loadClass 了被 KubeJS 类过滤表拒掉的类——运行时才炸，加载阶段全绿 |
 | `check_dynamic_substrings.py` | dynamic 模块的 `@` 子串键互不为子串 |
