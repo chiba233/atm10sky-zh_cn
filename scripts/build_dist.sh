@@ -140,8 +140,9 @@ python3 scripts/compliance/check_kubejs_classfilter.py "${ATM_PACK_ROOT:-pack}/m
 python3 scripts/compliance/check_pack_probe.py "$TREE"
 # Iron Jetpacks 的等级名（振金/难得素/创造…）不在 lang 里，在整合包 config 里；
 # lang 缺 `jetpack.<name>.name` 就静默回退成英文，跟翻好了完全无法区分。
-# 档位清单随整合包版本变，拿该版官方 config 现查，不手写死在仓库里。
-python3 scripts/compliance/check_jetpack_tiers.py "$UPROOT" "$TREE"
+# 档位清单随整合包版本变，拿该版官方 config 现查，不手写死在仓库里；
+# 整合包没带 config 时读 jar 里写死的默认档位。
+python3 scripts/compliance/check_jetpack_tiers.py "$UPROOT" "$TREE" --mods "${ATM_PACK_ROOT:-pack}/mods"
 # 任务书提到某只蜜蜂时，用的必须是玩家在 JEI 里搜得到的那个名字。
 # 「幽灵蜜蜂」vs 物品名「恶魂蜜蜂」这种，照任务书去搜是搜不到的——比漏翻更难受。
 python3 scripts/compliance/check_bee_names_in_quests.py \

@@ -47,6 +47,7 @@
 import json
 import os
 import shutil
+import struct
 import subprocess
 import sys
 import tempfile
@@ -474,12 +475,27 @@ def _ijp_fixture(tmp, tiers, keys, make_config=True):
     return up, tmp / 'ijptree'
 
 
-def _ijp_run(tmp, up, tree):
+def _ijp_run(tmp, up, tree, mods=None):
     r = subprocess.run([sys.executable,
                         str(tmp / 'scripts' / 'compliance' / 'check_jetpack_tiers.py'),
-                        str(up), str(tree)],
+                        str(up), str(tree)] + (['--mods', str(mods)] if mods else []),
                        capture_output=True, text=True, cwd=tmp)
     return r.returncode, r.stdout + r.stderr
+
+
+def _ijp_mods(tmp, strings):
+    """mods 目录里放一个假 IronJetpacks jar，ModJetpacks.class 只有常量池（检查只读常量池）。"""
+    pool, n = b'', 1
+    for s in strings:
+        b = s.encode()
+        pool += b'\x01' + struct.pack('>H', len(b)) + b + b'\x08' + struct.pack('>H', n)
+        n += 2
+    cls = b'\xca\xfe\xba\xbe\x00\x00\x00\x41' + struct.pack('>H', n) + pool
+    m = tmp / 'ijpmods'
+    m.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(m / 'IronJetpacks-test.jar', 'w') as z:
+        z.writestr('com/blakebr0/ironjetpacks/lib/ModJetpacks.class', cls)
+    return m
 
 
 @missing_case('上游有档位而 lang 里没有对应等级名 → 必须红')
@@ -527,6 +543,41 @@ def _m13(tmp, tree):
         {'jetpack.iron.name': '铁'})
     rc, out = _ijp_run(tmp, up, t)
     return rc == 0 and '1 个等级名全部有译' in out
+
+
+# 整合包不带 config 时档位取 jar 里写死的默认值——换了取数的地方，判据不能跟着松。
+@missing_case('整合包没带 config → 读 jar 默认档位，缺等级名照样红')
+def _m65(tmp, tree):
+    up, t = _ijp_fixture(tmp, [], {'jetpack.iron.name': '铁'}, make_config=False)
+    mods = _ijp_mods(tmp, ['iron', 'tag:c:ingots/iron', 'creative', 'null'])
+    rc, out = _ijp_run(tmp, up, t, mods)
+    return rc != 0 and 'jetpack.creative.name' in out
+
+
+@missing_case('整合包没带 config、jar 默认档位全都有译 → 必须绿')
+def _m66(tmp, tree):
+    up, t = _ijp_fixture(tmp, [], {'jetpack.iron.name': '铁', 'jetpack.creative.name': '创造'},
+                         make_config=False)
+    mods = _ijp_mods(tmp, ['iron', 'tag:c:ingots/iron', 'creative', 'null'])
+    rc, out = _ijp_run(tmp, up, t, mods)
+    return rc == 0 and '2 个等级名全部有译' in out
+
+
+@missing_case('整合包没带 config，mods 里没有带默认档位的 jar → 必须红')
+def _m67(tmp, tree):
+    up, t = _ijp_fixture(tmp, [], {'jetpack.iron.name': '铁'}, make_config=False)
+    empty = tmp / 'emptymods'
+    empty.mkdir()
+    rc, out = _ijp_run(tmp, up, t, empty)
+    return rc != 0 and 'ModJetpacks' in out
+
+
+@missing_case('默认档位类的写法变了、字符串排不成对 → 必须红，不许猜')
+def _m68(tmp, tree):
+    up, t = _ijp_fixture(tmp, [], {'jetpack.iron.name': '铁'}, make_config=False)
+    mods = _ijp_mods(tmp, ['iron', 'tag:c:ingots/iron', 'Something Else'])
+    rc, out = _ijp_run(tmp, up, t, mods)
+    return rc != 0 and '排不成' in out
 
 
 # ── 第五组反例：任务书里的蜜蜂名 ─────────────────────────────────────────
