@@ -205,7 +205,13 @@ def check_reproducible(paths):
     if not ok:
         print('ℹ️ 不是标准构建环境，跳过产物字节比对（%s）' % '；'.join(diff[:2]))
         return []
-    rec = Path(__file__).resolve().parent.parent / 'versions' / 'dist.sha256'
+    # 这里算错一层就会**静悄悄地永远比不到东西**：路径不存在 → have 是空表 →
+    # 每个包都走「还没记录」那条分支，打印一行 ℹ️ 就过，看上去和「记录相符」
+    # 一模一样。所以先确认仓库根认得出来，认不出就红。
+    if not (ROOT / 'versions').is_dir():
+        sys.exit('❌ 认不出仓库根：%s 下没有 versions/。脚本大概挪过位置，'
+                 '路径少算一层的话这一节会永远比不到东西，而且看不出来' % ROOT)
+    rec = ROOT / 'versions' / 'dist.sha256'
     have = json.loads(rec.read_text(encoding='utf-8')) if rec.is_file() else {}
     bad, news = [], {}
     for p in paths:
