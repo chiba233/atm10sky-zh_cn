@@ -36,6 +36,23 @@ ATM 那批早就改名成 `.snbt_merged` 了，目录里没有竞争者。
 上游自己没译的键（在任何上游文件里都找不到）留在 `chapters/hanhua_additions.snbt`，
 它们不与任何文件撞键，放哪都一样。
 
+## 上游不带中文时，底本取上游的 en_us
+
+**底本一律取上游自己的字节**：上游自带 zh_cn 时取它，没有时取 en_us。
+本包所在的整合包任务书只带 en_us、es_es、pt_br、ru_ru，没有 zh_cn，走的是后一种。
+
+底本决定「有哪些键、哪个文件持有它」。取上游的，这两件事就始终跟着上游走：
+上游加一章、挪一个键，出货文件如实反映，键对不上时下面那几道自检当场报出来。
+出货的是**完整**文件，有中文的填中文、没中文的留英文，没译到的键不会从文件里消失。
+
+代价是「漏译一条」和「有意不译一条」在产物里长得一模一样，上游新加的键因此能
+一路静默出到玩家眼前。所以每个没被覆盖的键都要在
+`versions/<版本>/quest_untranslated.json` 里连同理由登记，差额一律红（见
+load_untranslated）。
+
+走这条路之前要**正面证明**上游确实不带 zh_cn（任务书 lang 目录在、且至少有一种
+别的语言），「没带中文」和「没取到上游」在代码里长得一模一样。
+
 ⚠️ 用原文件名出货的前提是**整份文件都在**：只带我们那几条会把上游同名文件整个盖掉。
 所以这里写出去的是「上游全文 + 我们的覆盖」，不是 delta。（2026-07 就踩过一次：
 只有 2 个键的 aether.snbt 盖掉了上游同名文件的 167 个键。）
@@ -43,6 +60,7 @@ ATM 那批早就改名成 `.snbt_merged` 了，目录里没有竞争者。
 用法:
     python3 scripts/gen_quest_lang_patches.py <上游目录> <出货树> [整合包版本]
 """
+import json
 import re
 import sys
 from pathlib import Path
@@ -127,40 +145,128 @@ def collect_delta(tree, mc):
     return srcs, delta, ver
 
 
+def load_untranslated(version, home, delta):
+    """读该版的「有意不译」登记表，返回 (登记的键集合, 表的路径)。
+
+    底本取上游 en_us 时，没被覆盖的键原样出英文，谁都不会报错。所以「不译」必须是
+    逐条登记过的决定，而不是漏掉的结果。
+
+    登记只认写死的键名，不认通配：通配会把上游**以后**新加的同类键一起放过，
+    那就又变回静默跳过了。
+    """
+    p = ROOT / 'versions' / str(version) / 'quest_untranslated.json'
+    if not p.is_file():
+        raise SystemExit(
+            '❌ 找不到 %s。\n'
+            '   底本是上游 en_us，没被覆盖的键会原样出英文，哪些键有意不译\n'
+            '   必须逐条登记；表不在就等于这道闸没跑。' % p.relative_to(ROOT))
+    doc = json.loads(p.read_text(encoding='utf-8'))
+    groups = doc.get('groups')
+    if not isinstance(groups, dict) or not groups:
+        raise SystemExit('❌ %s 里没有 groups' % p.relative_to(ROOT))
+    owner = {}
+    for name, ent in groups.items():
+        ent = ent or {}
+        if not str(ent.get('why') or '').strip():
+            raise SystemExit(
+                '❌ %s 的分组「%s」没写 why。不译是个决定，下一版得有人能判断\n'
+                '   这个决定还成不成立——没有理由的登记跟漏掉分不出来。'
+                % (p.relative_to(ROOT), name))
+        keys = ent.get('keys')
+        if not (isinstance(keys, list) and keys and all(isinstance(k, str) for k in keys)):
+            raise SystemExit('❌ %s 的分组「%s」的 keys 要是一个非空的键名列表'
+                             % (p.relative_to(ROOT), name))
+        for k in keys:
+            if k in owner:
+                raise SystemExit('❌ %s 里 %s 在「%s」与「%s」下登记了两遍'
+                                 % (p.relative_to(ROOT), k, owner[k], name))
+            if k not in home:
+                raise SystemExit(
+                    '❌ %s 登记了 %s，但该版底本里没有这个键。\n'
+                    '   登记已经过期：上游删了它，把这一条去掉。'
+                    % (p.relative_to(ROOT), k))
+            if k in delta:
+                raise SystemExit(
+                    '❌ %s 登记 %s 不译，可本包已经译了它。\n'
+                    '   登记已经过期：把这一条去掉，否则下次漏译时这一条会替它挡住闸。'
+                    % (p.relative_to(ROOT), k))
+            owner[k] = name
+    return set(owner), p
+
+
+def assert_no_upstream_zh(uproot):
+    """确认「上游确实不带 zh_cn 任务书」，而不是包没取到 / 路径写错。
+
+    后者静默放过，就会发出一个把上游中文整个丢掉的包。所以要求**正面证明**
+    看到的是一个真实的整合包：任务书 lang 目录必须在，且里面至少有一种别的语言。
+    """
+    lang_root = uproot / LANG.rsplit('/', 1)[0]
+    if not lang_root.is_dir():
+        raise SystemExit('❌ 上游连 %s 都没有：%s\n'
+                         '   多半是整合包没取到或路径写错，不是「上游不带中文」。'
+                         % (LANG.rsplit('/', 1)[0], uproot))
+    others = sorted(p.name for p in lang_root.iterdir()
+                    if p.name != 'zh_cn' and (p.is_dir() or p.suffix == '.snbt'))
+    if not others:
+        raise SystemExit('❌ 上游 %s 下一种语言都没有：%s\n'
+                         '   空目录不能当作「上游不带中文」的证据。'
+                         % (LANG.rsplit('/', 1)[0], uproot))
+    if (uproot / LANG).exists():
+        raise SystemExit('❌ 上游有 %s 目录，里面却一个 .snbt 都没有：%s\n'
+                         '   判不了是「没带中文」还是「没取全」，不许按英文底本出货。'
+                         % (LANG, uproot))
+    print('   上游不带 zh_cn 任务书（另有 %d 种语言：%s）'
+          % (len(others), '、'.join(others[:4])))
+
+
 def main():
     if len(sys.argv) < 3:
         raise SystemExit(__doc__.strip().splitlines()[-1])
     uproot, tree = Path(sys.argv[1]), Path(sys.argv[2])
     mc = sys.argv[3] if len(sys.argv) > 3 else None
 
-    upstream_dir = uproot / LANG
-    if not upstream_dir.is_dir():
-        raise SystemExit('❌ 上游目录里没有 %s：%s' % (LANG, uproot))
+    base_dir = uproot / LANG
+    up_files = sorted(base_dir.glob('*.snbt')) + sorted((base_dir / 'chapters').glob('*.snbt'))
+    fallback_en = not up_files
 
     srcs, delta, ver = collect_delta(tree, mc)
 
-    # 上游每个键归属哪个文件（上游自己跨文件不许重键，重了说明我们的假设塌了）
-    up_files = sorted(upstream_dir.glob('*.snbt')) + sorted((upstream_dir / 'chapters').glob('*.snbt'))
-    if not up_files:
-        raise SystemExit('❌ 上游 %s 下一个 .snbt 都没有' % LANG)
+    if fallback_en:
+        # 上游一条中文都没有 → 底本取上游的 en_us（见本文件顶部）。
+        # 不能拿我们自己那棵 zh_cn 当底：那等于把「我们译过什么」当成「有哪些键」，
+        # 没译到的键就从出货文件里整个消失了。
+        assert_no_upstream_zh(uproot)
+        base_dir = uproot / (LANG.rsplit('/', 1)[0] + '/en_us')
+        up_files = sorted(base_dir.glob('*.snbt*')) + sorted((base_dir / 'chapters').glob('*.snbt*'))
+        if not up_files:
+            raise SystemExit('❌ 上游 %s 下一个 .snbt 都没有——判不了有哪些键' % base_dir)
+        print('   底本取上游 en_us（%d 个文件）' % len(up_files))
+
+    # 底本每个键归属哪个文件（跨文件不许重键，重了说明我们的假设塌了）
     up_pairs, home = {}, {}
     for p in up_files:
-        rel = p.relative_to(upstream_dir).as_posix()
+        # splitter 进过一次游戏会把 xxx.snbt 改名成 xxx.snbt_merged，而它只读 .snbt 结尾的
+        # 文件：出货发成 .snbt_merged 等于这份文件永远不会被读，所以还原成 .snbt。
+        rel = p.relative_to(base_dir).as_posix().replace('.snbt_merged', '.snbt')
         up_pairs[rel] = blocks(p)
         for k, _ in up_pairs[rel]:
             if k in home:
-                raise SystemExit('❌ 上游自己重键：%s 同时在 %s 与 %s' % (k, home[k], rel))
+                raise SystemExit('❌ 底本自己重键：%s 同时在 %s 与 %s' % (k, home[k], rel))
             home[k] = rel
 
-    # 打补丁：上游全文 + 我们的覆盖，位置不动
+    # 打补丁：底本全文 + 我们的覆盖，位置不动
+    #
+    # 一个覆盖都没命中的底本文件：底本是上游 zh_cn 时不写，那份中文本来就在玩家盘上；
+    # 底本是 en_us 时**要写**，zh_cn 这一侧空无一物，不写就没有文件持有这些键。
     placed, touched = set(), []
     for rel, pairs in up_pairs.items():
         hits = [k for k, _ in pairs if k in delta]
-        if not hits:
+        if not hits and not fallback_en:
             continue
         write(tree / LANG / rel, [(k, delta[k] if k in delta else blk) for k, blk in pairs])
         placed.update(hits)
-        touched.append((rel, len(hits)))
+        if hits:
+            touched.append((rel, len(hits)))
 
     # 上游没有的键：单独一个文件，它们跟谁都不撞
     extra = sorted(k for k in delta if k not in placed)
@@ -206,10 +312,31 @@ def main():
         if k not in seen:
             raise SystemExit('❌ 覆盖键 %s 没出现在出货树里' % k)
 
-    print('✅ 任务书语言：%d 条覆盖打进上游 %d 个文件%s，上游没有的 %d 条进 %s'
+    # 底本是英文时，没被覆盖的键就原样出英文。漏一条和有意不译一条，在产物里
+    # 长得一模一样，所以后者必须逐条登记过，差额一律红。
+    registered = set()
+    if fallback_en:
+        if not mc:
+            raise SystemExit(
+                '❌ 没传整合包版本，就找不到该版的 quest_untranslated.json——\n'
+                '   少一个参数等于把整张登记表悄悄作废。')
+        registered, regp = load_untranslated(mc, home, delta)
+        stray = sorted(k for k in home if k not in delta and k not in registered)
+        if stray:
+            raise SystemExit(
+                '❌ 上游有 %d 个键既没译、也没登记为不译（如 %s，在 %s）。\n'
+                '   要么补译，要么连同 why 一起登记进 %s。\n'
+                '   不管它的话，玩家在游戏里看到的就是这几条英文。'
+                % (len(stray), stray[0], home[stray[0]], regp.relative_to(ROOT)))
+
+    print('✅ 任务书语言：%d 条覆盖打进底本 %d 个文件%s，底本没有的 %d 条进 %s'
           % (len(placed), len(touched),
              '（含 %s 专属 %d 条）' % (mc, len(blocks(ver))) if ver and ver.is_file() else '',
              len(extra), ADDITIONS))
+    if fallback_en:
+        # 底本是英文，出货文件里没被覆盖到的都还是英文——这个数就是翻译缺口
+        print('   底本 %d 键：中文 %d 条，登记为不译 %d 条'
+              % (sum(len(v) for v in up_pairs.values()), len(placed), len(registered)))
 
 
 if __name__ == '__main__':
