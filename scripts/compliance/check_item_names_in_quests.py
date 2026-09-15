@@ -73,6 +73,7 @@ mob_grinding_utils 和 iceandfire 里各有一件（腐烂鸡蛋 / 烂鸡蛋）�
     python3 scripts/compliance/check_item_names_in_quests.py <mods 目录> <上游树> <出货树>
 """
 import json
+import io
 import re
 import sys
 import zipfile
@@ -125,16 +126,45 @@ def pack_zh(tree):
     return out
 
 
+def _zip_has_ns(z, prefixes, depth):
+    for n in z.namelist():
+        if n.startswith(prefixes):
+            return True
+        if n.endswith('.jar') and depth < 3:
+            try:
+                if _zip_has_ns(zipfile.ZipFile(io.BytesIO(z.read(n))), prefixes, depth + 1):
+                    return True
+            except Exception:
+                continue
+    return False
+
+
+def ns_holder(jars, ns):
+    """含内嵌 jar：返回第一个带 assets|data/<ns>/ 下任何文件的 jar 名，没有就 None。"""
+    prefixes = ('assets/%s/' % ns, 'data/%s/' % ns)
+    for jar in jars:
+        try:
+            with zipfile.ZipFile(jar) as z:
+                if _zip_has_ns(z, prefixes, 0):
+                    return jar.name
+        except Exception:
+            continue
+    return None
+
+
 def collect(mods, tree):
     """扫全包，收物品名及任务键绑定的界面术语。"""
     ours = pack_zh(tree)
+    jars = sorted(Path(mods).glob('*.jar'))
+    if not jars:
+        die('%s 下一个 jar 都没有——判不了哪些模组在这一版整合包里，不许放行' % mods)
     names, enforced = {}, set()
     seen_ns = set()
     binding_values = {
         qkey: {key: set() for key in spec['keys']}
         for qkey, spec in QUEST_LANG_BINDINGS.items()
     }
-    for jar in sorted(Path(mods).glob('*.jar')):
+    for jar in jars:
         try:
             z = zipfile.ZipFile(jar)
         except Exception:
@@ -177,9 +207,15 @@ def collect(mods, tree):
                     if ns in NAMESPACES:
                         enforced.add(e)
     missing = [ns for ns in NAMESPACES if ns not in seen_ns]
-    if missing:
-        die('%s 里没有任何 jar 含这些命名空间的 en_us.json：%s —— 这道闸对它们等于没跑'
-            % (mods, '、'.join(missing)))
+    for ns in missing:
+        # 「模组不在这一版整合包里」与「模组在、英文表却没读到」在这里长得一样，后者放过
+        # 就等于这道闸对它没跑。所以要**正面证明**：全包（含内嵌 jar）没有任何文件
+        # 落在这个命名空间下，才算模组不在。
+        holder = ns_holder(jars, ns)
+        if holder:
+            die('%s 提供了命名空间 %s 下的文件，却没有它的 en_us.json —— 这道闸对它等于没跑'
+                % (holder, ns))
+        print('ℹ️ 本整合包不带 %s（含内嵌 jar 都没有这个命名空间），跳过' % ns)
     if not enforced:
         die('要检查的命名空间（%s）一对「英文名→中文名」都没配上 —— 判不了'
             % '、'.join(NAMESPACES))

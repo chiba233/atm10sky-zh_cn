@@ -790,14 +790,21 @@ IF_TIER_QUEST = 'quest.41E8550FC36ABCA5.quest_desc'
 
 
 def _item_fixture(tmp, en_quest, zh_quest, names=None, skip_ns=(), extra=None,
-                  tier_zh=None, drop_tier_key=None, drop_tier_quest=False):
-    """names: {命名空间: {键: (英文, 中文)}}；缺省给三个命名空间各垫一条。"""
+                  tier_zh=None, drop_tier_key=None, drop_tier_quest=False, no_lang_ns=()):
+    """names: {命名空间: {键: (英文, 中文)}}；缺省给三个命名空间各垫一条。
+
+    skip_ns 里的命名空间整个不进包；no_lang_ns 里的进包，但 jar 里没有语言表。
+    """
     names = names or {'occultism': {'item.occultism.soul_gem_empty':
                                     ('Empty Soul Gem', '灵魂宝石（空）')}}
     mods = tmp / 'ipack' / 'mods'
     mods.mkdir(parents=True, exist_ok=True)
     for ns in NS_ALL:
         if ns in skip_ns:
+            continue
+        if ns in no_lang_ns:
+            with zipfile.ZipFile(mods / ('%s-fixture.jar' % ns), 'w') as z:
+                z.writestr('assets/%s/models/item/filler.json' % ns, '{}')
             continue
         tbl = names.get(ns) or {'item.%s.filler' % ns: ('Filler Item', '填充物')}
         with zipfile.ZipFile(mods / ('%s-fixture.jar' % ns), 'w') as z:
@@ -895,11 +902,27 @@ def _m28(tmp, tree):
     return rc == 0
 
 
-@missing_case('某个命名空间的英文表取不到 → 必须红，不许当成没问题')
+@missing_case('某个命名空间在包里、英文表却取不到 → 必须红，不许当成没问题')
 def _m29(tmp, tree):
     rc, out = _item_run(tmp, *_item_fixture(
-        tmp, 'make an Empty Soul Gem', '制作一个灵魂宝石（空）', skip_ns=('relics',)))
+        tmp, 'make an Empty Soul Gem', '制作一个灵魂宝石（空）', no_lang_ns=('relics',)))
     return rc != 0 and 'relics' in out
+
+
+@missing_case('某个命名空间整个不在包里（含内嵌 jar）→ 说明理由后跳过，其余照判')
+def _m69(tmp, tree):
+    rc, out = _item_run(tmp, *_item_fixture(
+        tmp, 'make an Empty Soul Gem', '制作一个灵魂宝石（空）', skip_ns=('relics',)))
+    return rc == 0 and '本整合包不带 relics' in out
+
+
+@missing_case('mods 目录里一个 jar 都没有 → 必须红，不许当成「模组全都不在」')
+def _m70(tmp, tree):
+    mods, up, t = _item_fixture(tmp, 'make an Empty Soul Gem', '制作一个灵魂宝石（空）')
+    for j in mods.glob('*.jar'):
+        j.unlink()
+    rc, out = _item_run(tmp, mods, up, t)
+    return rc != 0 and '一个 jar 都没有' in out
 
 
 @missing_case('无限工具任务沿用英文档位、跟 tooltip 不一致 → 必须红')
