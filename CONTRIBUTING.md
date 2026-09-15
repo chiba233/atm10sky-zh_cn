@@ -284,7 +284,7 @@ python3 scripts/test_installer.py                       # 安装器端到端测�
 | `check_oracle_index_paths.py` | 神谕目录的书有两套目录约定，放错那条路径的译文永远不会被读、且不报错 |
 | `check_kubejs_classfilter.py` | 脚本里 loadClass 了被 KubeJS 类过滤表拒掉的类——运行时才炸，加载阶段全绿 |
 | `check_dynamic_substrings.py` | dynamic 模块的 `@` 子串键互不为子串 |
-| `check_quest_formatting.py` / `check_gui_maps.py` / `check_injected_lang.py` / `check_minecolonies_paths.py` / `check_name_divergence.py` | 各自那一类的硬检查 |
+| `check_quest_formatting.py` / `check_gui_maps.py` / `check_injected_lang.py` / `check_name_divergence.py` | 各自那一类的硬检查 |
 
 **加闸就得同时加反例**：`test_gates.py` 里每一条都复刻一次真实事故，验它**真的会红**，
 并且验「前提取不到时也红」（fail-closed）。CI 跑 `test_gates.py` 和 `test_protect.py`，

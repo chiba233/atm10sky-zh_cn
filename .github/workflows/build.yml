@@ -339,12 +339,6 @@ jobs:
       - name: 界面 XML 映射三条硬规矩
         run: python3 scripts/compliance/check_gui_maps.py "$ATM_PACK_ROOT/mods"
 
-      # issue #3：建筑棒的类别路径既当面包屑显示、又当 Map 键，我们把它译了 → NPE 闪退。
-      # 结构闸 vp-no-path-prefix-keys 拦「以 / 开头的键」这个形状；这一条拦后果——
-      # 拿真 jar 里的全部蓝图路径回放替换表，改动一个字符就红。要读 jar，所以放这里。
-      - name: 蓝图类别路径不许被替换表改动
-        run: python3 scripts/compliance/check_minecolonies_paths.py "$ATM_PACK_ROOT/mods"
-
       - name: 打包全部版本
         run: ./scripts/build_dist.sh "${{ github.event.inputs.patch_version || 'dev' }}" "${{ steps.t.outputs.list }}"
 

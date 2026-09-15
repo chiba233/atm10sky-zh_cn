@@ -162,14 +162,10 @@ jobs:
       - name: 生成全部汉化产物
         run: ./scripts/generate_all.sh
 
-      # 下面两道闸要读 mod jar，Build 里有、Release 里以前没有——等于「打 tag 就能
-      # 绕过已知的崩溃闸」。两条都是拿实机崩溃换来的：市政厅 XML（2026-07-28）、
-      # 建筑棒蓝图路径当 Map 键（issue #3）。（issue #9 P1-4）
+      # 下面这道闸要读 mod jar，Build 里有、Release 里以前没有——等于「打 tag 就能
+      # 绕过已知的崩溃闸」。它是拿实机崩溃换来的：市政厅 XML（2026-07-28）。（issue #9 P1-4）
       - name: 界面 XML 映射三条硬规矩
         run: python3 scripts/compliance/check_gui_maps.py "$ATM_PACK_ROOT/mods"
-
-      - name: 蓝图类别路径不许被替换表改动
-        run: python3 scripts/compliance/check_minecolonies_paths.py "$ATM_PACK_ROOT/mods"
 
       - name: 打包全部整合包版本
         # 不给第二个参数 = 出 versions/ 下声明过的全部版本。

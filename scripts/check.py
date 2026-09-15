@@ -511,7 +511,7 @@ def _vp_value_conflict(rule):
     """同一个类、同一条原文、同一种匹配模式，只许有一种译文。
 
     一条 pair 有两种模式：value 以 `@` 开头是**子串替换**，其余是**全串匹配**
-    （见 compliance/check_minecolonies_paths.py 里对 MatchUtils 的还原）。所以
+    （VaultPatcher 的 MatchUtils 就是这么分的）。所以
     `Fortress→要塞` 与 `Fortress→@要塞` 是两种模式，成对出现是对的，不算冲突。
 
     真冲突是同类同原文同模式下有两句不同的译文：哪句生效取决于模块加载顺序
