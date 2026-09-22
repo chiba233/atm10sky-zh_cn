@@ -1,6 +1,18 @@
-# 留空：这一版的顺序还没实测到。2.0.6 实例的 options.txt 里 resourcePacks 仍是空表，
-# 说明它还没有一次写出内置包顺序的完整启动。
+# ATM10 Sky 2.0.6 首次启动后游戏自己写出来的 resourcePacks 顺序（不含本汉化包）。
+# 安装器新建 options.txt 时照抄这一串、把汉化包放最后一位；不这么做的话游戏会把
+# 这些内置包全插到汉化包后面，汉化包会被压在底下，等于没启用。
 #
-# 这一串必须真起一次该版实例、干净退出才拿得到，不许抄别的版本——内置包集合会变，
-# 抄来的顺序会让汉化包被压在内置包底下，而且没有任何提示。
-# 留空时安装器不伪造 resourcePacks 这一行，只提示玩家先启动一次游戏。
+# 逐项照抄，顺序不能动。整合包换版本时这一串要重新取：内置包集合会变。
+vanilla
+modularbees:dynamic_assets
+mod_resources
+add_xycraft_overrides_stone
+add_xycraft_overrides_metal
+add_xycraft_overrides_glass
+moonlight:merged_pack
+neovitae_materials
+mod/dyenamicsandfriends:compat_packs/productivemetalworks/
+mod/dyenamicsandfriends:compat_packs/connectedglass/
+mod/dyenamicsandfriends:compat_packs/luminax/
+mod/dyenamicsandfriends:compat_packs/cookingforblockheads/
+mod/dyenamicsandfriends:compat_packs/botanypots/
