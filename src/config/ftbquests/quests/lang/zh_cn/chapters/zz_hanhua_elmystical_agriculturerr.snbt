@@ -66,10 +66,10 @@
 	quest.2DDA04088C8220D2.quest_desc: ["活化水晶碎片是这个模组的核心合成材料。用铁筛网或更好的筛网筛灵魂沙就能拿到。"]
 	quest.2DDA04088C8220D2.quest_subtitle: "我们终于能拥有活化水晶了吗？"
 	quest.2DDA04088C8220D2.title: "&b活化水晶碎片"
-	quest.30E9255DEC69C061.title: "&4终极工具"
+	quest.30E9255DEC69C061.title: "&4终极精华工具"
 	quest.32B01BD789F0B037.quest_desc: ["觉醒终极精华和其他等级精华可以通过使用&6资源蜜蜂&r模组来自动化获取。"]
 	quest.32B01BD789F0B037.title: "自动化觉醒终极精华"
-	quest.3339445194568D77.title: "&2初级工具"
+	quest.3339445194568D77.title: "&2初级精华工具"
 	quest.3384308C78D86059.quest_subtitle: "等级：&a2"
 	quest.33D23C65E7274A8F.quest_desc: ["要觉醒你的终极精华，你需要创建一个新的祭坛和4个新的基座，以及4个&c精华储罐&r。\\n\\n精华储罐需要用初始元素精华填充：火、水、土、风。"]
 	quest.33D23C65E7274A8F.title: "&d觉醒&r"
@@ -103,9 +103,9 @@
 	quest.4821419D44F8083F.title: "&a下级生长加速器"
 	quest.48BF71269DEA1AB1.title: "&4终极耕地"
 	quest.4EF5DE3FBA2A7AE3.quest_desc: ["从下级精华开始，你可以制造锭来制作精华&9工具&r和&9盔甲&r。\\n\\n精华工具可以升级到更高等级，并且像盔甲一样，它们可以在&3工匠台&r中进行&5升级&r。"]
-	quest.4EF5DE3FBA2A7AE3.title: "&a下级工具"
+	quest.4EF5DE3FBA2A7AE3.title: "&a下级精华工具"
 	quest.4F0DD86CF6E5F1B5.quest_subtitle: "等级：&b4"
-	quest.4F137DB561F45306.title: "&2初级盔甲&r"
+	quest.4F137DB561F45306.title: "&2初级精华盔甲&r"
 	quest.52BB58D470560219.quest_subtitle: "范围：&c54&r格"
 	quest.52BB58D470560219.title: "&6觉醒终极生长加速器"
 	quest.54735C5FCD2077B3.quest_desc: [
@@ -118,7 +118,7 @@
 	quest.56201F98819478AB.quest_subtitle: "等阶：&a2"
 	quest.576ABF43FCF886B7.title: "&2初级耕地"
 	quest.5782E9F866453D1D.quest_subtitle: "等阶：&b4"
-	quest.5B1E0E3E876339E7.title: "&4终极盔甲"
+	quest.5B1E0E3E876339E7.title: "&4终极精华盔甲"
 	quest.5BC4250E4C9F803C.title: "&9高级耕地"
 	quest.5C590DB2F3D935E5.quest_desc: ["种子再处理器可以将精华种子转换回精华。"]
 	quest.5C590DB2F3D935E5.quest_subtitle: "回收！"

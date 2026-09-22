@@ -25,7 +25,7 @@
 	quest.722978AC0C1B2649.quest_subtitle: "可用作反应堆冷却剂"
 	quest.722978AC0C1B2649.title: "无限&9水&r"
 	quest.7A514E27E1A7FE32.quest_desc: ["钻石还能让我们做出几件好用的建筑小工具，出自&l&c建筑小帮手&r模组。\\n\\n无论是盖更大的基地，还是用&c破坏小帮手&r清场，它们都相当趁手。\\n\\n另外，它们也能像无线终端那样通过 ME 无线访问点接入 AE2 网络，这样就能直接调用 ME 网络里存着的方块。"]
-	quest.7A514E27E1A7FE32.title: "&l&c建筑工具&r"
+	quest.7A514E27E1A7FE32.title: "&l&c建筑小帮手&r"
 	quest.7EC8814940C4C3D7.quest_desc: ["使用此物品缩小自己。对于自动化工作非常有用，而且整体上也很有趣。"]
 	quest.7EC8814940C4C3D7.quest_subtitle: "亲爱的，我把自己缩小了"
 	quest.7EC8814940C4C3D7.title: "个人缩放装置"
@@ -33,7 +33,7 @@
 	task.3B1F1A7CAC8B7BC7.title: "抽屉"
 	task.3DC008A578A93CCF.title: "提示和技巧！"
 	task.42DA8E971B27ACED.title: "提示完成"
-	task.47A1F59A538E3C4B.title: "建筑工具"
+	task.47A1F59A538E3C4B.title: "建筑小帮手"
 	task.4AEB792F6A939B3A.title: "保留所有权利"
 	task.6038387EA35404CD.title: "便携式工具"
 	task.6A965CD027BF762F.title: "保留所有权利"

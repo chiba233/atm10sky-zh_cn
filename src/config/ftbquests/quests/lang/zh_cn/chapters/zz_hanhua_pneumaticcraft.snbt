@@ -118,7 +118,7 @@
 		"注意：每种升级任务的副标题会告诉你该升级的最大可安装数量。"
 	]
 	quest.2E8F851A4E98F741.quest_subtitle: "压缩铁侠"
-	quest.2E8F851A4E98F741.title: "气动装甲"
+	quest.2E8F851A4E98F741.title: "气动盔甲"
 	quest.30AD7B15682E4D0E.quest_desc: ["一个智能告示牌，可以存储和显示任意数量的文本，缩放使文本始终适应。\\n\\n用任何染料右键单击可重新着色瓷砖，你可以独立地对边框和背景进行着色。"]
 	quest.30AD7B15682E4D0E.quest_subtitle: "告示牌？不存在的！"
 	quest.312331F6DB0CE5F4.quest_desc: ["比I级升级更快。"]
@@ -356,7 +356,7 @@
 	quest.7BFE7DAF18981843.quest_subtitle: "仅钻头程序配方所需"
 	quest.7D6B4AEF806AF62E.quest_desc: ["100%太快了！尽量别死！"]
 	quest.7D6B4AEF806AF62E.quest_subtitle: "最大可安装数量：1"
-	quest.7D81F2381516204D.quest_subtitle: "成品PCB所需"
+	quest.7D81F2381516204D.quest_subtitle: "组装好的印刷电路板所需"
 	quest.7D81F2381516204D.title: "晶体管"
 	quest.7FB12EC3A5888123.quest_desc: ["&3管道跨接点&r通过允许你在更多方向上移动压力管道，让你对压力传输有更多控制。"]
 	quest.7FB12EC3A5888123.quest_subtitle: "不，走这边！"

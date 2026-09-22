@@ -128,7 +128,7 @@
 	quest.5E4BC0F59C90433A.quest_subtitle: "\"原版箱子\""
 	quest.5E4BC0F59C90433A.title: "精妙存储"
 	quest.5E4FE420B6D2C97F.quest_desc: ["将背包中的物品压缩成3x3配方。"]
-	quest.5E4FE420B6D2C97F.quest_subtitle: "更多过滤选项"
+	quest.5E4FE420B6D2C97F.quest_subtitle: "更多的过滤选项"
 	quest.5E4FE420B6D2C97F.title: "&e高级压制升级"
 	quest.5FA9BC0D8476D322.quest_desc: ["自动从背包中提供食物。"]
 	quest.615B9062FE8CCD36.quest_desc: ["自动切换到最适合你正在观察的方块的工具。"]
@@ -169,7 +169,7 @@
 		"这样你就可以在需要时把背包放进背包里。"
 	]
 	quest.7C07D6A33F7ADB02.quest_subtitle: "听说你喜欢背包，所以我在背包里塞了个背包"
-	quest.7C0F7A1B3AB9A1A1.quest_subtitle: "更多过滤选项"
+	quest.7C0F7A1B3AB9A1A1.quest_subtitle: "更多的过滤选项"
 	quest.7C0F7A1B3AB9A1A1.title: "&e高级补货升级"
 	quest.7E9E03274A88347D.quest_desc: ["将背包中的堆叠大小增加2。"]
 	quest.7E9E03274A88347D.title: "&f堆叠升级T1"

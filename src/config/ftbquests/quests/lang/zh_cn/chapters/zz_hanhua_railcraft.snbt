@@ -28,12 +28,12 @@
 		"&6Y型轨道&r是使用道钉锤制作的第二种轨道。它可以将两条&6轨道&r合并为一条。如果你有一条&6轨道&r被另一条交叉，&6Y型轨道&r会将第一条&6轨道&r上的&7矿车&r移动到交叉轨道上。"
 		"{image:atm:textures/questpics/railcraft/rail_wye.png width:100 height:100 align:center}"
 	]
-	quest.1698565EBB68DC85.title: "&6Y型轨道"
+	quest.1698565EBB68DC85.title: "&6丁型轨道"
 	quest.170118E3C3C072E5.quest_desc: [
 		"&6交叉轨道&r是使用道钉锤制作的最后一种轨道。它作为普通交叉轨道用于&6轨道&r。&7矿车&r会继续以原来的方向前进，但现在&6轨道&r可以交叉。如果两条&7矿车&r在交叉轨道上相撞会发生什么？它们会爆炸！！！我是在开玩笑，但&e电力机车&r会这么做。"
 		"{image:atm:textures/questpics/railcraft/rail_junction.png width:100 height:100 align:center}"
 	]
-	quest.170118E3C3C072E5.title: "&6交叉轨道"
+	quest.170118E3C3C072E5.title: "&6交接轨道"
 	quest.175D943160C10646.quest_desc: [
 		"&l&7铁路工艺&r 使用许多机器来完成不同的任务，但主要是资源生成。"
 		"它们都以铁锭开始！"
@@ -179,7 +179,7 @@
 		"这些新&7矿车&r类似特殊的&2原版&r&7矿车&r。&7储罐矿车&r能装载并运输任意液体，&7能量单元矿车&r则装载并运输能量！"
 	]
 	quest.7F4B734CFB0F0306.title: "新矿车"
-	task.025A45B704969EAE.title: "人字形铁轨"
+	task.025A45B704969EAE.title: "丁型轨道"
 	task.03AE084C781CBA31.title: "轨道套件"
 	task.11741300813AF742.title: "保留所有权利"
 	task.15BD622D04888DD8.title: "车辆"

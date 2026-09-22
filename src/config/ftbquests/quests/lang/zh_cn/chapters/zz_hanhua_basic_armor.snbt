@@ -172,7 +172,7 @@
 	quest.497D222F74A52DF5.quest_desc: ["这才是我喜欢的！铁非常常见，其盔甲在游戏初期非常出色。\\n\\n僵尸和骷髅几乎没有机会！"]
 	quest.497D222F74A52DF5.quest_subtitle: "15"
 	quest.49E13245EE169048.quest_desc: ["&6防辐射服&r看着没什么用，毕竟防御为零，但它是唯一能让你不被&a辐射&r弄死的办法（另外两条路是&aMekaSuit&r的辐射屏蔽单元和 Advanced AE 的&5量子盔甲&r）。\\n\\n必须穿齐整套才能挡住&a辐射中毒&r！\\n\\n&a辐射&r会杀死附近的其他生物和玩家，玩家还能靠&6防辐射服&r保命……怪物可就没这个运气了！\\n\\n关于&a辐射&r的更多内容，去看&5&l通用机械：反应堆&r的任务页。"]
-	quest.49E13245EE169048.title: "&6防化服"
+	quest.49E13245EE169048.title: "&6防辐射服"
 	quest.4A9CB8778D37049F.quest_desc: ["你需要使用觉醒仪式来获取物品，以便在&4终极精华盔甲&r上进行又一次觉醒仪式。\\n\\n我认为这是值得的；这是你能从&2&l神秘农业&r中获得的最好的盔甲！"]
 	quest.4A9CB8778D37049F.quest_subtitle: "36"
 	quest.4A9CB8778D37049F.title: "&6觉醒终极精华盔甲"
@@ -180,7 +180,7 @@
 		"也可以从荒野集群蠹虫身上获得"
 		"{image:atm:textures/questpics/basicarmor/armor_host.png width:100 height:150 align:center}"
 	]
-	quest.4B9C54DA5CB6D5C9.quest_subtitle: "遗迹"
+	quest.4B9C54DA5CB6D5C9.quest_subtitle: "古迹废墟"
 	quest.4B9C54DA5CB6D5C9.title: "雇主盔甲纹饰"
 	quest.4C2BB25A757CE834.quest_desc: ["&7橡胶&r盔甲是一套非常靠前期的防具。与其说它是正经装备，不如说它是通往中期科技的合成材料。&7橡胶&r盔甲提供的防护少得可怜，既不适合&4战斗&r，也不适合&2探索&r。"]
 	quest.4C2BB25A757CE834.title: "&8橡胶盔甲"
@@ -229,7 +229,7 @@
 		"也可以从荒野集群蠹虫身上获得"
 		"{image:atm:textures/questpics/basicarmor/armor_wayfinder.png width:100 height:150 align:center}"
 	]
-	quest.62161BDE9AAAA4BF.quest_subtitle: "遗迹"
+	quest.62161BDE9AAAA4BF.quest_subtitle: "古迹废墟"
 	quest.62161BDE9AAAA4BF.title: "向导盔甲纹饰"
 	quest.65A529C8238E89F1.quest_desc: ["感谢&5&l通用机械&r，我们现在可以用&9青金石&r制作盔甲了！\\n\\n不过说实话，它有点烂……"]
 	quest.65A529C8238E89F1.quest_subtitle: "9"
