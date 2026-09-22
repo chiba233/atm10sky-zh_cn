@@ -21,7 +21,7 @@
 	quest.1745124F83D033B9.title: "基础组件"
 	quest.18C0EF38430C3E67.quest_subtitle: "数字时代"
 	quest.1A84DF4478D55C41.quest_subtitle: "与蒸汽合一无异"
-	quest.1B4CD5AC8F6C3307.quest_desc: ["&#4497DB超速模块&r能让机器在配方没有运行时也保持效率。代价是把机器锁定在该配方上。"]
+	quest.1B4CD5AC8F6C3307.quest_desc: ["&#4497DB超频模块&r能让机器在配方没有运行时也保持效率。代价是把机器锁定在该配方上。"]
 	quest.1E0EF28175A7424F.quest_desc: ["既然你已经能生产蒸汽，何不利用它来发电呢？只需放置一台&#6363DB涡轮机&r，输入&7蒸汽&r，即可输出&#DBDB63电力&r。"]
 	quest.1E0EF28175A7424F.quest_subtitle: "蒸汽 -> 电力"
 	quest.1F21B578FAF4CCAC.quest_subtitle: "与蒸汽合一无异"
@@ -63,7 +63,7 @@
 	quest.532BCAB3FBF91B1D.quest_desc: [
 		"&#44DB9C升级&r使机器能够进入&#4467DB超频&r状态，进一步提升机器的最大速度。"
 		""
-		"一台机器最多可插入一组任何等级的升级卡。&#CEDB44基础升级&r每个可为机器容量增加&#F7F448+2EU/t&r。"
+		"一台机器最多可插入一组任何等级的升级卡。&#CEDB44基本升级&r每个可为机器容量增加&#F7F448+2EU/t&r。"
 	]
 	quest.548274CC00E67EC4.quest_desc: ["传输电力很简单，只需在&#F5B027发电机&r和&#3CC1FA机器&r之间连接电缆。低压电缆最多可传输&#EEFA3C256 EU/t&r。"]
 	quest.548274CC00E67EC4.quest_subtitle: "电缆限制"

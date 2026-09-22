@@ -235,7 +235,7 @@
 		"冒险也可以获得一些&6坚固蜜蜂笼&r，所以请留意！"
 	]
 	quest.29EE878BC8D3A742.title: "捕捉蜜蜂！"
-	quest.2A559D527BC88DEC.quest_desc: ["如果你将&9空间蜜蜂刷怪蛋&r和&8天空钢块&r扔进熔岩，你将创造一个陨钢蜜蜂刷怪蛋。"]
+	quest.2A559D527BC88DEC.quest_desc: ["如果你将&9空间蜜蜂刷怪蛋&r和&8陨钢块&r扔进熔岩，你将创造一个陨钢蜜蜂刷怪蛋。"]
 	quest.2A559D527BC88DEC.title: "陨钢蜜蜂"
 	quest.2AEEDCC6826CF4AB.quest_subtitle: "这买卖，多少有点腥"
 	quest.2AEEDCC6826CF4AB.title: "石油蜜蜂"
@@ -389,7 +389,7 @@
 	quest.5563BD4934297522.quest_desc: ["一旦你有了钻石蜜蜂，将其与黏液蜜蜂繁殖即可创造出绿宝石蜜蜂！"]
 	quest.5563BD4934297522.quest_subtitle: "钻石蜜蜂 + 黏液蜜蜂"
 	quest.5563BD4934297522.title: "绿宝石蜜蜂"
-	quest.55882C10292B6A3D.quest_subtitle: "用繁荣块喂食石英蜜蜂"
+	quest.55882C10292B6A3D.quest_subtitle: "用活化水晶块喂食石英蜜蜂"
 	quest.55882C10292B6A3D.title: "活化蜜蜂"
 	quest.57167FE67CFAC255.quest_subtitle: "用于将蜜蜂添加到过滤器中"
 	quest.57ACD83205988834.quest_subtitle: "金蜜蜂 + 末影蜜蜂"
@@ -406,7 +406,7 @@
 	quest.5AE851B8074BC7E6.title: "红石水晶蜜蜂"
 	quest.5B969BF6F00A84D8.quest_subtitle: "在离心机中将6个RuBee刷怪蛋离心成1个铬蜜蜂刷怪蛋"
 	quest.5B969BF6F00A84D8.title: "铬蜜蜂"
-	quest.5CC9CB0911954215.quest_desc: ["芦苇蜂巢可在任何主世界生物群系中工作，并会吸引石匠蜜蜂或芦苇蜜蜂。"]
+	quest.5CC9CB0911954215.quest_desc: ["甘蔗蜂巢可在任何主世界生物群系中工作，并会吸引石匠蜜蜂或芦苇蜜蜂。"]
 	quest.5CC9CB0911954215.quest_subtitle: "在任何主世界生物群系中吸引蜜蜂"
 	quest.5CF2A069A3CC4EF6.quest_subtitle: "树脂蜜蜂 + 芦苇蜜蜂"
 	quest.5CF2A069A3CC4EF6.title: "丝绢蜜蜂"

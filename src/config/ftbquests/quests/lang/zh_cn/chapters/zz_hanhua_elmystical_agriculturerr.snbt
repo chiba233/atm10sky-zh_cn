@@ -40,7 +40,7 @@
 	quest.202B1F54D3F06DAB.quest_subtitle: "等级：&56"
 	quest.202B1F54D3F06DAB.title: "&5究极精华"
 	quest.20851E0CF315F722.quest_desc: ["这一档的种子要想生长，耕地下方必须放一块同类型的基质。"]
-	quest.20851E0CF315F722.title: "&5狂气耕地"
+	quest.20851E0CF315F722.title: "&5究极耕地"
 	quest.212EF8601746C500.quest_desc: ["增益效果：\\n\\n - 伤害吸收II (3:00)\\n - 速度II (3:00)\\n - 抗性提升II (3:00)\\n - 生命恢复II (3:00)"]
 	quest.212EF8601746C500.title: "&9高级精华苹果"
 	quest.21A90474590FCDB8.quest_desc: ["\"熔炉\"是原版熔炉的升级版本，可以通过升级来提高速度和效率。"]
@@ -80,7 +80,7 @@
 	quest.3BB3AA6C29285837.quest_desc: ["增益效果：\\n\\n - 伤害吸收II (3:00)\\n - 速度II (3:00)"]
 	quest.3BB3AA6C29285837.title: "&2初级精华苹果"
 	quest.3BD8315851A3EE5F.quest_subtitle: "等阶：&a2"
-	quest.3C9F5EB59D72AC90.quest_desc: ["合成&6ATM之星&r需要觉醒终极精华锭块。"]
+	quest.3C9F5EB59D72AC90.quest_desc: ["合成&6ATM之星&r需要觉醒精华锭块。"]
 	quest.3E555B364FD88B43.quest_subtitle: "范围：&c45&r格"
 	quest.3E555B364FD88B43.title: "&4终极生长加速器"
 	quest.3EA2578C3A56FAE8.quest_desc: ["灵魂提取器允许你通过放入灵魂瓶并使用生物物品来填充它们。例如，添加腐肉将填充一部分僵尸灵魂。"]

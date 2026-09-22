@@ -61,7 +61,7 @@
 		""
 		"这台机器也是高级AE中量子相关配方所必需的。"
 	]
-	quest.14FC9E4A3C80C0AE.title: "反应效率：反应室"
+	quest.14FC9E4A3C80C0AE.title: "反应效率：反应仓"
 	quest.18499D33BA12A8A9.quest_desc: ["是否曾觉得成型面板像存储总线一样用于自动化太不直观？看看主动成型面板吧。它的工作原理类似于ME输出总线，但将世界作为其媒介。你不需要为它建立子网络。"]
 	quest.18499D33BA12A8A9.quest_subtitle: "滚出去：主动版"
 	quest.18499D33BA12A8A9.title: "从网络主动放置：主动成型面板"
@@ -85,7 +85,7 @@
 	]
 	quest.1B90B94D07BBDD09.title: "复杂合成器：水晶装配器"
 	quest.1E535784A9D3DE89.quest_desc: ["这些是AE2扩展中不需要恩特罗晶体的物品。"]
-	quest.27FC0C092EE00532.quest_desc: ["ME装罐器可以填充或清空能够容纳流体、化学品、能量等的容器，例如桶、化学品储罐等。如果使用样板来填充它们，它会自动输出到样板供应器。"]
+	quest.27FC0C092EE00532.quest_desc: ["ME装罐机可以填充或清空能够容纳流体、化学品、能量等的容器，例如桶、化学品储罐等。如果使用样板来填充它们，它会自动输出到样板供应器。"]
 	quest.27FC0C092EE00532.quest_subtitle: "不要与ME装罐器混淆"
 	quest.27FC0C092EE00532.title: "罐装此液体：ME装罐机"
 	quest.2E61219FC0BAB675.quest_subtitle: "最高+5触及距离"

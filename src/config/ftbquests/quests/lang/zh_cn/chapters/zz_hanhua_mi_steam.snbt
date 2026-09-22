@@ -44,8 +44,8 @@
 	quest.253822C64BBBB1EB.quest_desc: ["&7&n锻压台&r将允许你轻松地将&a锡锭&r或矿石形式压碎成其粉末。"]
 	quest.357DDE894EB512F7.quest_desc: ["&a线材轧机&r能够施加适当的力来为我们制作&a线材&r。令人震惊！！我知道……"]
 	quest.3AA4D1B60E4E71A5.quest_desc: ["所有&c多块结构&r都由放入其中的&e舱口&r定义。升级这些&e舱口&r将升级整个机器。"]
-	quest.41877F44CD3D1EDB.quest_desc: ["&a青铜熔炉&r的作用与普通熔炉类似，主要区别是它以蒸汽为动力，并且速度是普通熔炉的两倍。"]
-	quest.458BFDB636F8B495.quest_desc: ["将焦炭粉与铁结合将得到未烧制的钢粉。在蒸汽高炉中烧制它将得到未来进展所需的钢锭。"]
+	quest.41877F44CD3D1EDB.quest_desc: ["&a青铜炉&r的作用与普通熔炉类似，主要区别是它以蒸汽为动力，并且速度是普通熔炉的两倍。"]
+	quest.458BFDB636F8B495.quest_desc: ["将焦炭粉与铁结合将得到生钢粉。在蒸汽高炉中烧制它将得到未来进展所需的钢锭。"]
 	quest.478C1AF86610A8B7.quest_desc: ["&a&n压缩机&r用于制作&a板&r、&a弯曲板&r和&a环&r。"]
 	quest.48F77A0BE1F33B29.quest_desc: ["使用新建成的&a线材轧机&r，我们现在可以制作&a线材&r和&a细线&r，这将引导我们进入电气领域。"]
 	quest.48F77A0BE1F33B29.title: "危险线材"

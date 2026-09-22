@@ -91,7 +91,7 @@
 		"{image:atm:textures/questpics/modernindustrialization/largest_reactor.png width:100 height:100 align:center}"
 	]
 	quest.66E78F599CD50579.quest_subtitle: "它们不会爆炸"
-	quest.672B69448F1D458B.quest_desc: ["&#FAAD28热交换器&r是&#4D7DFF极限反应堆&r涡轮爱好者的天堂。这台机器可以产生惊人的大量蒸汽。"]
+	quest.672B69448F1D458B.quest_desc: ["&#FAAD28热交换机&r是&#4D7DFF极限反应堆&r涡轮爱好者的天堂。这台机器可以产生惊人的大量蒸汽。"]
 	quest.672B69448F1D458B.quest_subtitle: "蒸汽拉满，突突突！"
 	quest.6A9AE3514B5151C9.quest_desc: ["&#CFB951铁铬铝合金线圈&r将允许我们处理&#C356C4粗钛&r，以得到&#DF9DE0钛热锭&r。这个过程需要&#D49B70硫酸锰溶液&r。"]
 	quest.6F183B06683D1213.quest_desc: ["&#EBA844铁铬铝合金热锭&r 可以在 &#6DC0F7真空冷却机&r 中冷却。"]
