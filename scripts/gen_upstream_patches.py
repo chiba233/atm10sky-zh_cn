@@ -141,7 +141,11 @@ def main(pack_root, out_dir, version):
                      '   （整合包根目录: %s）\n'
                      '   上游删掉了它的话，把 %s 一起删掉。' % (rel, pack_root, mp.relative_to(ROOT)))
         skip = skips.get(rel, frozenset())
-        text = apply_one(official.read_text(encoding='utf-8'), doc['edits'], rel, skip)
+        # 行尾先归一成 LF 再匹配：整合包不同版本的 overrides 行尾不一样（2.0.4 是 LF，
+        # 2.0.6 里 599 个文本文件是 CRLF），而映射里的 find 一律按 LF 写。不归一的话
+        # 同一段一字未改的原文会因为多一个 \r 而判成「套不上」。判据不变，仍是逐行逐字相等。
+        body = official.read_text(encoding='utf-8').replace('\r\n', '\n')
+        text = apply_one(body, doc['edits'], rel, skip)
         if rel in vdocs:
             # 接着在同一份文本上套该版专属的那几处，不是另写一遍文件——
             # 覆盖写会把上面通用映射改好的部分整个丢掉。
