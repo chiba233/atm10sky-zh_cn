@@ -1,5 +1,5 @@
 {
-	quest.01F59AF41A6DA0F7.quest_desc: ["&c给处于编辑模式的各位：写下这段时天龙神秘镐还没有合成配方，所以本任务暂时隐藏。等它能合成了——无论是靠 Forbidden Arcanus 还是 KubeJS——请删掉这条备注并取消隐藏。"]
+	quest.01F59AF41A6DA0F7.quest_desc: ["&c给处于编辑模式的各位：写下这段时神秘天龙镐还没有合成配方，所以本任务暂时隐藏。等它能合成了——无论是靠 Forbidden Arcanus 还是 KubeJS——请删掉这条备注并取消隐藏。"]
 	quest.01F59AF41A6DA0F7.quest_subtitle: "等阶：&54"
 	quest.03E05018D64DDEE1.quest_desc: ["&e等级 5&r 基本上只能用于采集 ATM 矿石，没有其他用途。"]
 	quest.03E05018D64DDEE1.title: "&e采集等级5"

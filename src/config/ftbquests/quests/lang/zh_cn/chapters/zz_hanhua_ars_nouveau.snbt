@@ -60,7 +60,7 @@
 	quest.2C47C9B566A63135.title: "&a风转草护符"
 	quest.2D0CF18C8B2ABB7D.quest_desc: ["把农艺魔源通道放在正在生长的农作物或树苗附近（15格内），它就能持续收集魔源。至高木树苗一类的魔法植物还会额外产出魔源！\\n\\n注意：对农作物使用骨粉并不会产出魔源。"]
 	quest.2D0CF18C8B2ABB7D.quest_subtitle: "通过植物的生长生成魔源"
-	quest.3142A40E1EAEBAA3.quest_desc: ["&6探测杖&r提供魔法探测和占卜功能。\\n\\n这允许你看到附近的魔法生物，并帮助你找到紫水晶！"]
+	quest.3142A40E1EAEBAA3.quest_desc: ["&6占卜杖&r提供魔法探测和占卜功能。\\n\\n这允许你看到附近的魔法生物，并帮助你找到紫水晶！"]
 	quest.3142A40E1EAEBAA3.quest_subtitle: "魔法探测器"
 	quest.3182E8AF755104E4.quest_desc: ["在格挡伤害时，&9巫师之盾&r会为使用者提供短时间的魔力再生和法术伤害提升效果。\\n\\n此外，盾牌还会随时间推移用佩戴者的魔力修复自身。"]
 	quest.3182E8AF755104E4.title: "&5巫师之盾"
@@ -104,14 +104,14 @@
 	quest.47DD9F268BC2254E.title: "&5基础法术炮塔"
 	quest.48A5B5FBAFD3AED7.quest_subtitle: "这一拳更重"
 	quest.48A5B5FBAFD3AED7.title: "&a压缩经验"
-	quest.48A6087A6EAD6A85.title: "&b海妖护符"
+	quest.48A6087A6EAD6A85.title: "&b塞壬护符"
 	quest.48D5D9D9AD98409F.title: "&6星宝石兽护符"
 	quest.48D8E1B9D76BAFC1.quest_desc: ["&d&l新生魔艺&r的&6手环&r属于饰品，是一类提供被动能力、还能提升法术伤害的魔法装备。做出来戴上，就能获得元素相关的效果并增强你的魔力。"]
 	quest.48D8E1B9D76BAFC1.title: "&6手镯"
 	quest.4D4D383E210A4897.quest_desc: ["&d&lArs&r 的&5精华&r是另一种极其重要的材料。几乎每个法术配方和附魔装置配方都要用到它。"]
 	quest.4D4D383E210A4897.quest_subtitle: "这些你会用得上……"
 	quest.4D4D383E210A4897.title: "&2新生&r&9魔&r&4艺&r&6精华"
-	quest.51162B9185A45BB1.quest_desc: ["这张弓可以使用抄写台刻写法术。\\n\\n以法力为代价，箭矢会变成法术箭，并在目标上施放法术。\\n\\n如果没有箭矢，将施放一个造成0伤害的法术箭。如果法力不足，将发射普通箭矢。\\n\\n&9附魔弓&r还可以使用特殊强化箭矢来增强刻写的法术。"]
+	quest.51162B9185A45BB1.quest_desc: ["这张弓可以使用抄写台刻写法术。\\n\\n以法力为代价，箭矢会变成法术箭，并在目标上施放法术。\\n\\n如果没有箭矢，将施放一个造成0伤害的法术箭。如果法力不足，将发射普通箭矢。\\n\\n&9巫师之弓&r还可以使用特殊强化箭矢来增强刻写的法术。"]
 	quest.51162B9185A45BB1.title: "&5巫师之弓"
 	quest.542C6D76B579886C.quest_desc: ["有了这些种子，我们就该做出第一种纤维——&5法师之花纤维&r。\\n\\n它是做各种魔法饰品的材料！"]
 	quest.542C6D76B579886C.quest_subtitle: "讲究的线"
@@ -135,7 +135,7 @@
 	quest.58EC47584C773B82.title: "&5法师之花种子"
 	quest.5AEFB843AA0A575E.quest_desc: ["&d&l元素魔艺&r里很多高级物品都要用它来做。"]
 	quest.5AEFB843AA0A575E.quest_subtitle: "只给大师"
-	quest.5AEFB843AA0A575E.title: "&5精通印记"
+	quest.5AEFB843AA0A575E.title: "&5精通之印"
 	quest.5C3FF43CF16BCF30.quest_desc: ["使用魔源宝石来制作&5魔源石&r，你就可以开始制造各种机器了。"]
 	quest.5C3FF43CF16BCF30.quest_subtitle: "以前称为“奥秘石”"
 	quest.5C3FF43CF16BCF30.title: "&5魔源石"

@@ -103,7 +103,7 @@
 		"{image:atm:textures/questpics/chap2/chap2_flux1.png width:50 height:100 align:center}"
 		"{image:atm:textures/questpics/chap2/chap2_flux2.png width:50 height:100 align:center}"
 	]
-	quest.5A71A1F11FB74BDA.title: "粉碎出&8通量粉"
+	quest.5A71A1F11FB74BDA.title: "粉碎出&8通量粉尘"
 	quest.5AAE3E43A8A545C4.quest_desc: ["&b&l通量筛子&r和&8&l通量锤&r都能装升级组件！\\n\\n升级能提高它们的运转速度和单次处理的物品数量。\\n每种最多叠 3 个，装得越多效果越好。"]
 	quest.5AAE3E43A8A545C4.title: "通量升级"
 	quest.5AE7A856B4CEB97A.quest_desc: ["要说搬运怪物，&7实体传送带&r是我最喜欢的方案之一。\\n\\n怪物可以直接在&7传送带&r上生成，除非它们必须站在特定方块上才生成。\\n\\n&7实体传送带&r会把怪物朝着放置的方向送走。\\n\\n它的速度没法提升，只有&8风扇&r能装升级。"]
@@ -117,7 +117,7 @@
 	quest.61F265D9A5713A4D.quest_desc: ["&6&l发电机盛会&r这回改动不小！\\n\\n运作方式还是老样子——丢物品出电——但种类和配方都变了。\\n\\n现在不再有&6铜&f、&e金&f和&b钻石&r发电机，只剩下铁、&c下界合金&r，以及那些各具特色的发电机。\\n除了&4岩浆发电机&r，其余全都从铁发电机起步！"]
 	quest.61F265D9A5713A4D.quest_subtitle: "铁发电机"
 	quest.61F265D9A5713A4D.title: "&6&l发电机盛会"
-	quest.64B72C477EA7E6CA.quest_desc: ["&b汲液泵&r是我们把材料取出来的工具。没错，那些东西太烫，手和桶都别想直接碰。\\n\\n把&c&l熔铸炉&r的&7浇注口&r接到&b汲液泵&r上，右键浇注口就能把材料放出来。\\n\\n而且盯着&b汲液泵&r看，还能查到&c&l熔铸炉&r里各种液体的存量！"]
+	quest.64B72C477EA7E6CA.quest_desc: ["&b汲液泵&r是我们把材料取出来的工具。没错，那些东西太烫，手和桶都别想直接碰。\\n\\n把&7熔铸炉浇注口&r接到&b汲液泵&r上，右键浇注口就能把材料放出来。\\n\\n而且盯着&b汲液泵&r看，还能查到&c&l熔铸炉&r里各种液体的存量！"]
 	quest.64B72C477EA7E6CA.title: "&c&l熔铸炉&r的&b排液孔&f与&7阀"
 	quest.65CE3B5FCD759ABC.quest_desc: ["玩&b空岛&r，&b过筛&f和&8锤碎&r这两件事得干上很久，可惜并不是每种农场都能把它们取代掉。\\n\\n好在有了&b&lEx Machinis&r，我们可以拿电力把&b过筛&r和&8锤碎&r全自动化！"]
 	quest.65CE3B5FCD759ABC.title: "&b空岛&r自动化"
