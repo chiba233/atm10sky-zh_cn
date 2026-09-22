@@ -123,7 +123,7 @@
 		""
 		"(这是延迟最少的管道解决方案，推荐使用)。"
 	]
-	quest.6E05B62A40D5A891.title: "&3&l集成动力"
+	quest.6E05B62A40D5A891.title: "&3&l动态联合"
 	quest.6F152402756DA35E.quest_desc: [
 		"要让这个工作，将物品导入器放在你想要提取物品的库存上。接下来，在第二个库存上放置接口，并用逻辑线缆连接它们。然后，将变量卡插入导入器并根据需要进行更改。\\n\\n它可以设置为在整数限制下导入物品（超过20亿）。"
 		"{image:atm:textures/questpics/logistics/id_item.png width:200 height:50 align:center}"
