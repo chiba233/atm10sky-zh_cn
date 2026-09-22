@@ -10,7 +10,7 @@
 [![Security](https://img.shields.io/badge/Security-policy-red.svg)](./SECURITY.md)
 [![License](https://img.shields.io/badge/License-GPL--3.0-green.svg)](./LICENSE)
 
-All the Mods 10: To the Sky 的简体中文汉化补丁，对应整合包 **2.0.4**。
+All the Mods 10: To the Sky 的简体中文汉化补丁，对应整合包 **2.0.4** 与 **2.0.6**。
 
 > **首个版本尚未发布。** [Releases](../../releases) 还是空的，下面的安装说明写的是发布之后的用法。
 
@@ -22,19 +22,21 @@ All the Mods 10: To the Sky 的简体中文汉化补丁，对应整合包 **2.0.
 | 整合包版本 | Minecraft | NeoForge |
 |---|---|---|
 | All the Mods 10: To the Sky **2.0.4** | 1.21.1 | 21.1.250 |
+| All the Mods 10: To the Sky **2.0.6** | 1.21.1 | 21.1.250 |
 
-**只做这一个版本，不能跨版本用。** 整合包出新版时本包重新核验后另行发布。
+**这两个版本各出一份包，认自己的整合包版本下载，不能互换。** 表里没有的版本（含 2.0.5）没有核验过，
+整合包再出新版时本包重新核验后另行发布。
 
 ## 我该下载哪个包？
 
-[Releases](../../releases) 里有两个文件：
+[Releases](../../releases) 里，每个整合包版本各有客户端与服务端两个文件：
 
 | 文件 | 装在哪 | 谁需要 |
 |---|---|---|
 | `atm10sky-zh_cn-client-<补丁版本>-sky<整合包版本>.zip` | 你自己电脑上的 All the Mods 10: To the Sky 实例 | **所有人都要装。** 单人玩家只装这一个 |
 | `atm10sky-zh_cn-server-<补丁版本>-sky<整合包版本>.zip` | 服务器那台机器 | 只有**开服的人**要装 |
 
-文件名里有两个版本号：`r1` 是**补丁的版本**，`sky2.0.4` 才是**你的整合包版本**。认后者下载。
+文件名里有两个版本号：`r1` 是**补丁的版本**，`sky2.0.4` / `sky2.0.6` 才是**你的整合包版本**。认后者下载。
 
 **单人玩家只装客户端包**——单人时你的客户端兼任服务端。
 
