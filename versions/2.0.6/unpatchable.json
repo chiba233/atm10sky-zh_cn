@@ -1,0 +1,38 @@
+{
+ "_why": "src/upstream/ 的映射对**每个**出货版本的官方文件都要能套上，套不上就退出——这条是那套结构的支点，不能松。但上游在某一版把某段原文删了或重写了，而别的版本里它原样还在：删掉映射的话那些版本会一起丢，改锚点又不可能同时命中两边。所以按版本逐条登记，只放行登记过的，别的一个都不放。\\n\\n登记两头都是 fail-closed：登记了但原文其实还在 → 红（上游又改回来了，该撤掉登记）；没登记又找不到原文 → 红（原来的行为）。",
+ "_recorded": "2026-09-22",
+ "edits": {
+  "config/ftbquests/quests/chapters/apotheosis_gear.snbt": {
+   "which": "all",
+   "why": "本版这一章有 20 个 image 块、hover 字段 0 个：上游把图片的悬停文字外化成了任务书 lang 的 image.<ID>.title 键，章节文件里已经没有可改的英文。这 1 处改动因此在本版没有落点，译文改由任务书那一侧承载。"
+  },
+  "config/ftbquests/quests/chapters/elmystical_agriculturerr.snbt": {
+   "which": "all",
+   "why": "本版这一章有 26 个 image 块、hover 字段 0 个：上游把图片的悬停文字外化成了任务书 lang 的 image.<ID>.title 键，章节文件里已经没有可改的英文。这 11 处改动因此在本版没有落点，译文改由任务书那一侧承载。"
+  },
+  "config/ftbquests/quests/chapters/extended__advanced_ae.snbt": {
+   "which": "all",
+   "why": "本版这一章有 11 个 image 块、hover 字段 0 个：上游把图片的悬停文字外化成了任务书 lang 的 image.<ID>.title 键，章节文件里已经没有可改的英文。这 4 处改动因此在本版没有落点，译文改由任务书那一侧承载。"
+  },
+  "config/ftbquests/quests/chapters/industrial_foregoing.snbt": {
+   "which": "all",
+   "why": "本版这一章有 31 个 image 块、hover 字段 0 个：上游把图片的悬停文字外化成了任务书 lang 的 image.<ID>.title 键，章节文件里已经没有可改的英文。这 4 处改动因此在本版没有落点，译文改由任务书那一侧承载。"
+  },
+  "config/ftbquests/quests/chapters/justdirethings.snbt": {
+   "which": "all",
+   "why": "本版这一章有 3 个 image 块、hover 字段 0 个：上游把图片的悬停文字外化成了任务书 lang 的 image.<ID>.title 键，章节文件里已经没有可改的英文。这 1 处改动因此在本版没有落点，译文改由任务书那一侧承载。"
+  },
+  "config/ftbquests/quests/chapters/productive_trees.snbt": {
+   "which": "all",
+   "why": "本版这一章有 1 个 image 块、hover 字段 0 个：上游把图片的悬停文字外化成了任务书 lang 的 image.<ID>.title 键，章节文件里已经没有可改的英文。这 1 处改动因此在本版没有落点，译文改由任务书那一侧承载。"
+  },
+  "config/ftbquests/quests/chapters/railcraft.snbt": {
+   "which": "all",
+   "why": "本版这一章有 23 个 image 块、hover 字段 0 个：上游把图片的悬停文字外化成了任务书 lang 的 image.<ID>.title 键，章节文件里已经没有可改的英文。这 21 处改动因此在本版没有落点，译文改由任务书那一侧承载。"
+  },
+  "config/ftbquests/quests/chapters/welcome.snbt": {
+   "which": "all",
+   "why": "本版这一章有 2 个 image 块、hover 字段 0 个：上游把图片的悬停文字外化成了任务书 lang 的 image.<ID>.title 键，章节文件里已经没有可改的英文。这 1 处改动因此在本版没有落点，译文改由任务书那一侧承载。"
+  }
+ }
+}
