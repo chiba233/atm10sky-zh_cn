@@ -14,8 +14,11 @@ buttons = 20     # config/fancymenu/assets 下全部 png，不只是生成器画
 #   client  banners=151 book_files=1064 buttons=20 gui_files=24 kubejs_banners=151
 #           lang_files=298 lang_keys=132506 quest_delta=178 vp_modules=118
 #   server  quest_delta=178 vp_modules=8
+# Build run 35723228820（commit e8d37cc）：client lang_keys=124436
+#   132506 → 124436：奖杯名 11993 → 3971、木头名 1239 → 1191。两个生成器不再拿资源包里
+#   未安装模组的备用译文当作「这个实体/木板存在」的证据，少掉的都是本包里根本没有的东西。
 client_lang_files     =    298
-client_lang_keys      = 132506
+client_lang_keys      = 124436
 client_banners        =    151
 client_kubejs_banners =    151   # kubejs/assets 里那份，游戏里真正生效的是它
 client_buttons        =     20
