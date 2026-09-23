@@ -44,6 +44,7 @@
 用法:
     python3 scripts/compliance/test_gates.py
 """
+import hashlib
 import json
 import os
 import shutil
