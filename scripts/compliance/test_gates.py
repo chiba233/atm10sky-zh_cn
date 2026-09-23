@@ -1417,6 +1417,185 @@ def run_missing(name, fn):
     return ok
 
 
+
+def _po_fixture(tmp, doc=None, base=None):
+    """造一棵最小出货树 + 一份该版覆盖，返回 (仓库根, 那份 zh_cn.json)。"""
+    r = tmp / 'porepo'
+    (r / 'scripts').mkdir(parents=True, exist_ok=True)
+    shutil.copy(ROOT / 'scripts' / 'gen_pack_overrides.py', r / 'scripts')
+    lang = r / 'tree' / 'resourcepacks' / 'ATM10汉化包' / 'assets' / 'demo' / 'lang'
+    lang.mkdir(parents=True)
+    f = lang / 'zh_cn.json'
+    f.write_text(json.dumps(base if base is not None else {'demo.k': '公共树的值'},
+                            ensure_ascii=False), encoding='utf-8')
+    if doc is not None:
+        d = r / 'versions' / '9.9'
+        d.mkdir(parents=True, exist_ok=True)
+        (d / 'pack_overrides.json').write_text(
+            doc if isinstance(doc, str) else json.dumps(doc, ensure_ascii=False),
+            encoding='utf-8')
+    return r, f
+
+
+def _po_run(r):
+    x = subprocess.run([sys.executable, str(r / 'scripts' / 'gen_pack_overrides.py'),
+                        '9.9', str(r / 'tree')], capture_output=True, text=True, cwd=r)
+    return x.returncode, x.stdout + x.stderr
+
+
+_PO_OK = {'lang': {'demo': {'demo.k': {'value': '该版的值', 'why': '这一版上游多了个参数'}}}}
+
+
+@missing_case('该版覆盖生效 → 出货树里的值真的换了，并打印条数')
+def _m71(tmp, tree):
+    r, f = _po_fixture(tmp, _PO_OK)
+    rc, out = _po_run(r)
+    return (rc == 0 and '覆盖资源包译文 1 条' in out
+            and json.loads(f.read_text(encoding='utf-8'))['demo.k'] == '该版的值')
+
+
+@missing_case('没有这份覆盖文件 → 什么都不做（不是每版都需要分叉）')
+def _m72(tmp, tree):
+    r, f = _po_fixture(tmp)
+    rc, out = _po_run(r)
+    return rc == 0 and '覆盖资源包译文' not in out
+
+
+@missing_case('覆盖的命名空间在出货树里没有 zh_cn.json → 必须红')
+def _m73(tmp, tree):
+    doc = {'lang': {'不存在的命名空间': {'x': {'value': 'v', 'why': 'w'}}}}
+    rc, out = _po_run(_po_fixture(tmp, doc)[0])
+    return rc != 0 and '永远不会生效' in out
+
+
+@missing_case('覆盖的值与公共树完全相同 → 必须红（这条登记已经过期）')
+def _m74(tmp, tree):
+    doc = {'lang': {'demo': {'demo.k': {'value': '公共树的值', 'why': 'w'}}}}
+    rc, out = _po_run(_po_fixture(tmp, doc)[0])
+    return rc != 0 and '白写' in out
+
+
+@missing_case('覆盖没写 why → 必须红')
+def _m75(tmp, tree):
+    doc = {'lang': {'demo': {'demo.k': {'value': '该版的值', 'why': '   '}}}}
+    rc, out = _po_run(_po_fixture(tmp, doc)[0])
+    return rc != 0 and '没写 why' in out
+
+
+@missing_case('覆盖的 value 不是字符串 → 必须红')
+def _m76(tmp, tree):
+    doc = {'lang': {'demo': {'demo.k': {'value': 123, 'why': 'w'}}}}
+    rc, out = _po_run(_po_fixture(tmp, doc)[0])
+    return rc != 0 and 'value 不是字符串' in out
+
+
+@missing_case('覆盖文件是坏 JSON → 必须红，不许当成「没有覆盖」放过')
+def _m77(tmp, tree):
+    rc, out = _po_run(_po_fixture(tmp, '{坏')[0])
+    return rc != 0 and '解析失败' in out
+
+
+def _po_file_fixture(tmp, layers, public='公共页', sources=None, target=True):
+    """造最小文件覆盖层；sources 是 {层名: 文件内容}。"""
+    r, _ = _po_fixture(tmp, {'files': layers})
+    rel = Path('assets/demo/guide/page.md')
+    if target:
+        f = r / 'tree/resourcepacks/ATM10汉化包' / rel
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(public, encoding='utf-8')
+    for name, body in (sources or {}).items():
+        f = r / 'src/pack_overrides' / name / rel
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_text(body, encoding='utf-8')
+    return r, r / 'tree/resourcepacks/ATM10汉化包' / rel
+
+
+@missing_case('整文件版本层生效 → 覆盖公共页，并打印文件数与层名')
+def _m78(tmp, tree):
+    r, f = _po_file_fixture(
+        tmp, {'old-books': {'why': '旧版模组仍使用旧剧情'}},
+        sources={'old-books': '旧版专属页'})
+    rc, out = _po_run(r)
+    return (rc == 0 and f.read_text(encoding='utf-8') == '旧版专属页'
+            and '覆盖资源包文件 1 个（old-books）' in out)
+
+
+@missing_case('登记的文件层不存在或为空 → 必须红')
+def _m79(tmp, tree):
+    r, _ = _po_file_fixture(tmp, {'missing': {'why': 'w'}})
+    rc, out = _po_run(r)
+    return rc != 0 and '不存在或为空' in out
+
+
+@missing_case('整文件版本层没写 why → 必须红')
+def _m80(tmp, tree):
+    r, _ = _po_file_fixture(tmp, {'old-books': {'why': ' '}},
+                            sources={'old-books': '旧版专属页'})
+    rc, out = _po_run(r)
+    return rc != 0 and '没写 why' in out
+
+
+@missing_case('整文件覆盖与公共页相同 → 必须红（登记已过期）')
+def _m81(tmp, tree):
+    r, _ = _po_file_fixture(tmp, {'old-books': {'why': 'w'}},
+                            sources={'old-books': '公共页'})
+    rc, out = _po_run(r)
+    return rc != 0 and '白写' in out
+
+
+@missing_case('整文件覆盖的目标不在公共树 → 必须红，不许悄悄新塞文件')
+def _m82(tmp, tree):
+    r, _ = _po_file_fixture(tmp, {'old-books': {'why': 'w'}},
+                            sources={'old-books': '旧版专属页'}, target=False)
+    rc, out = _po_run(r)
+    return rc != 0 and '公共树里没有这个文件' in out
+
+
+@missing_case('两个文件层撞同一路径 → 必须红，不许靠层名顺序决定')
+def _m83(tmp, tree):
+    layers = {'old-a': {'why': 'w'}, 'old-b': {'why': 'w'}}
+    r, _ = _po_file_fixture(tmp, layers,
+                            sources={'old-a': '旧页 A', 'old-b': '旧页 B'})
+    rc, out = _po_run(r)
+    return rc != 0 and '只能有一个所有者' in out
+
+
+@missing_case('版权闸剔除的公共页 → 路径与哈希都匹配才允许版本层恢复')
+def _m84(tmp, tree):
+    r, f = _po_file_fixture(tmp, {'new-books': {'why': '新版正文已改写'}},
+                            sources={'new-books': '新版专属页'}, target=False)
+    _po_record_dropped(r)
+    rc, out = _po_run(r)
+    return (rc == 0 and f.read_text(encoding='utf-8') == '新版专属页'
+            and '覆盖资源包文件 1 个（new-books）' in out)
+
+
+@missing_case('版权闸剔除记录哈希不符 → 必须红，不许拿旧清单新增文件')
+def _m85(tmp, tree):
+    r, _ = _po_file_fixture(tmp, {'new-books': {'why': '新版正文已改写'}},
+                            sources={'new-books': '新版专属页'}, target=False)
+    _po_record_dropped(r, sha256='0' * 64)
+    rc, out = _po_run(r)
+    return rc != 0 and '匹配剔除记录' in out
+
+def _po_record_dropped(r, public='公共页', sha256=None):
+    """登记一份确由版权闸从公共树剔除的源页。"""
+    rel = Path('assets/demo/guide/page.md')
+    source = r / 'src/pack' / rel
+    source.parent.mkdir(parents=True, exist_ok=True)
+    source.write_text(public, encoding='utf-8')
+    got = hashlib.sha256(source.read_bytes()).hexdigest()
+    manifest = r / 'build/snapshots/upstream_identical_dropped.json'
+    manifest.parent.mkdir(parents=True, exist_ok=True)
+    manifest.write_text(json.dumps({'files': {rel.as_posix(): {
+        'sha256': sha256 or got,
+        'jar': 'demo.jar',
+        'entry': rel.as_posix(),
+    }}}), encoding='utf-8')
+
+
+@missing_case('整文件版本层生效 → 覆盖公共页，并打印文件数与层名')
+
 def main():
     print('闸的反例测试：每条都复刻一次真实事故，验它真的会红\n')
     ok = sum(run_case(*c) for c in CASES)

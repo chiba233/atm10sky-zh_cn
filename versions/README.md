@@ -31,6 +31,7 @@ ls -d versions/[0-9]*        # 这就是 MC_VERSIONS，新建一个目录＝多�
 | `default_resource_packs.txt` | 该版 `options.txt` 里 `resourcePacks` 的默认顺序。**没实测就留空并写明原因**——那串顺序必须真起一次实例、干净退出才拿得到；抄别的包会让汉化包被压在内置包下面，而且没有任何提示。留空时安装器不伪造这一行，只提示玩家先启动一次 | `build_dist.sh`、`test_installer.py` |
 | `generated_baseline.txt` | 该版各类生成物的**实测**份数，只抄 CI 打印的实测行，逐项注明 run。`build_dist.sh` 与 `verify_dist.py` 的下限都从这里算，取不到就红。数字掉了先查是不是删错了东西，不许为了变绿往下改 | `build_dist.sh`、`verify_dist.py` |
 | `quest_overrides.snbt` | 该版专属的任务书中文（见下「什么时候该分叉」） | `gen_quest_lang_patches.py` 等 |
+| `pack_overrides.json` | 该版专属的资源包差异：`lang` 定点覆盖单键，`files` 引用 `src/pack_overrides/<层名>/` 整页覆盖散文；每项都必须写 `why` | `gen_pack_overrides.py` |
 | `unobtainable.json` | 该版在 CurseForge 上**已被删除**的 jar，按 fileID 逐个登记并写 `why` | `fetch_pack.py`、`build_version_db.py` |
 | `unpatchable.json` | `src/upstream/` 里某条改动**在这一版套不上**，逐条登记并写 `why` | `gen_upstream_patches.py` |
 | `quest_untranslated.json` | 任务书底本（该版上游不带中文时是 en_us）里**有意不译**的键，分组写 `why`，只认写死的键名。漏登记或登记过期都红 | `gen_quest_lang_patches.py` |
@@ -38,6 +39,12 @@ ls -d versions/[0-9]*        # 这就是 MC_VERSIONS，新建一个目录＝多�
 
 后四个是登记表，共同的规矩：**双向 fail-closed**。登记了但实际还在 → 红（登记过期）；
 没登记又确实缺 → 红（有人在偷偷放行）。反例见 `scripts/compliance/test_gates.py`。
+
+`pack_overrides.json` 同样是 fail-closed：文件层不存在或为空、目标不在公共资源包、
+内容与公共页相同、两层撞同一路径，都会直接红。公共页若因与模组自带中文逐字节相同
+而被版权闸剔除，只有该次构建的剔除清单路径与 SHA-256 都匹配时才允许恢复。
+散文整页分叉只放在 `src/pack_overrides/<层名>/assets/`；公共页仍留在 `src/pack/`，
+老版本不会被新版正文覆盖。
 
 **在册版本的数量随时会变。** 现在只有 2.0.4 一个，是因为比它更老的整合包版本不打算
 适配；整合包出新版时按下面「加一个新的整合包版本」那节进来，一个目录就是一个构建目标。
