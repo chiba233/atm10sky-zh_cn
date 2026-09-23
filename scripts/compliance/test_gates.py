@@ -1595,8 +1595,6 @@ def _po_record_dropped(r, public='公共页', sha256=None):
     }}}), encoding='utf-8')
 
 
-@missing_case('整文件版本层生效 → 覆盖公共页，并打印文件数与层名')
-
 def main():
     print('闸的反例测试：每条都复刻一次真实事故，验它真的会红\n')
     ok = sum(run_case(*c) for c in CASES)
