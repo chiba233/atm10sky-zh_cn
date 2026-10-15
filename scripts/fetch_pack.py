@@ -170,12 +170,19 @@ def check_digest(ver, digest, record=False):
     print('  指纹与 versions/%s/overrides.sha256 一致 ✅' % ver)
 
 
+def display_ver(f):
+    # 上游混着两种 displayName 发：ATM10SKY-2.0.6 与 ATM10SKY-2.0.7.zip。带后缀时按
+    # 旧判据比不上，就等于这一版在 CurseForge 上不存在（Build run 38663935761 的原话：
+    # 「最近 50 个文件里有: … 2.0.6 2.0.7.zip」）。版本号仍要求逐字相等。
+    return f['displayName'].rsplit('-', 1)[-1].strip().removesuffix('.zip')
+
+
 def find_file_id(ver):
     d = json.loads(get('%s/files?pageSize=50' % API))
     for f in d['data']:
-        if f['displayName'].rsplit('-', 1)[-1].strip() == ver:
+        if display_ver(f) == ver:
             return f['id']
-    have = sorted({f['displayName'].rsplit('-', 1)[-1].strip() for f in d['data']})
+    have = sorted({display_ver(f) for f in d['data']})
     sys.exit('❌ CurseForge 上找不到 ATM10 Sky %s\n   最近 50 个文件里有: %s'
              % (ver, ' '.join(have)))
 
