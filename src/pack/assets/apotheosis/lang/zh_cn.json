@@ -740,5 +740,6 @@
   "book.apotheosis.landing": "欢迎来到神化的世界。$(br2)神化属于 $(#8080FF)Apothic$() 系列模组，这本书把它们全写进来了。$(br2)只有装了对应的模组，相应章节才会出现。",
   "reward.apotheosis.random_affix_item": "词缀物品（随机）",
   "text.apotheosis.world_tier.difficulty": "难度：",
-  "tier_augment.apotheosis.damage_reduction": "+%s%% %s抗性"
+  "tier_augment.apotheosis.damage_reduction": "+%s%% %s抗性",
+  "key.apotheosis.toggle_attribute_bonuses": "更改靴子属性加成"
 }
