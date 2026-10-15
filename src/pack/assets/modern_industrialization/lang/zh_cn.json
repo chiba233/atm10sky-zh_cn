@@ -1126,7 +1126,7 @@
   "modern_industrialization.configuration.fuelTooltips": "燃料提示",
   "modern_industrialization.configuration.fuelTooltips.tooltip": "将燃料物品的总 EU 值添加到其工具提示中。",
   "modern_industrialization.configuration.hatchPlacementOverlay": "舱口放置覆盖层",
-  "modern_industrialization.configuration.hatchPlacementOverlay.tooltip": "手持舱口时，显示其在多方块结构中的有效位置。",
+  "modern_industrialization.configuration.hatchPlacementOverlay.tooltip": "手持舱口时，显示多方块结构中可以放置舱口的位置。",
   "modern_industrialization.configuration.interMachineConnectedTextures": "机器间连通纹理",
   "modern_industrialization.configuration.interMachineConnectedTextures.tooltip": "启用具有相同外壳的机器之间的连通纹理。（需要合适的资源包）",
   "modern_industrialization.configuration.itemTagTooltips": "物品标签提示",

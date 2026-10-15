@@ -66,7 +66,7 @@
   "info_book.integratedcrafting.crafting_interface.crafting": "合成过程",
   "info_book.integratedcrafting.crafting_interface.crafting.text1": "本节将说明 &l合成接口&r 是如何处理合成流程的。要充分发挥这个模组的作用，并排查你可能遇到的任何问题，这些信息都至关重要。",
   "info_book.integratedcrafting.crafting_interface.crafting.text2": "当一个合成任务开始时（例如使用 &l合成写入器&r），会使用一个或多个拥有与该任务对应配方的 &l合成接口&r。配方所需的所有材料都会从网络中提取，并保存在 &l合成接口&r 内的合成任务中，以避免这些材料在合成任务完成前被用于其他地方。&l合成接口&r 负责将配方的所有输入物插入已绑定的机器中。它会根据存储网络中的内容执行此操作，这些内容由 &l集成管道接口&r 提供。",
-  "info_book.integratedcrafting.crafting_interface.crafting.text3": "不过，&l合成接口&r &l不会&r从已绑定的机器中导入合成结果。玩家需要自行确保合成结果最终会回到网络中。合成台是个例外，使用它进行合成时只需要一个 &l合成接口&r。&l合成接口&r 会追踪存储网络中的变化，只有当预期输出出现在存储网络中时，它才会将合成任务标记为完成。这可以通过两种方式实现：在机器上放置一个启用的 &l集成管道导入器&r，或者让机器自动将产物输出到 &l合成接口&r 中。任何被插入到 &l合成接口&r 中的内容（物品、流体、能量）都会被插入到该已配置频道的存储网络中。",
+  "info_book.integratedcrafting.crafting_interface.crafting.text3": "不过，&l合成接口&r &l不会&r从已绑定的机器中导入合成结果。玩家需要自行确保合成结果最终会回到网络中。合成台是个例外，使用它进行合成时只需要一个 &l合成接口&r。只有当预期输出被&l插入&r存储网络时，&l合成接口&r 才会把合成任务标记为完成。这可以通过两种方式实现：在机器上放置一个启用的 &l集成管道导入器&r，或者让机器自动将产物输出到 &l合成接口&r 中。产物若是走别的路径进了相连的存储——比如别的模组的管道或漏斗直接写进箱子或抽屉——就&l不会&r被识别到，即使终端里已经看得见产物，合成任务也会一直等下去。任何被插入到 &l合成接口&r 中的内容（物品、流体、能量）都会被插入到该已配置频道的存储网络中。",
   "info_book.integratedcrafting.crafting_interface.crafting.text4": "下图展示了使用工作台和熔炉进行自动合成的有效最小搭建示例。",
   "info_book.integratedcrafting.crafting_interface.configuration": "配置",
   "info_book.integratedcrafting.crafting_interface.configuration.text1": "与大多数 &lIntegrated Dynamics&r 部件一样，你可以在 &l合成接口&r 中配置诸如频道、优先级和刻速之类的内容。",
