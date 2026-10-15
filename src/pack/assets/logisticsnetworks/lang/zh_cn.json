@@ -94,5 +94,6 @@
   "message.logisticsnetworks.lnet.no_wrench": "未装入扳手",
   "message.logisticsnetworks.mass_placement.corner_first": "第一个角设在 %s, %s, %s",
   "message.logisticsnetworks.mass_placement.corner_second": "第二个角设在 %s, %s, %s。区域共 %s 个方块",
-  "message.logisticsnetworks.mass_placement.no_block_selected": "请在批量放置界面里选择目标方块"
+  "message.logisticsnetworks.mass_placement.no_block_selected": "请在批量放置界面里选择目标方块",
+  "key.logisticsnetworks.wrench_modes": "按住打开扳手模式转盘"
 }
