@@ -1,0 +1,68 @@
+{
+ "groups": {
+  "orphan-chapters": {
+   "why": "章节 id 在本版的章节文件里一处都不存在（lang 以外 0 处引用），游戏里永远不显示。",
+   "keys": [
+    "chapter.1A5BA37AB2194685.title",
+    "chapter.37BC0E99F564D560.title",
+    "chapter.399A4F6D9CF8E1C9.title",
+    "chapter.3B1C95642D1861F7.title",
+    "chapter.6B13AF321AC831D1.title"
+   ]
+  },
+  "orphan-chapter-groups": {
+   "why": "章节组 id 在本版的 chapter_groups.snbt 与章节文件里一处都不存在（lang 以外 0 处引用），游戏里永远不显示。",
+   "keys": [
+    "chapter_group.02FE661031A105D8.title",
+    "chapter_group.15E5B587D291A4AA.title",
+    "chapter_group.1AC60211DE7427FC.title",
+    "chapter_group.22FB35B0FEF1343D.title",
+    "chapter_group.295BE417292024EC.title",
+    "chapter_group.2B51AC12041E3F89.title",
+    "chapter_group.3D4E23B1100491AB.title",
+    "chapter_group.49AECADBA9E79A3B.title",
+    "chapter_group.6614EE2378B8AFB9.title",
+    "chapter_group.6700DB960E16A321.title",
+    "chapter_group.68BDE5700A9B0002.title"
+   ]
+  },
+  "pack-name": {
+   "why": "整合包自己的名字，本包不改。",
+   "keys": [
+    "file.0000000000000001.title"
+   ]
+  },
+  "upstream-blank": {
+   "why": "上游这批标题本身就是空串。",
+   "keys": [
+    "image.43AF296A01B70180.title",
+    "reward.1429A99146E03104.title",
+    "reward.3B17147257DB1D43.title",
+    "reward.5A905690FAC76CE2.title",
+    "reward.624C22D3BE7DC44B.title",
+    "reward.6F5E4351620678FF.title",
+    "reward.70C6817132F2A2FA.title"
+   ]
+  },
+  "armor-point-numbers": {
+   "why": "基础盔甲章节的副标题是护甲点数，只有数字与 + 号，中英一致。",
+   "keys": [
+    "quest.001B195541AE0FA1.quest_subtitle",
+    "quest.03C059DFF8F1BF41.quest_subtitle",
+    "quest.06B8539B731FE4BA.quest_subtitle",
+    "quest.0CE23DBBBFBCC372.quest_subtitle",
+    "quest.1FAE4A884E083283.quest_subtitle",
+    "quest.3A840658A11D16A5.quest_subtitle",
+    "quest.3C662D3A3537F514.quest_subtitle",
+    "quest.44CC11E67ADD0556.quest_subtitle",
+    "quest.4915960FBC94AD0E.quest_subtitle",
+    "quest.49E13245EE169048.quest_subtitle",
+    "quest.4C2BB25A757CE834.quest_subtitle",
+    "quest.57F3F5875F7CF80C.quest_subtitle",
+    "quest.59771D9B8CAD80C5.quest_subtitle",
+    "quest.5A21B16F7600561A.quest_subtitle",
+    "quest.6D45C78AD098AF87.quest_subtitle"
+   ]
+  }
+ }
+}
