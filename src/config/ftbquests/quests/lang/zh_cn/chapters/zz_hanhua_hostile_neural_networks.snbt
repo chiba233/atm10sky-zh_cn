@@ -8,7 +8,6 @@
 	quest.2559201BCF5D497C.quest_subtitle: "制造各种主世界材料"
 	quest.34CD54347E9821B5.quest_desc: ["一旦你制作了第一个数据模型，你需要将其升级才能发挥作用。\\n\\n数据模型最初处于第一级：&7缺陷&r。如果你想在上面运行一些模拟，至少需要将其升级到&a基础&r！\\n\\n一旦放入深度学习器中，HUD会告诉你需要多少击杀才能升级。你也可以在模型本身的提示信息中看到这些信息。"]
 	quest.34CD54347E9821B5.title: "升级数据模型"
-	quest.364A1936C5AFFB4E.quest_desc: ["&b远古守卫者&r不会在&b&l空岛&r自然生成。要获取这个&b数据模型&r，你需要先召唤一只，例如使用&d新生魔艺&r的召唤升级，然后带着&9深度学习器&r击杀它来训练模型。"]
 	quest.37EBB8E0D6E5F821.quest_desc: [
 		"&6敌对神经网络&r（简称HNN）是一个围绕模拟怪物击杀获取战利品的模组！\\n\\n为此，你将收集怪物的“数据”，然后运行模拟以创建它们的掉落物！"
 		"{image:atm:textures/questpics/hnn.png width:150 height:150 align:center}"
