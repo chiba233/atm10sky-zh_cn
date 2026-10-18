@@ -1,0 +1,22 @@
+# ATM10 Sky 2.1.0 的生成物实测基线。
+# Build run 39127420920，commit 6194c5a。
+# 生成物实测：books=1246 banners=151 buttons=20
+books   = 1246
+banners = 151
+buttons = 20
+# 客户端实测：banners=151 book_files=1064 buttons=20 gui_files=24
+# kubejs_banners=151 lang_files=299 lang_keys=124537 quest_delta=179 vp_modules=118
+# 服务端实测：quest_delta=179 vp_modules=8
+# 与 2.0.7 的基线相比，语言文件增加 1 份，译文增加 80 条。
+# 新增文件包含 Just Tiered Generators 的 80 条译文。
+client_lang_files     =    299
+client_lang_keys      = 124537
+client_banners        =    151
+client_kubejs_banners =    151
+client_buttons        =     20
+client_vp_modules     =    118
+client_quest_delta    =    179
+client_gui_files      =     24
+client_book_files     =   1064
+server_vp_modules     =      8
+server_quest_delta    =    179
