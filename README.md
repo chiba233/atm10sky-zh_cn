@@ -113,3 +113,14 @@ ATM10SKY\                 ← 实例根目录
 代码 GPL-3.0，译文 CC BY-NC-SA 4.0，**按目录分别适用**，详见 [LICENSE](LICENSE) 与 [LICENSE-GPL-3.0](LICENSE-GPL-3.0)。
 
 整理／补译：**星野夢華 (Hoshino Yumeka)**。来源与致谢见 [CREDITS.md](CREDITS.md)。
+
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=chiba233%2Fatm10sky-zh_cn&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=chiba233/atm10sky-zh_cn&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=chiba233/atm10sky-zh_cn&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=chiba233/atm10sky-zh_cn&type=date&legend=top-left" />
+ </picture>
+</a>
