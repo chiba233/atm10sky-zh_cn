@@ -126,5 +126,7 @@
   "info_book.integratedcrafting.crafting_interface.attuned_recipes.text1": "&l调谐合成接口&r会把目标机器的&o全部&r配方公开出去，交给网络的配方可能远超你的本意——光一个工作台就有好几百条。因此它的界面会把绑定机器的每一条配方排成产物图标网格，由你决定网络能用哪些。",
   "info_book.integratedcrafting.crafting_interface.attuned_recipes.text2": "带&2绿色边框&0的配方已公开给网络。点击一条会让它变成&4红色边框&0并置灰，也就是从网络中移除，新的合成作业不会再用它。再点一次就恢复。把鼠标悬停在配方上会显示它的产物、配方名和所需材料。",
   "info_book.integratedcrafting.crafting_interface.attuned_recipes.text3": "要一次改动大量配方，按住鼠标键在它们上面拖动。起点那条配方决定这次拖动是启用还是禁用，所以一个手势两种用法都有。",
-  "info_book.integratedcrafting.crafting_interface.attuned_recipes.text4": "搜索框可以匹配配方名、模组名和配方 ID。&l启用&r、&l禁用&r和&l反选&r按钮作用于当前搜索匹配到的配方，成千上万条配方的机器正是靠这一点才用得下去：搜索 &ominecraft:&r 再按&l禁用&r，一次就能把所有原版配方藏起来。"
+  "info_book.integratedcrafting.crafting_interface.attuned_recipes.text4": "搜索框可以匹配配方名、模组名和配方 ID。&l启用&r、&l禁用&r和&l反选&r按钮作用于当前搜索匹配到的配方，成千上万条配方的机器正是靠这一点才用得下去：搜索 &ominecraft:&r 再按&l禁用&r，一次就能把所有原版配方藏起来。",
+  "aspect.integratedcrafting.write.operator.craft": "按运算符合成配方",
+  "aspect.integratedcrafting.write.operator.craft.info": "不需要输入，合成给定运算符返回的配方。运算符返回空配方时不合成任何东西。"
 }
