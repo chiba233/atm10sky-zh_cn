@@ -1,0 +1,16 @@
+{
+ "_why": "资源包译文按命名空间+键索引、版本中立，一份通吃所有在册版本。这里只收那些「一份中文没法同时对两版成立」的键：上游改了原文的参数个数或描述的行为，照新版写的公共译文发给这一版就会显示错误信息。只改措辞的不收。",
+ "_recorded": "2026-10-24",
+ "lang": {
+  "integratedterminals": {
+   "gui.integratedterminals.craftingplan.status.invalid_inputs": {
+    "value": "配方不允许",
+    "why": "本版的集成终端 1.10.0 里原文是 Recipe Not Allowed。2.2.0 的 1.11.1 改成 Inputs Not Accepted，说明里写明合成目标拒收原料后会稍后重试。公共译文按 2.2.0 写，发到本版会描述本版没有的重试行为。"
+   },
+   "gui.integratedterminals.craftingplan.status.invalid_inputs.desc": {
+    "value": "无法将配方输入原料插入合成目标中",
+    "why": "本版的集成终端 1.10.0 里原文是 Recipe inputs could not be inserted into the crafting target。2.2.0 的 1.11.1 改成 The crafting target refused the inputs, will retry later。公共译文写了稍后重试，本版没有这个行为。"
+   }
+  }
+ }
+}
