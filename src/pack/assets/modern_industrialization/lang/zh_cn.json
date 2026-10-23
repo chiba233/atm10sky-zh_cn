@@ -1862,5 +1862,10 @@
   "tag.fluid.c.oxygen": "氧",
   "tag.fluid.c.steam": "蒸汽",
   "tag.fluid.c.sulfuric_acid": "硫酸",
-  "tag.fluid.c.tritium": "氚"
+  "tag.fluid.c.tritium": "氚",
+  "ftbquests.task.modern_industrialization.built_multiblock": "建造多方块结构",
+  "ftbquests.task.modern_industrialization.built_multiblock.machine": "机器",
+  "modern_industrialization.configuration.steamPerWater": "每单位水产生的蒸汽",
+  "modern_industrialization.configuration.steamPerWater.tooltip": "每煮沸 1 mB 水产生多少蒸汽。",
+  "text.modern_industrialization.BuildMultiblock": "建造%s"
 }
