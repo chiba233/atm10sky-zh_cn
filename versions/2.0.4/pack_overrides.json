@@ -13,6 +13,32 @@
     "value": "不过，&l合成接口&r &l不会&r从已绑定的机器中导入合成结果。玩家需要自行确保合成结果最终会回到网络中。合成台是个例外，使用它进行合成时只需要一个 &l合成接口&r。&l合成接口&r 会追踪存储网络中的变化，只有当预期输出出现在存储网络中时，它才会将合成任务标记为完成。这可以通过两种方式实现：在机器上放置一个启用的 &l集成管道导入器&r，或者让机器自动将产物输出到 &l合成接口&r 中。任何被插入到 &l合成接口&r 中的内容（物品、流体、能量）都会被插入到该已配置频道的存储网络中。",
     "why": "本版的合成接口是「预期输出出现在存储网络里」就算完成；2.0.7 改成「必须是插入进存储网络」，并明确别的路径（管道、漏斗直接写进箱子）不被识别。公共译文按 2.0.7 的行为写，发到本版会描述错误的完成条件。"
    }
+  },
+  "integratedterminals": {
+   "gui.integratedterminals.craftingplan.status.invalid_inputs": {
+    "value": "配方不允许",
+    "why": "本版的集成终端 1.9.0 里原文是 Recipe Not Allowed。2.2.0 的 1.11.1 改成 Inputs Not Accepted，说明里写明合成目标拒收原料后会稍后重试。公共译文按 2.2.0 写，发到本版会描述本版没有的重试行为。"
+   },
+   "gui.integratedterminals.craftingplan.status.invalid_inputs.desc": {
+    "value": "无法将配方输入原料插入合成目标中",
+    "why": "本版的集成终端 1.9.0 里原文是 Recipe inputs could not be inserted into the crafting target。2.2.0 的 1.11.1 改成 The crafting target refused the inputs, will retry later。公共译文写了稍后重试，本版没有这个行为。"
+   }
+  },
+  "logisticsnetworks": {
+   "message.logisticsnetworks.wrench.colors.no_wrench": {
+    "value": "手持扳手才能编辑它的配色",
+    "why": "本版的物流网络 1.15.0 里原文是 Hold a wrench to edit its colors，扳手只能改配色。2.2.0 的 1.17.2 改成 Hold a wrench to edit its settings，公共译文按 2.2.0 写。"
+   },
+   "key.logisticsnetworks.wrench_colors": {
+    "value": "编辑扳手配色",
+    "why": "本版的物流网络 1.15.0 里原文是 Edit Wrench Colors，扳手只能改配色。2.2.0 的 1.17.2 改成 Wrench Settings，公共译文按 2.2.0 写。"
+   }
+  },
+  "jei": {
+   "jei.tooltip.bookmarks.tooltips.usage": {
+    "value": "[按“%s”以显示细节]",
+    "why": "本版的 JEI 19.51.0.418 里原文是 [Press \"%s\" to show details]，按一下即可。2.0.6 起改成 [Hold \"%s\" for recipe details]，要按住，公共译文按后者写。"
+   }
   }
  }
 }

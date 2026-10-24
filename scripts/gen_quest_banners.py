@@ -182,7 +182,10 @@ FACE_BY_PREFIX = [
     ('furnaces/',                'pixel'), ('generator/',            'pixel'),
     ('gettingstarted/titleimage','pixel'), ('logistics/',            'pixel'),
     ('xycraft/',                 'pixel'),
+    ('excessiveutilities/excessive_utilities', 'pixel'), ('excessiveutilities/grid_power', 'pixel'),
+    ('excessiveutilities/fe_generators', 'pixel'), ('excessiveutilities/unstable', 'pixel'),
     # ---- 粗衬线 / 装饰
+    ('excessiveutilities/quarries', 'serif'),
     ('aether/',                  'serif'), ('bumblezone/bumble_title.png', 'serif'),
     ('apothic/apotheosis_gear',  'serif'), ('railcraft/railcraft',   'serif'),
     ('natures_aura/',            'serif'), ('occultism/',            'serif'),
@@ -593,6 +596,11 @@ TEXTURED = {
     'building_tips/building_tips.png',
     'building_tips/tips.png',
     'xycraft/xycraft.png',                   # 碎石纹
+    'excessiveutilities/grid_power.png',     # 石砖纹
+    'excessiveutilities/fe_generators.png',  # 红色纹理
+    'excessiveutilities/machines.png',       # 拉丝金属
+    'excessiveutilities/quarries.png',       # 花岗岩纹
+    'excessiveutilities/and_everything_else.png',  # 水纹
 }
 
 BANNERS = {
@@ -659,6 +667,13 @@ BANNERS = {
     'create/create_title_trains.png': '火车',
     'draconic/draconic_title.png':                          '龙之进化',
     'enderio/enderiologo.png':                          '末影接口',  # 本包与 jar 自带的分类名一致
+    'excessiveutilities/and_everything_else.png':       '……以及其他所有东西',  # 2.2.0 新增的「过量的实用工具」章；按原图英文译，用词与本章译文一致
+    'excessiveutilities/excessive_utilities.png':       '过量的实用工具',
+    'excessiveutilities/fe_generators.png':             'FE 发电机',
+    'excessiveutilities/grid_power.png':                '网格能量',
+    'excessiveutilities/machines.png':                  '机器',
+    'excessiveutilities/quarries.png':                  '采石场',
+    'excessiveutilities/unstable.png':                  '不稳定',
     'extended_advanced_ae/title.png': '拓展AE\n与高级AE',
     'extremereactors/title2.png': '极限反应堆',
     'food_and_farming.png':                                 '食物与耕种',

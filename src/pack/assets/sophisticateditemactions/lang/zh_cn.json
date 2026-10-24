@@ -1,0 +1,9 @@
+{
+  "gui.sophisticateditemactions.status.restocked_recipe_items": "已从容器中补充%s个配方物品",
+  "gui.sophisticateditemactions.status.recipe_restocked": "配方原料已经齐备",
+  "gui.sophisticateditemactions.status.cannot_restock_recipe": "无法从容器中补充任何配方物品",
+  "gui.sophisticateditemactions.status.recipe_restock_disabled": "服务器已禁用配方补充",
+  "gui.sophisticateditemactions.recipe_restock": "补充配方原料",
+  "sophisticateditemactions.configuration.server": "服务端",
+  "sophisticateditemactions.configuration.recipeRestockEnabled": "启用配方补充"
+}

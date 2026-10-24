@@ -5,5 +5,57 @@
   "books-2.0.7": {
    "why": "本版升级 Modern Industrialization 2.5.9 与 Oracle Index 1.4.0。大型蒸汽锅炉、原油处理两页改写了燃料倍率，developer/setup、search、user_guide 三页补充了渲染兼容性、译文回落与搜索限制。这五页的英文与 ATM10 8.2 逐字节相同（Oracle Index 是同一份 jar），译文照抄 atm10-zh-cn 的 books-8.2。2.0.6 及以前是 2.5.6 与 1.3.1，仍须保留公共层的旧正文。"
   }
+ },
+ "lang": {
+  "integratedterminals": {
+   "gui.integratedterminals.craftingplan.status.invalid_inputs": {
+    "value": "配方不允许",
+    "why": "本版的集成终端 1.10.0 里原文是 Recipe Not Allowed。2.2.0 的 1.11.1 改成 Inputs Not Accepted，说明里写明合成目标拒收原料后会稍后重试。公共译文按 2.2.0 写，发到本版会描述本版没有的重试行为。"
+   },
+   "gui.integratedterminals.craftingplan.status.invalid_inputs.desc": {
+    "value": "无法将配方输入原料插入合成目标中",
+    "why": "本版的集成终端 1.10.0 里原文是 Recipe inputs could not be inserted into the crafting target。2.2.0 的 1.11.1 改成 The crafting target refused the inputs, will retry later。公共译文写了稍后重试，本版没有这个行为。"
+   }
+  },
+  "jei": {
+   "jei.config.client.lists.navigationVisibility.auto_hide.description": {
+    "value": "只有列表装不下时才显示导航控件。",
+    "why": "本版的 JEI 19.57.0.450 里原文是 Show navigation controls only when a list overflows.。2.2.0 的 19.69.0.456 改成 Show navigation controls and recipe scrollbars only when their contents overflow.，公共译文按 2.2.0 写，发到本版会描述本版没有的配方滚动条或背景样式。"
+   },
+   "jei.config.client.lists.navigationVisibility.description": {
+    "value": "选择两个列表的导航控件什么时候显示。",
+    "why": "本版的 JEI 19.57.0.450 里原文是 Choose when navigation controls are shown for both lists.。2.2.0 的 19.69.0.456 改成 Choose when navigation controls are shown for the ingredient and bookmark lists. Also sets the default for recipe scrollbars.，公共译文按 2.2.0 写，发到本版会描述本版没有的配方滚动条或背景样式。"
+   },
+   "jei.config.client.lists.drawBackground.description": {
+    "value": "在原料列表与书签列表后面显示背景。",
+    "why": "本版的 JEI 19.57.0.450 里原文是 Show a background behind the ingredient and bookmark lists.。2.2.0 的 19.69.0.456 改成 Choose the background behind the ingredient, bookmark, and lookup history lists.，公共译文按 2.2.0 写，发到本版会描述本版没有的配方滚动条或背景样式。"
+   },
+   "jei.config.client.lists.drawBackground": {
+    "value": "显示背景",
+    "why": "本版的 JEI 19.57.0.450 里原文是 Show Background。2.2.0 的 19.69.0.456 改成 Background Style，公共译文按 2.2.0 写，发到本版会描述本版没有的配方滚动条或背景样式。"
+   },
+   "jei.config.client.lists.navigationMode.scrolling.description": {
+    "value": "用滚动条，每次移动一行。",
+    "why": "本版的 JEI 19.57.0.450 里原文是 Use scroll bars that move one row at a time.。2.2.0 的 19.69.0.456 改成 Use scroll bars to move through both lists.，公共译文按 2.2.0 写，发到本版会描述本版没有的配方滚动条或背景样式。"
+   },
+   "jei.config.client.lists.navigationVisibility.disabled.description": {
+    "value": "两个列表都不显示导航控件。",
+    "why": "本版的 JEI 19.57.0.450 里原文是 Hide navigation controls for both lists.。2.2.0 的 19.69.0.456 改成 Hide navigation controls and recipe scrollbars.，公共译文按 2.2.0 写，发到本版会描述本版没有的配方滚动条或背景样式。"
+   },
+   "jei.config.client.lists.navigationVisibility.enabled.description": {
+    "value": "两个列表始终显示导航控件。",
+    "why": "本版的 JEI 19.57.0.450 里原文是 Always show navigation controls for both lists.。2.2.0 的 19.69.0.456 改成 Always show navigation controls and recipe scrollbars.，公共译文按 2.2.0 写，发到本版会描述本版没有的配方滚动条或背景样式。"
+   }
+  },
+  "logisticsnetworks": {
+   "message.logisticsnetworks.wrench.colors.no_wrench": {
+    "value": "手持扳手才能编辑它的配色",
+    "why": "本版的物流网络 1.16.4 里原文是 Hold a wrench to edit its colors，扳手只能改配色。2.2.0 的 1.17.2 改成 Hold a wrench to edit its settings，公共译文按 2.2.0 写。"
+   },
+   "key.logisticsnetworks.wrench_colors": {
+    "value": "编辑扳手配色",
+    "why": "本版的物流网络 1.16.4 里原文是 Edit Wrench Colors，扳手只能改配色。2.2.0 的 1.17.2 改成 Wrench Settings，公共译文按 2.2.0 写。"
+   }
+  }
  }
 }

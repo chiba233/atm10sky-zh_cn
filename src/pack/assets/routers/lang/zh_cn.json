@@ -56,5 +56,9 @@
  "tooltip.routers.source_upgrade": "允许输出口提取新生魔艺模组的魔源，每次操作转移%s单位",
  "tooltip.routers.speed_upgrade": "允许输出口每%s刻进行一次操作",
  "tooltip.routers.tag_filter": "标签：%s",
- "tooltip.routers.tag_filter_empty": "右击打开，允许按模组进行过滤"
+ "tooltip.routers.tag_filter_empty": "右击打开，允许按模组进行过滤",
+  "block.routers.router_block": "路由器",
+  "screen.routers.router.export_tab": "输出",
+  "screen.routers.router.import_tab": "输入",
+  "tooltip.routers.router": "输出口与输入口合二为一：从所连接的容器中提取内容，也向其中输入。手持连接器潜行右击，可将其设为输入口。"
 }
