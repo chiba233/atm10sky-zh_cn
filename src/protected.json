@@ -2483,6 +2483,7 @@
     "src/vaultpatcher/modules/sophisticatedcore.json",
     "src/vaultpatcher/modules/spark.json",
     "src/vaultpatcher/modules/stevescarts.json",
+    "src/vaultpatcher/modules/stevescarts_module_type.json",
     "src/vaultpatcher/modules/structurize.json",
     "src/vaultpatcher/modules/supermartijn642corelib.json",
     "src/vaultpatcher/modules/tesseract_api.json",
