@@ -1,0 +1,22 @@
+---
+title: 节点升级：宽度优先搜索
+id: excessive_utilities:breadth_first_search_upgrade
+related_items: [excessive_utilities:breadth_first_search_upgrade]
+type: item
+---
+
+**节点升级：宽度优先搜索**可以放进[传输与检索节点](@excessive_utilities:transfer_nodes)里，让它的搜索点（Ping）由近到远搜索传输管道网络。
+
+在每个岔口，搜索点会先把每条有效分支往下一根管道搜一遍，再把任意分支往下搜第二根。如此一次推进一格，实际上同时搜索所有分支。
+
+这样能保证最近的有效物品栏、储罐或能量存储总是最先被找到。如果多个有效目标的距离相同，它们的搜索顺序是随机的。
+
+每访问一根管道仍然消耗一次操作。分支和子分支很多的网络，搜索会慢得多。宽度优先搜索最适合大量短分支的网络，比如一排传输管道挨着一排物品栏。
+
+一条分支搜过之后，搜索点不会再搜它，直到搜索点重置。传输节点通常在缓存清空时重置搜索点，而[节点升级：伪循环模式](@excessive_utilities:pseudo_round_robin_upgrade)可以阻止这次重置。
+
+这个升级只改变搜索顺序，不会提高传输速度，也不会增加每次操作搬运的数量。
+
+一个节点里只能装一个宽度优先搜索升级。它不能和[节点升级：深度优先搜索](@excessive_utilities:depth_first_search_upgrade)一起装。
+
+<PrefabObtaining/>

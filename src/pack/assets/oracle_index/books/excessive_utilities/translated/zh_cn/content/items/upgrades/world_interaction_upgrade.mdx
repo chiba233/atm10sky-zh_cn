@@ -1,0 +1,32 @@
+---
+title: 节点升级：世界交互
+id: excessive_utilities:world_interaction_upgrade
+related_items: [excessive_utilities:world_interaction_upgrade]
+type: item
+---
+
+**节点升级：世界交互**可以放进[物品与流体传输节点](@excessive_utilities:transfer_nodes)里，让它们以各种方式与世界互动。
+
+## 物品传输节点
+
+如果节点没有放在任何方块上，它会从地上捡起物品，存进缓存。
+
+有一系列 `excessive_utilities:world_interaction_item` 配方，它们把下面这些当作「材料」：
+
+- 节点所处方块的方块状态
+- 那个方块周围的方块状态
+- 那个方块背后的方块状态
+
+放在贴着岩浆源和水源的圆石上时，节点会生成圆石。
+
+放在贴着蓝冰和岩浆源的灵魂沙上时，节点会生成玄武岩。
+
+放在贴着岩浆源、背后是水的石头上时，节点会生成石头。
+
+## 流体传输节点
+
+如果节点放在一个水源方块上，且周围至少还有两个相邻的水源方块，传输节点就会不断地把自己装满水。
+
+这是默认唯一一条 `excessive_utilities:world_interaction_fluid` 配方。
+
+<PrefabObtaining/>

@@ -1,0 +1,10 @@
+{
+	"speed_upgrades.mdx": "速度升级",
+	"stack_upgrade.mdx": "堆叠升级",
+	"pseudo_round_robin_upgrade.mdx": "节点升级：伪循环模式",
+	"depth_first_search_upgrade.mdx": "节点升级：深度优先搜索",
+	"breadth_first_search_upgrade.mdx": "节点升级：宽度优先搜索",
+	"world_interaction_upgrade.mdx": "节点升级：世界交互",
+	"ender_transmitter_and_receiver.mdx": "节点升级：末影发信与收信",
+	"creative_upgrade.mdx": "创造升级"
+}

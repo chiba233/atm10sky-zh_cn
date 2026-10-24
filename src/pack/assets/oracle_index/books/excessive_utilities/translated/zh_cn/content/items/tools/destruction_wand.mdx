@@ -1,0 +1,20 @@
+---
+title: 毁灭之杖
+id: excessive_utilities:destruction_wand
+related_items: excessive_utilities:destruction_wand
+type: item
+---
+
+**毁灭之杖**拿在任意一只手里，都能让你一次破坏多个方块。它会用你主手的物品来破坏，所以最好把它放在副手，主手拿上真正的工具。
+
+它只会破坏与你注视方块同类型的方块。除非你在潜行，否则它也只沿着你注视的那一面搜索。
+
+手持毁灭之杖时，所有会被破坏的方块都会显示线框。
+
+它一次最多破坏 9 个方块，范围以离你注视方块最近的那些方块为准。
+
+## 配置
+
+一次最多破坏多少方块，由物品的 `excessive_utilities:amount_blocks` 数据组件设置，而不是配置项。
+
+例如，`/give @s excessive_utilities:destruction_wand[excessive_utilities:amount_blocks=9999]` 会给你一根一次最多破坏 9999 个方块的毁灭之杖。

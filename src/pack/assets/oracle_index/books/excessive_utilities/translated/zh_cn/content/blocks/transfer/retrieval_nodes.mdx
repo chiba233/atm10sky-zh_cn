@@ -1,0 +1,29 @@
+---
+title: 提取节点
+id:
+  - excessive_utilities:item_retrieval_node
+  - excessive_utilities:fluid_retrieval_node
+  - excessive_utilities:energy_retrieval_node
+icon: excessive_utilities:item/item_retrieval_node
+type: block
+infobox:
+  title: 提取节点
+  tabs:
+    - name: 提取节点
+      display:
+        - excessive_utilities:item/item_retrieval_node
+        - excessive_utilities:item/fluid_retrieval_node
+        - excessive_utilities:item/energy_retrieval_node
+---
+
+**提取节点**的作用与[传输节点](@excessive_utilities:transfer_nodes)相反：它不往外推，而是往回拉。
+
+它沿着[传输管道](@excessive_utilities:transfer_pipe)搜索，把找到的东西取进自己的缓存，再从缓存推进它所附着的方块。
+
+## 升级
+
+对应的提取节点可以装入[物品过滤器](@excessive_utilities:item_filter)或[流体过滤器](@excessive_utilities:fluid_filter)，限制哪些东西能进入缓存。
+
+[速度升级](@excessive_utilities:speed_upgrades)会增加提取节点每 tick 的工作次数。
+
+[堆叠升级](@excessive_utilities:stack_upgrade)会增加每次放入缓存的数量。

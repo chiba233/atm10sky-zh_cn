@@ -1,0 +1,20 @@
+---
+title: 建筑之杖
+id: excessive_utilities:builders_wand
+related_items: excessive_utilities:builders_wand
+type: item
+---
+
+**建筑之杖**可以一次放置多个方块。
+
+对方块使用它，就会在你点中的方块上继续放置同种方块，相邻的方块也包括在内。当然，这会从你的物品栏里消耗方块。
+
+手持建筑之杖时，所有会放置方块的位置都会显示线框。
+
+它一次最多放置 9 个方块，范围以离你注视方块最近的那些方块为准。
+
+## 配置
+
+一次最多放置多少方块，由物品的 `excessive_utilities:amount_blocks` 数据组件设置，而不是配置项。
+
+例如，`/give @s excessive_utilities:builders_wand[excessive_utilities:amount_blocks=9999]` 会给你一根一次最多放置 9999 个方块的建筑之杖。

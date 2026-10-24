@@ -1,0 +1,24 @@
+---
+title: 红煤
+id: excessive_utilities:red_coal
+related_items: [excessive_utilities:red_coal]
+type: item
+---
+
+**红煤**是一种改进的熔炉燃料，燃烧时间比普通煤炭更长，代价是要额外付出 GP。
+
+红煤归最后持有它的玩家所有，在熔炉里燃烧时会消耗[网格能量]($players/grid_power)。
+
+默认情况下，启用这份加成需要 4.0 GP，燃烧时间是普通煤炭的 8 倍。如果你付不起这笔 GP，它就按普通煤炭的时长燃烧，不消耗任何 GP。
+
+<Callout>
+由于技术限制，这些特殊机制只在熔炉里、或其他继承 `AbstractFurnaceBlockEntity` 类的方块实体中生效。
+	</Callout>
+
+## 获取
+
+把煤炭放进[共振仪](@excessive_utilities:resonator)处理，即可得到红煤，消耗 16.0 GP。
+
+## 配置
+
+GP 消耗和燃烧时间倍率都可以配置。

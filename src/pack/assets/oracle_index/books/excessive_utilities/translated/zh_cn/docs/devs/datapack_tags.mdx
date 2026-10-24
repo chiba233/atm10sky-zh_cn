@@ -1,0 +1,88 @@
+# 数据包标签
+
+## 无限附魔叠加
+
+`#excessive_utilities:infinite_enchant_stacking` 物品标签里的物品，可以在铁砧上接受附魔书上的任何附魔，包括通常与该物品或它已有附魔不兼容的附魔。
+
+物品当前的附魔等级低于该附魔的正常上限时，等级按原版铁砧规则合并。等级相同时加一，等级不同时取较高的那个。当前等级达到正常上限后，附魔书的等级直接加上去，没有上限。
+
+例如，使用锋利附魔书时：
+
+- 锋利 IV + 锋利 III 得到锋利 IV
+- 锋利 IV + 锋利 IV 得到锋利 V
+- 锋利 IV + 锋利 V 得到锋利 V
+- 锋利 V + 锋利 III 得到锋利 VIII
+
+这个标签默认包含：
+
+- [鬼哭](@excessive_utilities:kikoku)
+- [复合弓](@excessive_utilities:compound_bow)
+- [消防斧](@excessive_utilities:fire_axe)
+
+## 物品标签
+
+### 平面传输节点交互
+
+`#excessive_utilities:interact_with_flat_transfer_nodes` 里的物品可以打开和拆下平面传输节点。它默认包含管道扳手、两种平面传输节点物品，以及 `#c:tools/wrench`。
+
+### 分割徽章反转材料
+
+分割徽章的反转仪式需要在信标周围放四个容器。每个容器必须装有 12 种不同的匹配物品。水之后裔例外，它要求的是 12 组匹配的物品堆叠。
+
+- 北面使用 `#excessive_utilities:children_of_fire`。它默认包括石头、玻璃方块、陶瓦、煤炭、铁锭和金锭、熟食、红砖、面包和绿色染料。
+- 南面使用 `#excessive_utilities:gifts_of_earth`。它默认包括泥土、沙子、沙砾、几种主世界矿石、黑曜石、草方块和黏土。
+- 东面使用 `#excessive_utilities:descendants_of_water`。它默认包含药水。
+- 西面使用 `#excessive_utilities:spices_of_air`。它默认包含 `#c:music_discs`。
+
+## 方块标签
+
+### 工具的作用对象
+
+- `#excessive_utilities:mineable/fire_axe` 决定消防斧能砍倒哪些相连的方块。它默认包含 `#minecraft:logs`。
+- `#excessive_utilities:mineable/glass_cutter` 决定玻璃切割刀能快速挖掘哪些方块。它默认包含 `#c:glass_blocks` 和 `#c:glass_panes`。
+- `#excessive_utilities:destruction_pickaxe_target` 定义毁灭之镐会摧毁的填充方块。它默认包含 `#c:stones` 和 `#c:netherracks`。
+- `#excessive_utilities:erosion_shovel_target` 定义侵蚀之锹会摧毁的填充方块。它默认包含泥土、沙子、沙砾和灵魂沙。
+- `#excessive_utilities:collectable_by_boomereaperang` 决定回旋收割会破坏并收集哪些方块。它默认包含花、草和蕨。
+
+### 诅咒之土的转化
+
+`#excessive_utilities:cursed_earth_replaceable` 决定哪些方块能被邪恶点滴或分割徽章激活仪式转化为诅咒之土。它默认包含 `#minecraft:dirt`，但不含诅咒之土本身。
+
+### 机器黑名单
+
+- `#excessive_utilities:creative_harvest_blacklist` 阻止创造复制方块模仿其中的方块。它默认包含创造复制方块本身。
+- `#excessive_utilities:ender_quarry_blacklist` 阻止末影采石场挖掘其中的方块。它默认包括常见的填充方块、流体、植物、原木、沙子和基岩。
+- `#excessive_utilities:ender_quarry_world_hole_blacklist` 阻止世界洞升级移除其中的方块。即使世界洞升级已配置为无视普通的末影采石场黑名单，这个标签也照样生效。它默认包含基岩。
+- `#excessive_utilities:ender_porcupine_blacklist` 阻止末影代理器与其中的方块交互。它默认包含末影代理器本身。
+- `#excessive_utilities:fe_transmitter_blacklist` 阻止无线FE传输器向其中的方块输送能量。它默认包含无线FE电池和无线FE传输器。
+
+### 画笔黑名单
+
+`#excessive_utilities:paintbrush_blacklist` 里的方块不能用画笔重新上色。这个标签默认为空。
+
+### 龙蛋发电机的能量来源
+
+`#excessive_utilities:valid_for_dragon_egg_mill` 里的方块能让它下方的龙蛋发电机产生网格能量。它默认包含龙蛋。
+
+## 实体类型标签
+
+### 诅咒之土黑名单
+
+`#excessive_utilities:cursed_earth_blacklist` 里的实体类型不会被诅咒之土的额外生成逻辑选中。这个标签默认为空。
+
+### 分割徽章反转仪式的实体
+
+- `#excessive_utilities:inversion_ritual_sacrifice` 定义反转仪式的有效祭品。它默认包含铁傀儡。
+- `#excessive_utilities:inversion_ritual_despawn_on_start` 定义反转仪式开始时被移除的实体。它默认包含末影人。
+
+## 状态效果标签
+
+### 净化黑名单
+
+`#excessive_utilities:purging_blacklist` 里的状态效果不能被净化效果移除。它默认包含净化本身。
+
+## 生物群系标签
+
+### 群系标记黑名单
+
+`#excessive_utilities:biome_marker_blacklist` 里的生物群系不会得到对应的群系标记。这个标签默认为空。
