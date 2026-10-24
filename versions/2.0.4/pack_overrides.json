@@ -23,6 +23,22 @@
     "value": "无法将配方输入原料插入合成目标中",
     "why": "本版的集成终端 1.9.0 里原文是 Recipe inputs could not be inserted into the crafting target。2.2.0 的 1.11.1 改成 The crafting target refused the inputs, will retry later。公共译文写了稍后重试，本版没有这个行为。"
    }
+  },
+  "logisticsnetworks": {
+   "message.logisticsnetworks.wrench.colors.no_wrench": {
+    "value": "手持扳手才能编辑它的配色",
+    "why": "本版的物流网络 1.15.0 里原文是 Hold a wrench to edit its colors，扳手只能改配色。2.2.0 的 1.17.2 改成 Hold a wrench to edit its settings，公共译文按 2.2.0 写。"
+   },
+   "key.logisticsnetworks.wrench_colors": {
+    "value": "编辑扳手配色",
+    "why": "本版的物流网络 1.15.0 里原文是 Edit Wrench Colors，扳手只能改配色。2.2.0 的 1.17.2 改成 Wrench Settings，公共译文按 2.2.0 写。"
+   }
+  },
+  "jei": {
+   "jei.tooltip.bookmarks.tooltips.usage": {
+    "value": "[按“%s”以显示细节]",
+    "why": "本版的 JEI 19.51.0.418 里原文是 [Press \"%s\" to show details]，按一下即可。2.0.6 起改成 [Hold \"%s\" for recipe details]，要按住，公共译文按后者写。"
+   }
   }
  }
 }

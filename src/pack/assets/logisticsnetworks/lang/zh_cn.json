@@ -327,5 +327,7 @@
   "message.logisticsnetworks.admin.disabled": "已关闭管理员模式",
   "message.logisticsnetworks.admin.enabled_other": "已为 %s 开启管理员模式",
   "message.logisticsnetworks.admin.disabled_other": "已为 %s 关闭管理员模式",
-  "message.logisticsnetworks.admin.enable_denied": "只有 OP 才能开启管理员模式"
+  "message.logisticsnetworks.admin.enable_denied": "只有 OP 才能开启管理员模式",
+  "message.logisticsnetworks.wrench.colors.no_wrench": "手持扳手才能编辑它的设置",
+  "key.logisticsnetworks.wrench_colors": "扳手设置"
 }

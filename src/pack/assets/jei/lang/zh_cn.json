@@ -28,7 +28,7 @@
   "jei.tooltip.bookmarks.recipe": "%s配方书签",
   "jei.tooltip.bookmarks.recipe.add": "添加该配方到书签。",
   "jei.tooltip.bookmarks.recipe.remove": "从书签中移除该配方。",
-  "jei.tooltip.bookmarks.tooltips.usage": "[按“%s”以显示细节]",
+  "jei.tooltip.bookmarks.tooltips.usage": "[按住“%s”查看配方细节]",
   "jei.tooltip.bookmarks.tooltips.transfer.usage": "[按“%s”以合成一次]",
   "jei.tooltip.bookmarks.tooltips.transfer.max.usage": "[按“%s”以合成全部]",
   "jei.tooltip.lookupHistory.enable": "显示JEI查询历史",
@@ -665,5 +665,14 @@
   "key.jei.toggleWildcardHideIngredient.description": "隐藏或取消隐藏该原料的所有同类变体。",
   "key.jei.transferRecipeBookmark.context": "指向某个 JEI 书签时",
   "key.jei.transferRecipeBookmark.description": "在可以转移配方材料时，从该书签转移一份配方。",
-  "jei.message.mezzConfigGui": "安装「MezzConfig GUI」模组后才能在游戏内打开配置"
+  "jei.message.mezzConfigGui": "安装「MezzConfig GUI」模组后才能在游戏内打开配置",
+  "jei.config.client.lists.navigationVisibility.auto_hide.description": "只有内容装不下时才显示导航控件和配方滚动条。",
+  "jei.config.client.lists.navigationVisibility.description": "选择原料列表和书签列表的导航控件什么时候显示。同时也是配方滚动条的默认设置。",
+  "jei.config.client.lists.drawBackground.description": "选择原料列表、书签列表和查询历史列表后面的背景。",
+  "jei.config.client.sorting.ingredientTypeSortOrder.value": "%s（%s）",
+  "jei.config.client.lists.drawBackground": "背景样式",
+  "jei.config.client.lists.navigationMode.scrolling.description": "用滚动条浏览两个列表。",
+  "jei.config.client.lists.navigationVisibility.disabled.description": "隐藏导航控件和配方滚动条。",
+  "jei.config.client.lists.navigationVisibility": "导航显示",
+  "jei.config.client.lists.navigationVisibility.enabled.description": "始终显示导航控件和配方滚动条。"
 }
