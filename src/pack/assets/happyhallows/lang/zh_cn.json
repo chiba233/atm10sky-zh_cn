@@ -280,5 +280,9 @@
   "item.happyhallows.pumpkin_bread": "南瓜面包",
   "item.happyhallows.sunflower_oil": "葵花籽油",
   "item.happyhallows.trick_or_treat_bag": "讨糖袋",
-  "tooltip.happyhallows.coffin_instructions": "需空手使用。潜行右击开关棺盖，右击睡觉。"
+  "tooltip.happyhallows.coffin_instructions": "需空手使用。潜行右击开关棺盖，右击睡觉。",
+  "item.happyhallows.ghost_spawn_egg": "幽灵刷怪蛋",
+  "entity.happyhallows.ghost_entity": "幽灵",
+  "block.happyhallows.fall_mug": "秋日杯子",
+  "block.happyhallows.living_pine_log": "活松木原木"
 }
