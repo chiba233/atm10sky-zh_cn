@@ -823,5 +823,11 @@
   "structure.towns_and_towers.towns": "城镇",
   "structure.underground_villages.underground_villages": "地下村庄",
   "structure.xycraft_world.harvestable_node_set": "可采收晶簇",
-  "structure.minecraft.trial_chambers": "试炼密室"
+  "structure.minecraft.trial_chambers": "试炼密室",
+  "structure.excessive_utilities.ancient_city": "远古城市",
+  "structure.excessive_utilities.ancient_cities": "远古城市",
+  "dimension.excessive_utilities.the_depths": "深渊",
+  "dimension.excessive_utilities.the_last_millennium": "寂灭纪元",
+  "dimension.excessive_utilities.quantum_quarry": "量子采石场",
+  "biome.excessive_utilities.the_depths": "深渊"
 }

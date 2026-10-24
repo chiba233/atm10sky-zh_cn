@@ -1,0 +1,25 @@
+# ATM10 Sky 2.2.0 的生成物实测基线。
+# Build run 40036838570，commit 11d704d。
+# 生成物实测：books=1246 banners=158 buttons=20
+books   = 1246
+banners = 158
+buttons = 20
+# 客户端实测：banners=158 book_files=1064 buttons=20 gui_files=24
+# kubejs_banners=158 lang_files=303 lang_keys=125359 quest_delta=182 vp_modules=118
+# 服务端实测：quest_delta=182 vp_modules=8
+# 与 2.1.0 的基线相比，横幅增加 7 张，语言文件增加 4 份，译文增加 822 条，任务书文件增加 3 份。
+# 横幅是新章节「过量的实用工具」的七张标题图。
+# 新增的语言文件属于过量的实用工具、Happy Hallows、精妙背包和精妙物品操作。
+# 译文中 794 条是本包补译与照抄的。精致存储木头名多 16 条，奖杯名多 12 条，两者按本版 jar 生成。
+# 任务书多出新章节的底本文件，以及本包新 delta 文件出货时写的两个空壳。
+client_lang_files     =    303
+client_lang_keys      = 125359
+client_banners        =    158
+client_kubejs_banners =    158
+client_buttons        =     20
+client_vp_modules     =    118
+client_quest_delta    =    182
+client_gui_files      =     24
+client_book_files     =   1064
+server_vp_modules     =      8
+server_quest_delta    =    182
