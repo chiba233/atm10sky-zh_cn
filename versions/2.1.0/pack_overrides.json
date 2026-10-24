@@ -1,6 +1,11 @@
 {
- "_why": "资源包译文按命名空间+键索引、版本中立，一份通吃所有在册版本。这里只收那些「一份中文没法同时对两版成立」的键：上游改了原文的参数个数或描述的行为，照新版写的公共译文发给这一版就会显示错误信息。只改措辞的不收。",
+ "_why": "该版专属的资源包差异。lang 单键与 files 整页覆盖都必须写 why，见 scripts/gen_pack_overrides.py。",
  "_recorded": "2026-10-24",
+ "files": {
+  "books-2.0.7": {
+   "why": "本版的 Modern Industrialization 2.5.9 与 Oracle Index 1.4.0 与 2.0.7 是同一份 jar，五页英文相同，所以沿用 books-2.0.7。2.0.6 及以前仍须保留旧正文。"
+  }
+ },
  "lang": {
   "integratedterminals": {
    "gui.integratedterminals.craftingplan.status.invalid_inputs": {
