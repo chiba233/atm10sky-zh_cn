@@ -1,0 +1,26 @@
+---
+title: 粉红发电机
+id: excessive_utilities:pink_generator
+related_items: [excessive_utilities:pink_generator]
+type: block
+---
+
+**粉红发电机**燃烧某些粉红色的物品来产生 FE。
+
+## 配置
+
+粉红发电机使用 `excessive_utilities:single_item_fuel` 配方类型。可以参照这个例子：
+
+```json
+{
+  "type": "excessive_utilities:single_item_fuel",
+  "duration": 10,
+  "fe_per_tick": 40,
+  "generator_type": "pink",
+  "ingredient": {
+    "tag": "c:dyes/pink"
+  }
+}
+```
+
+<PrefabObtaining/>

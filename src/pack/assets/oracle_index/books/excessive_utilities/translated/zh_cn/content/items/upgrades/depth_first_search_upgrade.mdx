@@ -1,0 +1,22 @@
+---
+title: 节点升级：深度优先搜索
+id: excessive_utilities:depth_first_search_upgrade
+related_items: [excessive_utilities:depth_first_search_upgrade]
+type: item
+---
+
+**节点升级：深度优先搜索**可以放进[传输与检索节点](@excessive_utilities:transfer_nodes)里，改变它的搜索点搜索分叉管道网络的方式。
+
+正常情况下，搜索点在每个岔口随机选一条相连的路径。走到死路时，它返回节点，重新开始一次搜索。
+
+装上这个升级后，搜索点会记住走过的路径。遇到死路时，它退回到最近的那个岔口，随机选一条没走过的分支。如此继续，直到所有可达分支都搜过，然后搜索点返回节点，从头再来。
+
+管道网络分支很多时，深度优先搜索很有用，因为节点可以彻底搜遍网络，不会在死路处反复丢失进度。
+
+传输节点清空缓存时，搜索点同样会重置，而[节点升级：伪循环模式](@excessive_utilities:pseudo_round_robin_upgrade)可以阻止这次重置。
+
+这个升级只改变搜索管道的顺序，不会提高传输速度，也不会增加每次操作搬运的数量。
+
+一个节点里只能装一个深度优先搜索升级。它不能和[节点升级：宽度优先搜索](@excessive_utilities:breadth_first_search_upgrade)一起装。
+
+<PrefabObtaining/>

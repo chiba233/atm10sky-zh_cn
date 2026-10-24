@@ -1,0 +1,33 @@
+---
+title: 节点升级：末影发信与收信
+id:
+  - excessive_utilities:ender_transmitter
+  - excessive_utilities:ender_receiver
+icon: excessive_utilities:item/ender_transmitter
+type: item
+infobox:
+  title: 节点升级：末影发信与收信
+  tabs:
+    - name: 节点升级：末影发信与收信
+      display:
+        - excessive_utilities:item/ender_transmitter
+        - excessive_utilities:item/ender_receiver
+---
+
+**节点升级：末影发信**和**节点升级：末影收信**让传输节点可以无线搬运物品、流体或能量，跨维度也可以。
+
+末影发信升级可以装进传输节点，末影收信升级可以装进检索节点。两个节点必须是同一类型：物品发信只对接物品收信，流体对流体，能量对能量。
+
+## 频率
+
+手持任一种升级使用时，就可以配置它的频率。
+
+公开频率由所有玩家共享。只要名字相同，任何发信和收信都能连上。
+
+私有频率归配置它的玩家所有。私有频率只连接同名且同主人的升级，所以别的玩家光输入同一个名字是挤不进来的。
+
+## 传输
+
+发信会按轮转顺序依次尝试频率上已加载的收信。如果某个收信满了或拒收这种资源，发信就继续试下一个。物品收信和流体收信会遵守各自配置的过滤器。
+
+无线传输不会加载区块。收信只有在它所在的区块已加载时才可用。没有任何收信接收这种资源时，传输节点可以照常继续使用它连着的传输管道网络。

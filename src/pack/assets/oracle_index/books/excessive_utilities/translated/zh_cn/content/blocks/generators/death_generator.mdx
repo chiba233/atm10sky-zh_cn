@@ -1,0 +1,28 @@
+---
+title: 亡灵发电机
+id: excessive_utilities:death_generator
+related_items: [excessive_utilities:death_generator]
+type: block
+---
+
+**亡灵发电机**燃烧某些与死亡相关的物品来产生 FE。
+
+运行时，亡灵发电机会在周围可配置的半径内释放粒子。半径内的任何实体都会获得[厄运](@excessive_utilities:doom)效果。如果不治疗，这个效果会在 60 秒后杀死它们。
+
+## 配置
+
+亡灵发电机使用 `excessive_utilities:single_item_fuel` 配方类型。可以参照这个例子：
+
+```json
+{
+  "type": "excessive_utilities:single_item_fuel",
+  "duration": 400,
+  "fe_per_tick": 150,
+  "generator_type": "death",
+  "ingredient": {
+    "tag": "c:storage_blocks/bone_meal"
+  }
+}
+```
+
+<PrefabObtaining/>

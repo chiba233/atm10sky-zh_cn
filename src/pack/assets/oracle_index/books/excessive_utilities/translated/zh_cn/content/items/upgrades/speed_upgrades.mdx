@@ -1,0 +1,49 @@
+---
+title: 速度升级
+id:
+  - excessive_utilities:speed_upgrade
+  - excessive_utilities:speed_upgrade_magical
+  - excessive_utilities:speed_upgrade_ultimate
+icon: excessive_utilities:item/speed_upgrade
+type: item
+infobox:
+  title: 速度升级
+  tabs:
+    - name: 速度升级
+      display:
+        - excessive_utilities:item/speed_upgrade
+        - excessive_utilities:item/speed_upgrade_magical
+        - excessive_utilities:item/speed_upgrade_ultimate
+---
+
+**速度升级**可以装进某些机器，让它们更快。堆里每多一个升级，机器每 tick 就多运行一次。
+
+每一级升级能叠的上限都比上一级高：
+- **速度升级**：最多 4 个
+- **速度升级（魔法）**：最多 16 个
+- **速度升级（极限）**：最多 64 个
+
+速度升级运行时要消耗[网格能量]($players/grid_power)。需要的 GP 取决于堆叠数量。
+
+默认的公式是：
+
+```kt
+stackSize * (122 + 4 * stackSize) / 126.0
+```
+
+所以每一级装满一堆时，需要：
+- 4 个速度升级：4.38 GP
+- 16 个速度升级（魔法）：23.62 GP
+- 64 个速度升级（极限）：192 GP
+
+## 配置
+
+服务器配置里有 `speedUpgradeGpCostMultiplier` 选项，用来乘算速度升级的 GP 消耗。把它设为 0，它们就免费用。
+
+此外，还可以用 [KubeJS]($devs/kubejs) 修改公式本身。
+
+## 配方
+
+<ProjectRecipe id="excessive_utilities:speed_upgrade" />
+<ProjectRecipe id="excessive_utilities:speed_upgrade_magical" />
+<ProjectRecipe id="excessive_utilities:speed_upgrade_ultimate" />

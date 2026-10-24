@@ -1,0 +1,26 @@
+---
+title: 下界之星发电机
+id: excessive_utilities:nether_star_generator
+related_items: [excessive_utilities:nether_star_generator]
+type: block
+---
+
+**下界之星发电机**燃烧某些下界之星主题的物品来产生 FE。
+
+## 配置
+
+下界之星发电机使用 `excessive_utilities:single_item_fuel` 配方类型。可以参照这个例子：
+
+```json
+{
+  "type": "excessive_utilities:single_item_fuel",
+  "duration": 2400,
+  "fe_per_tick": 4000,
+  "generator_type": "nether_star",
+  "ingredient": {
+    "item": "minecraft:nether_star"
+  }
+}
+```
+
+<PrefabObtaining/>

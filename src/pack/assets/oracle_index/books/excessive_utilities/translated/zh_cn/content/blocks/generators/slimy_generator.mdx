@@ -1,0 +1,30 @@
+---
+title: 黏液发电机
+id: excessive_utilities:slimy_generator
+related_items: [excessive_utilities:slimy_generator]
+type: block
+---
+
+**黏液发电机**燃烧黏液球和牛奶来产生 FE。
+
+## 配置
+
+黏液发电机使用 `excessive_utilities:item_and_fluid_fuel` 配方类型。可以参照这个例子：
+
+```json
+{
+  "type": "excessive_utilities:item_and_fluid_fuel",
+  "duration": 100,
+  "fe_per_tick": 10,
+  "fluid_ingredient": {
+    "amount": 250,
+    "tag": "c:milk"
+  },
+  "generator_type": "slimy",
+  "item_ingredient": {
+    "tag": "c:slime_balls"
+  }
+}
+```
+
+<PrefabObtaining/>

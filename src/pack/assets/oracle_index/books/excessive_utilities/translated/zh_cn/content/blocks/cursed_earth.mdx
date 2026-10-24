@@ -1,0 +1,36 @@
+---
+title: 诅咒之土
+id: excessive_utilities:cursed_earth
+related_items: [excessive_utilities:cursed_earth]
+type: block
+---
+
+**诅咒之土**会向附近的泥土蔓延，并在黑暗处快速生成敌对生物。它可以用来搭建强力的刷怪场，但如果不加管理会非常危险。
+
+对兼容的泥土方块使用[邪恶点滴](@excessive_utilities:drop_of_evil)即可制成诅咒之土。激活[分割徽章](@excessive_utilities:division_sigil)时，仪式所用附魔台的下方也会生成诅咒之土。
+
+## 蔓延与光照
+
+新生成的诅咒之土起初蔓延很快，之后在随机刻中继续缓慢蔓延。它可以替换 `#excessive_utilities:cursed_earth_replaceable` 标签里的方块，这个标签默认包含泥土类方块。目标方块的上方必须是空的。如果上方的亮度高于 4，它不会正常蔓延。
+
+默认情况下，暴露在白天天空下的诅咒之土会被灵魂火点燃。火会在附近的诅咒之土间迅速蔓延，最终把它们烧回泥土。转化大片平台之前，先把这片区域盖住。除非你想清除它，否则让普通的火远离它。
+
+## 受诅咒的生物
+
+由诅咒之土直接生成的怪物处于**受诅咒**状态。按默认配置，受诅咒的生物看起来几乎全黑，会冒烟，移动速度加快 20%，基础攻击伤害额外提高 150%。
+
+<Asset location="excessive_utilities:wiki/cursed_mobs" width={768} />
+
+[重构刷怪笼](@excessive_utilities:resturbed_mob_spawner)生成的生物也会被标记为受诅咒。服务器管理员可以用本模组的实体诅咒命令施加或移除同样的状态。
+
+诅咒之土使用当地生物群系的普通怪物列表与生成规则。附近的怪物达到配置的数量时，它停止尝试额外生成。`#excessive_utilities:cursed_earth_blacklist` 里的实体类型不会被选中。
+
+## 配置
+
+服主可以配置：
+
+- 诅咒之土暴露在日光下时是否燃烧
+- 暂停生成前附近怪物的最大数量
+- 统计这些怪物时使用的半径
+- 受诅咒的生物获得的攻击伤害与移动速度加成
+- 诅咒之土每次尝试工作的周期与概率

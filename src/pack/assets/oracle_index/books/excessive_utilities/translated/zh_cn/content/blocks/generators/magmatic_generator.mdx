@@ -1,0 +1,27 @@
+---
+title: 岩浆发电机
+id: excessive_utilities:magmatic_generator
+related_items: [excessive_utilities:magmatic_generator]
+type: block
+---
+
+**岩浆发电机**燃烧熔岩来产生 FE。
+
+## 配置
+
+岩浆发电机使用 `excessive_utilities:fluid_fuel` 配方类型。可以参照这个例子：
+
+```json
+{
+  "type": "excessive_utilities:fluid_fuel",
+  "duration": 200,
+  "fe_per_tick": 1600,
+  "generator_type": "magmatic",
+  "fluid_ingredient": {
+	"amount": 1000,
+	"tag": "c:lava"
+  }
+}
+```
+
+<PrefabObtaining/>

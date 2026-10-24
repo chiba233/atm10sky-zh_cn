@@ -1,0 +1,18 @@
+---
+title: 节点升级：伪循环模式
+id: excessive_utilities:pseudo_round_robin_upgrade
+related_items: [excessive_utilities:pseudo_round_robin_upgrade]
+type: item
+---
+
+**节点升级：伪循环模式**可以放进[传输与检索节点](@excessive_utilities:transfer_nodes)里，把它们的活分摊到传输管道网络上。
+
+正常情况下，只要目标还收物品、流体或能量，节点就把搜索点停在那一个目标上。缓存一清空，它还会把搜索点重置回节点。
+
+装上这个升级后，搜索点每成功传输一次就往前走，即使目标还能收更多。它会像[节点升级：深度优先搜索](@excessive_utilities:depth_first_search_upgrade)那样记住路线，退回到之前的岔口，而不是在死路处重置。
+
+清空缓存不会重置搜索。如果源头干了，传输节点会停在搜索的当前位置，等有更多资源时从那里继续。只有整个可达的管道网络都搜完之后，搜索点才会回到节点。
+
+节点在每个目标上仍然会尽量把缓存送出去，所以分配不保证完全均匀。它最适合不可堆叠的物品、由[堆叠升级](@excessive_utilities:stack_upgrade)送来的大小一致的批次，或者各目标距离相等的网络。
+
+<PrefabObtaining/>

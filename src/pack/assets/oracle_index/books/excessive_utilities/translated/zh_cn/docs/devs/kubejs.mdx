@@ -1,0 +1,17 @@
+# KubeJS
+
+[速度升级](@excessive_utilities:speed_upgrades)消耗 [GP]($players/grid_power) 的计算公式是：
+
+```kt
+stackSize * (122 + 4 * stackSize) / 126.0
+```
+
+服务端配置里有一个选项，可以直接给它乘一个倍率。如果你需要，也可以用 KubeJS 彻底改写这个公式。
+
+```js
+const $SpeedUpgradeItem = Java.loadClass('dev.aaronhowser.mods.excessive_utilities.item.SpeedUpgradeItem')
+
+$SpeedUpgradeItem.setGpCostCalculator(stackSize => stackSize * 10)
+```
+
+这个例子让堆叠里每个速度升级的消耗都固定为 10 GP，之后再乘上服务端配置的倍率。

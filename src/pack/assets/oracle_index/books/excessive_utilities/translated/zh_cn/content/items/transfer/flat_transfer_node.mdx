@@ -1,0 +1,40 @@
+---
+title: 平面传输节点
+id:
+  - excessive_utilities:flat_transfer_node_items
+  - excessive_utilities:flat_transfer_node_fluids
+icon: excessive_utilities:item/flat_transfer_node_items
+type: item
+infobox:
+  title: 平面传输节点
+  tabs:
+    - name: 平面传输节点
+      display:
+        - excessive_utilities:item/flat_transfer_node_items
+        - excessive_utilities:item/flat_transfer_node_fluids
+---
+
+**平面传输节点**有两种变体：一种传物品，一种传流体。它们的功能与普通[传输节点](@excessive_utilities:transfer_nodes)类似，但只在相邻方块之间传输。
+
+对着方块右键，就能把平面传输节点放上去。节点会把物品或流体从你放置它的那个方块输出，送进它朝向的相邻方块。
+
+<Callout>
+已放置的平面传输节点实际上是实体（不是方块实体），这点要注意。
+	</Callout>
+
+用带有 `#excessive_utilities:interact_with_flat_transfer_nodes` 物品标签的物品，右键已放置的平面传输节点（准确地说是右键它所在的*方块和面*），会打开它的界面，你可以在里面放入[物品过滤器](@excessive_utilities:item_filter)或[流体过滤器](@excessive_utilities:fluid_filter)。左键则会把它从方块上弹下来。
+
+如果它附着的方块被破坏，节点也会掉落。
+
+## 配置
+
+这个物品标签默认包含：
+- `#c:tools/wrench`
+- `excessive_utilities:pipe_wrench`,
+- `excessive_utilities:flat_transfer_node_items`
+- `excessive_utilities:flat_transfer_node_fluids`
+
+## 配方
+
+<ProjectRecipe id="excessive_utilities:flat_transfer_node_items" />
+<ProjectRecipe id="excessive_utilities:flat_transfer_node_fluids" />

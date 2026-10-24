@@ -1,0 +1,44 @@
+---
+title: 传输节点
+id:
+  - excessive_utilities:item_transfer_node
+  - excessive_utilities:fluid_transfer_node
+  - excessive_utilities:energy_transfer_node
+icon: excessive_utilities:item/item_transfer_node
+type: block
+infobox:
+  title: 传输节点
+  tabs:
+    - name: 传输节点
+      display:
+        - excessive_utilities:item/item_transfer_node
+        - excessive_utilities:item/fluid_transfer_node
+        - excessive_utilities:item/energy_transfer_node
+---
+
+**传输节点**用来把物品、流体和能量从一处搬到另一处。把传输节点放在你想从中抽取的方块上，再铺一条通往目标的[传输管道](@excessive_utilities:transfer_pipe)。
+
+传输节点的工作方式与其他管道不同。物品等东西从来不会真的在传输管道里流动。传输节点按以下几个步骤工作：
+
+- 从它所附着的方块抽取，把物品、流体或能量存进内部缓存。
+- 沿相连的传输管道搜索有效的目标。当前搜索到的位置叫作搜索点（Ping）。
+- 如果缓存是空的，重置搜索点，等待下一 tick。
+- 尝试把缓存清空到搜索点周围的方块里。
+- 如果什么都没搬动，移动搜索点，等待下一 tick。
+- 如果搬动了东西，搜索点留在原处，等待下一 tick。这样传输节点可以持续填充同一个目标，不必每次都从头开始。
+
+## 升级
+
+对应的传输节点可以装入[物品过滤器](@excessive_utilities:item_filter)或[流体过滤器](@excessive_utilities:fluid_filter)，限制哪些东西能进入缓存。
+
+[速度升级](@excessive_utilities:speed_upgrades)会增加传输节点每 tick 的工作次数。
+
+[堆叠升级](@excessive_utilities:stack_upgrade)会增加每次放入缓存的数量。
+
+物品传输节点和流体传输节点可以装入[节点升级：世界交互](@excessive_utilities:world_interaction_upgrade)，用来执行一些特定操作。
+
+## 配方
+
+<ProjectRecipe id="excessive_utilities:item_transfer_node" />
+<ProjectRecipe id="excessive_utilities:fluid_transfer_node" />
+<ProjectRecipe id="excessive_utilities:energy_transfer_node" />
