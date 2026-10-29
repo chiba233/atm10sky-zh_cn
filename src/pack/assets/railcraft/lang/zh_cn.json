@@ -1059,6 +1059,7 @@
   "tips.railcraft.token_area": "%s个路签区域",
   "tips.railcraft.token_signal": "检测出入路签区域的车辆",
   "tips.railcraft.token_signal_box": "检测出入路签区域的车辆",
+  "tips.railcraft.track_kit.already_applied": "轨道套件已应用",
   "tips.railcraft.track_kit.corners_unsupported": "无法应用于转弯处",
   "tips.railcraft.track_kit.invalid_track_type": "轨道种类无效",
   "tips.railcraft.track_kit.slopes_unsupported": "无法应用于倾斜处",
