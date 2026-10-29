@@ -1,0 +1,2 @@
+# ATM10 Sky 2.3.0 的默认资源包顺序尚未完成首次启动实测。
+# 安装器保留已有顺序，新建 options.txt 时不填 resourcePacks。
