@@ -1,0 +1,25 @@
+# ATM10 Sky 2.3.0 的生成物实测基线。
+# Build run 40806273889，commit ee66dcf。
+# 生成物实测：books=1252 banners=158 buttons=20
+books   = 1252
+banners = 158
+buttons = 20
+# 客户端实测：banners=158 book_files=1063 buttons=20 gui_files=24
+# kubejs_banners=158 lang_files=307 lang_keys=126391 quest_delta=182 vp_modules=120
+# 服务端实测：quest_delta=182 vp_modules=8
+# 与同一次构建里 2.2.0 的实测相比，只有译文多 1 条。这一条是本版给雪景球激活提示加的单键覆盖，公共层没有这个键。
+# 比 2.2.0 入库的基线多出的部分，在 2.2.0 自己的实测里同样存在，来自各版共用的公共层：
+# 语言文件多 4 份，属于 Default Options、Forcecraft、JEI Stuff 和 Mezz Config。
+# VaultPatcher 模块多 2 个，是 NeoVitae 仪式设计器与 Steve's Carts 模块类型。
+# 奖杯名按 CI 摊开的最新版整合包生成，本版新增的实体也出了奖杯名。
+client_lang_files     =    307
+client_lang_keys      = 126391
+client_banners        =    158
+client_kubejs_banners =    158
+client_buttons        =     20
+client_vp_modules     =    120
+client_quest_delta    =    182
+client_gui_files      =     24
+client_book_files     =   1063
+server_vp_modules     =      8
+server_quest_delta    =    182
