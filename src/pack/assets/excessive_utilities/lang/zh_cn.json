@@ -111,5 +111,6 @@
   "tooltip.excessive_utilities.ender_frequency.public": "公开频率",
   "tooltip.excessive_utilities.not_yet_implented": "尚未实现",
   "tooltip.excessive_utilities.wardens_wake": "一只放弃了的监守者留下的东西",
-  "block.excessive_utilities.climograph_base_unit": "基本气象单元"
+  "block.excessive_utilities.climograph_base_unit": "基本气象单元",
+  "biome.minecraft.is_overworld": "主世界类群系"
 }
