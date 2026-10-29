@@ -1,0 +1,12 @@
+{
+ "_why": "该版专属的资源包差异。lang 单键与 files 整页覆盖都必须写 why，见 scripts/gen_pack_overrides.py。",
+ "_recorded": "2026-10-29",
+ "lang": {
+  "excessive_utilities": {
+   "tooltip.excessive_utilities.magical_snow_globe_instructions": {
+    "value": "要激活这个雪景球，需要把它带到以下全部%d个维度：",
+    "why": "本版整合包在 kubejs/assets/excessive_utilities/lang/en_us.json 里把原文改成 To activate this globe, take it to all %d of the following dimensions:，并由 server_scripts 把雪景球改成要去齐主世界、下界、末地三个维度。模组自带中文仍是旧版的「任意%d种生物群系」，发到本版会说错激活条件。2.2.0 及以前没有这份注入，仍用模组自带中文。"
+   }
+  }
+ }
+}
