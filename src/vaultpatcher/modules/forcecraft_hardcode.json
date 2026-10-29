@@ -1,0 +1,39 @@
+[
+  {
+    "name": "forcecraft_hardcode_zh_cn",
+    "authors": "Hoshino Yumeka",
+    "dynamic": false,
+    "i18n": false,
+    "_说明": "物品卡对生物使用时随机发的三句提示，和存入配方后的「Recipe saved」。四句都在服务端直接 Component.literal 后发给玩家，没有翻译键，只用于显示。服务端包也要带这个模块，开服时才生效。"
+  },
+  {
+    "target_class": [
+      "com.mrbysco.forcecraft.items.ItemCardItem"
+    ],
+    "pairs": [
+      {
+        "key": "BAD READ. TRY AGAIN.",
+        "value": "读卡失败，请重试。"
+      },
+      {
+        "key": "TOO SLOW. TRY AGAIN.",
+        "value": "刷得太慢，请重试。"
+      },
+      {
+        "key": "TOO FAST. TRY AGAIN.",
+        "value": "刷得太快，请重试。"
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "com.mrbysco.forcecraft.networking.handler.ServerPayloadHandler"
+    ],
+    "pairs": [
+      {
+        "key": "Recipe saved",
+        "value": "配方已保存"
+      }
+    ]
+  }
+]
