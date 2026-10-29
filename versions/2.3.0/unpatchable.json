@@ -1,0 +1,38 @@
+{
+ "_why": "本版没有落点的上游改写逐条登记。已登记的原文仍存在，或未登记的原文缺失，校验均失败。",
+ "_recorded": "2026-10-29",
+ "edits": {
+  "config/ftbquests/quests/chapters/apotheosis_gear.snbt": {
+   "which": "all",
+   "why": "本版本章有 20 个 image 块、0 个 hover 字段。悬停文字在任务书 lang 的 image.<ID>.title 中，章节映射没有落点。"
+  },
+  "config/ftbquests/quests/chapters/elmystical_agriculturerr.snbt": {
+   "which": "all",
+   "why": "本版本章有 26 个 image 块、0 个 hover 字段。悬停文字在任务书 lang 的 image.<ID>.title 中，章节映射没有落点。"
+  },
+  "config/ftbquests/quests/chapters/extended__advanced_ae.snbt": {
+   "which": "all",
+   "why": "本版本章有 11 个 image 块、0 个 hover 字段。悬停文字在任务书 lang 的 image.<ID>.title 中，章节映射没有落点。"
+  },
+  "config/ftbquests/quests/chapters/industrial_foregoing.snbt": {
+   "which": "all",
+   "why": "本版本章有 31 个 image 块、0 个 hover 字段。悬停文字在任务书 lang 的 image.<ID>.title 中，章节映射没有落点。"
+  },
+  "config/ftbquests/quests/chapters/justdirethings.snbt": {
+   "which": "all",
+   "why": "本版本章有 3 个 image 块、0 个 hover 字段。悬停文字在任务书 lang 的 image.<ID>.title 中，章节映射没有落点。"
+  },
+  "config/ftbquests/quests/chapters/productive_trees.snbt": {
+   "which": "all",
+   "why": "本版本章有 1 个 image 块、0 个 hover 字段。悬停文字在任务书 lang 的 image.<ID>.title 中，章节映射没有落点。"
+  },
+  "config/ftbquests/quests/chapters/railcraft.snbt": {
+   "which": "all",
+   "why": "本版本章有 23 个 image 块、0 个 hover 字段。悬停文字在任务书 lang 的 image.<ID>.title 中，章节映射没有落点。"
+  },
+  "config/ftbquests/quests/chapters/welcome.snbt": {
+   "which": "all",
+   "why": "本版本章有 2 个 image 块、0 个 hover 字段。悬停文字在任务书 lang 的 image.<ID>.title 中，章节映射没有落点。"
+  }
+ }
+}
