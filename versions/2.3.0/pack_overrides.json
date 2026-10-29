@@ -1,6 +1,11 @@
 {
  "_why": "该版专属的资源包差异。lang 单键与 files 整页覆盖都必须写 why，见 scripts/gen_pack_overrides.py。",
  "_recorded": "2026-10-29",
+ "files": {
+  "books-2.0.7": {
+   "why": "本版的 Modern Industrialization 2.5.11 里大型蒸汽锅炉、原油处理两页的英文与 2.5.9 逐字节相同，Oracle Index 1.4.0 与 2.0.7 是同一份 jar，五页英文相同，所以沿用 books-2.0.7。"
+  }
+ },
  "lang": {
   "excessive_utilities": {
    "tooltip.excessive_utilities.magical_snow_globe_instructions": {
