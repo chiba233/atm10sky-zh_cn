@@ -6162,6 +6162,44 @@
    }
   ]
  },
+ "forcecraft_hardcode.json": {
+  "blocks": [
+   {
+    "classes": {
+     "com.mrbysco.forcecraft.items.ItemCardItem": {
+      "actual": "com.mrbysco.forcecraft.items.ItemCardItem",
+      "how": "declared",
+      "jar": "forcecraft-1.21.1-6.2.8.jar"
+     }
+    },
+    "i": 1,
+    "jars": [
+     "forcecraft-1.21.1-6.2.8.jar"
+    ],
+    "keys": {
+     "BAD READ. TRY AGAIN.": "exact",
+     "TOO FAST. TRY AGAIN.": "exact",
+     "TOO SLOW. TRY AGAIN.": "exact"
+    }
+   },
+   {
+    "classes": {
+     "com.mrbysco.forcecraft.networking.handler.ServerPayloadHandler": {
+      "actual": "com.mrbysco.forcecraft.networking.handler.ServerPayloadHandler",
+      "how": "declared",
+      "jar": "forcecraft-1.21.1-6.2.8.jar"
+     }
+    },
+    "i": 2,
+    "jars": [
+     "forcecraft-1.21.1-6.2.8.jar"
+    ],
+    "keys": {
+     "Recipe saved": "exact"
+    }
+   }
+  ]
+ },
  "framedblocks.json": {
   "blocks": [
    {
