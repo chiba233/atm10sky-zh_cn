@@ -1,2 +1,19 @@
-# ATM10 Sky 2.3.0 的默认资源包顺序尚未完成首次启动实测。
-# 安装器保留已有顺序，新建 options.txt 时不填 resourcePacks。
+# ATM10 Sky 2.3.0 首次启动后写入 options.txt 的资源包顺序。
+# 不含汉化包。安装器将汉化包追加到最后。
+vanilla
+modularbees:dynamic_assets
+mod_resources
+add_xycraft_overrides_stone
+add_xycraft_overrides_metal
+add_xycraft_overrides_glass
+moonlight:merged_pack
+neovitae_materials
+mod/dyenamicsandfriends:compat_packs/productivemetalworks/
+mod/dyenamicsandfriends:compat_packs/connectedglass/
+mod/dyenamicsandfriends:compat_packs/luminax/
+mod/dyenamicsandfriends:compat_packs/cookingforblockheads/
+mod/dyenamicsandfriends:compat_packs/botanypots/
+file/Neo Vitae - Bloodborn.zip
+file/Forcecraft - ReDarted.zip
+file/AllTheOres-Colorized-1.21.1.zip
+file/SmoothFont_1.21.zip
