@@ -5,7 +5,8 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """列出要打包、发布的整合包版本：versions/whitelist.txt 里列出的那些。
 
-versions/ 下没列进白名单的版本是维护版本，版本层与校验照常保留，只是不出包。
+versions/ 下没列进白名单的版本是维护版本，版本层与基线照常保留，快闸的逐版本校验照常跑；
+不出包，也不过 build 里带 jar 的严格校验与出货包核验。
 build_dist.sh 与 release.yml 都从这里取清单，两边不会各算各的。
 
 取不到就失败，不回落到「versions/ 下全部」：白名单不存在、一个版本都没有、

@@ -28,7 +28,7 @@ python3 scripts/fetch_pack.py <版本> build/packsrc/<版本> --no-jars
 1. `versions/<版本>/.gitkeep`：空文件。CI 看到这个目录，才会把这一版当作构建目标。
 2. `versions/<版本>/neoforge.txt`：manifest 里的 NeoForge 版本号，例如 `21.1.250`。
 3. `versions/<版本>/default_resource_packs.txt`：这一版首次启动后，游戏写进 `options.txt` 的 `resourcePacks` 顺序，不含汉化包。这个值要在装好的这一版整合包里实测，CI 拿不到。没实测到就留空并写明原因，安装器那时不伪造这一行。
-4. `versions/whitelist.txt`：加上这一版，并把最早的那一版去掉——每个正式版只为最近 4 个整合包版本出包。不改这份的话新版在册但不出包。被去掉的版本是维护版本，版本层、基线与校验照常保留。
+4. `versions/whitelist.txt`：加上这一版，并把最早的那一版去掉——每个正式版只为最近 4 个整合包版本出包。不改这份的话新版在册但不出包。被去掉的版本是维护版本，版本层与基线照常保留，快闸的逐版本校验照常跑，但不再打包、也不再过 `build` 里带 jar 的严格校验。
 
 ## 第二步：取 CI 生成的基线入库
 
