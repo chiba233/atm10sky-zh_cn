@@ -33,6 +33,9 @@ for v in $REQUESTED; do
     *) echo "跳过 $v：不在 versions/whitelist.txt 里，不打包" ;;
   esac
 done
+# 去掉拼接留下的前导空格：下面 BASE_MC 取的是第一个空格之前那一段，留着空格会取成空串，
+# 基线路径就会变成 versions//generated_baseline.txt。
+MC_VERSIONS="${MC_VERSIONS# }"
 [ -n "${MC_VERSIONS// /}" ] || { echo "❌ 要打包的版本一个都不在 versions/whitelist.txt 里"; exit 1; }
 CBASE="atm10sky-zh_cn-client"
 SBASE="atm10sky-zh_cn-server"
