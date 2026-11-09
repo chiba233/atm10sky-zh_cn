@@ -28,6 +28,7 @@ python3 scripts/fetch_pack.py <版本> build/packsrc/<版本> --no-jars
 1. `versions/<版本>/.gitkeep`：空文件。CI 看到这个目录，才会把这一版当作构建目标。
 2. `versions/<版本>/neoforge.txt`：manifest 里的 NeoForge 版本号，例如 `21.1.250`。
 3. `versions/<版本>/default_resource_packs.txt`：这一版首次启动后，游戏写进 `options.txt` 的 `resourcePacks` 顺序，不含汉化包。这个值要在装好的这一版整合包里实测，CI 拿不到。没实测到就留空并写明原因，安装器那时不伪造这一行。
+4. `versions/whitelist.txt`：加上这一版，并把最早的那一版去掉——每个正式版只为最近 4 个整合包版本出包。不改这份的话新版在册但不出包。被去掉的版本是维护版本，版本层与基线照常保留，快闸的逐版本校验照常跑，但不再打包、也不再过 `build` 里带 jar 的严格校验。
 
 ## 第二步：取 CI 生成的基线入库
 
@@ -43,6 +44,7 @@ python3 scripts/fetch_pack.py <版本> build/packsrc/<版本> --no-jars
 | CI 报错 | 怎么处理 |
 |---|---|
 | 缺 `versions/db/<版本>/productive_trees.json` | 下一轮 CI 会上传 artifact `productive-trees-baseline`，核对后提交。它同时重扫在册的旧版本，与已入库的那几份应逐字节相同 |
+| `vaultpatcher-db` 或任务书底本过期 | 提交对应的 `versions/db/*/` 文件。补译任务书新增了键以后，底本会再过期一次，同样取这个 artifact |
 | 上游改写映射在这一版套不上 | 这一版确实没有这段原文：在 `versions/<版本>/unpatchable.json` 登记，写明 `why`。原文改了样子、仍要译：写 `versions/<版本>/upstream/<路径>.json` |
 | 找不到 `versions/<版本>/quest_untranslated.json` | 任务书底本里有意不译的键要逐条登记，见第三步 |
 | 缺 `versions/<版本>/generated_baseline.txt` | 包已经打出来了，只差该版基线，见第六步 |
@@ -69,6 +71,13 @@ python3 scripts/fetch_pack.py <版本> build/packsrc/<版本> --no-jars
 - 只是措辞细化的，公共层按新版原文写，不分叉。
 - 每条写明 `why`：哪个 jar、与哪一版逐字节相同、改了什么。
 - 公共层按**最新版**写，旧版用覆盖保留对它才正确的那份。两个旧版的原文逐字节相同时，同一份覆盖要分别写进各自的 `pack_overrides.json`。
+- 文件层的源放在 `src/pack_overrides/<层名>/`，`assets/` 下的是整页覆盖，`kubejs/` 下的是该版新增的脚本，落在出货树根目录、只许新增。
+
+`unpatchable.json` 与 `versions/<版本>/upstream/`：把 `src/upstream/` 的全部映射套到新版官方文件上（`gen_upstream_patches.apply_one`），先不带登记试一次，再带上上一版的登记与专属映射试一次。不带时套不上、带上后全部命中的，就照抄到新版，`why` 里的数字按新版文件重数。这两样快闸不会提醒，漏了要到 `build` 阶段才报红。
+
+`unobtainable.json`：只在新版 `jars.json` 的 `unobtainable` 不为空时才需要。
+
+最后把 `versions/<上一版>/` 和 `versions/<新版>/` 的文件列表并排比一遍，每一个缺的文件都要能说出不带的理由。
 
 ## 第五步：找出新版带进来的文本
 
