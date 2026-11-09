@@ -1,0 +1,24 @@
+# ATM10 Sky 2.3.1 的生成物实测基线。
+# Build run 42714686403，commit e2703ef。
+# 生成物实测：books=1252 banners=158 buttons=20
+books   = 1252
+banners = 158
+buttons = 20
+# 客户端实测：banners=158 book_files=1063 buttons=20 gui_files=24
+# kubejs_banners=158 lang_files=307 lang_keys=126491 quest_delta=182 vp_modules=121
+# 服务端实测：quest_delta=182 vp_modules=9
+# 同一次构建里 2.3.0 的实测与这几项逐项相同：本版没换模组，版本层的覆盖也与 2.3.0 一致。
+# 比 2.3.0 入库的基线多出译文 100 条、客户端与服务端各多 1 个 VaultPatcher 模块。
+# 这些在同一次构建里 2.3.0 的实测里同样存在，来自 2.3.0 入库基线之后补进公共层的
+# Forcecraft 译文与 forcecraft_hardcode 模块。
+client_lang_files     =    307
+client_lang_keys      = 126491
+client_banners        =    158
+client_kubejs_banners =    158
+client_buttons        =     20
+client_vp_modules     =    121
+client_quest_delta    =    182
+client_gui_files      =     24
+client_book_files     =   1063
+server_vp_modules     =      9
+server_quest_delta    =    182
